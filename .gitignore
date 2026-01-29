@@ -1,0 +1,41 @@
+# Config sensible
+config.php
+connexion.php
+database.php
+db_config.php
+.env
+*.env
+credentials.php
+
+# Logs
+*.log
+error.log
+access.log
+debug.log
+
+# Systeme
+.DS_Store
+.AppleDouble
+Thumbs.db
+Desktop.ini
+
+# Cache et temporaires
+/cache/
+/tmp/
+/temp/
+
+# Sauvegardes
+*.bak
+*.backup
+*~
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Anciens backups (gros fichiers)
+AA_OLDSITE*/
+*_OLDSITE*/
+*_backup*/
+*_old*/

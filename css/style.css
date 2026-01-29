@@ -1,0 +1,566 @@
+/* ===========================================
+   Style Gouvernemental Français
+   Loi Jeanbrun - Dispositif Relance Logement
+   =========================================== */
+
+:root {
+    --bleu-france: #000091;
+    --bleu-france-hover: #1212FF;
+    --rouge-marianne: #E1000F;
+    --gris-clair: #F6F6F6;
+    --gris-moyen: #E5E5E5;
+    --gris-fonce: #3A3A3A;
+    --blanc: #FFFFFF;
+    --noir: #161616;
+}
+
+/* Reset et base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Marianne', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: var(--noir);
+    background-color: var(--blanc);
+    line-height: 1.6;
+}
+
+/* Liens */
+a {
+    color: var(--bleu-france);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--bleu-france-hover);
+}
+
+/* Header / Navbar */
+.navbar-gouv {
+    background-color: var(--blanc);
+    border-bottom: 2px solid var(--bleu-france);
+    padding: 0;
+}
+
+.navbar-gouv .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.navbar-gouv .brand-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.navbar-gouv .brand-rf {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--bleu-france);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.navbar-gouv .brand-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--noir);
+}
+
+.navbar-gouv .nav-link {
+    color: var(--noir);
+    font-weight: 500;
+    padding: 1rem 1.25rem !important;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.navbar-gouv .nav-link:hover,
+.navbar-gouv .nav-link.active {
+    color: var(--bleu-france);
+    border-bottom-color: var(--bleu-france);
+    background-color: var(--gris-clair);
+}
+
+/* Bandeau tricolore */
+.bandeau-tricolore {
+    height: 5px;
+    background: linear-gradient(to right,
+        var(--bleu-france) 0%,
+        var(--bleu-france) 33.33%,
+        var(--blanc) 33.33%,
+        var(--blanc) 66.66%,
+        var(--rouge-marianne) 66.66%,
+        var(--rouge-marianne) 100%
+    );
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(135deg, var(--bleu-france) 0%, #1a1a8f 100%);
+    color: var(--blanc);
+    padding: 4rem 0;
+    position: relative;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right,
+        var(--bleu-france) 33.33%,
+        var(--blanc) 33.33%,
+        var(--blanc) 66.66%,
+        var(--rouge-marianne) 66.66%
+    );
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    opacity: 0.95;
+}
+
+/* Page header simple */
+.page-header {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+    padding: 2.5rem 0;
+}
+
+.page-header h1 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.page-header .lead {
+    opacity: 0.9;
+    margin-bottom: 0;
+}
+
+/* Breadcrumb */
+.breadcrumb-gouv {
+    background-color: var(--gris-clair);
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+}
+
+.breadcrumb-gouv .breadcrumb {
+    margin-bottom: 0;
+    background: transparent;
+    padding: 0;
+}
+
+.breadcrumb-gouv .breadcrumb-item a {
+    color: var(--bleu-france);
+}
+
+/* Sections */
+.section {
+    padding: 4rem 0;
+}
+
+.section-alt {
+    background-color: var(--gris-clair);
+}
+
+.section-title {
+    color: var(--bleu-france);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: var(--rouge-marianne);
+}
+
+.section-title.text-center::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Cards */
+.card-gouv {
+    border: 1px solid var(--gris-moyen);
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.card-gouv:hover {
+    border-color: var(--bleu-france);
+    box-shadow: 0 4px 20px rgba(0, 0, 145, 0.1);
+}
+
+.card-gouv .card-header {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+    border-radius: 0;
+    font-weight: 600;
+    padding: 1rem 1.25rem;
+}
+
+.card-gouv .card-body {
+    padding: 1.5rem;
+}
+
+.card-gouv .card-icon {
+    font-size: 2.5rem;
+    color: var(--bleu-france);
+    margin-bottom: 1rem;
+}
+
+/* Info box */
+.info-box {
+    background-color: #E8EDFF;
+    border-left: 4px solid var(--bleu-france);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.info-box.warning {
+    background-color: #FFF4E5;
+    border-left-color: #FA7A35;
+}
+
+.info-box.success {
+    background-color: #B8FEC9;
+    border-left-color: #18753C;
+}
+
+.info-box h5 {
+    color: var(--bleu-france);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.info-box.warning h5 {
+    color: #FA7A35;
+}
+
+.info-box.success h5 {
+    color: #18753C;
+}
+
+/* Tables */
+.table-gouv {
+    border: 1px solid var(--gris-moyen);
+}
+
+.table-gouv thead {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+}
+
+.table-gouv thead th {
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+}
+
+.table-gouv tbody td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.table-gouv tbody tr:nth-child(even) {
+    background-color: var(--gris-clair);
+}
+
+/* Boutons */
+.btn-gouv {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+    border: none;
+    border-radius: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.btn-gouv:hover {
+    background-color: var(--bleu-france-hover);
+    color: var(--blanc);
+}
+
+.btn-gouv-outline {
+    background-color: transparent;
+    color: var(--bleu-france);
+    border: 2px solid var(--bleu-france);
+    border-radius: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.btn-gouv-outline:hover {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+}
+
+/* Chiffres clés */
+.chiffre-cle {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.chiffre-cle .nombre {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--bleu-france);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.chiffre-cle .unite {
+    font-size: 1.5rem;
+}
+
+.chiffre-cle .label {
+    color: var(--gris-fonce);
+    font-size: 1rem;
+}
+
+/* Liste avec icônes */
+.list-gouv {
+    list-style: none;
+    padding: 0;
+}
+
+.list-gouv li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    border-bottom: 1px solid var(--gris-moyen);
+}
+
+.list-gouv li:last-child {
+    border-bottom: none;
+}
+
+.list-gouv li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: var(--bleu-france);
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--bleu-france);
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--bleu-france);
+    border: 3px solid var(--blanc);
+}
+
+.timeline-item h4 {
+    color: var(--bleu-france);
+    font-weight: 600;
+}
+
+/* Footer */
+.footer-gouv {
+    background-color: var(--gris-clair);
+    padding: 3rem 0 0;
+    margin-top: 4rem;
+    border-top: 3px solid var(--bleu-france);
+}
+
+.footer-gouv h5 {
+    color: var(--bleu-france);
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-gouv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-gouv ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-gouv ul li a {
+    color: var(--gris-fonce);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-gouv ul li a:hover {
+    color: var(--bleu-france);
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: var(--gris-moyen);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: var(--gris-fonce);
+}
+
+.footer-bottom a {
+    color: var(--gris-fonce);
+}
+
+/* Simulation form */
+.simulation-form {
+    background-color: var(--gris-clair);
+    padding: 2rem;
+    border-left: 4px solid var(--bleu-france);
+}
+
+.simulation-form label {
+    font-weight: 600;
+    color: var(--noir);
+}
+
+.simulation-form .form-control,
+.simulation-form .form-select {
+    border-radius: 0;
+    border: 1px solid var(--gris-moyen);
+    padding: 0.75rem;
+}
+
+.simulation-form .form-control:focus,
+.simulation-form .form-select:focus {
+    border-color: var(--bleu-france);
+    box-shadow: 0 0 0 2px rgba(0, 0, 145, 0.1);
+}
+
+.simulation-result {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+    padding: 2rem;
+    text-align: center;
+}
+
+.simulation-result .montant {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Accordeon */
+.accordion-gouv .accordion-item {
+    border: 1px solid var(--gris-moyen);
+    border-radius: 0;
+    margin-bottom: 0.5rem;
+}
+
+.accordion-gouv .accordion-button {
+    border-radius: 0;
+    font-weight: 600;
+    color: var(--noir);
+}
+
+.accordion-gouv .accordion-button:not(.collapsed) {
+    background-color: var(--bleu-france);
+    color: var(--blanc);
+}
+
+.accordion-gouv .accordion-button:focus {
+    box-shadow: none;
+    border-color: var(--bleu-france);
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 2.5rem 0;
+    }
+
+    .hero-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .section {
+        padding: 2.5rem 0;
+    }
+
+    .chiffre-cle .nombre {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-gouv .nav-link {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .page-header {
+        padding: 1.5rem 0;
+    }
+}
+
+/* Utilitaires */
+.text-bleu-france {
+    color: var(--bleu-france) !important;
+}
+
+.text-rouge-marianne {
+    color: var(--rouge-marianne) !important;
+}
+
+.bg-bleu-france {
+    background-color: var(--bleu-france) !important;
+}
+
+.bg-gris-clair {
+    background-color: var(--gris-clair) !important;
+}

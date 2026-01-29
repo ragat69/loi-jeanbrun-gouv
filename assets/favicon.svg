@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Fond bleu France -->
+  <rect x="0" y="0" width="10.67" height="32" fill="#000091"/>
+  <!-- Bande blanche -->
+  <rect x="10.67" y="0" width="10.67" height="32" fill="#FFFFFF"/>
+  <!-- Bande rouge Marianne -->
+  <rect x="21.33" y="0" width="10.67" height="32" fill="#E1000F"/>
+  <!-- Maison stylisee au centre -->
+  <g fill="none" stroke="#000091" stroke-width="1.5">
+    <path d="M16 6 L24 13 L24 26 L8 26 L8 13 Z" fill="white" fill-opacity="0.9"/>
+    <path d="M16 4 L26 13 M16 4 L6 13" stroke-width="2"/>
+    <rect x="13" y="18" width="6" height="8" fill="#000091"/>
+  </g>
+</svg>

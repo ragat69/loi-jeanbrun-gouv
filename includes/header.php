@@ -6,6 +6,11 @@
     <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Dispositif Jeanbrun - Relance Logement 2026 : Tout savoir sur le nouveau dispositif fiscal pour l\'investissement locatif en France.'; ?>">
     <title><?php echo isset($page_title) ? $page_title . ' | ' : ''; ?>Loi Jeanbrun - Dispositif Relance Logement</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -50,22 +55,22 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page ?? '') === 'fonctionnement' ? 'active' : ''; ?>" href="/fonctionnement.php">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'fonctionnement' ? 'active' : ''; ?>" href="/fonctionnement">
                             <i class="fas fa-cogs me-1"></i> Fonctionnement
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page ?? '') === 'avantages' ? 'active' : ''; ?>" href="/avantages.php">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'avantages' ? 'active' : ''; ?>" href="/avantages">
                             <i class="fas fa-gift me-1"></i> Avantages
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page ?? '') === 'eligibilite' ? 'active' : ''; ?>" href="/eligibilite.php">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'eligibilite' ? 'active' : ''; ?>" href="/eligibilite">
                             <i class="fas fa-check-circle me-1"></i> Eligibilite
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page ?? '') === 'simulation' ? 'active' : ''; ?>" href="/simulation.php">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'simulation' ? 'active' : ''; ?>" href="/simulation">
                             <i class="fas fa-calculator me-1"></i> Simulation
                         </a>
                     </li>

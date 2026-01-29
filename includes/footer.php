@@ -13,10 +13,10 @@
                     <h5>Navigation</h5>
                     <ul>
                         <li><a href="/">Accueil</a></li>
-                        <li><a href="/fonctionnement.php">Fonctionnement</a></li>
-                        <li><a href="/avantages.php">Avantages</a></li>
-                        <li><a href="/eligibilite.php">Eligibilite</a></li>
-                        <li><a href="/simulation.php">Simulation</a></li>
+                        <li><a href="/fonctionnement">Fonctionnement</a></li>
+                        <li><a href="/avantages">Avantages</a></li>
+                        <li><a href="/eligibilite">Eligibilite</a></li>
+                        <li><a href="/simulation">Simulation</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 mb-4">
@@ -31,10 +31,10 @@
                 <div class="col-lg-3 col-md-4 mb-4">
                     <h5>Informations</h5>
                     <ul>
-                        <li><a href="/mentions-legales.php">Mentions legales</a></li>
-                        <li><a href="/mentions-legales.php#donnees">Donnees personnelles</a></li>
-                        <li><a href="/mentions-legales.php#accessibilite">Accessibilite</a></li>
-                        <li><a href="/mentions-legales.php#cookies">Gestion des cookies</a></li>
+                        <li><a href="/mentions-legales">Mentions legales</a></li>
+                        <li><a href="/mentions-legales#donnees">Donnees personnelles</a></li>
+                        <li><a href="/mentions-legales#accessibilite">Accessibilite</a></li>
+                        <li><a href="/mentions-legales#cookies">Gestion des cookies</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,8 +48,8 @@
                         </p>
                     </div>
                     <div class="col-md-6 text-md-end">
-                        <a href="/mentions-legales.php" class="me-3">Mentions legales</a>
-                        <a href="/mentions-legales.php#accessibilite">Accessibilite : partiellement conforme</a>
+                        <a href="/mentions-legales" class="me-3">Mentions legales</a>
+                        <a href="/mentions-legales#accessibilite">Accessibilite : partiellement conforme</a>
                     </div>
                 </div>
             </div>

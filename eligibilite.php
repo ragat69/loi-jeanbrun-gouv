@@ -295,71 +295,79 @@ include 'includes/header.php';
             Plafonds de ressources des locataires
         </h2>
         <p class="mb-4">
-            Les ressources du locataire (revenu fiscal de reference N-2) ne doivent pas depasser
-            certains plafonds selon la composition du foyer et la zone geographique.
+            Avec la suppression du zonage geographique, le dispositif Jeanbrun instaure des
+            <strong>plafonds de ressources nationaux uniques</strong>. Les ressources du locataire
+            (revenu fiscal de reference N-2) ne doivent pas depasser les plafonds suivants selon
+            la composition du foyer.
         </p>
 
-        <div class="table-responsive">
-            <table class="table table-gouv">
-                <thead>
-                    <tr>
-                        <th>Composition du foyer</th>
-                        <th>Zone A bis/A</th>
-                        <th>Zone B1</th>
-                        <th>Zone B2/C</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Personne seule</td>
-                        <td>43 475 EUR</td>
-                        <td>35 435 EUR</td>
-                        <td>32 084 EUR</td>
-                    </tr>
-                    <tr>
-                        <td>Couple</td>
-                        <td>64 976 EUR</td>
-                        <td>47 321 EUR</td>
-                        <td>42 846 EUR</td>
-                    </tr>
-                    <tr>
-                        <td>+ 1 personne a charge</td>
-                        <td>85 175 EUR</td>
-                        <td>56 905 EUR</td>
-                        <td>51 524 EUR</td>
-                    </tr>
-                    <tr>
-                        <td>+ 2 personnes a charge</td>
-                        <td>101 693 EUR</td>
-                        <td>68 699 EUR</td>
-                        <td>62 202 EUR</td>
-                    </tr>
-                    <tr>
-                        <td>+ 3 personnes a charge</td>
-                        <td>120 995 EUR</td>
-                        <td>80 816 EUR</td>
-                        <td>73 173 EUR</td>
-                    </tr>
-                    <tr>
-                        <td>+ 4 personnes a charge</td>
-                        <td>136 151 EUR</td>
-                        <td>91 078 EUR</td>
-                        <td>82 465 EUR</td>
-                    </tr>
-                    <tr>
-                        <td>Majoration par personne</td>
-                        <td>+15 168 EUR</td>
-                        <td>+10 161 EUR</td>
-                        <td>+9 200 EUR</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="table-responsive">
+                    <table class="table table-gouv">
+                        <thead>
+                            <tr>
+                                <th>Composition du foyer</th>
+                                <th>Plafond loyer intermediaire</th>
+                                <th>Plafond loyer social</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Personne seule</td>
+                                <td>35 000 EUR</td>
+                                <td>25 000 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>Couple</td>
+                                <td>50 000 EUR</td>
+                                <td>35 000 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>+ 1 personne a charge</td>
+                                <td>60 000 EUR</td>
+                                <td>42 000 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>+ 2 personnes a charge</td>
+                                <td>72 000 EUR</td>
+                                <td>50 000 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>+ 3 personnes a charge</td>
+                                <td>85 000 EUR</td>
+                                <td>60 000 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>+ 4 personnes a charge</td>
+                                <td>96 000 EUR</td>
+                                <td>68 000 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>Majoration par personne supplementaire</td>
+                                <td>+10 000 EUR</td>
+                                <td>+7 500 EUR</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="info-box success">
+                    <h5><i class="fas fa-map-marked-alt me-2"></i>Fin du zonage</h5>
+                    <p class="mb-0 small">
+                        Contrairement au dispositif Pinel, il n'y a plus de distinction entre
+                        zones A, B ou C. Les memes plafonds s'appliquent sur tout le territoire
+                        francais, simplifiant ainsi les demarches des investisseurs.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <p class="text-muted small mt-3">
             <i class="fas fa-info-circle me-1"></i>
-            Ces plafonds sont donnes a titre indicatif pour le loyer intermediaire et peuvent varier
-            selon les textes en vigueur. Les plafonds pour les loyers sociaux et tres sociaux sont plus bas.
+            Ces plafonds sont donnes a titre indicatif et peuvent etre actualises annuellement.
+            Les plafonds pour les loyers tres sociaux sont inferieurs a ceux du loyer social.
         </p>
     </div>
 </section>
@@ -438,7 +446,7 @@ include 'includes/header.php';
         <p class="lead mb-4">
             Estimez maintenant les avantages fiscaux de votre projet d'investissement.
         </p>
-        <a href="/simulation.php" class="btn-gouv btn-lg">
+        <a href="/simulation" class="btn-gouv btn-lg">
             <i class="fas fa-calculator me-2"></i>Acceder au simulateur
         </a>
     </div>

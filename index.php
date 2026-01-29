@@ -17,10 +17,10 @@ include 'includes/header.php';
                     du successeur du dispositif Pinel.
                 </p>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="/fonctionnement.php" class="btn-gouv">
+                    <a href="/fonctionnement" class="btn-gouv">
                         <i class="fas fa-info-circle me-2"></i>Comprendre le dispositif
                     </a>
-                    <a href="/simulation.php" class="btn-gouv-outline" style="background: rgba(255,255,255,0.1); border-color: #fff; color: #fff;">
+                    <a href="/simulation" class="btn-gouv-outline" style="background: rgba(255,255,255,0.1); border-color: #fff; color: #fff;">
                         <i class="fas fa-calculator me-2"></i>Simuler mon investissement
                     </a>
                 </div>
@@ -218,10 +218,10 @@ include 'includes/header.php';
                     d'investissement locatif avec le dispositif Jeanbrun.
                 </p>
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
-                    <a href="/simulation.php" class="btn-gouv btn-lg">
+                    <a href="/simulation" class="btn-gouv btn-lg">
                         <i class="fas fa-calculator me-2"></i>Simuler mon projet
                     </a>
-                    <a href="/eligibilite.php" class="btn-gouv-outline btn-lg">
+                    <a href="/eligibilite" class="btn-gouv-outline btn-lg">
                         <i class="fas fa-check-circle me-2"></i>Verifier mon eligibilite
                     </a>
                 </div>

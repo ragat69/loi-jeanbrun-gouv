@@ -440,7 +440,7 @@ include 'includes/header.php';
         <p class="lead mb-4">
             Utilisez notre simulateur pour calculer les economies fiscales de votre projet.
         </p>
-        <a href="/simulation.php" class="btn-gouv btn-lg">
+        <a href="/simulation" class="btn-gouv btn-lg">
             <i class="fas fa-calculator me-2"></i>Acceder au simulateur
         </a>
     </div>

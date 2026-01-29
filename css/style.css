@@ -282,6 +282,11 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+/* Carte avec citation - pas de height 100% */
+.card-gouv:has(blockquote) {
+    height: auto;
+}
+
 /* Info box */
 .info-box {
     background-color: #E8EDFF;
@@ -434,7 +439,7 @@ a:hover {
     position: absolute;
     left: 18px;
     top: 0;
-    bottom: 0;
+    bottom: 1.5rem;
     width: 3px;
     background-color: var(--bleu-france);
 }
@@ -470,6 +475,11 @@ a:hover {
 .timeline-item p {
     margin-bottom: 0;
     color: var(--gris-fonce);
+}
+
+/* Section avec timeline - padding réduit */
+.section-alt:has(.timeline) {
+    padding-bottom: 2rem;
 }
 
 /* Footer */

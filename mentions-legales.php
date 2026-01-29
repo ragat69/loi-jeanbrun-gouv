@@ -48,12 +48,8 @@ include 'includes/header.php';
                     </p>
                     <div class="card-gouv">
                         <div class="card-body">
-                            <p class="mb-1"><strong>Raison sociale :</strong> [Nom de l'editeur]</p>
-                            <p class="mb-1"><strong>Forme juridique :</strong> [Forme juridique]</p>
-                            <p class="mb-1"><strong>Siege social :</strong> [Adresse complete]</p>
-                            <p class="mb-1"><strong>SIRET :</strong> [Numero SIRET]</p>
-                            <p class="mb-1"><strong>Directeur de la publication :</strong> [Nom du directeur]</p>
-                            <p class="mb-0"><strong>Contact :</strong> [Adresse email]</p>
+                            <p class="mb-1"><strong>Directeur de la publication :</strong> Jean Loggia</p>
+                            <p class="mb-0"><strong>Contact :</strong> contact@loi-jeanbrun-gouv.com</p>
                         </div>
                     </div>
                 </section>
@@ -63,9 +59,10 @@ include 'includes/header.php';
                     <h2 class="section-title">Hebergement</h2>
                     <div class="card-gouv">
                         <div class="card-body">
-                            <p class="mb-1"><strong>Hebergeur :</strong> [Nom de l'hebergeur]</p>
-                            <p class="mb-1"><strong>Adresse :</strong> [Adresse de l'hebergeur]</p>
-                            <p class="mb-0"><strong>Telephone :</strong> [Telephone de l'hebergeur]</p>
+                            <p class="mb-1"><strong>Hebergeur :</strong> o2switch</p>
+                            <p class="mb-1"><strong>Adresse :</strong> Chem. des Pardiaux, 63000 Clermont-Ferrand, France</p>
+                            <p class="mb-1"><strong>Telephone :</strong> 04 44 44 60 40</p>
+                            <p class="mb-0"><strong>Site web :</strong> https://www.o2switch.fr</p>
                         </div>
                     </div>
                 </section>

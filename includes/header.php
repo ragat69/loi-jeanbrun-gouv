@@ -74,6 +74,11 @@
                             <i class="fas fa-calculator me-1"></i> Simulation
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'vincent-jeanbrun' ? 'active' : ''; ?>" href="/vincent-jeanbrun">
+                            <i class="fas fa-user-tie me-1"></i> Le Ministre
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

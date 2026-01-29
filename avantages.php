@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="page-header">
+<section class="page-header page-header-avantages">
     <div class="container">
         <h1><i class="fas fa-gift me-3"></i>Avantages du dispositif</h1>
         <p class="lead">Tous les benefices fiscaux de la loi Jeanbrun pour votre investissement</p>

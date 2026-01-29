@@ -25,8 +25,11 @@ include 'includes/header.php';
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 d-none d-lg-block text-center">
-                <i class="fas fa-home fa-8x opacity-25"></i>
+            <div class="col-lg-4 d-none d-lg-block">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=500&h=400&fit=crop"
+                     alt="Immeuble residentiel moderne en France"
+                     class="img-fluid rounded shadow-lg"
+                     style="opacity: 0.9;">
             </div>
         </div>
     </div>
@@ -77,7 +80,7 @@ include 'includes/header.php';
                     Il remplace le dispositif Pinel qui a expire fin 2024.
                 </p>
                 <p>
-                    Porte par le depute <strong>Vincent Jeanbrun</strong>, cette reforme redefinit l'investissement
+                    Porte par le ministre <strong><a href="/vincent-jeanbrun">Vincent Jeanbrun</a></strong>, cette reforme redefinit l'investissement
                     locatif en France en privilegiant la <strong>rentabilite reelle</strong> plutot que l'avantage
                     fiscal pur.
                 </p>

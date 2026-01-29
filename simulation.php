@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="page-header">
+<section class="page-header page-header-simulation">
     <div class="container">
         <h1><i class="fas fa-calculator me-3"></i>Simulateur Jeanbrun</h1>
         <p class="lead">Estimez les avantages fiscaux de votre investissement locatif</p>

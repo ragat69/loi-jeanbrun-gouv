@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="page-header">
+<section class="page-header page-header-fonctionnement">
     <div class="container">
         <h1><i class="fas fa-cogs me-3"></i>Fonctionnement du dispositif</h1>
         <p class="lead">Comprendre le mecanisme d'amortissement fiscal de la loi Jeanbrun</p>

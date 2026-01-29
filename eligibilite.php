@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="page-header">
+<section class="page-header page-header-eligibilite">
     <div class="container">
         <h1><i class="fas fa-check-circle me-3"></i>Conditions d'eligibilite</h1>
         <p class="lead">Tout savoir sur les criteres pour beneficier du dispositif Jeanbrun</p>

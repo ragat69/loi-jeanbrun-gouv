@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="page-header">
+<section class="page-header page-header-mentions">
     <div class="container">
         <h1><i class="fas fa-gavel me-3"></i>Mentions legales</h1>
         <p class="lead">Informations juridiques et politique de confidentialite</p>

@@ -9,15 +9,21 @@ RewriteEngine On
 RewriteBase /
 
 # ==================================================
-# Forcer HTTPS
+# Forcer HTTPS (uniquement en production)
 # ==================================================
+# Exclure les domaines locaux (.test, .local, localhost)
 RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !\.test$ [NC]
+RewriteCond %{HTTP_HOST} !\.local$ [NC]
+RewriteCond %{HTTP_HOST} !^localhost [NC]
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 # ==================================================
-# Forcer la version sans www (et HTTPS)
+# Forcer la version sans www (et HTTPS en prod)
 # ==================================================
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteCond %{HTTP_HOST} !\.test$ [NC]
+RewriteCond %{HTTP_HOST} !\.local$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 # ==================================================

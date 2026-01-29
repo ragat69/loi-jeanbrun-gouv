@@ -35,7 +35,7 @@
         <div class="container">
             <a class="navbar-brand" href="/">
                 <div class="brand-logo">
-                    <span class="brand-rf">REPUBLIQUE<br>FRANCAISE</span>
+                    <span class="brand-rf">RÉPUBLIQUE<br>FRANÇAISE</span>
                 </div>
                 <div class="brand-logo">
                     <span class="brand-title">Loi Jeanbrun</span>
@@ -50,11 +50,6 @@
             <div class="collapse navbar-collapse" id="navbarMain">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page ?? '') === 'accueil' ? 'active' : ''; ?>" href="/">
-                            <i class="fas fa-home me-1"></i> Accueil
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link <?php echo ($current_page ?? '') === 'fonctionnement' ? 'active' : ''; ?>" href="/fonctionnement">
                             <i class="fas fa-cogs me-1"></i> Fonctionnement
                         </a>
@@ -65,8 +60,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'bailleur-prive' ? 'active' : ''; ?>" href="/bailleur-prive">
+                            <i class="fas fa-user-shield me-1"></i> Bailleur Privé
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link <?php echo ($current_page ?? '') === 'eligibilite' ? 'active' : ''; ?>" href="/eligibilite">
-                            <i class="fas fa-check-circle me-1"></i> Eligibilite
+                            <i class="fas fa-check-circle me-1"></i> Éligibilité
                         </a>
                     </li>
                     <li class="nav-item">

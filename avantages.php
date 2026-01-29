@@ -1,7 +1,7 @@
 <?php
 $current_page = 'avantages';
 $page_title = 'Avantages fiscaux';
-$page_description = 'Decouvrez tous les avantages fiscaux du dispositif Jeanbrun : amortissement, deficit foncier, deduction des charges et interets d\'emprunt.';
+$page_description = 'Découvrez tous les avantages fiscaux du dispositif Jeanbrun : amortissement, déficit foncier, déduction des charges et intérêts d\'emprunt.';
 include 'includes/header.php';
 ?>
 
@@ -9,7 +9,7 @@ include 'includes/header.php';
 <section class="page-header page-header-avantages">
     <div class="container">
         <h1><i class="fas fa-gift me-3"></i>Avantages du dispositif</h1>
-        <p class="lead">Tous les benefices fiscaux de la loi Jeanbrun pour votre investissement</p>
+        <p class="lead">Tous les bénéfices fiscaux de la loi Jeanbrun pour votre investissement</p>
     </div>
 </section>
 
@@ -30,7 +30,7 @@ include 'includes/header.php';
         <p class="lead">
             Le dispositif Jeanbrun offre un ensemble d'avantages fiscaux significatifs pour les
             investisseurs immobiliers, avec une approche plus souple et potentiellement plus rentable
-            que son predecesseur le Pinel.
+            que son prédécesseur le Pinel.
         </p>
 
         <div class="row g-4 mt-4">
@@ -41,10 +41,10 @@ include 'includes/header.php';
                     </div>
                     <div class="card-body">
                         <ul class="list-gouv">
-                            <li>Amortissement jusqu'a 12 000EUR/an</li>
-                            <li>Deficit foncier jusqu'a 21 400EUR/an</li>
-                            <li>Deduction de 100% des interets d'emprunt</li>
-                            <li>Charges locatives entierement deductibles</li>
+                            <li>Amortissement jusqu'à 12 000€/an</li>
+                            <li>Déficit foncier jusqu'à 21 400€/an</li>
+                            <li>Déduction de 100% des intérêts d'emprunt</li>
+                            <li>Charges locatives entièrement déductibles</li>
                         </ul>
                     </div>
                 </div>
@@ -56,8 +56,8 @@ include 'includes/header.php';
                     </div>
                     <div class="card-body">
                         <ul class="list-gouv">
-                            <li>Applicable sur tout le territoire francais</li>
-                            <li>Eligible au neuf et a l'ancien renove</li>
+                            <li>Applicable sur tout le territoire français</li>
+                            <li>Éligible au neuf et à l'ancien rénové</li>
                             <li>Pas de plafond d'investissement global</li>
                             <li>Combinable avec plusieurs biens</li>
                         </ul>
@@ -78,16 +78,16 @@ include 'includes/header.php';
                     L'amortissement du bien
                 </h2>
                 <p>
-                    L'amortissement est le mecanisme central du dispositif. Il permet de deduire chaque
-                    annee une fraction de la valeur du bien immobilier de vos revenus fonciers.
+                    L'amortissement est le mécanisme central du dispositif. Il permet de déduire chaque
+                    année une fraction de la valeur du bien immobilier de vos revenus fonciers.
                 </p>
 
                 <div class="info-box success">
-                    <h5><i class="fas fa-euro-sign me-2"></i>Economies potentielles</h5>
+                    <h5><i class="fas fa-euro-sign me-2"></i>Économies potentielles</h5>
                     <p class="mb-0">
-                        Pour un bien de 300 000EUR en loyer social (4,5%), l'amortissement annuel est de
-                        <strong>13 500EUR</strong> (plafonne a 12 000EUR). Sur 9 ans, cela represente jusqu'a
-                        <strong>108 000EUR</strong> de revenus non imposes.
+                        Pour un bien de 300 000€ en loyer social (4,5%), l'amortissement annuel est de
+                        <strong>13 500€</strong> (plafonné à 12 000€). Sur 9 ans, cela représente jusqu'à
+                        <strong>108 000€</strong> de revenus non imposés.
                     </p>
                 </div>
 
@@ -96,7 +96,7 @@ include 'includes/header.php';
                     <div class="col-md-4">
                         <div class="text-center p-3 bg-white border">
                             <div class="fs-2 fw-bold text-bleu-france">3,5%</div>
-                            <small>Loyer intermediaire</small>
+                            <small>Loyer intermédiaire</small>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -108,7 +108,7 @@ include 'includes/header.php';
                     <div class="col-md-4">
                         <div class="text-center p-3 bg-white border">
                             <div class="fs-2 fw-bold text-bleu-france">5,5%</div>
-                            <small>Loyer tres social</small>
+                            <small>Loyer très social</small>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ include 'includes/header.php';
                             new Chart(document.getElementById('chartAmortissement'), {
                                 type: 'bar',
                                 data: {
-                                    labels: ['Intermediaire', 'Social', 'Tres social'],
+                                    labels: ['Intermédiaire', 'Social', 'Très social'],
                                     datasets: [{
                                         label: 'Amortissement total sur 9 ans (bien 250k)',
                                         data: [78750, 101250, 108000],
@@ -157,24 +157,24 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Avantage 2 : Deficit foncier -->
+<!-- Avantage 2 : Déficit foncier -->
 <section class="section">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 order-lg-2">
                 <h2 class="section-title">
                     <span class="badge bg-primary me-2">2</span>
-                    Le deficit foncier double
+                    Le déficit foncier double
                 </h2>
                 <p>
-                    Le dispositif Jeanbrun double temporairement le plafond du deficit foncier
-                    imputable sur le revenu global, le faisant passer de 10 700EUR a
-                    <strong>21 400EUR par an</strong> jusqu'a fin 2027.
+                    Le dispositif Jeanbrun double temporairement le plafond du déficit foncier
+                    imputable sur le revenu global, le faisant passer de 10 700€ à
+                    <strong>21 400€ par an</strong> jusqu'à fin 2027.
                 </p>
                 <p>
-                    Ce deficit se cree lorsque vos charges deductibles (interets, travaux, gestion...)
-                    depassent vos revenus locatifs. Il vient directement reduire votre revenu imposable
-                    global, generant une economie d'impot immediate.
+                    Ce déficit se crée lorsque vos charges déductibles (intérêts, travaux, gestion...)
+                    dépassent vos revenus locatifs. Il vient directement réduire votre revenu imposable
+                    global, générant une économie d'impôt immédiate.
                 </p>
             </div>
             <div class="col-lg-7 order-lg-1">
@@ -182,26 +182,26 @@ include 'includes/header.php';
                     <table class="table table-gouv">
                         <thead>
                             <tr>
-                                <th>Element</th>
+                                <th>Élément</th>
                                 <th>Avant Jeanbrun</th>
                                 <th>Avec Jeanbrun</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Plafond deficit foncier</td>
-                                <td>10 700EUR/an</td>
-                                <td class="text-success fw-bold">21 400EUR/an</td>
+                                <td>Plafond déficit foncier</td>
+                                <td>10 700€/an</td>
+                                <td class="text-success fw-bold">21 400€/an</td>
                             </tr>
                             <tr>
-                                <td>Report deficit excedentaire</td>
+                                <td>Report déficit excédentaire</td>
                                 <td>10 ans</td>
                                 <td>10 ans</td>
                             </tr>
                             <tr>
                                 <td>Imputation sur revenus fonciers</td>
-                                <td>Illimitee</td>
-                                <td>Illimitee</td>
+                                <td>Illimitée</td>
+                                <td>Illimitée</td>
                             </tr>
                         </tbody>
                     </table>
@@ -210,8 +210,8 @@ include 'includes/header.php';
                 <div class="info-box">
                     <h5><i class="fas fa-info-circle me-2"></i>Le saviez-vous ?</h5>
                     <p class="mb-0">
-                        Le deficit qui depasse le plafond de 21 400EUR n'est pas perdu : il est reportable
-                        sur vos revenus fonciers des 10 annees suivantes.
+                        Le déficit qui dépasse le plafond de 21 400€ n'est pas perdu : il est reportable
+                        sur vos revenus fonciers des 10 années suivantes.
                     </p>
                 </div>
             </div>
@@ -219,16 +219,16 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Avantage 3 : Deductions -->
+<!-- Avantage 3 : Déductions -->
 <section class="section section-alt">
     <div class="container">
         <h2 class="section-title">
             <span class="badge bg-primary me-2">3</span>
-            Les charges deductibles
+            Les charges déductibles
         </h2>
         <p class="lead mb-4">
-            En plus de l'amortissement, de nombreuses charges sont deductibles de vos revenus fonciers,
-            optimisant la rentabilite de votre investissement.
+            En plus de l'amortissement, de nombreuses charges sont déductibles de vos revenus fonciers,
+            optimisant la rentabilité de votre investissement.
         </p>
 
         <div class="row g-4">
@@ -238,9 +238,9 @@ include 'includes/header.php';
                         <div class="card-icon">
                             <i class="fas fa-percent"></i>
                         </div>
-                        <h5>Interets d'emprunt</h5>
+                        <h5>Intérêts d'emprunt</h5>
                         <p class="small text-muted mb-0">
-                            100% des interets de votre credit immobilier sont deductibles,
+                            100% des intérêts de votre crédit immobilier sont déductibles,
                             ainsi que les frais de dossier et l'assurance emprunteur.
                         </p>
                     </div>
@@ -254,8 +254,8 @@ include 'includes/header.php';
                         </div>
                         <h5>Travaux d'entretien</h5>
                         <p class="small text-muted mb-0">
-                            Reparations, entretien, remise en etat : tous les travaux necessaires
-                            au maintien du bien en bon etat sont deductibles.
+                            Réparations, entretien, remise en état : tous les travaux nécessaires
+                            au maintien du bien en bon état sont déductibles.
                         </p>
                     </div>
                 </div>
@@ -266,10 +266,10 @@ include 'includes/header.php';
                         <div class="card-icon">
                             <i class="fas fa-building"></i>
                         </div>
-                        <h5>Charges de copropriete</h5>
+                        <h5>Charges de copropriété</h5>
                         <p class="small text-muted mb-0">
-                            Les charges non recuperables aupres du locataire
-                            (provisions pour travaux, frais de syndic...) sont deductibles.
+                            Les charges non récupérables auprès du locataire
+                            (provisions pour travaux, frais de syndic...) sont déductibles.
                         </p>
                     </div>
                 </div>
@@ -282,7 +282,7 @@ include 'includes/header.php';
                         </div>
                         <h5>Assurances</h5>
                         <p class="small text-muted mb-0">
-                            Assurance PNO (proprietaire non occupant), assurance loyers impayes,
+                            Assurance PNO (propriétaire non occupant), assurance loyers impayés,
                             garantie des risques locatifs...
                         </p>
                     </div>
@@ -294,10 +294,10 @@ include 'includes/header.php';
                         <div class="card-icon">
                             <i class="fas fa-home"></i>
                         </div>
-                        <h5>Taxe fonciere</h5>
+                        <h5>Taxe foncière</h5>
                         <p class="small text-muted mb-0">
-                            La taxe fonciere (hors ordures menageres recuperables)
-                            est integralement deductible de vos revenus fonciers.
+                            La taxe foncière (hors ordures ménagères récupérables)
+                            est intégralement déductible de vos revenus fonciers.
                         </p>
                     </div>
                 </div>
@@ -310,8 +310,8 @@ include 'includes/header.php';
                         </div>
                         <h5>Frais de gestion</h5>
                         <p class="small text-muted mb-0">
-                            Honoraires d'agence immobiliere, frais de comptabilite,
-                            frais de procedure en cas de litige locatif.
+                            Honoraires d'agence immobilière, frais de comptabilité,
+                            frais de procédure en cas de litige locatif.
                         </p>
                     </div>
                 </div>
@@ -327,21 +327,21 @@ include 'includes/header.php';
             <div class="col-lg-6">
                 <h2 class="section-title">
                     <span class="badge bg-primary me-2">4</span>
-                    Liberte geographique totale
+                    Liberté géographique totale
                 </h2>
                 <p>
-                    Contrairement au dispositif Pinel qui etait limite aux zones tendues (A, A bis, B1),
-                    le dispositif Jeanbrun s'applique <strong>sur tout le territoire francais</strong>.
+                    Contrairement au dispositif Pinel qui était limité aux zones tendues (A, A bis, B1),
+                    le dispositif Jeanbrun s'applique <strong>sur tout le territoire français</strong>.
                 </p>
                 <p>
-                    Cette liberte vous permet d'investir la ou les opportunites sont les meilleures,
-                    que ce soit dans une grande metropole ou dans une ville moyenne a fort potentiel.
+                    Cette liberté vous permet d'investir là où les opportunités sont les meilleures,
+                    que ce soit dans une grande métropole ou dans une ville moyenne à fort potentiel.
                 </p>
 
                 <div class="info-box success">
-                    <h5><i class="fas fa-map-marked-alt me-2"></i>Opportunites</h5>
+                    <h5><i class="fas fa-map-marked-alt me-2"></i>Opportunités</h5>
                     <p class="mb-0">
-                        Les villes moyennes offrent souvent un meilleur rendement locatif grace a des
+                        Les villes moyennes offrent souvent un meilleur rendement locatif grâce à des
                         prix d'achat plus accessibles et une demande locative soutenue.
                     </p>
                 </div>
@@ -349,12 +349,12 @@ include 'includes/header.php';
             <div class="col-lg-6">
                 <div class="card-gouv">
                     <div class="card-header">
-                        <i class="fas fa-map me-2"></i>Avant / Apres
+                        <i class="fas fa-map me-2"></i>Avant / Après
                     </div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-6 border-end">
-                                <h6 class="text-muted">Pinel (expire)</h6>
+                                <h6 class="text-muted">Pinel (expiré)</h6>
                                 <ul class="small">
                                     <li>Zone A bis : Paris</li>
                                     <li>Zone A : Grandes agglos</li>
@@ -365,12 +365,17 @@ include 'includes/header.php';
                             <div class="col-6">
                                 <h6 class="text-success">Jeanbrun (2026)</h6>
                                 <ul class="small">
-                                    <li><i class="fas fa-check text-success me-1"></i>Grandes metropoles</li>
+                                    <li><i class="fas fa-check text-success me-1"></i>Grandes métropoles</li>
                                     <li><i class="fas fa-check text-success me-1"></i>Villes moyennes</li>
                                     <li><i class="fas fa-check text-success me-1"></i>Zones rurales</li>
                                     <li><i class="fas fa-check text-success me-1"></i>Outre-mer</li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="text-center mt-3 pt-3 border-top">
+                            <a href="/pinel-vs-jeanbrun" class="btn-gouv-outline btn-sm">
+                                <i class="fas fa-balance-scale me-1"></i>Voir le comparatif complet Pinel vs Jeanbrun
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -382,7 +387,7 @@ include 'includes/header.php';
 <!-- Recapitulatif -->
 <section class="section section-alt">
     <div class="container">
-        <h2 class="section-title text-center">Recapitulatif des avantages</h2>
+        <h2 class="section-title text-center">Récapitulatif des avantages</h2>
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="table-responsive">
@@ -397,32 +402,32 @@ include 'includes/header.php';
                         <tbody>
                             <tr>
                                 <td><strong>Amortissement annuel</strong></td>
-                                <td>3,5% a 5,5% (max 12 000EUR/an)</td>
-                                <td>Selon type de loyer pratique</td>
+                                <td>3,5% à 5,5% (max 12 000€/an)</td>
+                                <td>Selon type de loyer pratiqué</td>
                             </tr>
                             <tr>
-                                <td><strong>Deficit foncier</strong></td>
-                                <td>21 400EUR/an sur revenu global</td>
+                                <td><strong>Déficit foncier</strong></td>
+                                <td>21 400€/an sur revenu global</td>
                                 <td>Jusqu'au 31/12/2027</td>
                             </tr>
                             <tr>
-                                <td><strong>Interets d'emprunt</strong></td>
-                                <td>100% deductibles</td>
-                                <td>Credit pour acquisition/travaux</td>
+                                <td><strong>Intérêts d'emprunt</strong></td>
+                                <td>100% déductibles</td>
+                                <td>Crédit pour acquisition/travaux</td>
                             </tr>
                             <tr>
                                 <td><strong>Charges locatives</strong></td>
-                                <td>100% deductibles</td>
-                                <td>Charges non recuperables</td>
+                                <td>100% déductibles</td>
+                                <td>Charges non récupérables</td>
                             </tr>
                             <tr>
-                                <td><strong>Zone geographique</strong></td>
-                                <td>France entiere</td>
+                                <td><strong>Zone géographique</strong></td>
+                                <td>France entière</td>
                                 <td>Aucune restriction</td>
                             </tr>
                             <tr>
                                 <td><strong>Type de bien</strong></td>
-                                <td>Neuf ou ancien renove</td>
+                                <td>Neuf ou ancien rénové</td>
                                 <td>30% travaux pour l'ancien</td>
                             </tr>
                         </tbody>
@@ -438,10 +443,10 @@ include 'includes/header.php';
     <div class="container text-center">
         <h2 class="section-title text-center">Estimez vos avantages</h2>
         <p class="lead mb-4">
-            Utilisez notre simulateur pour calculer les economies fiscales de votre projet.
+            Utilisez notre simulateur pour calculer les économies fiscales de votre projet.
         </p>
         <a href="/simulation" class="btn-gouv btn-lg">
-            <i class="fas fa-calculator me-2"></i>Acceder au simulateur
+            <i class="fas fa-calculator me-2"></i>Accéder au simulateur
         </a>
     </div>
 </section>

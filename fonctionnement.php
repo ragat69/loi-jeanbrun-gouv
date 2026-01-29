@@ -1,7 +1,7 @@
 <?php
 $current_page = 'fonctionnement';
 $page_title = 'Fonctionnement';
-$page_description = 'Comment fonctionne le dispositif Jeanbrun ? Decouvrez le mecanisme d\'amortissement fiscal et les conditions de la loi Relance Logement.';
+$page_description = 'Comment fonctionne le dispositif Jeanbrun ? Découvrez le mécanisme d\'amortissement fiscal et les conditions de la loi Relance Logement.';
 include 'includes/header.php';
 ?>
 
@@ -9,7 +9,7 @@ include 'includes/header.php';
 <section class="page-header page-header-fonctionnement">
     <div class="container">
         <h1><i class="fas fa-cogs me-3"></i>Fonctionnement du dispositif</h1>
-        <p class="lead">Comprendre le mecanisme d'amortissement fiscal de la loi Jeanbrun</p>
+        <p class="lead">Comprendre le mécanisme d'amortissement fiscal de la loi Jeanbrun</p>
     </div>
 </section>
 
@@ -30,23 +30,23 @@ include 'includes/header.php';
             <div class="col-lg-8">
                 <h2 class="section-title">Le principe de l'amortissement</h2>
                 <p class="lead">
-                    Le coeur du dispositif Jeanbrun repose sur un mecanisme d'<strong>amortissement fiscal</strong>
-                    qui permet aux bailleurs de deduire annuellement une fraction de la valeur du bien
+                    Le coeur du dispositif Jeanbrun repose sur un mécanisme d'<strong>amortissement fiscal</strong>
+                    qui permet aux bailleurs de déduire annuellement une fraction de la valeur du bien
                     de leurs revenus fonciers.
                 </p>
                 <p>
-                    Contrairement au dispositif Pinel qui offrait une <em>reduction d'impot directe</em>,
-                    la loi Jeanbrun agit sur votre <strong>base imposable</strong>. Concretement, vous
-                    ne payez pas moins d'impots directement, mais vous reduisez le montant des revenus
-                    sur lesquels vous etes impose.
+                    Contrairement au dispositif Pinel qui offrait une <em>réduction d'impôt directe</em>,
+                    la loi Jeanbrun agit sur votre <strong>base imposable</strong>. Concrètement, vous
+                    ne payez pas moins d'impôts directement, mais vous réduisez le montant des revenus
+                    sur lesquels vous êtes imposé.
                 </p>
 
                 <div class="info-box">
                     <h5><i class="fas fa-lightbulb me-2"></i>En pratique</h5>
                     <p class="mb-0">
-                        Si vous achetez un bien a 200 000EUR et que vous beneficiez d'un taux d'amortissement
-                        de 3,5%, vous pouvez deduire 7 000EUR par an de vos revenus fonciers. Sur 9 ans,
-                        cela represente 63 000EUR de revenus non imposes.
+                        Si vous achetez un bien à 200 000€ et que vous bénéficiez d'un taux d'amortissement
+                        de 3,5%, vous pouvez déduire 7 000€ par an de vos revenus fonciers. Sur 9 ans,
+                        cela représente 63 000€ de revenus non imposés.
                     </p>
                 </div>
             </div>
@@ -56,10 +56,10 @@ include 'includes/header.php';
                         <i class="fas fa-exchange-alt me-2"></i>Pinel vs Jeanbrun
                     </div>
                     <div class="card-body">
-                        <p><strong>Pinel (expire) :</strong></p>
+                        <p><strong>Pinel (expiré) :</strong></p>
                         <ul class="small">
-                            <li>Reduction d'impot directe</li>
-                            <li>Zonage geographique strict</li>
+                            <li>Réduction d'impôt directe</li>
+                            <li>Zonage géographique strict</li>
                             <li>Uniquement le neuf</li>
                         </ul>
                         <hr>
@@ -67,7 +67,7 @@ include 'includes/header.php';
                         <ul class="small mb-0">
                             <li>Amortissement fiscal</li>
                             <li>Pas de zonage</li>
-                            <li>Neuf et ancien renove</li>
+                            <li>Neuf et ancien rénové</li>
                         </ul>
                     </div>
                 </div>
@@ -81,8 +81,8 @@ include 'includes/header.php';
     <div class="container">
         <h2 class="section-title">Les taux d'amortissement</h2>
         <p class="mb-4">
-            Le taux d'amortissement varie selon le type de bien et le niveau de loyer pratique.
-            Plus vous vous engagez a pratiquer des loyers accessibles, plus le taux est avantageux.
+            Le taux d'amortissement varie selon le type de bien et le niveau de loyer pratiqué.
+            Plus vous vous engagez à pratiquer des loyers accessibles, plus le taux est avantageux.
         </p>
 
         <div class="table-responsive">
@@ -91,28 +91,28 @@ include 'includes/header.php';
                     <tr>
                         <th>Type de loyer</th>
                         <th>Logement neuf</th>
-                        <th>Ancien renove</th>
+                        <th>Ancien rénové</th>
                         <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Loyer intermediaire</strong></td>
+                        <td><strong>Loyer intermédiaire</strong></td>
                         <td class="text-center"><span class="badge bg-primary fs-6">3,5%</span></td>
                         <td class="text-center"><span class="badge bg-secondary fs-6">3,0%</span></td>
-                        <td>Loyer legerement inferieur au marche (environ -15%)</td>
+                        <td>Loyer légèrement inférieur au marché (environ -15%)</td>
                     </tr>
                     <tr>
                         <td><strong>Loyer social</strong></td>
                         <td class="text-center"><span class="badge bg-primary fs-6">4,5%</span></td>
                         <td class="text-center"><span class="badge bg-secondary fs-6">3,5%</span></td>
-                        <td>Loyer aligne sur les plafonds du logement social</td>
+                                <td>Loyer aligné sur les plafonds du logement social</td>
                     </tr>
                     <tr>
-                        <td><strong>Loyer tres social</strong></td>
+                        <td><strong>Loyer très social</strong></td>
                         <td class="text-center"><span class="badge bg-primary fs-6">5,5%</span></td>
                         <td class="text-center"><span class="badge bg-secondary fs-6">4,0%</span></td>
-                        <td>Loyer tres accessible pour les menages modestes</td>
+                        <td>Loyer très accessible pour les ménages modestes</td>
                     </tr>
                 </tbody>
             </table>
@@ -121,18 +121,18 @@ include 'includes/header.php';
         <div class="info-box warning mt-4">
             <h5><i class="fas fa-exclamation-triangle me-2"></i>Plafond annuel</h5>
             <p class="mb-0">
-                L'amortissement est plafonne a <strong>12 000EUR par an</strong> pour un logement.
-                Cela signifie que pour un bien de 400 000EUR avec un taux de 3,5%, le calcul theorique
-                donne 14 000EUR, mais vous ne pourrez deduire que 12 000EUR.
+                L'amortissement est plafonné à <strong>12 000€ par an</strong> pour un logement.
+                Cela signifie que pour un bien de 400 000€ avec un taux de 3,5%, le calcul théorique
+                donne 14 000€, mais vous ne pourrez déduire que 12 000€.
             </p>
         </div>
     </div>
 </section>
 
-<!-- Etapes -->
+<!-- Étapes -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Les etapes pour beneficier du dispositif</h2>
+        <h2 class="section-title">Les étapes pour bénéficier du dispositif</h2>
         <div class="row g-4">
             <div class="col-md-6 col-lg-3">
                 <div class="card-gouv h-100">
@@ -142,8 +142,8 @@ include 'includes/header.php';
                         </div>
                         <h5 class="text-center">Achat du bien</h5>
                         <p class="small text-muted">
-                            Acquerir un logement neuf ou ancien (avec 30% minimum de travaux)
-                            situe dans un immeuble collectif en France.
+                            Acquérir un logement neuf ou ancien (avec 30% minimum de travaux)
+                            situé dans un immeuble collectif en France.
                         </p>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ include 'includes/header.php';
                         </div>
                         <h5 class="text-center">Mise en location</h5>
                         <p class="small text-muted">
-                            Louer le bien nu (non meuble) en tant que residence principale
+                            Louer le bien nu (non meublé) en tant que résidence principale
                             du locataire, dans les 12 mois suivant l'acquisition.
                         </p>
                     </div>
@@ -170,8 +170,8 @@ include 'includes/header.php';
                         </div>
                         <h5 class="text-center">Respect des plafonds</h5>
                         <p class="small text-muted">
-                            Appliquer les plafonds de loyers definis selon la zone
-                            et verifier les ressources du locataire.
+                            Appliquer les plafonds de loyers définis selon le type de location
+                            et vérifier les ressources du locataire.
                         </p>
                     </div>
                 </div>
@@ -182,9 +182,9 @@ include 'includes/header.php';
                         <div class="text-center mb-3">
                             <span class="badge bg-primary rounded-circle p-3 fs-4">4</span>
                         </div>
-                        <h5 class="text-center">Declaration fiscale</h5>
+                        <h5 class="text-center">Déclaration fiscale</h5>
                         <p class="small text-muted">
-                            Declarer l'amortissement chaque annee dans votre declaration
+                            Déclarer l'amortissement chaque année dans votre déclaration
                             de revenus fonciers (formulaire 2044).
                         </p>
                     </div>
@@ -194,30 +194,30 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Deficit foncier -->
+<!-- Déficit foncier -->
 <section class="section section-alt">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h2 class="section-title">Le deficit foncier renforce</h2>
+                <h2 class="section-title">Le déficit foncier renforcé</h2>
                 <p>
-                    L'une des nouveautes majeures du dispositif Jeanbrun est le <strong>doublement
-                    du plafond de deficit foncier</strong> imputable sur le revenu global.
+                    L'une des nouveautés majeures du dispositif Jeanbrun est le <strong>doublement
+                    du plafond de déficit foncier</strong> imputable sur le revenu global.
                 </p>
                 <p>
-                    Jusqu'alors limite a 10 700EUR par an, ce plafond passe a <strong>21 400EUR</strong>
-                    jusqu'a fin 2027. Cela permet d'absorber davantage de charges et de reduire
-                    significativement votre impot sur le revenu.
+                    Jusqu'alors limité à 10 700€ par an, ce plafond passe à <strong>21 400€</strong>
+                    jusqu'à fin 2027. Cela permet d'absorber davantage de charges et de réduire
+                    significativement votre impôt sur le revenu.
                 </p>
 
-                <h5 class="mt-4">Charges deductibles :</h5>
+                <h5 class="mt-4">Charges déductibles :</h5>
                 <ul class="list-gouv">
-                    <li>Interets d'emprunt (100%)</li>
+                    <li>Intérêts d'emprunt (100%)</li>
                     <li>Frais de gestion et d'administration</li>
                     <li>Primes d'assurance</li>
-                    <li>Travaux d'entretien et de reparation</li>
-                    <li>Taxe fonciere</li>
-                    <li>Charges de copropriete non recuperables</li>
+                    <li>Travaux d'entretien et de réparation</li>
+                    <li>Taxe foncière</li>
+                    <li>Charges de copropriété non récupérables</li>
                 </ul>
             </div>
             <div class="col-lg-6">
@@ -228,22 +228,22 @@ include 'includes/header.php';
                     <div class="card-body">
                         <p><strong>Situation :</strong></p>
                         <ul class="small">
-                            <li>Prix d'achat : 250 000EUR</li>
-                            <li>Loyer annuel : 9 600EUR</li>
-                            <li>Charges deductibles : 8 000EUR</li>
-                            <li>Amortissement (3,5%) : 8 750EUR</li>
+                            <li>Prix d'achat : 250 000€</li>
+                            <li>Loyer annuel : 9 600€</li>
+                            <li>Charges déductibles : 8 000€</li>
+                            <li>Amortissement (3,5%) : 8 750€</li>
                         </ul>
                         <hr>
-                        <p><strong>Calcul du deficit :</strong></p>
+                        <p><strong>Calcul du déficit :</strong></p>
                         <ul class="small">
-                            <li>Revenus fonciers : 9 600EUR</li>
-                            <li>- Charges : 8 000EUR</li>
-                            <li>- Amortissement : 8 750EUR</li>
-                            <li class="text-danger fw-bold">= Deficit : -7 150EUR</li>
+                            <li>Revenus fonciers : 9 600€</li>
+                            <li>- Charges : 8 000€</li>
+                            <li>- Amortissement : 8 750€</li>
+                            <li class="text-danger fw-bold">= Déficit : -7 150€</li>
                         </ul>
                         <div class="alert alert-success small mb-0">
-                            Ce deficit de 7 150EUR est imputable sur votre revenu global,
-                            reduisant directement votre base imposable.
+                            Ce déficit de 7 150€ est imputable sur votre revenu global,
+                            réduisant directement votre base imposable.
                         </div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@ include 'includes/header.php';
 <!-- FAQ -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title text-center">Questions frequentes</h2>
+        <h2 class="section-title text-center">Questions fréquentes</h2>
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="accordion accordion-gouv" id="accordionFAQ">
@@ -268,8 +268,8 @@ include 'includes/header.php';
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
                                 Non, le dispositif Jeanbrun n'est pas cumulable avec d'autres avantages fiscaux
-                                sur le meme bien (Denormandie, Malraux, etc.). Cependant, vous pouvez detenir
-                                plusieurs biens beneficiant chacun du dispositif Jeanbrun.
+                                sur le même bien (Denormandie, Malraux, etc.). Cependant, vous pouvez détenir
+                                plusieurs biens bénéficiant chacun du dispositif Jeanbrun.
                             </div>
                         </div>
                     </div>
@@ -282,8 +282,8 @@ include 'includes/header.php';
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
                                 En cas de non-respect de l'engagement de location de 9 ans, les avantages fiscaux
-                                obtenus sont remis en cause. Vous devrez rembourser les amortissements deduits
-                                majores d'interets de retard, sauf cas de force majeure (deces, invalidite,
+                                obtenus sont remis en cause. Vous devrez rembourser les amortissements déduits
+                                majorés d'intérêts de retard, sauf cas de force majeure (décès, invalidité,
                                 licenciement, etc.).
                             </div>
                         </div>
@@ -291,29 +291,29 @@ include 'includes/header.php';
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                Le locataire peut-il etre un membre de ma famille ?
+                                Le locataire peut-il être un membre de ma famille ?
                             </button>
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                                Non, vous ne pouvez pas louer le bien a un ascendant (parents, grands-parents)
-                                ou a un descendant (enfants, petits-enfants). Cette interdiction concerne
-                                egalement le foyer fiscal du proprietaire.
+                                Non, vous ne pouvez pas louer le bien à un ascendant (parents, grands-parents)
+                                ou à un descendant (enfants, petits-enfants). Cette interdiction concerne
+                                également le foyer fiscal du propriétaire.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                Puis-je beneficier du dispositif pour un bien deja detenu ?
+                                Puis-je bénéficier du dispositif pour un bien déjà détenu ?
                             </button>
                         </h2>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                             <div class="accordion-body">
-                                Pour un bien ancien, il faut realiser des travaux representant au minimum 30%
-                                du prix d'acquisition. Si vous possedez deja un bien et souhaitez le faire
+                                Pour un bien ancien, il faut réaliser des travaux représentant au minimum 30%
+                                du prix d'acquisition. Si vous possédez déjà un bien et souhaitez le faire
                                 entrer dans le dispositif, vous devrez donc engager des travaux significatifs
-                                et respecter toutes les conditions d'eligibilite.
+                                et respecter toutes les conditions d'éligibilité.
                             </div>
                         </div>
                     </div>

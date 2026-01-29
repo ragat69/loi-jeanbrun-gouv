@@ -5,8 +5,8 @@
                 <div class="col-lg-4 mb-4">
                     <h5><i class="fas fa-landmark me-2"></i>Loi Jeanbrun</h5>
                     <p class="text-muted">
-                        Le dispositif Relance Logement, aussi appele loi Jeanbrun, est le nouveau cadre fiscal
-                        pour l'investissement locatif en France, en vigueur depuis janvier 2026.
+                        Le dispositif Relance Logement, aussi appelé loi Jeanbrun, est le nouveau cadre fiscal
+                        pour l'investissement locatif en France, en vigueur depuis février 2026.
                     </p>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-4">
@@ -15,15 +15,15 @@
                         <li><a href="/">Accueil</a></li>
                         <li><a href="/fonctionnement">Fonctionnement</a></li>
                         <li><a href="/avantages">Avantages</a></li>
-                        <li><a href="/eligibilite">Eligibilite</a></li>
+                        <li><a href="/eligibilite">Éligibilité</a></li>
                         <li><a href="/simulation">Simulation</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 mb-4">
                     <h5>Ressources</h5>
                     <ul>
-                        <li><a href="https://www.ecologie.gouv.fr" target="_blank" rel="noopener">Ministere de l'Ecologie</a></li>
-                        <li><a href="https://www.economie.gouv.fr" target="_blank" rel="noopener">Ministere de l'Economie</a></li>
+                        <li><a href="https://www.ecologie.gouv.fr" target="_blank" rel="noopener">Ministère de l'Ecologie</a></li>
+                        <li><a href="https://www.économie.gouv.fr" target="_blank" rel="noopener">Ministère de l'Économie</a></li>
                         <li><a href="https://www.service-public.fr" target="_blank" rel="noopener">Service Public</a></li>
                         <li><a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">Impots.gouv.fr</a></li>
                     </ul>

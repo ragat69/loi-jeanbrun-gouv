@@ -215,6 +215,7 @@ a:hover {
 /* Sections */
 .section {
     padding: 4rem 0;
+    position: relative;
 }
 
 .section-alt {
@@ -420,15 +421,13 @@ a:hover {
 /* Timeline */
 .timeline {
     position: relative;
-    padding-left: 40px;
-    margin-left: 10px;
-    overflow: hidden;
+    padding-left: 50px;
 }
 
 .timeline::before {
     content: '';
     position: absolute;
-    left: 8px;
+    left: 18px;
     top: 0;
     bottom: 0;
     width: 3px;
@@ -438,26 +437,29 @@ a:hover {
 .timeline-item {
     position: relative;
     padding-bottom: 2rem;
-    padding-left: 10px;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
 }
 
 .timeline-item::before {
     content: '';
     position: absolute;
     left: -38px;
-    top: 5px;
-    width: 13px;
-    height: 13px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    background-color: var(--bleu-france);
-    border: 2px solid var(--blanc);
-    box-shadow: 0 0 0 2px var(--bleu-france);
+    background-color: var(--blanc);
+    border: 3px solid var(--bleu-france);
 }
 
 .timeline-item h4 {
     color: var(--bleu-france);
     font-weight: 600;
     margin-bottom: 0.25rem;
+    font-size: 1.1rem;
 }
 
 .timeline-item p {

@@ -1,7 +1,7 @@
 <?php
 $current_page = 'simulation';
 $page_title = 'Simulation';
-$page_description = 'Simulez votre investissement avec le dispositif Jeanbrun : calculez l\'amortissement, le deficit foncier et vos economies d\'impot.';
+$page_description = 'Simulez votre investissement avec le dispositif Jeanbrun : calculez l\'amortissement, le déficit foncier et vos économies d\'impot.';
 include 'includes/header.php';
 ?>
 
@@ -59,16 +59,16 @@ include 'includes/header.php';
                     <div class="mb-4" id="blocTravaux" style="display: none;">
                         <label for="montantTravaux" class="form-label">Montant des travaux (EUR)</label>
                         <input type="number" class="form-control" id="montantTravaux" value="75000" min="0" max="500000" step="1000">
-                        <div class="form-text">Minimum 30% du prix d'acquisition pour etre eligible</div>
+                        <div class="form-text">Minimum 30% du prix d'acquisition pour etre éligible</div>
                     </div>
 
                     <!-- Type de loyer -->
                     <div class="mb-4">
                         <label for="typeLoyer" class="form-label">Type de loyer pratique</label>
                         <select class="form-select" id="typeLoyer">
-                            <option value="intermediaire">Loyer intermediaire (3,5% neuf / 3,0% ancien)</option>
+                            <option value="intermédiaire">Loyer intermédiaire (3,5% neuf / 3,0% ancien)</option>
                             <option value="social">Loyer social (4,5% neuf / 3,5% ancien)</option>
-                            <option value="tressocial">Loyer tres social (5,5% neuf / 4,0% ancien)</option>
+                            <option value="tressocial">Loyer très social (5,5% neuf / 4,0% ancien)</option>
                         </select>
                     </div>
 
@@ -83,14 +83,14 @@ include 'includes/header.php';
                     <div class="mb-4">
                         <label for="chargesAnnuelles" class="form-label">Charges annuelles estimees (EUR)</label>
                         <input type="number" class="form-control" id="chargesAnnuelles" value="3000" min="0" max="50000" step="100">
-                        <div class="form-text">Taxe fonciere, assurance, copropriete, gestion...</div>
+                        <div class="form-text">Taxe foncière, assurance, copropriété, gestion...</div>
                     </div>
 
-                    <!-- Interets d'emprunt -->
+                    <!-- Intérêts d'emprunt -->
                     <div class="mb-4">
-                        <label for="interetsAnnuels" class="form-label">Interets d'emprunt annuels (EUR)</label>
-                        <input type="number" class="form-control" id="interetsAnnuels" value="5000" min="0" max="50000" step="100">
-                        <div class="form-text">Interets payes la premiere annee (decroissants ensuite)</div>
+                        <label for="intérêtsAnnuels" class="form-label">Intérêts d'emprunt annuels (EUR)</label>
+                        <input type="number" class="form-control" id="intérêtsAnnuels" value="5000" min="0" max="50000" step="100">
+                        <div class="form-text">Intérêts payes la première année (decroissants ensuite)</div>
                     </div>
 
                     <!-- TMI -->
@@ -116,13 +116,13 @@ include 'includes/header.php';
 
                 <div id="resultats">
                     <div class="simulation-result mb-4">
-                        <p class="mb-2">Economie d'impot estimee sur 9 ans</p>
-                        <div class="montant" id="economieTotal">-- EUR</div>
+                        <p class="mb-2">Économie d'impot estimee sur 9 ans</p>
+                        <div class="montant" id="économieTotal">-- EUR</div>
                     </div>
 
                     <div class="card-gouv mb-3">
                         <div class="card-header">
-                            <i class="fas fa-chart-pie me-2"></i>Detail annuel (annee 1)
+                            <i class="fas fa-chart-pie me-2"></i>Detail annuel (année 1)
                         </div>
                         <div class="card-body">
                             <div class="row g-3">
@@ -135,8 +135,8 @@ include 'includes/header.php';
                                     <div class="fs-5 fw-bold text-bleu-france" id="amortissement">-- EUR</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="small text-muted">Charges deductibles</div>
-                                    <div class="fs-5 fw-bold" id="chargesDeductibles">-- EUR</div>
+                                    <div class="small text-muted">Charges déductibles</div>
+                                    <div class="fs-5 fw-bold" id="chargesDéductibles">-- EUR</div>
                                 </div>
                                 <div class="col-6">
                                     <div class="small text-muted">Resultat foncier</div>
@@ -153,20 +153,20 @@ include 'includes/header.php';
                         <div class="card-body">
                             <div class="row g-3">
                                 <div class="col-6">
-                                    <div class="small text-muted">Deficit imputable</div>
-                                    <div class="fs-5 fw-bold text-success" id="deficitImputable">-- EUR</div>
+                                    <div class="small text-muted">Déficit imputable</div>
+                                    <div class="fs-5 fw-bold text-success" id="déficitImputable">-- EUR</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="small text-muted">Economie IR annuelle</div>
-                                    <div class="fs-5 fw-bold text-success" id="economieAnnuelle">-- EUR</div>
+                                    <div class="small text-muted">Économie IR annuelle</div>
+                                    <div class="fs-5 fw-bold text-success" id="économieAnnuelle">-- EUR</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="small text-muted">Economie PS (17,2%)</div>
-                                    <div class="fs-5 fw-bold text-success" id="economiePS">-- EUR</div>
+                                    <div class="small text-muted">Économie PS (17,2%)</div>
+                                    <div class="fs-5 fw-bold text-success" id="économiePS">-- EUR</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="small text-muted">Economie totale/an</div>
-                                    <div class="fs-5 fw-bold text-success" id="economieTotaleAn">-- EUR</div>
+                                    <div class="small text-muted">Économie totale/an</div>
+                                    <div class="fs-5 fw-bold text-success" id="économieTotaleAn">-- EUR</div>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-6">
                                     <p class="mb-1"><strong>Plafond amortissement :</strong> 12 000 EUR/an</p>
-                                    <p class="mb-1"><strong>Plafond deficit :</strong> 21 400 EUR/an</p>
+                                    <p class="mb-1"><strong>Plafond déficit :</strong> 21 400 EUR/an</p>
                                 </div>
                             </div>
                         </div>
@@ -228,11 +228,11 @@ include 'includes/header.php';
                     <div class="card-body">
                         <ul class="small mb-3">
                             <li>Logement neuf</li>
-                            <li>Loyer intermediaire : 650 EUR/mois</li>
+                            <li>Loyer intermédiaire : 650 EUR/mois</li>
                             <li>Amortissement 3,5% : 7 700 EUR/an</li>
                         </ul>
                         <div class="bg-light p-3 text-center">
-                            <div class="small text-muted">Economie estimee sur 9 ans</div>
+                            <div class="small text-muted">Économie estimee sur 9 ans</div>
                             <div class="fs-4 fw-bold text-bleu-france">~16 630 EUR</div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ include 'includes/header.php';
                             <li>Amortissement 4,5% : 12 000 EUR/an (plafonne)</li>
                         </ul>
                         <div class="bg-light p-3 text-center">
-                            <div class="small text-muted">Economie estimee sur 9 ans</div>
+                            <div class="small text-muted">Économie estimee sur 9 ans</div>
                             <div class="fs-4 fw-bold text-bleu-france">~37 000 EUR</div>
                         </div>
                     </div>
@@ -256,15 +256,15 @@ include 'includes/header.php';
             </div>
             <div class="col-lg-4">
                 <div class="card-gouv h-100">
-                    <div class="card-header">T2 ancien renove - 180 000 EUR</div>
+                    <div class="card-header">T2 ancien rénové - 180 000 EUR</div>
                     <div class="card-body">
                         <ul class="small mb-3">
                             <li>Ancien + 60 000 EUR travaux</li>
-                            <li>Loyer intermediaire : 600 EUR/mois</li>
+                            <li>Loyer intermédiaire : 600 EUR/mois</li>
                             <li>Amortissement 3,0% : 7 200 EUR/an</li>
                         </ul>
                         <div class="bg-light p-3 text-center">
-                            <div class="small text-muted">Economie estimee sur 9 ans</div>
+                            <div class="small text-muted">Économie estimee sur 9 ans</div>
                             <div class="fs-4 fw-bold text-bleu-france">~21 500 EUR</div>
                         </div>
                     </div>
@@ -278,7 +278,7 @@ include 'includes/header.php';
 // Afficher/masquer le bloc travaux selon le type de bien
 document.querySelectorAll('input[name="typeBien"]').forEach(function(radio) {
     radio.addEventListener('change', function() {
-        document.getElementById('blocTravaux').style.display =
+        document.getÉlémentById('blocTravaux').style.display =
             this.value === 'ancien' ? 'block' : 'none';
     });
 });
@@ -286,22 +286,22 @@ document.querySelectorAll('input[name="typeBien"]').forEach(function(radio) {
 function calculerSimulation() {
     // Recuperer les valeurs
     const typeBien = document.querySelector('input[name="typeBien"]:checked').value;
-    const prixAchat = parseFloat(document.getElementById('prixAchat').value) || 0;
-    const montantTravaux = typeBien === 'ancien' ? (parseFloat(document.getElementById('montantTravaux').value) || 0) : 0;
-    const typeLoyer = document.getElementById('typeLoyer').value;
-    const loyerMensuel = parseFloat(document.getElementById('loyerMensuel').value) || 0;
-    const chargesAnnuelles = parseFloat(document.getElementById('chargesAnnuelles').value) || 0;
-    const interetsAnnuels = parseFloat(document.getElementById('interetsAnnuels').value) || 0;
-    const tmi = parseFloat(document.getElementById('tmi').value) || 0;
+    const prixAchat = parseFloat(document.getÉlémentById('prixAchat').value) || 0;
+    const montantTravaux = typeBien === 'ancien' ? (parseFloat(document.getÉlémentById('montantTravaux').value) || 0) : 0;
+    const typeLoyer = document.getÉlémentById('typeLoyer').value;
+    const loyerMensuel = parseFloat(document.getÉlémentById('loyerMensuel').value) || 0;
+    const chargesAnnuelles = parseFloat(document.getÉlémentById('chargesAnnuelles').value) || 0;
+    const intérêtsAnnuels = parseFloat(document.getÉlémentById('intérêtsAnnuels').value) || 0;
+    const tmi = parseFloat(document.getÉlémentById('tmi').value) || 0;
 
     // Determiner le taux d'amortissement
     let tauxAmortissement = 0;
     if (typeBien === 'neuf') {
-        if (typeLoyer === 'intermediaire') tauxAmortissement = 3.5;
+        if (typeLoyer === 'intermédiaire') tauxAmortissement = 3.5;
         else if (typeLoyer === 'social') tauxAmortissement = 4.5;
         else tauxAmortissement = 5.5;
     } else {
-        if (typeLoyer === 'intermediaire') tauxAmortissement = 3.0;
+        if (typeLoyer === 'intermédiaire') tauxAmortissement = 3.0;
         else if (typeLoyer === 'social') tauxAmortissement = 3.5;
         else tauxAmortissement = 4.0;
     }
@@ -316,41 +316,41 @@ function calculerSimulation() {
     // Revenus fonciers annuels
     const revenusFonciers = loyerMensuel * 12;
 
-    // Charges deductibles totales
-    const chargesDeductibles = chargesAnnuelles + interetsAnnuels;
+    // Charges déductibles totales
+    const chargesDéductibles = chargesAnnuelles + intérêtsAnnuels;
 
     // Resultat foncier
-    const resultatFoncier = revenusFonciers - chargesDeductibles - amortissement;
+    const resultatFoncier = revenusFonciers - chargesDéductibles - amortissement;
 
-    // Deficit imputable (plafonne a 21 400)
-    let deficitImputable = 0;
+    // Déficit imputable (plafonne a 21 400)
+    let déficitImputable = 0;
     if (resultatFoncier < 0) {
-        deficitImputable = Math.min(Math.abs(resultatFoncier), 21400);
+        déficitImputable = Math.min(Math.abs(resultatFoncier), 21400);
     }
 
-    // Economies d'impot
-    const economieIR = deficitImputable * (tmi / 100);
-    const economiePS = resultatFoncier < 0 ? 0 : 0; // Pas de PS si deficit
-    const economieTotaleAn = economieIR;
+    // Économies d'impot
+    const économieIR = déficitImputable * (tmi / 100);
+    const économiePS = resultatFoncier < 0 ? 0 : 0; // Pas de PS si déficit
+    const économieTotaleAn = économieIR;
 
-    // Economie sur 9 ans (simplifiee)
-    const economieTotal = economieTotaleAn * 9;
+    // Économie sur 9 ans (simplifiee)
+    const économieTotal = économieTotaleAn * 9;
 
     // Afficher les resultats
-    document.getElementById('economieTotal').textContent = formatMontant(economieTotal);
-    document.getElementById('revenusFonciers').textContent = formatMontant(revenusFonciers);
-    document.getElementById('amortissement').textContent = formatMontant(amortissement);
-    document.getElementById('chargesDeductibles').textContent = formatMontant(chargesDeductibles);
-    document.getElementById('resultatFoncier').textContent = formatMontant(resultatFoncier);
-    document.getElementById('deficitImputable').textContent = formatMontant(deficitImputable);
-    document.getElementById('economieAnnuelle').textContent = formatMontant(economieIR);
-    document.getElementById('economiePS').textContent = formatMontant(economiePS);
-    document.getElementById('economieTotaleAn').textContent = formatMontant(economieTotaleAn);
-    document.getElementById('baseAmortissable').textContent = formatMontant(baseAmortissable);
-    document.getElementById('tauxApplique').textContent = tauxAmortissement + '%';
+    document.getÉlémentById('économieTotal').textContent = formatMontant(économieTotal);
+    document.getÉlémentById('revenusFonciers').textContent = formatMontant(revenusFonciers);
+    document.getÉlémentById('amortissement').textContent = formatMontant(amortissement);
+    document.getÉlémentById('chargesDéductibles').textContent = formatMontant(chargesDéductibles);
+    document.getÉlémentById('resultatFoncier').textContent = formatMontant(resultatFoncier);
+    document.getÉlémentById('déficitImputable').textContent = formatMontant(déficitImputable);
+    document.getÉlémentById('économieAnnuelle').textContent = formatMontant(économieIR);
+    document.getÉlémentById('économiePS').textContent = formatMontant(économiePS);
+    document.getÉlémentById('économieTotaleAn').textContent = formatMontant(économieTotaleAn);
+    document.getÉlémentById('baseAmortissable').textContent = formatMontant(baseAmortissable);
+    document.getÉlémentById('tauxApplique').textContent = tauxAmortissement + '%';
 
     // Style du resultat foncier
-    const resultatEl = document.getElementById('resultatFoncier');
+    const resultatEl = document.getÉlémentById('resultatFoncier');
     if (resultatFoncier < 0) {
         resultatEl.classList.add('text-danger');
         resultatEl.classList.remove('text-success');

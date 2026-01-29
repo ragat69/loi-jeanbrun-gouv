@@ -31,7 +31,7 @@ include 'includes/header.php';
                 <nav class="nav flex-column sticky-top" style="top: 100px;">
                     <a class="nav-link text-bleu-france" href="#editeur">Editeur du site</a>
                     <a class="nav-link text-bleu-france" href="#hebergement">Hebergement</a>
-                    <a class="nav-link text-bleu-france" href="#propriete">Propriete intellectuelle</a>
+                    <a class="nav-link text-bleu-france" href="#propriété">Propriete intellectuelle</a>
                     <a class="nav-link text-bleu-france" href="#donnees">Donnees personnelles</a>
                     <a class="nav-link text-bleu-france" href="#cookies">Cookies</a>
                     <a class="nav-link text-bleu-france" href="#accessibilite">Accessibilite</a>
@@ -71,20 +71,20 @@ include 'includes/header.php';
                 </section>
 
                 <!-- Propriete intellectuelle -->
-                <section id="propriete" class="mb-5">
+                <section id="propriété" class="mb-5">
                     <h2 class="section-title">Propriete intellectuelle</h2>
                     <p>
                         L'ensemble du contenu de ce site (textes, images, graphismes, logo, icones, etc.)
-                        est la propriete exclusive de l'editeur, a l'exception des marques, logos ou
-                        contenus appartenant a d'autres societes partenaires ou auteurs.
+                        est la propriété exclusive de l'editeur, a l'exception des marques, logos ou
+                        contenus appartenant a d'autres sociétés partenaires ou auteurs.
                     </p>
                     <p>
                         Toute reproduction, representation, modification, publication, adaptation de tout
-                        ou partie des elements du site, quel que soit le moyen ou le procede utilise,
+                        ou partie des éléments du site, quel que soit le moyen ou le procede utilise,
                         est interdite, sauf autorisation ecrite prealable de l'editeur.
                     </p>
                     <p>
-                        Toute exploitation non autorisee du site ou de l'un quelconque des elements qu'il
+                        Toute exploitation non autorisee du site ou de l'un quelconque des éléments qu'il
                         contient sera consideree comme constitutive d'une contrefacon et poursuivie
                         conformement aux dispositions des articles L.335-2 et suivants du Code de
                         Propriete Intellectuelle.
@@ -107,7 +107,7 @@ include 'includes/header.php';
                         explicite. Les seules donnees susceptibles d'etre collectees sont :
                     </p>
                     <ul>
-                        <li>Les donnees de navigation (pages visitees, duree des visites) via les cookies analytiques</li>
+                        <li>Les donnees de navigation (pages visitees, durée des visites) via les cookies analytiques</li>
                         <li>Les informations que vous nous communiquez volontairement via les formulaires de contact</li>
                     </ul>
 
@@ -119,9 +119,9 @@ include 'includes/header.php';
                         <li>Etablir des statistiques de frequentation</li>
                     </ul>
 
-                    <h4>Duree de conservation</h4>
+                    <h4>Durée de conservation</h4>
                     <p>
-                        Les donnees de navigation sont conservees pendant une duree maximale de 13 mois.
+                        Les donnees de navigation sont conservees pendant une durée maximale de 13 mois.
                         Les donnees issues des formulaires de contact sont conservees pendant 3 ans
                         a compter du dernier contact.
                     </p>
@@ -164,7 +164,7 @@ include 'includes/header.php';
                                 <tr>
                                     <th>Type de cookie</th>
                                     <th>Finalite</th>
-                                    <th>Duree</th>
+                                    <th>Durée</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -182,9 +182,9 @@ include 'includes/header.php';
                         </table>
                     </div>
 
-                    <h4>Gerer vos preferences</h4>
+                    <h4>Gerer vos préférences</h4>
                     <p>
-                        Vous pouvez a tout moment modifier vos preferences en matiere de cookies
+                        Vous pouvez a tout moment modifier vos préférences en matiere de cookies
                         via les parametres de votre navigateur. Voici comment proceder selon
                         votre navigateur :
                     </p>
@@ -203,7 +203,7 @@ include 'includes/header.php';
                     <h4>Declaration d'accessibilite</h4>
                     <p>
                         L'editeur s'engage a rendre ce site accessible conformement a l'article 47
-                        de la loi n° 2005-102 du 11 fevrier 2005.
+                        de la loi n° 2005-102 du 11 février 2005.
                     </p>
 
                     <h4>Etat de conformite</h4>
@@ -216,7 +216,7 @@ include 'includes/header.php';
                     <p>Les contenus listes ci-dessous ne sont pas accessibles pour les raisons suivantes :</p>
                     <ul>
                         <li>Certaines images peuvent ne pas disposer d'alternatives textuelles</li>
-                        <li>Le contraste de certains elements peut etre insuffisant</li>
+                        <li>Le contraste de certains éléments peut etre insuffisant</li>
                         <li>La navigation au clavier peut etre amelioree sur certaines pages</li>
                     </ul>
 
@@ -254,7 +254,7 @@ include 'includes/header.php';
 
                     <h4>Nature des informations</h4>
                     <p>
-                        Les informations presentees sur ce site sont fournies a titre indicatif et
+                        Les informations présentées sur ce site sont fournies a titre indicatif et
                         sont susceptibles d'evoluer en fonction des modifications legislatives et
                         reglementaires. L'editeur s'efforce de mettre a jour les contenus mais ne
                         peut garantir l'exactitude, la completude ou l'actualite des informations.

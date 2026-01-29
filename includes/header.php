@@ -35,7 +35,7 @@
         <div class="container">
             <a class="navbar-brand" href="/">
                 <div class="brand-logo">
-                    <span class="brand-rf">RÉPUBLIQUE<br>FRANÇAISE</span>
+                    <img src="/assets/favicon.svg" alt="République Française" class="brand-rf-img">
                 </div>
                 <div class="brand-logo">
                     <span class="brand-title">Loi Jeanbrun</span>

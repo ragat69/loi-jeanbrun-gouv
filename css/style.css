@@ -65,6 +65,11 @@ a:hover {
     letter-spacing: 0.05em;
 }
 
+.navbar-gouv .brand-rf-img {
+    height: 48px;
+    width: auto;
+}
+
 .navbar-gouv .brand-title {
     font-size: 1.1rem;
     font-weight: 700;

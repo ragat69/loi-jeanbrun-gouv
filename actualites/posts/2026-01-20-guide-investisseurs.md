@@ -53,6 +53,13 @@ faq_schema: |
   }
 ---
 
+<div class="alert alert-success">
+<em><strong>Comment réussir son investissement avec le dispositif Jeanbrun ?</strong> Pour optimiser votre investissement, privilégiez un emplacement stratégique dans les zones tendues, vérifiez votre éligibilité et calculez précisément votre rentabilité en intégrant tous les flux financiers. L'accompagnement par un professionnel et l'utilisation du simulateur en ligne vous aideront à sécuriser votre projet.</em>
+
+<p><strong>Dans cet article :</strong> <a href="#mode-emploi">Mode d'emploi</a> • <a href="#avantages-bailleurs">Avantages pour bailleurs</a> • <a href="#temoignage">Témoignage</a> • <a href="#aller-plus-loin">Pour aller plus loin</a> • <a href="#faq">Questions fréquentes</a></p>
+</div>
+
+<a id="mode-emploi"></a>
 ## Investir dans le dispositif Jeanbrun : Mode d'emploi
 
 Vous envisagez d'investir dans un logement intermédiaire via le dispositif Jeanbrun ? Ce guide pratique vous accompagne pas à pas dans votre projet d'investissement immobilier locatif, en détaillant les opportunités offertes par ce nouveau mécanisme fiscal ainsi que les précautions à prendre pour maximiser vos chances de réussite.
@@ -107,6 +114,7 @@ Les critères de ressources des locataires doivent être scrupuleusement vérifi
 
 La sous-estimation des charges constitue également un piège classique. Certains investisseurs se concentrent uniquement sur le calcul de la réduction d'impôt et des loyers, en oubliant de provisionner correctement les charges courantes (copropriété, taxe foncière, assurances) et les dépenses exceptionnelles (travaux de rénovation, remplacement d'équipements). Une provision mensuelle équivalent à au moins deux mois de loyer par an devrait être constituée pour faire face aux imprévus.
 
+<a id="avantages-bailleurs"></a>
 ## Les avantages concrets pour les bailleurs privés
 
 Le dispositif Jeanbrun offre une combinaison d'avantages particulièrement intéressante pour les bailleurs privés qui souhaitent investir dans l'immobilier locatif tout en optimisant leur fiscalité. Au-delà de la réduction d'impôt substantielle garantie par le mécanisme, c'est toute une série de bénéfices collatéraux qui rendent ce dispositif attractif.
@@ -127,10 +135,19 @@ Le suivi facilité de vos obligations tout au long de la période d'engagement r
 
 Pour découvrir l'ensemble des [avantages offerts par le dispositif](/avantages), consultez notre page dédiée qui détaille tous les bénéfices fiscaux et pratiques du mécanisme.
 
+<a id="temoignage"></a>
 ## Témoignage d'un investisseur Jeanbrun
 
 Marc D., cadre commercial à Lyon, a franchi le pas de l'investissement Jeanbrun au printemps dernier en acquérant un T3 de 65 m² dans le quartier de Gerland, en pleine mutation urbaine. Son témoignage illustre parfaitement les opportunités offertes par le dispositif: "J'ai investi dans ce T3 à Lyon via le dispositif Jeanbrun après avoir longuement hésité. Entre l'avantage fiscal qui représente 48 000 euros sur neuf ans et les loyers réguliers que je perçois, ma rentabilité dépasse largement mes espérances initiales. Le processus d'inscription était simple et fluide, et l'administration fiscale s'est montrée réactive pour répondre à mes questions. J'ai trouvé un locataire en moins de deux semaines, un jeune couple d'enseignants qui correspond parfaitement au profil visé par le dispositif. Je recommande vivement cette formule à tous ceux qui cherchent à investir intelligemment dans l'immobilier."
 
+<a id="aller-plus-loin"></a>
+## Pour aller plus loin dans votre projet
+
+N'hésitez pas à vous faire accompagner par un professionnel de l'immobilier et de la fiscalité pour sécuriser votre investissement et optimiser votre avantage fiscal. Un conseiller spécialisé pourra vous aider à identifier les meilleures opportunités du marché, à négocier les conditions d'achat et à structurer financièrement votre projet de manière optimale. L'investissement immobilier représente souvent un engagement financier important, il serait dommage de passer à côté d'opportunités ou de commettre des erreurs par manque d'accompagnement. Vous pouvez également consulter notre [page dédiée aux bailleurs privés](/bailleur-prive) pour plus d'informations spécifiques à votre profil d'investisseur.
+
+Le dispositif Jeanbrun offre une fenêtre d'opportunité exceptionnelle pour les investisseurs avisés. Avec ses avantages fiscaux attractifs, sa sécurité locative et ses perspectives de valorisation patrimoniale, il constitue aujourd'hui l'un des meilleurs placements immobiliers disponibles sur le marché français. À condition, bien sûr, de respecter les règles du jeu et d'adopter une approche rigoureuse dans le choix et la gestion de votre investissement.
+
+<a id="faq"></a>
 ## Questions fréquentes
 
 **Quelle est la durée d'engagement locatif pour le dispositif Jeanbrun ?**
@@ -152,9 +169,3 @@ La rentabilité s'évalue en intégrant tous les flux financiers : les loyers pe
 **L'emplacement est-il vraiment déterminant pour réussir mon investissement Jeanbrun ?**
 
 Oui, l'emplacement est le facteur le plus déterminant. Un bon emplacement garantit une facilité de location, une valorisation patrimoniale à long terme et limite les périodes de vacance locative. Privilégiez les secteurs avec une dynamique économique positive et une bonne accessibilité aux transports en commun.
-
-## Pour aller plus loin dans votre projet
-
-N'hésitez pas à vous faire accompagner par un professionnel de l'immobilier et de la fiscalité pour sécuriser votre investissement et optimiser votre avantage fiscal. Un conseiller spécialisé pourra vous aider à identifier les meilleures opportunités du marché, à négocier les conditions d'achat et à structurer financièrement votre projet de manière optimale. L'investissement immobilier représente souvent un engagement financier important, il serait dommage de passer à côté d'opportunités ou de commettre des erreurs par manque d'accompagnement. Vous pouvez également consulter notre [page dédiée aux bailleurs privés](/bailleur-prive) pour plus d'informations spécifiques à votre profil d'investisseur.
-
-Le dispositif Jeanbrun offre une fenêtre d'opportunité exceptionnelle pour les investisseurs avisés. Avec ses avantages fiscaux attractifs, sa sécurité locative et ses perspectives de valorisation patrimoniale, il constitue aujourd'hui l'un des meilleurs placements immobiliers disponibles sur le marché français. À condition, bien sûr, de respecter les règles du jeu et d'adopter une approche rigoureuse dans le choix et la gestion de votre investissement.

@@ -139,6 +139,59 @@ Le contenu utilise Markdown standard:
 - Citations : Bordure bleue à gauche
 - Listes : Puces bleues personnalisées
 
+### Encadré résumé (OBLIGATOIRE)
+
+**Chaque article DOIT contenir un encadré résumé** placé juste après le front matter (---) et avant le premier H2.
+
+**Format:**
+```html
+<div class="alert alert-success">
+<em><strong>Question résumant le sujet ?</strong> Réponse en 2-3 phrases qui résume l'article de manière claire et concise.</em>
+</div>
+```
+
+**Règles:**
+- Une question en gras suivie d'une réponse
+- 2-3 phrases maximum
+- Texte en italique (balise `<em>`)
+- Utilise la classe Bootstrap `alert alert-success` (fond vert clair)
+- Doit résumer l'essentiel de l'article
+- Placé immédiatement après `---` et avant le premier `##`
+- **OBLIGATOIRE:** Ajouter une ligne "Dans cet article" avec liens d'ancrage vers tous les H2
+
+**Exemple complet:**
+```markdown
+---
+title: Mon article
+date: 2026-01-30
+---
+
+<div class="alert alert-success">
+<em><strong>Qu'est-ce que le dispositif Jeanbrun ?</strong> Le dispositif Jeanbrun est un mécanisme d'incitation fiscale pour développer le logement intermédiaire en France. Il offre une réduction d'impôt pouvant atteindre 25% aux investisseurs.</em>
+
+<p><strong>Dans cet article :</strong> <a href="#premier-titre">Premier titre</a> • <a href="#second-titre">Second titre</a> • <a href="#faq">Questions fréquentes</a></p>
+</div>
+
+<a id="premier-titre"></a>
+## Premier titre de l'article
+
+Contenu...
+
+<a id="second-titre"></a>
+## Second titre
+
+Contenu...
+
+<a id="faq"></a>
+## Questions fréquentes
+```
+
+**Format des ancres HTML:**
+- Ajouter `<a id="slug"></a>` juste avant chaque `##`
+- L'ID doit être en minuscules, sans accents, avec tirets
+- Les liens dans l'alert-success utilisent ces IDs avec `#`
+- Séparer les liens par des bullets `•` pour la lisibilité
+
 ### Règles de rédaction ⭐ IMPORTANT
 
 **Ces règles DOIVENT être respectées pour tous les articles:**
@@ -219,7 +272,7 @@ Pour estimer précisément votre réduction d'impôt, utilisez notre [simulateur
 
 #### 5. FAQ obligatoire avec Schema.org
 
-Chaque article DOIT contenir une **section FAQ** en bas, avant la navigation précédent/suivant:
+Chaque article DOIT contenir une **section FAQ** **tout en bas de l'article**, après le dernier paragraphe, avant la navigation précédent/suivant:
 
 **Structure de la FAQ:**
 - Titre: `## Questions fréquentes` (H2)
@@ -278,7 +331,26 @@ faq_schema: |
 
 ⚠️ **Important:** Dans l'interface admin, coller UNIQUEMENT le JSON dans le champ "Schema FAQ", **SANS** les balises `<script>`. Les balises seront ajoutées automatiquement lors de la publication.
 
+#### 6. Titres originaux et évocateurs
+
+**INTERDIT :** Utiliser des titres génériques qui sentent l'IA générée.
+
+❌ **Titres à PROSCRIRE absolument :**
+- "Conclusion"
+- "Introduction"
+- "En résumé"
+- "Pour conclure"
+
+✅ **BON (titres originaux et pertinents) :**
+- "Un nouveau chapitre pour le logement en France"
+- "Saisissez l'opportunité dès maintenant"
+- "Des perspectives encourageantes pour 2026"
+- "Le bon moment pour investir"
+
+**Règle :** Chaque titre H2 doit être spécifique, évocateur et contextuel au sujet de l'article.
+
 **Résumé checklist:**
+- [ ] Encadré résumé (alert-success) après le front matter
 - [ ] 1200 mots minimum
 - [ ] Style journalistique (paragraphes narratifs)
 - [ ] 2-3 listes maximum
@@ -286,6 +358,7 @@ faq_schema: |
 - [ ] 1-3 liens internes pertinents
 - [ ] FAQ avec 3-5 questions en fin d'article
 - [ ] Schema.org JSON-LD pour la FAQ
+- [ ] Aucun titre générique type "Conclusion" ou "Introduction"
 
 ### Exemple complet
 

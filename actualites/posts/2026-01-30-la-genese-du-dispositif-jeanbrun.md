@@ -6,9 +6,46 @@ featured_image: 2026-01-30-la-genese-du-dispositif-jeanbrun.jpg
 status: published
 faq_schema: |
   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qu’est-ce que le dispositif Jeanbrun et à quoi sert-il ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le dispositif Jeanbrun est un mécanisme fiscal destiné à relancer l’investissement locatif privé en France après la fin du dispositif Pinel. Il repose sur une logique d’amortissement du bien immobilier, permettant au bailleur de déduire une partie de la valeur du logement de ses revenus fonciers. L’objectif est de redonner de la visibilité aux investisseurs tout en soutenant l’offre de logements à louer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pourquoi parle-t-on d’un statut du bailleur privé plutôt que d’une simple niche fiscale ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le dispositif Jeanbrun ne repose pas sur une réduction d’impôt forfaitaire et temporaire, mais sur une approche patrimoniale plus durable. Il vise à reconnaître le bailleur privé comme un acteur économique à part entière, avec des mécanismes proches de ceux des investisseurs professionnels, notamment l’amortissement comptable et la gestion des déficits fonciers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels responsables politiques ont travaillé sur le dispositif Jeanbrun en amont ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La genèse du dispositif est collective. Les travaux préparatoires ont été engagés sous la précédente ministre du Logement, Valérie Létard, avant d’être formalisés et portés politiquement par Vincent Jeanbrun. Les arbitrages budgétaires ont impliqué les services du ministère de l’Économie et des Finances, sous l’autorité du Premier ministre Sébastien Lecornu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment le dispositif Jeanbrun a-t-il été adopté par le Parlement ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le dispositif Jeanbrun a été intégré au projet de loi de finances pour 2026. Dans un contexte de majorité relative et de débats tendus sur la partie recettes du budget, le gouvernement a engagé sa responsabilité via l’article 49.3 de la Constitution. L’échec des motions de censure a permis l’adoption du texte et son entrée en vigueur."
+        }
+      }
+    ]
+  }
 ---
 
-Relanc du logement, arbitrages budgétaires et chemin parlementaire
+Relance du logement, arbitrages budgétaires et chemin parlementaire
 
 La naissance du **dispositif Jeanbrun** s’inscrit dans une séquence politique et économique marquée par la crise persistante du logement en France et par l’essoufflement des outils classiques de soutien à l’investissement locatif. Présenté comme une réponse structurelle à la fin du dispositif Pinel, ce nouveau cadre fiscal n’est pas apparu soudainement dans le débat public. Il est le résultat d’un travail étalé sur plusieurs années, impliquant plusieurs ministres, des administrations centrales et des arbitrages budgétaires délicats, avant de trouver sa traduction législative dans la loi de finances.
 

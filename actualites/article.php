@@ -177,4 +177,92 @@ include '../includes/header.php';
     <?php endif; ?>
 </main>
 
+<script>
+// Transform FAQ section into Bootstrap accordion
+document.addEventListener('DOMContentLoaded', function() {
+    const articleContent = document.querySelector('.article-content');
+    if (!articleContent) return;
+
+    // Find the FAQ heading (h2 containing "Questions fréquentes" or "FAQ")
+    const headings = articleContent.querySelectorAll('h2');
+    let faqHeading = null;
+
+    headings.forEach(h2 => {
+        if (h2.textContent.includes('Questions fréquentes') || h2.textContent.includes('FAQ')) {
+            faqHeading = h2;
+        }
+    });
+
+    if (!faqHeading) return;
+
+    // Add faq-section class to the heading
+    faqHeading.classList.add('faq-section');
+
+    // Collect all FAQ items (question + answer pairs)
+    const faqItems = [];
+    let currentElement = faqHeading.nextElementSibling;
+    let questionElement = null;
+
+    while (currentElement && currentElement.tagName !== 'H2') {
+        if (currentElement.tagName === 'P') {
+            const strongElement = currentElement.querySelector('strong');
+
+            // Check if this paragraph starts with a bold text (question)
+            if (strongElement && currentElement.firstChild === strongElement) {
+                // This is a question
+                questionElement = currentElement;
+            } else if (questionElement) {
+                // This is an answer following a question
+                faqItems.push({
+                    question: questionElement.textContent,
+                    answer: currentElement.innerHTML
+                });
+                questionElement = null;
+            }
+        }
+
+        const nextEl = currentElement.nextElementSibling;
+        if (currentElement.tagName === 'P') {
+            currentElement.remove();
+        }
+        currentElement = nextEl;
+    }
+
+    // Create Bootstrap accordion
+    if (faqItems.length > 0) {
+        const accordion = document.createElement('div');
+        accordion.className = 'accordion accordion-gouv mt-4';
+        accordion.id = 'faqAccordion';
+
+        faqItems.forEach((item, index) => {
+            const accordionItem = document.createElement('div');
+            accordionItem.className = 'accordion-item';
+
+            const headerId = `faqHeading${index}`;
+            const collapseId = `faqCollapse${index}`;
+
+            accordionItem.innerHTML = `
+                <h3 class="accordion-header" id="${headerId}">
+                    <button class="accordion-button ${index === 0 ? '' : 'collapsed'}" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#${collapseId}"
+                            aria-expanded="${index === 0 ? 'true' : 'false'}" aria-controls="${collapseId}">
+                        ${item.question}
+                    </button>
+                </h3>
+                <div id="${collapseId}" class="accordion-collapse collapse ${index === 0 ? 'show' : ''}"
+                     aria-labelledby="${headerId}" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        ${item.answer}
+                    </div>
+                </div>
+            `;
+
+            accordion.appendChild(accordionItem);
+        });
+
+        faqHeading.parentNode.insertBefore(accordion, faqHeading.nextSibling);
+    }
+});
+</script>
+
 <?php include '../includes/footer.php'; ?>

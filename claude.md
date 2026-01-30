@@ -108,13 +108,16 @@ status: published
 
 **Chaque article DOIT respecter:**
 
-1. **1200 mots minimum** (hors front matter)
-2. **Style journalistique** - Éviter succession de listes, privilégier paragraphes narratifs
-3. **Listes limitées** - Maximum 2-3 listes par article, seulement si nécessaire
-4. **Gras parcimonieux** - 3 à 8 mots/expressions en gras, naturellement intégrés
-5. **Maillage interne** - Minimum 1 lien, maximum 3 vers pages du site ou autres articles
-6. **FAQ obligatoire** - Section "Questions fréquentes" (## H2) en fin d'article avec 3-5 questions
-7. **Schema.org FAQ** - Balisage JSON-LD dans le front matter (champ `faq_schema`)
+1. **Encadré résumé** - Alert-success avec question/réponse en italique, placé après le front matter et avant le premier H2. DOIT inclure une ligne "Dans cet article :" avec des liens d'ancrage HTML vers tous les H2
+2. **1200 mots minimum** (hors front matter)
+3. **Style journalistique** - Éviter succession de listes, privilégier paragraphes narratifs
+4. **Listes limitées** - Maximum 2-3 listes par article, seulement si nécessaire
+5. **Gras parcimonieux** - 3 à 8 mots/expressions en gras, naturellement intégrés
+6. **Maillage interne** - Minimum 1 lien, maximum 3 vers pages du site ou autres articles
+7. **FAQ obligatoire** - Section "Questions fréquentes" (## H2) **tout en bas de l'article**, après le dernier paragraphe, avec 3-5 questions
+8. **Schema.org FAQ** - Balisage JSON-LD dans le front matter (champ `faq_schema`)
+9. **Titres originaux** - JAMAIS de titres génériques type "Conclusion", "Introduction", "En résumé", "Pour conclure"
+10. **Ancres HTML** - Chaque H2 doit avoir une ancre `<a id="slug"></a>` juste au-dessus pour les liens dans l'encadré résumé
 
 Pages disponibles pour liens internes:
 - /simulation, /fonctionnement, /avantages

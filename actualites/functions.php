@@ -67,12 +67,64 @@ function parse_front_matter($content) {
 
         // Parse each line
         $lines = explode("\n", $front_matter_text);
+        $current_key = null;
+        $multiline_value = '';
+        $in_multiline = false;
+
         foreach ($lines as $line) {
-            if (preg_match('/^(.+?):\s*(.+)$/', trim($line), $line_matches)) {
-                $key = trim($line_matches[1]);
-                $value = trim($line_matches[2], " \t\n\r\0\x0B\"'");
-                $front_matter[$key] = $value;
+            // Check if it's a multiline indicator (key: |)
+            if (preg_match('/^(.+?):\s*\|\s*$/', $line, $line_matches)) {
+                // Save previous multiline if exists
+                if ($in_multiline && $current_key) {
+                    $front_matter[$current_key] = trim($multiline_value);
+                }
+
+                $current_key = trim($line_matches[1]);
+                $in_multiline = true;
+                $multiline_value = '';
             }
+            // Check if it's a simple key: value line (non-indented, starts at column 0)
+            elseif (preg_match('/^[^\s](.*):\s*(.+)$/', $line, $line_matches)) {
+                // Save previous multiline if exists
+                if ($in_multiline && $current_key) {
+                    $front_matter[$current_key] = trim($multiline_value);
+                    $in_multiline = false;
+                }
+
+                $key = trim($line_matches[1] . ':' . $line_matches[2]);
+                // Re-parse to extract key and value properly
+                if (preg_match('/^(.+?):\s*(.+)$/', $line, $match)) {
+                    $key = trim($match[1]);
+                    $value = trim($match[2], " \t\n\r\0\x0B\"'");
+                    $front_matter[$key] = $value;
+                }
+                $current_key = null;
+            }
+            // Check if it's an empty value (key:) (non-indented, starts at column 0)
+            elseif (preg_match('/^[^\s](.*):\s*$/', $line, $line_matches)) {
+                // Save previous multiline if exists
+                if ($in_multiline && $current_key) {
+                    $front_matter[$current_key] = trim($multiline_value);
+                    $in_multiline = false;
+                }
+
+                if (preg_match('/^(.+?):\s*$/', $line, $match)) {
+                    $key = trim($match[1]);
+                    $front_matter[$key] = '';
+                }
+                $current_key = null;
+            }
+            // It's a continuation line (indented)
+            elseif ($in_multiline) {
+                // Remove only the YAML base indentation (2 spaces) to preserve JSON formatting
+                $stripped_line = preg_replace('/^  /', '', $line, 1);
+                $multiline_value .= $stripped_line . "\n";
+            }
+        }
+
+        // Save last multiline if exists
+        if ($in_multiline && $current_key) {
+            $front_matter[$current_key] = trim($multiline_value);
         }
     }
 

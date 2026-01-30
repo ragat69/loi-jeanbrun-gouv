@@ -53,6 +53,13 @@ faq_schema: |
   }
 ---
 
+<div class="alert alert-success">
+<em><strong>En quoi le dispositif Jeanbrun aide-t-il les classes moyennes ?</strong> Le dispositif Jeanbrun permet aux classes moyennes d'accéder à des logements de qualité avec des loyers 15 à 20% inférieurs au marché libre dans les zones tendues. Avec plus de 15 000 logements déjà agréés et un taux de satisfaction de 92%, il offre une solution concrète aux enseignants, infirmiers et professions intermédiaires qui peinent à se loger près de leur travail.</em>
+
+<p><strong>Dans cet article :</strong> <a href="#dispositif-pense">Dispositif pensé</a> • <a href="#loyers-adaptes">Loyers adaptés</a> • <a href="#impact-zones">Impact zones urbaines</a> • <a href="#desequilibre-territorial">Déséquilibre territorial</a> • <a href="#perspectives">Perspectives</a> • <a href="#tournant">Un tournant décisif</a> • <a href="#faq">Questions fréquentes</a></p>
+</div>
+
+<a id="dispositif-pense"></a>
 ## Un dispositif pensé pour les classes moyennes
 
 Le dispositif Jeanbrun répond à un **besoin criant** qui a longtemps été négligé par les politiques publiques du logement: offrir des solutions d'habitat accessibles aux classes moyennes françaises, cette large frange de la population coincée entre les critères d'éligibilité au logement social et les tarifs prohibitifs du marché immobilier libre. Cette situation paradoxale touche aujourd'hui des millions de ménages dans les zones urbaines tendues, créant une véritable crise du logement pour ceux qu'on appelle parfois "les oubliés des politiques sociales".
@@ -71,6 +78,7 @@ L'accession à la propriété, qui pourrait constituer une solution alternative 
 
 Enfin, les aides au logement, qui pourraient théoriquement atténuer ce problème, se révèlent limitées voire inexistantes pour les revenus intermédiaires. Les APL (Aides Personnalisées au Logement) sont calculées en fonction des ressources et diminuent très rapidement dès que les revenus augmentent légèrement, créant parfois des effets de seuil injustes où quelques centaines d'euros de revenus supplémentaires se traduisent par une perte d'aide de plusieurs centaines d'euros également.
 
+<a id="loyers-adaptes"></a>
 ## Des loyers véritablement adaptés aux capacités financières
 
 Le dispositif Jeanbrun impose des **plafonds de loyers intermédiaires** qui ont été soigneusement calibrés pour garantir un équilibre entre accessibilité pour les locataires et rentabilité pour les investisseurs. Ces plafonds, différenciés selon les zones géographiques et la typologie des logements, ont fait l'objet d'études approfondies pour s'assurer qu'ils correspondent effectivement aux capacités contributives des classes moyennes tout en restant attractifs pour les bailleurs privés qui financent la construction de ces logements.
@@ -89,6 +97,7 @@ La possibilité de se loger dans des zones bien desservies par les transports en
 
 L'accès à des logements neufs de qualité, équipés selon les dernières normes et bénéficiant d'un confort moderne, constitue le dernier atout non négligeable du dispositif. Isolation thermique et phonique performante, équipements économes en énergie, espaces bien agencés et lumineux: ces caractéristiques contribuent directement au bien-être quotidien des occupants tout en maîtrisant les charges locatives. Pour mieux comprendre l'ensemble des [avantages du dispositif](/avantages), consultez notre page dédiée.
 
+<a id="impact-zones"></a>
 ## Impact concret sur les zones urbaines tendues
 
 Dans les **grandes métropoles** comme Paris, Lyon, Marseille, Bordeaux, Toulouse ou Nice, le dispositif Jeanbrun est en train de modifier en profondeur l'équilibre du marché locatif et de créer de nouvelles opportunités pour les classes moyennes. L'augmentation significative de l'offre de logements accessibles dans ces zones, traditionnellement marquées par une pénurie chronique, commence à produire ses premiers effets positifs sur le marché.
@@ -105,6 +114,7 @@ Sophie et Thomas, couple trentenaire avec deux enfants, témoignent de l'impact 
 
 Alexandre, jeune cadre dans une entreprise de technologies, raconte une histoire similaire: "Travaillant dans le quartier de La Défense à Paris, j'étais obligé de m'éloigner toujours plus de mon lieu de travail pour trouver un logement abordable. J'habitais en Seine-et-Marne et je passais près de trois heures par jour dans les transports, ce qui était épuisant moralement et physiquement. Avec le dispositif Jeanbrun, j'ai trouvé un logement abordable dans le 92, à seulement 30 minutes de mon bureau. Ces deux heures gagnées chaque jour représentent un changement de vie radical. Je peux désormais pratiquer un sport après le travail, voir mes amis en semaine et j'arrive au bureau moins fatigué."
 
+<a id="desequilibre-territorial"></a>
 ## Une réponse pertinente au déséquilibre territorial
 
 Le dispositif Jeanbrun participe également de manière significative à la **lutte contre la désertification** des centres-villes par les classes moyennes, un phénomène préoccupant observé depuis plusieurs décennies dans les grandes métropoles françaises. Cette éviction progressive des revenus intermédiaires des zones centrales, sous l'effet de la gentrification et de la hausse des prix immobiliers, appauvrit la diversité sociale de ces quartiers et crée des déséquilibres territoriaux préjudiciables à long terme.
@@ -115,6 +125,7 @@ La préservation de la diversité socio-économique des quartiers constitue un o
 
 La dynamisation des commerces de proximité représente un autre effet positif du maintien des classes moyennes dans les centres urbains. Ces ménages, disposant d'un pouvoir d'achat intermédiaire, constituent la clientèle principale des commerces et services de quartier: boulangeries, pharmacies, restaurants, librairies, salles de sport. Leur départ vers des zones périphériques fragilise ces commerces et appauvrit la vie de quartier, créant un cercle vicieux de dévitalisation.
 
+<a id="perspectives"></a>
 ## Perspectives encourageantes pour l'avenir
 
 Les premiers mois d'application du dispositif Jeanbrun montrent des résultats particulièrement encourageants qui dépassent même les espérances initiales du gouvernement. Plus de **15 000 logements** ont déjà été agréés dans toute la France, témoignant de l'adhésion massive des investisseurs et des promoteurs immobiliers à ce nouveau mécanisme. Cette dynamique positive laisse présager une montée en puissance rapide du dispositif dans les années à venir.
@@ -127,6 +138,12 @@ L'impact positif sur l'emploi dans le secteur du bâtiment et les métiers conne
 
 Le gouvernement, fort de ces premiers résultats positifs, envisage déjà d'étendre le périmètre du dispositif à d'autres zones du territoire actuellement exclues, témoignant ainsi du succès de cette politique publique innovante. Des villes moyennes connaissant elles aussi des tensions sur le marché locatif pourraient bientôt être intégrées au dispositif, élargissant encore le nombre de bénéficiaires potentiels. Pour vérifier votre éligibilité en tant que futur locataire et connaître les démarches à suivre, consultez notre [guide complet pour les locataires](/locataire).
 
+<a id="tournant"></a>
+## Un tournant décisif pour les classes moyennes
+
+Le dispositif Jeanbrun marque indéniablement un tournant dans la prise en compte des besoins spécifiques des classes moyennes en matière de logement. En créant une offre locative intermédiaire de qualité à des prix maîtrisés, il répond à une attente forte et légitime de millions de Français qui se sentaient oubliés des politiques publiques. Les premiers résultats sont encourageants et laissent espérer une amélioration durable des conditions de logement pour cette population essentielle au bon fonctionnement de notre société.
+
+<a id="faq"></a>
 ## Questions fréquentes
 
 **Pourquoi les classes moyennes sont-elles les principales bénéficiaires du dispositif Jeanbrun ?**
@@ -148,7 +165,3 @@ En permettant aux classes moyennes de se maintenir dans des secteurs centraux ou
 **Quelles économies mensuelles peut réaliser une famille grâce au dispositif Jeanbrun ?**
 
 L'économie réalisée chaque mois par rapport au marché libre est souvent de l'ordre de 300 à 500 euros pour un appartement familial. Cette marge financière supplémentaire permet d'épargner en vue d'un futur achat immobilier, de maintenir un niveau de vie décent et de préserver les budgets alimentaire, vestimentaire et culturel.
-
-## Conclusion
-
-Le dispositif Jeanbrun marque indéniablement un tournant dans la prise en compte des besoins spécifiques des classes moyennes en matière de logement. En créant une offre locative intermédiaire de qualité à des prix maîtrisés, il répond à une attente forte et légitime de millions de Français qui se sentaient oubliés des politiques publiques. Les premiers résultats sont encourageants et laissent espérer une amélioration durable des conditions de logement pour cette population essentielle au bon fonctionnement de notre société.

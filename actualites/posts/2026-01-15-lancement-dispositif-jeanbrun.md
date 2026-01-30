@@ -46,6 +46,13 @@ faq_schema: |
   }
 ---
 
+<div class="alert alert-success">
+<em><strong>Qu'est-ce que le dispositif Jeanbrun ?</strong> Le dispositif Jeanbrun est un nouveau mécanisme d'incitation fiscale lancé en 2026 pour développer le logement intermédiaire en France. Il offre une réduction d'impôt pouvant atteindre 25% aux investisseurs qui construisent des logements pour les classes moyennes dans les zones tendues.</em>
+
+<p><strong>Dans cet article :</strong> <a href="#dispositif-innovant">Un dispositif innovant</a> • <a href="#dispositif-complementaire">Complémentaire au Pinel</a> • <a href="#perspectives-2026">Perspectives 2026</a> • <a href="#ambition">Une ambition à transformer</a> • <a href="#faq">Questions fréquentes</a></p>
+</div>
+
+<a id="dispositif-innovant"></a>
 ## Un dispositif innovant pour répondre à la crise du logement
 
 Le dispositif Jeanbrun, officiellement lancé ce mois-ci, représente une **avancée majeure** dans la politique du logement en France. Porté par le Ministre délégué au Logement Vincent Jeanbrun, ce mécanisme vise à développer massivement l'offre de logements intermédiaires dans les zones tendues du territoire. Cette initiative gouvernementale intervient dans un contexte où les classes moyennes peinent de plus en plus à se loger convenablement dans les grandes métropoles françaises.
@@ -70,6 +77,7 @@ Concrètement, pour un investissement de 200 000 euros dans un appartement neuf 
 
 Au-delà de l'avantage fiscal direct, le dispositif Jeanbrun présente d'autres atouts pour les bailleurs privés. La demande locative pour les logements intermédiaires est particulièrement forte et pérenne, car elle s'adresse à une population stable en emploi. Le risque d'impayés est généralement plus faible qu'en locatif classique, et la rotation des locataires tend à être moins importante, ce qui réduit les périodes de vacance et les coûts liés aux changements de locataires.
 
+<a id="dispositif-complementaire"></a>
 ## Un dispositif complémentaire au Pinel
 
 Contrairement au dispositif Pinel qui arrive progressivement à échéance, la loi Jeanbrun se concentre spécifiquement sur le **logement intermédiaire**, un segment de marché jusqu'ici insuffisamment développé. Elle vise un public de locataires dont les revenus dépassent les plafonds du logement social, mais qui peinent néanmoins à trouver un logement abordable sur le marché libre dans les zones tendues. Cette frange de la population, souvent qualifiée de "classes moyennes", représente pourtant une part importante de la société française.
@@ -84,6 +92,7 @@ Le dispositif Jeanbrun ne s'applique pas uniformément sur tout le territoire fr
 
 Les plafonds de loyers sont déterminés en fonction de la zone géographique et de la surface du logement. À titre d'exemple, dans la zone A bis (Paris et proche banlieue), le loyer mensuel maximum pour un T3 de 60 m² est fixé aux alentours de 1 380 euros, soit environ 23 euros par mètre carré. Ce montant représente une économie substantielle par rapport aux prix du marché libre, qui peuvent dépasser 30 euros par mètre carré dans les mêmes secteurs.
 
+<a id="perspectives-2026"></a>
 ## Perspectives pour 2026 et au-delà
 
 Les experts du secteur immobilier estiment que le dispositif Jeanbrun pourrait générer la **construction de 50 000 logements intermédiaires** dès la première année de mise en œuvre. Cet objectif ambitieux répond à un besoin criant dans les grandes métropoles françaises, où la pénurie de logements abordables s'aggrave d'année en année. Les premières demandes d'agrément affluent déjà auprès des services compétents, témoignant de l'intérêt marqué des investisseurs institutionnels et particuliers pour ce nouveau mécanisme fiscal.
@@ -102,6 +111,12 @@ Certains observateurs pointent néanmoins quelques limites potentielles. La conc
 
 Pour les particuliers qui souhaitent en savoir plus et évaluer leur éligibilité en tant que futurs locataires, notre [page dédiée aux locataires](/locataire) détaille l'ensemble des conditions à remplir et les démarches à effectuer pour bénéficier d'un logement intermédiaire.
 
+<a id="ambition"></a>
+## Une ambition à transformer en réalité
+
+Le lancement du dispositif Jeanbrun marque indéniablement une étape importante dans la politique du logement en France. En ciblant spécifiquement les classes moyennes et le segment intermédiaire du marché locatif, il répond à un besoin réel et largement sous-estimé jusqu'à présent. Les premiers mois de mise en œuvre seront décisifs pour mesurer l'adhésion des investisseurs et l'impact concret sur l'offre de logements disponibles. L'ambition est là, reste à la transformer en réalité tangible pour les millions de Français qui aspirent à un logement décent et abordable.
+
+<a id="faq"></a>
 ## Questions fréquentes
 
 **Quelle est la différence entre le dispositif Pinel et le dispositif Jeanbrun ?**
@@ -119,7 +134,3 @@ La réduction d'impôt peut atteindre 25% du montant investi, répartie sur neuf
 **Combien de logements le dispositif Jeanbrun vise-t-il à créer ?**
 
 Les experts estiment que le dispositif Jeanbrun pourrait générer la construction de 50 000 logements intermédiaires dès la première année de mise en œuvre, répondant ainsi à un besoin criant dans les grandes métropoles françaises.
-
-## Conclusion
-
-Le lancement du dispositif Jeanbrun marque indéniablement une étape importante dans la politique du logement en France. En ciblant spécifiquement les classes moyennes et le segment intermédiaire du marché locatif, il répond à un besoin réel et largement sous-estimé jusqu'à présent. Les premiers mois de mise en œuvre seront décisifs pour mesurer l'adhésion des investisseurs et l'impact concret sur l'offre de logements disponibles. L'ambition est là, reste à la transformer en réalité tangible pour les millions de Français qui aspirent à un logement décent et abordable.

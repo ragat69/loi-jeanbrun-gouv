@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Dispositif Jeanbrun - Relance Logement 2026 : Tout savoir sur le nouveau dispositif fiscal pour l\'investissement locatif en France.'; ?>">
-    <title><?php echo isset($page_title) ? $page_title . ' | ' : ''; ?>Loi Jeanbrun - Dispositif Relance Logement</title>
+    <title><?php
+        // Contrôle total du title :
+        // - $page_title_full = titre complet personnalisé (prioritaire)
+        // - $page_title = titre avec suffixe automatique "| Loi Jeanbrun..."
+        // - aucun = titre par défaut
+        if (isset($page_title_full)) {
+            echo $page_title_full;
+        } elseif (isset($page_title)) {
+            echo $page_title . ' | Loi Jeanbrun - Dispositif Relance Logement';
+        } else {
+            echo 'Loi Jeanbrun - Dispositif Relance Logement';
+        }
+    ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
@@ -94,6 +106,11 @@
                     <li class="nav-item">
                         <a class="nav-link <?php echo ($current_page ?? '') === 'vincent-jeanbrun' ? 'active' : ''; ?>" href="/vincent-jeanbrun">
                             <i class="fas fa-user-tie me-1"></i> Le Ministre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ($current_page ?? '') === 'actualites' ? 'active' : ''; ?>" href="/actualites">
+                            <i class="fas fa-newspaper me-1"></i> Actualités
                         </a>
                     </li>
                 </ul>

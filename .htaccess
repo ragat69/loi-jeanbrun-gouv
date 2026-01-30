@@ -40,6 +40,19 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+)$ $1.php [L]
 
 # ==================================================
+# Blog (Actualités) Routing
+# ==================================================
+
+# Blog homepage
+RewriteRule ^actualites/?$ actualites/index.php [L]
+
+# Blog pagination: /actualites/page-2
+RewriteRule ^actualites/page-([0-9]+)/?$ actualites/index.php?page=$1 [L,QSA]
+
+# Blog article: /actualites/2026-07-23/article-slug
+RewriteRule ^actualites/([0-9]{4}-[0-9]{2}-[0-9]{2})/([a-z0-9-]+)/?$ actualites/article.php?date=$1&slug=$2 [L,QSA]
+
+# ==================================================
 # Pages d'erreur personnalisees (optionnel)
 # ==================================================
 ErrorDocument 404 /index.php

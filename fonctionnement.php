@@ -1,6 +1,6 @@
 <?php
 $current_page = 'fonctionnement';
-$page_title = 'Fonctionnement';
+$page_title_full = 'Loi Jeanbrun 2026 - Fonctionnement | Dispositif Relance Logement';
 $page_description = 'Comment fonctionne le dispositif Jeanbrun ? Découvrez le mécanisme d\'amortissement fiscal et les conditions de la loi Relance Logement.';
 include 'includes/header.php';
 ?>

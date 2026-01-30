@@ -1,6 +1,6 @@
 <?php
 $current_page = 'mentions-legales';
-$page_title = 'Mentions legales';
+$page_title_full = 'Mentions legales | Loi Jeanbrun - Dispositif Relance Logement';
 $page_description = 'Mentions legales du site d\'information sur le dispositif Jeanbrun - Relance Logement.';
 include 'includes/header.php';
 ?>

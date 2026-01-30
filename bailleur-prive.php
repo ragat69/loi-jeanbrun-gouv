@@ -1,6 +1,6 @@
 <?php
 $current_page = 'bailleur-prive';
-$page_title = 'Statut Bailleur Prive';
+$page_title_full = 'Loi Jeanbrun 2026 - Statut Bailleur Prive | Dispositif Relance Logement';
 $page_description = 'Le statut de bailleur prive avec le dispositif Jeanbrun : découvrez le nouveau cadre fiscal pour les propriétaires qui louent leur bien immobilier.';
 include 'includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
 $current_page = 'simulation';
-$page_title = 'Simulation';
+$page_title_full = 'Loi Jeanbrun 2026 - Simulation | Dispositif Relance Logement';
 $page_description = 'Simulez votre investissement avec le dispositif Jeanbrun : calculez l\'amortissement, le déficit foncier et vos économies d\'impot.';
 include 'includes/header.php';
 ?>
@@ -278,7 +278,7 @@ include 'includes/header.php';
 // Afficher/masquer le bloc travaux selon le type de bien
 document.querySelectorAll('input[name="typeBien"]').forEach(function(radio) {
     radio.addEventListener('change', function() {
-        document.getÉlémentById('blocTravaux').style.display =
+        document.getElementById('blocTravaux').style.display =
             this.value === 'ancien' ? 'block' : 'none';
     });
 });
@@ -286,13 +286,13 @@ document.querySelectorAll('input[name="typeBien"]').forEach(function(radio) {
 function calculerSimulation() {
     // Recuperer les valeurs
     const typeBien = document.querySelector('input[name="typeBien"]:checked').value;
-    const prixAchat = parseFloat(document.getÉlémentById('prixAchat').value) || 0;
-    const montantTravaux = typeBien === 'ancien' ? (parseFloat(document.getÉlémentById('montantTravaux').value) || 0) : 0;
-    const typeLoyer = document.getÉlémentById('typeLoyer').value;
-    const loyerMensuel = parseFloat(document.getÉlémentById('loyerMensuel').value) || 0;
-    const chargesAnnuelles = parseFloat(document.getÉlémentById('chargesAnnuelles').value) || 0;
-    const intérêtsAnnuels = parseFloat(document.getÉlémentById('intérêtsAnnuels').value) || 0;
-    const tmi = parseFloat(document.getÉlémentById('tmi').value) || 0;
+    const prixAchat = parseFloat(document.getElementById('prixAchat').value) || 0;
+    const montantTravaux = typeBien === 'ancien' ? (parseFloat(document.getElementById('montantTravaux').value) || 0) : 0;
+    const typeLoyer = document.getElementById('typeLoyer').value;
+    const loyerMensuel = parseFloat(document.getElementById('loyerMensuel').value) || 0;
+    const chargesAnnuelles = parseFloat(document.getElementById('chargesAnnuelles').value) || 0;
+    const intérêtsAnnuels = parseFloat(document.getElementById('intérêtsAnnuels').value) || 0;
+    const tmi = parseFloat(document.getElementById('tmi').value) || 0;
 
     // Determiner le taux d'amortissement
     let tauxAmortissement = 0;
@@ -337,20 +337,20 @@ function calculerSimulation() {
     const économieTotal = économieTotaleAn * 9;
 
     // Afficher les resultats
-    document.getÉlémentById('économieTotal').textContent = formatMontant(économieTotal);
-    document.getÉlémentById('revenusFonciers').textContent = formatMontant(revenusFonciers);
-    document.getÉlémentById('amortissement').textContent = formatMontant(amortissement);
-    document.getÉlémentById('chargesDéductibles').textContent = formatMontant(chargesDéductibles);
-    document.getÉlémentById('resultatFoncier').textContent = formatMontant(resultatFoncier);
-    document.getÉlémentById('déficitImputable').textContent = formatMontant(déficitImputable);
-    document.getÉlémentById('économieAnnuelle').textContent = formatMontant(économieIR);
-    document.getÉlémentById('économiePS').textContent = formatMontant(économiePS);
-    document.getÉlémentById('économieTotaleAn').textContent = formatMontant(économieTotaleAn);
-    document.getÉlémentById('baseAmortissable').textContent = formatMontant(baseAmortissable);
-    document.getÉlémentById('tauxApplique').textContent = tauxAmortissement + '%';
+    document.getElementById('économieTotal').textContent = formatMontant(économieTotal);
+    document.getElementById('revenusFonciers').textContent = formatMontant(revenusFonciers);
+    document.getElementById('amortissement').textContent = formatMontant(amortissement);
+    document.getElementById('chargesDéductibles').textContent = formatMontant(chargesDéductibles);
+    document.getElementById('resultatFoncier').textContent = formatMontant(resultatFoncier);
+    document.getElementById('déficitImputable').textContent = formatMontant(déficitImputable);
+    document.getElementById('économieAnnuelle').textContent = formatMontant(économieIR);
+    document.getElementById('économiePS').textContent = formatMontant(économiePS);
+    document.getElementById('économieTotaleAn').textContent = formatMontant(économieTotaleAn);
+    document.getElementById('baseAmortissable').textContent = formatMontant(baseAmortissable);
+    document.getElementById('tauxApplique').textContent = tauxAmortissement + '%';
 
     // Style du resultat foncier
-    const resultatEl = document.getÉlémentById('resultatFoncier');
+    const resultatEl = document.getElementById('resultatFoncier');
     if (resultatFoncier < 0) {
         resultatEl.classList.add('text-danger');
         resultatEl.classList.remove('text-success');

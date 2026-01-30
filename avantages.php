@@ -1,6 +1,6 @@
 <?php
 $current_page = 'avantages';
-$page_title = 'Avantages fiscaux';
+$page_title_full = 'Loi Jeanbrun 2026 - Avantages Fiscaux | Dispositif Relance Logement';
 $page_description = 'Découvrez tous les avantages fiscaux du dispositif Jeanbrun : amortissement, déficit foncier, déduction des charges et intérêts d\'emprunt.';
 include 'includes/header.php';
 ?>

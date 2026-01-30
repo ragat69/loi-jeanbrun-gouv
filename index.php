@@ -1,6 +1,6 @@
 <?php
 $current_page = 'accueil';
-$page_title = 'Accueil';
+$page_title_full = 'Nouvelle Loi Jeanbrun 2026 - Dispositif Relance Logement';
 $page_description = 'Découvrez le dispositif Jeanbrun (Relance Logement) : le nouveau cadre fiscal pour investir dans l\'immobilier locatif en France depuis 2026.';
 include 'includes/header.php';
 ?>

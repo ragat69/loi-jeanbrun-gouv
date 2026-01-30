@@ -1,6 +1,6 @@
 <?php
 $current_page = '';
-$page_title = 'Comparatif Pinel vs Jeanbrun';
+$page_title_full = 'Comparatif Pinel vs Jeanbrun Bailleur Privé | Dispositif Relance Logement';
 $page_description = 'Comparaison détaillée entre le dispositif Pinel (expiré fin 2024) et la loi Jeanbrun (2026) : avantages fiscaux, conditions, zonage et rentabilité.';
 include 'includes/header.php';
 ?>

@@ -36,7 +36,8 @@ include 'includes/header.php';
                     dans la pierre pour générer des revenus complémentaires.
                 </p>
                 <p>
-                    Le dispositif Jeanbrun crée un véritable <strong>statut du bailleur privé</strong> en France,
+                    Le dispositif Jeanbrun, porté par <a href="/vincent-jeanbrun">Vincent Jeanbrun</a>,
+                    ministre délégué au Logement, crée un véritable <strong>statut du bailleur privé</strong> en France,
                     offrant un cadre fiscal clair et avantageux pour encourager l'investissement locatif
                     des particuliers et ainsi augmenter l'offre de logements disponibles.
                 </p>

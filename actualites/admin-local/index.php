@@ -25,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $content = $_POST['content'] ?? '';
         $description = $_POST['description'] ?? '';
         $seo_title = $_POST['seo_title'] ?? '';
+        $faq_schema = $_POST['faq_schema'] ?? '';
         $status = $_POST['status'] ?? 'published';
         $date = $_POST['date'] ?? date('Y-m-d');
         $featured_image = $_POST['existing_image'] ?? '';
@@ -56,6 +57,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $front_matter .= "featured_image: " . $featured_image . "\n";
             }
             $front_matter .= "status: " . $status . "\n";
+            if (!empty($faq_schema)) {
+                // Add FAQ schema as multiline YAML string
+                $front_matter .= "faq_schema: |\n";
+                // Indent each line of the JSON with 2 spaces for YAML multiline
+                $schema_lines = explode("\n", trim($faq_schema));
+                foreach ($schema_lines as $line) {
+                    $front_matter .= "  " . $line . "\n";
+                }
+            }
             $front_matter .= "---\n\n";
 
             $full_content = $front_matter . $content;
@@ -333,6 +343,32 @@ This is a paragraph with **bold text** and *italic text*.
 [Link text](https://example.com)"></textarea>
                                 <small class="text-muted">
                                     Markdown cheatsheet: **bold**, *italic*, [link](url), ## Heading, * list item
+                                </small>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">
+                                    FAQ Schema (JSON)
+                                    <span class="badge bg-info">Recommandé</span>
+                                </label>
+                                <textarea name="faq_schema" class="form-control font-monospace" rows="12" placeholder='{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Question 1 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Réponse à la question 1."
+      }
+    }
+  ]
+}'></textarea>
+                                <small class="text-muted">
+                                    <i class="fas fa-info-circle me-1"></i>
+                                    <strong>Important :</strong> Coller UNIQUEMENT le JSON, SANS les balises &lt;script&gt;.
+                                    Les balises seront ajoutées automatiquement lors de la publication.
                                 </small>
                             </div>
 

@@ -43,6 +43,9 @@ RewriteRule ^(.+)$ $1.php [L]
 # Blog (Actualités) Routing
 # ==================================================
 
+# Blog RSS feed
+RewriteRule ^actualites/rss/?$ actualites/rss.php [L]
+
 # Blog homepage
 RewriteRule ^actualites/?$ actualites/index.php [L]
 

@@ -24,6 +24,9 @@ if ($current_page > 1) {
     $page_title = 'Actualités - Page ' . $current_page . ' - Loi Jeanbrun';
 }
 
+// Lien RSS pour découverte automatique
+$rss_feed = '<link rel="alternate" type="application/rss+xml" title="Actualités Loi Jeanbrun" href="/actualites/rss">';
+
 include '../includes/header.php';
 ?>
 
@@ -33,6 +36,11 @@ include '../includes/header.php';
             <div class="col-lg-8 mx-auto text-center text-white">
                 <h1>Actualités</h1>
                 <p class="lead">Suivez les dernières informations sur la loi Jeanbrun</p>
+                <div class="mt-3">
+                    <a href="/actualites/rss" class="btn btn-outline-light btn-sm" target="_blank" title="S'abonner au flux RSS">
+                        <i class="fas fa-rss me-2"></i>Flux RSS
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -52,7 +60,7 @@ include '../includes/header.php';
                         <article class="card card-gouv h-100">
                             <?php if (!empty($article['meta']['featured_image'])): ?>
                                 <a href="<?php echo get_article_url($article); ?>">
-                                    <img src="/actualites/images/<?php echo htmlspecialchars($article['meta']['featured_image']); ?>"
+                                    <img src="/actualites/img/<?php echo htmlspecialchars($article['meta']['featured_image']); ?>"
                                          class="card-img-top"
                                          alt="<?php echo htmlspecialchars($article['meta']['title']); ?>"
                                          style="height: 200px; object-fit: cover;">

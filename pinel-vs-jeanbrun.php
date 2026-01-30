@@ -31,8 +31,9 @@ include 'includes/header.php';
             <div class="col-lg-8">
                 <h2 class="section-title">Deux approches fiscales différentes</h2>
                 <p class="lead">
-                    Le dispositif Pinel, qui a pris fin le 31 décembre 2024, et la loi Jeanbrun, entrée en vigueur
-                    en février 2026, reposent sur des mécanismes fiscaux fondamentalement différents.
+                    Le dispositif Pinel, qui a pris fin le 31 décembre 2024, et la loi Jeanbrun, portée par
+                    <a href="/vincent-jeanbrun">Vincent Jeanbrun</a>, ministre délégué au Logement,
+                    entrée en vigueur en février 2026, reposent sur des mécanismes fiscaux fondamentalement différents.
                 </p>
                 <p>
                     Alors que le <strong>Pinel offrait une réduction d'impôt directe</strong> calculée sur le prix d'achat

@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Dispositif Jeanbrun - Relance Logement 2026 : Tout savoir sur le nouveau dispositif fiscal pour l\'investissement locatif en France.'; ?>">
+
+    <?php
+    // Meta tags Open Graph optionnels (pour le blog notamment)
+    if (isset($og_type)): ?>
+    <meta property="og:type" content="<?php echo htmlspecialchars($og_type); ?>">
+    <?php endif; ?>
+    <?php if (isset($og_url)): ?>
+    <meta property="og:url" content="<?php echo htmlspecialchars($og_url); ?>">
+    <?php endif; ?>
+    <?php if (isset($og_title)): ?>
+    <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>">
+    <?php endif; ?>
+    <?php if (isset($og_description)): ?>
+    <meta property="og:description" content="<?php echo htmlspecialchars($og_description); ?>">
+    <?php endif; ?>
+    <?php if (isset($og_image)): ?>
+    <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
+    <?php endif; ?>
+
+    <?php if (isset($twitter_card)): ?>
+    <meta property="twitter:card" content="<?php echo htmlspecialchars($twitter_card); ?>">
+    <?php endif; ?>
+    <?php if (isset($canonical_url)): ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+    <?php endif; ?>
+
+    <?php if (isset($schema_json)): ?>
+    <script type="application/ld+json"><?php echo $schema_json; ?></script>
+    <?php endif; ?>
+
     <title><?php
         // Contrôle total du title :
         // - $page_title_full = titre complet personnalisé (prioritaire)
@@ -22,6 +52,13 @@
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+    <?php
+    // Flux RSS (si défini)
+    if (isset($rss_feed)) {
+        echo $rss_feed . "\n";
+    }
+    ?>
 
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -101,11 +138,6 @@
                     <li class="nav-item">
                         <a class="nav-link <?php echo ($current_page ?? '') === 'simulation' ? 'active' : ''; ?>" href="/simulation">
                             <i class="fas fa-calculator me-1"></i> Simulation
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page ?? '') === 'vincent-jeanbrun' ? 'active' : ''; ?>" href="/vincent-jeanbrun">
-                            <i class="fas fa-user-tie me-1"></i> Le Ministre
                         </a>
                     </li>
                     <li class="nav-item">

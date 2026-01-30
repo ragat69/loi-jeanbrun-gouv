@@ -38,7 +38,8 @@ include 'includes/header.php';
                     Contrairement au dispositif Pinel qui offrait une <em>réduction d'impôt directe</em>,
                     la loi Jeanbrun agit sur votre <strong>base imposable</strong>. Concrètement, vous
                     ne payez pas moins d'impôts directement, mais vous réduisez le montant des revenus
-                    sur lesquels vous êtes imposé.
+                    sur lesquels vous êtes imposé. Ce dispositif, porté par <a href="/vincent-jeanbrun">Vincent Jeanbrun</a>,
+                    ministre délégué au Logement, marque un tournant dans la politique de soutien à l'investissement locatif.
                 </p>
 
                 <div class="info-box">

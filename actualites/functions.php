@@ -33,8 +33,12 @@ class SimpleMarkdown {
             return "\n<ol>\n" . $items . "\n</ol>\n";
         }, $text);
 
-        // Blockquotes
-        $text = preg_replace('/^&gt; (.+)$/m', '<blockquote class="blockquote">$1</blockquote>', $text);
+        // Blockquotes (support multi-line)
+        $text = preg_replace_callback('/(?:^|\n)((?:> .+\n?)+)/m', function($matches) {
+            $quote = preg_replace('/^> (.+)$/m', '$1', $matches[1]);
+            $quote = trim($quote);
+            return "\n<blockquote class=\"blockquote\"><p>" . $quote . "</p></blockquote>\n";
+        }, $text);
 
         // Paragraphs (convert double line breaks)
         $text = preg_replace('/\n\n/', '</p><p>', $text);
@@ -250,4 +254,32 @@ function sanitize_slug($text) {
     $text = preg_replace('/[^a-z0-9]+/', '-', $text);
     $text = trim($text, '-');
     return $text;
+}
+
+// Get previous article (older)
+function get_previous_article($current_article) {
+    $all_articles = get_articles(); // Already sorted by date (newest first)
+
+    foreach ($all_articles as $index => $article) {
+        if ($article['filename'] === $current_article['filename']) {
+            // Previous article is the next one in the array (older)
+            return isset($all_articles[$index + 1]) ? $all_articles[$index + 1] : null;
+        }
+    }
+
+    return null;
+}
+
+// Get next article (newer)
+function get_next_article($current_article) {
+    $all_articles = get_articles(); // Already sorted by date (newest first)
+
+    foreach ($all_articles as $index => $article) {
+        if ($article['filename'] === $current_article['filename']) {
+            // Next article is the previous one in the array (newer)
+            return isset($all_articles[$index - 1]) ? $all_articles[$index - 1] : null;
+        }
+    }
+
+    return null;
 }

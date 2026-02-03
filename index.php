@@ -233,6 +233,24 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Infographie Dispositif Relance Logement -->
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-8">
+                <div class="text-center mb-4">
+                    <h2 class="section-title">Le dispositif Relance Logement en un coup d'œil</h2>
+                    <p class="text-muted">Comprendre les mécanismes du dispositif Jeanbrun</p>
+                </div>
+                <img src="/images/dispositif-relance-logement-jeanbrun.webp"
+                     alt="Infographie explicative du dispositif Relance Logement Jeanbrun : logements concernés (neufs et anciens avec travaux), ce que vous pouvez déduire (amortissement et charges), vos avantages (jusqu'à 12 000€ d'amortissement par an et 10 700€ de déduction des autres revenus), et les conditions à respecter (location 9 ans, plafonds de loyers, pas de location familiale)"
+                     class="img-fluid w-100 rounded shadow-sm"
+                     style="border: 1px solid #E5E5E5;">
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Info box -->
 <section class="section">
     <div class="container">

@@ -22,18 +22,18 @@
                 <div class="col-lg-3 col-md-4 mb-4">
                     <h5>Ressources</h5>
                     <ul>
-                        <li><a href="https://www.ecologie.gouv.fr" target="_blank" rel="noopener">Ministère de l'Ecologie</a></li>
+                        <li><a href="https://www.ecologie.gouv.fr" target="_blank" rel="noopener">Ministère de l'Écologie</a></li>
                         <li><a href="https://www.économie.gouv.fr" target="_blank" rel="noopener">Ministère de l'Économie</a></li>
                         <li><a href="https://www.service-public.fr" target="_blank" rel="noopener">Service Public</a></li>
-                        <li><a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">Impots.gouv.fr</a></li>
+                        <li><a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">Impôts.gouv.fr</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-4 mb-4">
                     <h5>Informations</h5>
                     <ul>
-                        <li><a href="/mentions-legales">Mentions legales</a></li>
-                        <li><a href="/mentions-legales#donnees">Donnees personnelles</a></li>
-                        <li><a href="/mentions-legales#accessibilite">Accessibilite</a></li>
+                        <li><a href="/mentions-legales">Mentions légales</a></li>
+                        <li><a href="/mentions-legales#donnees">Données personnelles</a></li>
+                        <li><a href="/mentions-legales#accessibilite">Accessibilité</a></li>
                         <li><a href="/mentions-legales#cookies">Gestion des cookies</a></li>
                     </ul>
                 </div>
@@ -48,8 +48,8 @@
                         </p>
                     </div>
                     <div class="col-md-6 text-md-end">
-                        <a href="/mentions-legales" class="me-3">Mentions legales</a>
-                        <a href="/mentions-legales#accessibilite">Accessibilite : partiellement conforme</a>
+                        <a href="/mentions-legales" class="me-3">Mentions légales</a>
+                        <a href="/mentions-legales#accessibilite">Accessibilité : partiellement conforme</a>
                     </div>
                 </div>
             </div>

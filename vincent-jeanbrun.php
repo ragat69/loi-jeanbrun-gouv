@@ -29,8 +29,8 @@ include 'includes/header.php';
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
                 <div class="card-gouv">
-                    <img src="https://www.ecologie.gouv.fr/sites/default/files/styles/default_mobile/public/images/photo_Vincent_Jeanbrun_960X540.jpg"
-                         alt="Portrait officiel de Vincent Jeanbrun"
+                    <img src="/images/loi-jeanbrun-ministre-vincent-jeanbrun.jpg"
+                         alt="Vincent Jeanbrun, Ministre de la Ville et du Logement, à l'origine du dispositif Relance Logement (loi Jeanbrun) pour l'investissement locatif défiscalisé"
                          class="img-fluid w-100">
                     <div class="card-body text-center">
                         <h3 class="mb-1">Vincent Jeanbrun</h3>

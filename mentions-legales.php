@@ -1,15 +1,15 @@
 <?php
 $current_page = 'mentions-legales';
-$page_title_full = 'Mentions legales | Loi Jeanbrun - Dispositif Relance Logement';
-$page_description = 'Mentions legales du site d\'information sur le dispositif Jeanbrun - Relance Logement.';
+$page_title_full = 'Mentions légales | Loi Jeanbrun - Dispositif Relance Logement';
+$page_description = 'Mentions légales du site d\'information sur le dispositif Jeanbrun - Relance Logement.';
 include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
 <section class="page-header page-header-mentions">
     <div class="container">
-        <h1><i class="fas fa-gavel me-3"></i>Mentions legales</h1>
-        <p class="lead">Informations juridiques et politique de confidentialite</p>
+        <h1><i class="fas fa-gavel me-3"></i>Mentions légales</h1>
+        <p class="lead">Informations juridiques et politique de confidentialité</p>
     </div>
 </section>
 
@@ -18,7 +18,7 @@ include 'includes/header.php';
     <div class="container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Accueil</a></li>
-            <li class="breadcrumb-item active">Mentions legales</li>
+            <li class="breadcrumb-item active">Mentions légales</li>
         </ol>
     </div>
 </nav>
@@ -29,21 +29,21 @@ include 'includes/header.php';
         <div class="row">
             <div class="col-lg-3 mb-4 mb-lg-0">
                 <nav class="nav flex-column sticky-top" style="top: 100px;">
-                    <a class="nav-link text-bleu-france" href="#editeur">Editeur du site</a>
-                    <a class="nav-link text-bleu-france" href="#hebergement">Hebergement</a>
-                    <a class="nav-link text-bleu-france" href="#propriété">Propriete intellectuelle</a>
-                    <a class="nav-link text-bleu-france" href="#donnees">Donnees personnelles</a>
+                    <a class="nav-link text-bleu-france" href="#editeur">Éditeur du site</a>
+                    <a class="nav-link text-bleu-france" href="#hebergement">Hébergement</a>
+                    <a class="nav-link text-bleu-france" href="#propriété">Propriété intellectuelle</a>
+                    <a class="nav-link text-bleu-france" href="#donnees">Données personnelles</a>
                     <a class="nav-link text-bleu-france" href="#cookies">Cookies</a>
-                    <a class="nav-link text-bleu-france" href="#accessibilite">Accessibilite</a>
-                    <a class="nav-link text-bleu-france" href="#responsabilite">Responsabilite</a>
+                    <a class="nav-link text-bleu-france" href="#accessibilite">Accessibilité</a>
+                    <a class="nav-link text-bleu-france" href="#responsabilite">Responsabilité</a>
                 </nav>
             </div>
             <div class="col-lg-9">
                 <!-- Editeur -->
                 <section id="editeur" class="mb-5">
-                    <h2 class="section-title">Editeur du site</h2>
+                    <h2 class="section-title">Éditeur du site</h2>
                     <p>
-                        Ce site est un site d'information a vocation pedagogique sur le dispositif
+                        Ce site est un site d'information à vocation pédagogique sur le dispositif
                         fiscal "Jeanbrun" (Relance Logement).
                     </p>
                     <div class="card-gouv">
@@ -56,12 +56,12 @@ include 'includes/header.php';
 
                 <!-- Hebergement -->
                 <section id="hebergement" class="mb-5">
-                    <h2 class="section-title">Hebergement</h2>
+                    <h2 class="section-title">Hébergement</h2>
                     <div class="card-gouv">
                         <div class="card-body">
-                            <p class="mb-1"><strong>Hebergeur :</strong> o2switch</p>
+                            <p class="mb-1"><strong>Hébergeur :</strong> o2switch</p>
                             <p class="mb-1"><strong>Adresse :</strong> Chem. des Pardiaux, 63000 Clermont-Ferrand, France</p>
-                            <p class="mb-1"><strong>Telephone :</strong> 04 44 44 60 40</p>
+                            <p class="mb-1"><strong>Téléphone :</strong> 04 44 44 60 40</p>
                             <p class="mb-0"><strong>Site web :</strong> https://www.o2switch.fr</p>
                         </div>
                     </div>
@@ -69,76 +69,76 @@ include 'includes/header.php';
 
                 <!-- Propriete intellectuelle -->
                 <section id="propriété" class="mb-5">
-                    <h2 class="section-title">Propriete intellectuelle</h2>
+                    <h2 class="section-title">Propriété intellectuelle</h2>
                     <p>
-                        L'ensemble du contenu de ce site (textes, images, graphismes, logo, icones, etc.)
-                        est la propriété exclusive de l'editeur, a l'exception des marques, logos ou
-                        contenus appartenant a d'autres sociétés partenaires ou auteurs.
+                        L'ensemble du contenu de ce site (textes, images, graphismes, logo, icônes, etc.)
+                        est la propriété exclusive de l'éditeur, à l'exception des marques, logos ou
+                        contenus appartenant à d'autres sociétés partenaires ou auteurs.
                     </p>
                     <p>
-                        Toute reproduction, representation, modification, publication, adaptation de tout
-                        ou partie des éléments du site, quel que soit le moyen ou le procede utilise,
-                        est interdite, sauf autorisation ecrite prealable de l'editeur.
+                        Toute reproduction, représentation, modification, publication, adaptation de tout
+                        ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé,
+                        est interdite, sauf autorisation écrite préalable de l'éditeur.
                     </p>
                     <p>
-                        Toute exploitation non autorisee du site ou de l'un quelconque des éléments qu'il
-                        contient sera consideree comme constitutive d'une contrefacon et poursuivie
-                        conformement aux dispositions des articles L.335-2 et suivants du Code de
-                        Propriete Intellectuelle.
+                        Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il
+                        contient sera considérée comme constitutive d'une contrefaçon et poursuivie
+                        conformément aux dispositions des articles L.335-2 et suivants du Code de
+                        Propriété Intellectuelle.
                     </p>
                 </section>
 
                 <!-- Donnees personnelles -->
                 <section id="donnees" class="mb-5">
-                    <h2 class="section-title">Protection des donnees personnelles</h2>
+                    <h2 class="section-title">Protection des données personnelles</h2>
 
                     <h4>Responsable du traitement</h4>
                     <p>
-                        Le responsable du traitement des donnees personnelles est [Nom de l'editeur],
-                        dont les coordonnees sont mentionnees ci-dessus.
+                        Le responsable du traitement des données personnelles est [Nom de l'éditeur],
+                        dont les coordonnées sont mentionnées ci-dessus.
                     </p>
 
-                    <h4>Donnees collectees</h4>
+                    <h4>Données collectées</h4>
                     <p>
-                        Ce site ne collecte aucune donnee personnelle nominative sans votre consentement
-                        explicite. Les seules donnees susceptibles d'etre collectees sont :
+                        Ce site ne collecte aucune donnée personnelle nominative sans votre consentement
+                        explicite. Les seules données susceptibles d'être collectées sont :
                     </p>
                     <ul>
-                        <li>Les donnees de navigation (pages visitees, durée des visites) via les cookies analytiques</li>
+                        <li>Les données de navigation (pages visitées, durée des visites) via les cookies analytiques</li>
                         <li>Les informations que vous nous communiquez volontairement via les formulaires de contact</li>
                     </ul>
 
-                    <h4>Finalites du traitement</h4>
-                    <p>Les donnees collectees sont utilisees pour :</p>
+                    <h4>Finalités du traitement</h4>
+                    <p>Les données collectées sont utilisées pour :</p>
                     <ul>
-                        <li>Ameliorer la qualite et le contenu du site</li>
-                        <li>Repondre a vos demandes de contact</li>
-                        <li>Etablir des statistiques de frequentation</li>
+                        <li>Améliorer la qualité et le contenu du site</li>
+                        <li>Répondre à vos demandes de contact</li>
+                        <li>Établir des statistiques de fréquentation</li>
                     </ul>
 
                     <h4>Durée de conservation</h4>
                     <p>
-                        Les donnees de navigation sont conservees pendant une durée maximale de 13 mois.
-                        Les donnees issues des formulaires de contact sont conservees pendant 3 ans
-                        a compter du dernier contact.
+                        Les données de navigation sont conservées pendant une durée maximale de 13 mois.
+                        Les données issues des formulaires de contact sont conservées pendant 3 ans
+                        à compter du dernier contact.
                     </p>
 
                     <h4>Vos droits</h4>
                     <p>
-                        Conformement au Reglement General sur la Protection des Donnees (RGPD) et a la
-                        loi Informatique et Libertes, vous disposez des droits suivants :
+                        Conformément au Règlement Général sur la Protection des Données (RGPD) et à la
+                        loi Informatique et Libertés, vous disposez des droits suivants :
                     </p>
                     <ul>
-                        <li>Droit d'acces a vos donnees personnelles</li>
-                        <li>Droit de rectification de vos donnees</li>
-                        <li>Droit a l'effacement de vos donnees</li>
-                        <li>Droit a la limitation du traitement</li>
-                        <li>Droit a la portabilite de vos donnees</li>
+                        <li>Droit d'accès à vos données personnelles</li>
+                        <li>Droit de rectification de vos données</li>
+                        <li>Droit à l'effacement de vos données</li>
+                        <li>Droit à la limitation du traitement</li>
+                        <li>Droit à la portabilité de vos données</li>
                         <li>Droit d'opposition au traitement</li>
                     </ul>
                     <p>
-                        Pour exercer ces droits, vous pouvez nous contacter a l'adresse email mentionnee
-                        ci-dessus. Vous disposez egalement du droit d'introduire une reclamation aupres
+                        Pour exercer ces droits, vous pouvez nous contacter à l'adresse email mentionnée
+                        ci-dessus. Vous disposez également du droit d'introduire une réclamation auprès
                         de la CNIL (www.cnil.fr).
                     </p>
                 </section>
@@ -149,18 +149,18 @@ include 'includes/header.php';
 
                     <h4>Qu'est-ce qu'un cookie ?</h4>
                     <p>
-                        Un cookie est un petit fichier texte depose sur votre terminal (ordinateur,
+                        Un cookie est un petit fichier texte déposé sur votre terminal (ordinateur,
                         tablette, smartphone) lors de la visite d'un site web. Il permet au site de
-                        memoriser des informations sur votre visite.
+                        mémoriser des informations sur votre visite.
                     </p>
 
-                    <h4>Cookies utilises sur ce site</h4>
+                    <h4>Cookies utilisés sur ce site</h4>
                     <div class="table-responsive">
                         <table class="table table-gouv">
                             <thead>
                                 <tr>
                                     <th>Type de cookie</th>
-                                    <th>Finalite</th>
+                                    <th>Finalité</th>
                                     <th>Durée</th>
                                 </tr>
                             </thead>
@@ -179,10 +179,10 @@ include 'includes/header.php';
                         </table>
                     </div>
 
-                    <h4>Gerer vos préférences</h4>
+                    <h4>Gérer vos préférences</h4>
                     <p>
-                        Vous pouvez a tout moment modifier vos préférences en matiere de cookies
-                        via les parametres de votre navigateur. Voici comment proceder selon
+                        Vous pouvez à tout moment modifier vos préférences en matière de cookies
+                        via les paramètres de votre navigateur. Voici comment procéder selon
                         votre navigateur :
                     </p>
                     <ul>
@@ -195,95 +195,95 @@ include 'includes/header.php';
 
                 <!-- Accessibilite -->
                 <section id="accessibilite" class="mb-5">
-                    <h2 class="section-title">Accessibilite</h2>
+                    <h2 class="section-title">Accessibilité</h2>
 
-                    <h4>Declaration d'accessibilite</h4>
+                    <h4>Déclaration d'accessibilité</h4>
                     <p>
-                        L'editeur s'engage a rendre ce site accessible conformement a l'article 47
+                        L'éditeur s'engage à rendre ce site accessible conformément à l'article 47
                         de la loi n° 2005-102 du 11 février 2005.
                     </p>
 
-                    <h4>Etat de conformite</h4>
+                    <h4>État de conformité</h4>
                     <p>
-                        Ce site est <strong>partiellement conforme</strong> avec le Referentiel General
-                        d'Amelioration de l'Accessibilite (RGAA) version 4.1.
+                        Ce site est <strong>partiellement conforme</strong> avec le Référentiel Général
+                        d'Amélioration de l'Accessibilité (RGAA) version 4.1.
                     </p>
 
                     <h4>Contenus non accessibles</h4>
-                    <p>Les contenus listes ci-dessous ne sont pas accessibles pour les raisons suivantes :</p>
+                    <p>Les contenus listés ci-dessous ne sont pas accessibles pour les raisons suivantes :</p>
                     <ul>
                         <li>Certaines images peuvent ne pas disposer d'alternatives textuelles</li>
-                        <li>Le contraste de certains éléments peut etre insuffisant</li>
-                        <li>La navigation au clavier peut etre amelioree sur certaines pages</li>
+                        <li>Le contraste de certains éléments peut être insuffisant</li>
+                        <li>La navigation au clavier peut être améliorée sur certaines pages</li>
                     </ul>
 
                     <h4>Retour d'information et contact</h4>
                     <p>
-                        Si vous rencontrez un defaut d'accessibilite vous empechant d'acceder a un
-                        contenu ou une fonctionnalite du site, vous pouvez nous contacter a l'adresse
-                        email mentionnee dans la section "Editeur du site".
+                        Si vous rencontrez un défaut d'accessibilité vous empêchant d'accéder à un
+                        contenu ou une fonctionnalité du site, vous pouvez nous contacter à l'adresse
+                        email mentionnée dans la section "Éditeur du site".
                     </p>
 
                     <h4>Voie de recours</h4>
                     <p>
-                        Si vous constatez un defaut d'accessibilite et que vous n'obtenez pas de reponse
+                        Si vous constatez un défaut d'accessibilité et que vous n'obtenez pas de réponse
                         satisfaisante, vous pouvez :
                     </p>
                     <ul>
-                        <li>Ecrire au Defenseur des droits</li>
-                        <li>Contacter le delegue territorial du Defenseur des droits de votre region</li>
-                        <li>Envoyer un courrier par La Poste (gratuit) a : Defenseur des droits,
-                            Libre reponse 71120, 75342 Paris CEDEX 07</li>
+                        <li>Écrire au Défenseur des droits</li>
+                        <li>Contacter le délégué territorial du Défenseur des droits de votre région</li>
+                        <li>Envoyer un courrier par La Poste (gratuit) à : Défenseur des droits,
+                            Libre réponse 71120, 75342 Paris CEDEX 07</li>
                     </ul>
                 </section>
 
                 <!-- Responsabilite -->
                 <section id="responsabilite" class="mb-5">
-                    <h2 class="section-title">Limitation de responsabilite</h2>
+                    <h2 class="section-title">Limitation de responsabilité</h2>
 
                     <div class="info-box warning">
                         <h5><i class="fas fa-exclamation-triangle me-2"></i>Avertissement important</h5>
                         <p class="mb-0">
-                            Ce site a une vocation purement informative et pedagogique. Il ne constitue
+                            Ce site a une vocation purement informative et pédagogique. Il ne constitue
                             en aucun cas un conseil fiscal, juridique ou en investissement.
                         </p>
                     </div>
 
                     <h4>Nature des informations</h4>
                     <p>
-                        Les informations présentées sur ce site sont fournies a titre indicatif et
-                        sont susceptibles d'evoluer en fonction des modifications legislatives et
-                        reglementaires. L'editeur s'efforce de mettre a jour les contenus mais ne
-                        peut garantir l'exactitude, la completude ou l'actualite des informations.
+                        Les informations présentées sur ce site sont fournies à titre indicatif et
+                        sont susceptibles d'évoluer en fonction des modifications législatives et
+                        réglementaires. L'éditeur s'efforce de mettre à jour les contenus mais ne
+                        peut garantir l'exactitude, la complétude ou l'actualité des informations.
                     </p>
 
                     <h4>Conseil professionnel</h4>
                     <p>
-                        Avant toute decision d'investissement, nous vous recommandons vivement de
-                        consulter un professionnel qualifie (conseiller en gestion de patrimoine,
+                        Avant toute décision d'investissement, nous vous recommandons vivement de
+                        consulter un professionnel qualifié (conseiller en gestion de patrimoine,
                         notaire, expert-comptable, avocat fiscaliste) qui pourra vous apporter
-                        un conseil personnalise adapte a votre situation.
+                        un conseil personnalisé adapté à votre situation.
                     </p>
 
                     <h4>Liens externes</h4>
                     <p>
-                        Ce site peut contenir des liens vers des sites externes. L'editeur ne peut
-                        etre tenu responsable du contenu de ces sites tiers ni des eventuels dommages
-                        ou prejudices decoulant de leur utilisation.
+                        Ce site peut contenir des liens vers des sites externes. L'éditeur ne peut
+                        être tenu responsable du contenu de ces sites tiers ni des éventuels dommages
+                        ou préjudices découlant de leur utilisation.
                     </p>
 
-                    <h4>Disponibilite du site</h4>
+                    <h4>Disponibilité du site</h4>
                     <p>
-                        L'editeur s'efforce de maintenir le site accessible 24h/24 et 7j/7, mais ne
-                        peut etre tenu responsable des interruptions de service, quelle qu'en soit
-                        la cause. Le site peut etre temporairement indisponible pour des raisons de
+                        L'éditeur s'efforce de maintenir le site accessible 24h/24 et 7j/7, mais ne
+                        peut être tenu responsable des interruptions de service, quelle qu'en soit
+                        la cause. Le site peut être temporairement indisponible pour des raisons de
                         maintenance.
                     </p>
                 </section>
 
-                <!-- Date de mise a jour -->
+                <!-- Date de mise à jour -->
                 <div class="text-muted small">
-                    <p>Derniere mise a jour : <?php echo date('d/m/Y'); ?></p>
+                    <p>Dernière mise à jour : <?php echo date('d/m/Y'); ?></p>
                 </div>
             </div>
         </div>

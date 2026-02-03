@@ -6,26 +6,20 @@
     <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'Dispositif Jeanbrun - Relance Logement 2026 : Tout savoir sur le nouveau dispositif fiscal pour l\'investissement locatif en France.'; ?>">
 
     <?php
-    // Meta tags Open Graph optionnels (pour le blog notamment)
-    if (isset($og_type)): ?>
-    <meta property="og:type" content="<?php echo htmlspecialchars($og_type); ?>">
-    <?php endif; ?>
-    <?php if (isset($og_url)): ?>
-    <meta property="og:url" content="<?php echo htmlspecialchars($og_url); ?>">
-    <?php endif; ?>
-    <?php if (isset($og_title)): ?>
-    <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>">
-    <?php endif; ?>
-    <?php if (isset($og_description)): ?>
-    <meta property="og:description" content="<?php echo htmlspecialchars($og_description); ?>">
-    <?php endif; ?>
-    <?php if (isset($og_image)): ?>
-    <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
-    <?php endif; ?>
+    // Meta tags Open Graph avec valeurs par défaut
+    ?>
+    <meta property="og:type" content="<?php echo isset($og_type) ? htmlspecialchars($og_type) : 'website'; ?>">
+    <meta property="og:url" content="<?php echo isset($og_url) ? htmlspecialchars($og_url) : 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+    <meta property="og:title" content="<?php echo isset($og_title) ? htmlspecialchars($og_title) : (isset($page_title_full) ? $page_title_full : (isset($page_title) ? $page_title . ' | Loi Jeanbrun - Dispositif Relance Logement' : 'Loi Jeanbrun - Dispositif Relance Logement')); ?>">
+    <meta property="og:description" content="<?php echo isset($og_description) ? htmlspecialchars($og_description) : (isset($page_description) ? $page_description : 'Dispositif Jeanbrun - Relance Logement 2026 : Tout savoir sur le nouveau dispositif fiscal pour l\'investissement locatif en France.'); ?>">
+    <meta property="og:site_name" content="Loi Jeanbrun - Dispositif Relance Logement">
+    <meta property="og:image" content="<?php echo isset($og_image) ? htmlspecialchars($og_image) : 'https://' . $_SERVER['HTTP_HOST'] . '/images/dispositif-relance-logement-jeanbrun_og.jpg'; ?>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
 
-    <?php if (isset($twitter_card)): ?>
-    <meta property="twitter:card" content="<?php echo htmlspecialchars($twitter_card); ?>">
-    <?php endif; ?>
+    <meta name="twitter:card" content="<?php echo isset($twitter_card) ? htmlspecialchars($twitter_card) : 'summary_large_image'; ?>">
+    <meta name="twitter:image" content="<?php echo isset($og_image) ? htmlspecialchars($og_image) : 'https://' . $_SERVER['HTTP_HOST'] . '/images/dispositif-relance-logement-jeanbrun_og.jpg'; ?>">
     <?php if (isset($canonical_url)): ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
     <?php endif; ?>

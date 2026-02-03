@@ -280,8 +280,106 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- CTA -->
+<!-- Mesures d'accompagnement -->
 <section class="section section-alt">
+    <div class="container">
+        <h2 class="section-title text-center">Un plan global d'action</h2>
+        <p class="text-center lead mb-5">
+            Au-delà de l'avantage fiscal, le gouvernement mobilise des moyens inédits pour relancer la construction
+        </p>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card-gouv h-100">
+                    <div class="card-header bg-bleu-france text-white">
+                        <i class="fas fa-landmark me-2"></i>Moyens pour le logement social
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-3">
+                            <strong class="text-bleu-france" style="font-size: 1.5rem;">500 millions d'euros</strong> supplémentaires
+                            pour les 700 bailleurs sociaux, afin qu'ils construisent plus et rénovent davantage.
+                        </p>
+                        <p class="small text-muted mb-0">
+                            Une augmentation inédite pour répondre aux 2,9 millions de dossiers en attente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card-gouv h-100">
+                    <div class="card-header bg-bleu-france text-white">
+                        <i class="fas fa-bolt me-2"></i>Zones à bâtir d'urgence
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-3">
+                            Dans certaines zones à forte demande, des <strong>dérogations aux normes</strong> seront mises en place
+                            pour faciliter et accélérer la construction.
+                        </p>
+                        <p class="small text-muted mb-0">
+                            <i class="fas fa-lightbulb me-1"></i>
+                            Inspiré de l'approche utilisée pour Notre-Dame et les Jeux Olympiques.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card-gouv h-100">
+                    <div class="card-body text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-file-signature"></i>
+                        </div>
+                        <h5>Simplification administrative</h5>
+                        <p class="small mb-0">
+                            Rapprochement de la décision du terrain et simplification du droit de la construction
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card-gouv h-100">
+                    <div class="card-body text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h5>Transformation du tertiaire</h5>
+                        <p class="small mb-0">
+                            Accélération de la conversion des bureaux et commerces en logements
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card-gouv h-100">
+                    <div class="card-body text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5>Protection des bailleurs</h5>
+                        <p class="small mb-0">
+                            Sécurisation des propriétaires contre les impayés de loyer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box mt-4">
+            <h5><i class="fas fa-balance-scale me-2"></i>Un projet de loi à venir</h5>
+            <p class="mb-0">
+                Le gouvernement portera devant le Parlement un projet de loi de décentralisation comportant un volet
+                pour redonner aux élus locaux les capacités d'agir sur les enjeux de logement. Le seuil de travaux
+                pour l'ancien sera également abaissé de <strong>30% à 20%</strong> dans un texte législatif à venir.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">

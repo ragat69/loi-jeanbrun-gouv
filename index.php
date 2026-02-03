@@ -35,6 +35,70 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Contexte : La crise du logement -->
+<section class="section section-alt">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h2 class="section-title text-center">Pourquoi le plan Relance Logement ?</h2>
+                <p class="text-center lead mb-5">
+                    Face à une crise du logement sans précédent, le gouvernement mobilise des moyens inédits depuis 10 ans
+                </p>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card-gouv h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <div class="card-icon me-3" style="font-size: 2rem;">
+                                        <i class="fas fa-chart-line text-danger"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-2">Une situation critique</h5>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><i class="fas fa-exclamation-triangle text-warning me-2"></i>Les Français consacrent en moyenne <strong>28% de leurs revenus</strong> au logement</li>
+                                            <li class="mb-2"><i class="fas fa-arrow-down text-danger me-2"></i>L'offre locative a chuté de <strong>15% en 5 ans</strong></li>
+                                            <li><i class="fas fa-hammer text-danger me-2"></i>Les mises en chantier ont baissé de <strong>22%</strong> (déc. 2024 - nov. 2025)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-gouv h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start">
+                                    <div class="card-icon me-3" style="font-size: 2rem;">
+                                        <i class="fas fa-users text-bleu-france"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-2">Des Français en difficulté</h5>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><i class="fas fa-home me-2 text-bleu-france"></i><strong>2,9 millions</strong> de dossiers en attente de logement social</li>
+                                            <li class="mb-2"><i class="fas fa-user-graduate me-2 text-bleu-france"></i>Étudiants, apprentis et jeunes actifs particulièrement touchés</li>
+                                            <li><i class="fas fa-exclamation-circle me-2 text-bleu-france"></i>Bailleurs sociaux en difficulté pour répondre à la demande</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="/docs/Relance-Logement-communique-presse-gouvernement-23-janvier-2026.pdf"
+                       class="btn-gouv-outline"
+                       target="_blank"
+                       download>
+                        <i class="fas fa-download me-2"></i>Télécharger le communiqué de presse officiel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Chiffres cles -->
 <section class="section">
     <div class="container">
@@ -76,18 +140,24 @@ include 'includes/header.php';
                 <h2 class="section-title">Qu'est-ce que la loi Jeanbrun ?</h2>
                 <p>
                     Le <strong>dispositif Jeanbrun</strong>, officiellement nommé "Relance Logement", est le nouveau
-                    cadre de soutien à l'investissement locatif entré en vigueur en <strong>février 2026</strong>.
+                    cadre de soutien à l'investissement locatif lancé le <strong>23 janvier 2026</strong> par le Premier ministre
+                    Sébastien Lecornu et entré en vigueur en <strong>février 2026</strong>.
                     Il remplace le dispositif Pinel qui a expiré fin 2024.
                 </p>
                 <p>
-                    Porté par le ministre <strong><a href="/vincent-jeanbrun">Vincent Jeanbrun</a></strong>, cette réforme redéfinit l'investissement
-                    locatif en France en privilégiant la <strong>rentabilité réelle</strong> plutôt que l'avantage
-                    fiscal pur.
+                    Porté par le ministre de la Ville et du Logement <strong><a href="/vincent-jeanbrun">Vincent Jeanbrun</a></strong>,
+                    cette réforme s'inscrit dans un plan ambitieux visant à <strong>construire 2 millions de logements d'ici 2030</strong>.
+                    Le gouvernement mise sur un "grand acte de confiance" envers les acteurs du logement, privés comme publics.
                 </p>
                 <p>
-                    Contrairement au Pinel qui offrait une réduction d'impôt directe, le dispositif Jeanbrun
-                    repose sur un système d'<strong>amortissement fiscal</strong> permettant de réduire
-                    votre base imposable.
+                    Contrairement au Pinel qui offrait une réduction d'impôt directe et géographiquement limitée,
+                    le dispositif Jeanbrun repose sur un système d'<strong>amortissement fiscal</strong> permettant de réduire
+                    votre base imposable, <strong>accessible à tous les ménages sans condition de zonage</strong>.
+                </p>
+                <p class="mb-0">
+                    <i class="fas fa-info-circle text-bleu-france me-2"></i>
+                    <small>Le dispositif mobilise l'épargne des Français pour créer des logements abordables,
+                    avec des loyers plafonnés garantissant l'accès au logement pour les classes moyennes et modestes.</small>
                 </p>
             </div>
             <div class="col-lg-6">

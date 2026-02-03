@@ -54,7 +54,7 @@ faq_schema: |
   }
 ---
 
-À peine dévoilé, le dispositif Jeanbrun suscite déjà une défiance massive. Selon une enquête menée par PAP auprès de 1 450 bailleurs, et relayée par Capital, **83 % des propriétaires interrogés estiment que ce nouvel avantage fiscal ne les incite pas à investir**. Un chiffre élevé, presque brutal, qui interroge autant sur le dispositif lui-même que sur le rapport des Français à l’investissement locatif depuis la fin annoncée du Pinel.
+À peine dévoilé, le dispositif Jeanbrun suscite déjà une défiance massive. Selon une enquête menée par PAP auprès de 1 450 bailleurs, et relayée par Capital, **83 % des propriétaires interrogés estiment que ce [nouvel avantage fiscal](/) ne les incite pas à investir**. Un chiffre élevé, presque brutal, qui interroge autant sur le dispositif lui-même que sur le rapport des Français à l’investissement locatif depuis la fin annoncée du Pinel.
 
 Porté par le ministre du Logement Vincent Jeanbrun, ce mécanisme est pourtant présenté comme une pièce centrale de la relance du logement locatif privé. Il ambitionne de remplacer le Pinel, jugé coûteux et mal ciblé, par un système plus structurel fondé sur l’amortissement et l’élargissement au parc ancien. Mais à ce stade, le message ne semble pas passer.
 
@@ -70,7 +70,7 @@ Ce constat, largement repris dans l’analyse de PAP, conduit à une conclusion 
 
 Le cœur du dispositif Jeanbrun repose sur un mécanisme que les investisseurs français connaissent encore mal. **L’amortissement du bien immobilier**, déjà largement utilisé dans d’autres pays, permet de réduire le revenu imposable du bailleur en tenant compte de l’usure économique du logement.
 
-Dans le neuf, l’avantage fiscal peut représenter **jusqu’à 3,5 % de la valeur du bien par an**, dans le cadre d’un loyer intermédiaire, et davantage encore pour des loyers sociaux ou très sociaux. Contrairement au Pinel, l’avantage n’est pas limité dans le temps par un taux figé, mais intégré dans une logique comptable plus durable.
+Dans le neuf, l’avantage fiscal peut représenter **jusqu’à 3,5 % de la valeur du bien par an**, dans le cadre d’un loyer intermédiaire, et davantage encore pour des loyers sociaux ou très sociaux. [Contrairement au Pinel](https://loi-jeanbrun-gouv.com/pinel-vs-jeanbrun), l’avantage n’est pas limité dans le temps par un taux figé, mais intégré dans une logique comptable plus durable.
 
 Ce point est central. Là où le Pinel fonctionnait comme une carotte fiscale temporaire, le dispositif Jeanbrun cherche à **stabiliser l’équation économique du bailleur sur le long terme**. Or, cette différence structurelle est souvent masquée par des comparaisons rapides et défavorables.
 

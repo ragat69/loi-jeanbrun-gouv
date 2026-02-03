@@ -69,6 +69,10 @@
         }
     </style>
 
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9372149785247323"
+         crossorigin="anonymous"></script>
+
     <!-- Matomo -->
     <script>
       var _paq = window._paq = window._paq || [];

@@ -1,7 +1,7 @@
 <?php
 $current_page = 'eligibilite';
-$page_title_full = 'Loi Jeanbrun 2026 - Éligibilité | Dispositif Relance Logement';
-$page_description = 'Vérifiez votre éligibilité au dispositif Jeanbrun : conditions sur le bien, le locataire, les plafonds de loyers et de ressources.';
+$page_title_full = "Loi Jeanbrun ⇒ Test d'éligibilité 2026 | Dispositif Relance Logement";
+$page_description = 'Vérifiez gratuitement votre éligibilité au dispositif Jeanbrun : conditions sur le bien, le locataire, les plafonds de loyers et de ressources.';
 include 'includes/header.php';
 ?>
 

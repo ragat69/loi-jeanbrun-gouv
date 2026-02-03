@@ -1,6 +1,6 @@
 <?php
 $current_page = 'simulation';
-$page_title_full = 'Loi Jeanbrun 2026 - Simulation | Dispositif Relance Logement';
+$page_title_full = 'Loi Jeanbrun ⇒ Simulation 2026 en ligne & gratuite';
 $page_description = 'Simulez votre investissement avec le dispositif Jeanbrun : calculez l\'amortissement, le déficit foncier et vos économies d\'impot.';
 include 'includes/header.php';
 ?>

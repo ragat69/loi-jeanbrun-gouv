@@ -42,3 +42,8 @@ AA_OLDSITE*/
 *_OLDSITE*/
 *_backup*/
 *_old*/
+
+# Fichiers DVF (Demandes de Valeurs Foncières)
+# Fichiers très volumineux (~20M lignes) à ne pas versionner
+generation-pages-villes/ValeursFoncieres*.txt
+ValeursFoncieres*.txt

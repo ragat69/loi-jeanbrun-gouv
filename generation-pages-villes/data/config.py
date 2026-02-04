@@ -49,9 +49,19 @@ PHP_FOOTER_INCLUDE = "<?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/foote
 GEO_API_BASE = "https://geo.api.gouv.fr"
 GEO_API_RATE_LIMIT = 10  # appels par seconde
 
-# DVF Micro-API
-DVF_API_BASE = "http://api.cquest.org/dvf"
-DVF_API_RATE_LIMIT = 2  # appels par seconde (conservateur)
+# DVF Fichiers locaux (données publiées 2x/an)
+# Liste de tous les fichiers DVF disponibles pour un historique complet
+DVF_LOCAL_FILES = [
+    os.path.join(BASE_DIR, "ValeursFoncieres-2020-S2.txt"),
+    os.path.join(BASE_DIR, "ValeursFoncieres-2021.txt"),
+    os.path.join(BASE_DIR, "ValeursFoncieres-2022.txt"),
+    os.path.join(BASE_DIR, "ValeursFoncieres-2023.txt"),
+    os.path.join(BASE_DIR, "ValeursFoncieres-2024.txt"),
+    os.path.join(BASE_DIR, "ValeursFoncieres-2025-S1.txt"),
+]
+
+# Fichier DVF le plus récent (rétrocompatibilité)
+DVF_LOCAL_FILE = DVF_LOCAL_FILES[-1]
 
 # =============================================================================
 # URLs DES DONNÉES (data.gouv.fr)

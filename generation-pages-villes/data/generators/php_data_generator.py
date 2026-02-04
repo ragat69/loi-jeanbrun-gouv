@@ -135,6 +135,10 @@ def _format_php_array(data: dict, indent: int = 0) -> str:
             result += f"{indent_str}{key_str} => [\n"
             result += _format_php_array(value, indent + 1)
             result += f"{indent_str}],\n"
+        elif isinstance(value, list):
+            result += f"{indent_str}{key_str} => [\n"
+            result += _format_php_list(value, indent + 1)
+            result += f"{indent_str}],\n"
         elif isinstance(value, bool):
             php_bool = 'true' if value else 'false'
             result += f"{indent_str}{key_str} => {php_bool},\n"
@@ -144,6 +148,33 @@ def _format_php_array(data: dict, indent: int = 0) -> str:
             result += f"{indent_str}{key_str} => null,\n"
         else:
             result += f"{indent_str}{key_str} => '{_escape_php_string(str(value))}',\n"
+
+    return result
+
+
+def _format_php_list(data: list, indent: int = 0) -> str:
+    """Formate une liste Python en tableau PHP indexé numériquement."""
+    result = ""
+    indent_str = "    " * indent
+
+    for value in data:
+        if isinstance(value, dict):
+            result += f"{indent_str}[\n"
+            result += _format_php_array(value, indent + 1)
+            result += f"{indent_str}],\n"
+        elif isinstance(value, list):
+            result += f"{indent_str}[\n"
+            result += _format_php_list(value, indent + 1)
+            result += f"{indent_str}],\n"
+        elif isinstance(value, bool):
+            php_bool = 'true' if value else 'false'
+            result += f"{indent_str}{php_bool},\n"
+        elif isinstance(value, (int, float)):
+            result += f"{indent_str}{value},\n"
+        elif value is None:
+            result += f"{indent_str}null,\n"
+        else:
+            result += f"{indent_str}'{_escape_php_string(str(value))}',\n"
 
     return result
 

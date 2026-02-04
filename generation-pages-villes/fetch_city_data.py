@@ -218,13 +218,20 @@ class CityDataPipeline:
         # Récupérer les plafonds de loyer
         ville_data['plafonds_loyer'] = self.fallback_processor.get_plafonds_loyer(zone)
 
-        # Récupérer les prix DVF
-        dvf_result = self.dvf_fetcher.get_appartement_prices(code_insee, years=3, force_refresh=force_refresh)
+        # Récupérer les prix DVF (avec agrégation pour Paris, Lyon, Marseille)
+        dvf_result = self.dvf_fetcher.get_aggregated_arrondissements_prices(code_insee, years=3)
         prices = self.price_calculator.calculate_from_dvf_result(dvf_result)
 
         ville_data['prix_m2_neuf'] = prices.get('prix_m2_neuf')
         ville_data['prix_m2_ancien'] = prices.get('prix_m2_ancien')
         ville_data['dvf_transactions_count'] = dvf_result.get('count', 0)
+
+        # Métadonnées DVF pour affichage sur la page
+        ville_data['dvf_period'] = self.dvf_fetcher.get_dvf_period()
+
+        # Si agrégation d'arrondissements, stocker le détail
+        if dvf_result.get('arrondissements_details'):
+            ville_data['dvf_arrondissements'] = dvf_result['arrondissements_details']
 
         # Récupérer le loyer marché
         loyer_m2 = self.loyers_fetcher.get_loyer_m2(code_insee)
@@ -408,8 +415,9 @@ class CityDataPipeline:
             print(f"\n[{i}/{len(villes_data)}] {ville}...")
 
             # Récupérer les nouvelles données DVF
-            dvf_result = self.dvf_fetcher.get_appartement_prices(
-                code_insee, years=3, force_refresh=True
+            # Utiliser l'agrégation pour Paris, Lyon, Marseille (villes à arrondissements)
+            dvf_result = self.dvf_fetcher.get_aggregated_arrondissements_prices(
+                code_insee, years=3
             )
             prices = self.price_calculator.calculate_from_dvf_result(dvf_result)
 
@@ -421,6 +429,12 @@ class CityDataPipeline:
                 data.pop('prix_m2_neuf_estimated', None)
                 data.pop('prix_m2_ancien_estimated', None)
                 data['dvf_transactions_count'] = dvf_result.get('count', 0)
+
+                # Métadonnées DVF
+                data['dvf_period'] = self.dvf_fetcher.get_dvf_period()
+                if dvf_result.get('arrondissements_details'):
+                    data['dvf_arrondissements'] = dvf_result['arrondissements_details']
+
                 print(f"   DVF: {old_price} -> {prices['prix_m2_neuf']} €/m²")
                 updated_count += 1
             else:

@@ -51,16 +51,21 @@ pages_jeanbrun/
 
 **Workflow simplifié :**
 ```bash
-# Ajouter des villes = une seule commande
+# 1. Ajouter des villes
 python3 fetch_city_data.py --num-cities 200 --skip-existing
-# → Tout est généré automatiquement !
 
-# Rafraîchir les données des villes existantes
+# 2. Générer les textes introductifs pour les nouvelles villes
+python3 generate_all_intro_texts.py
+
+# 3. Régénérer le fichier PHP avec les textes
+python3 regenerate_php_data.py
+
+# Rafraîchir les données des villes existantes (sans toucher aux textes)
 python3 fetch_city_data.py --refresh-data
 # → Le fichier PHP est mis à jour automatiquement
 ```
 
-**Note :** Les nouvelles villes n'ont pas de textes introductifs par défaut. Voir [PROCESS-INTRO-TEXTS.md](PROCESS-INTRO-TEXTS.md) pour le processus manuel d'ajout des textes.
+**Important :** Les textes introductifs sont générés automatiquement selon la population et la zone de chaque ville. Le script `generate_all_intro_texts.py` crée des textes personnalisés avec des templates variés pour éviter la répétition.
 
 ### Mode statique (optionnel)
 
@@ -193,7 +198,7 @@ Adaptez les classes CSS Bootstrap selon votre design.
 |--------|--------|---------------|
 | Liste villes + population | [API Géo](https://geo.api.gouv.fr/) | Hebdomadaire |
 | Zone ABC | [data.gouv.fr](https://www.data.gouv.fr/) | Mensuelle |
-| Prix immobiliers | [DVF API](http://api.cquest.org/dvf) | Mensuelle |
+| Prix immobiliers | Fichier DVF local (data.gouv.fr) | Semestrielle (2x/an) |
 | Loyers marché | [Carte des loyers](https://www.data.gouv.fr/) | Annuelle |
 
 ## Plafonds de loyer par zone
@@ -242,32 +247,95 @@ curl -s "https://api.cquest.org/dvf?code_commune=75056" | head -c 200
 curl -sI "https://static.data.gouv.fr/resources/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2024/20241205-153050/pred-app-mef-dhup.csv" | head -3
 ```
 
-### État actuel des APIs
+### État actuel des sources de données
 
-| API | URL | État |
-|-----|-----|------|
-| **Géo API** | geo.api.gouv.fr | Stable |
-| **DVF (cquest)** | api.cquest.org/dvf | Souvent indisponible (502) |
-| **Carte des loyers** | static.data.gouv.fr | Stable |
-| **Zonage ABC** | data.gouv.fr | Stable |
+| Source | Type | État |
+|--------|------|------|
+| **Géo API** | API (geo.api.gouv.fr) | Stable |
+| **DVF** | Fichier local (data.gouv.fr) | Stable (màj manuelle 2x/an) |
+| **Carte des loyers** | CSV (static.data.gouv.fr) | Stable |
+| **Zonage ABC** | CSV (data.gouv.fr) | Stable |
 
-### Si l'API DVF est down
+## Données DVF (prix immobiliers)
 
-L'API DVF de cquest.org est un projet communautaire et peut être instable. Alternatives :
-1. Utiliser les fallbacks par zone (automatique)
-2. Télécharger les données DVF en CSV depuis data.gouv.fr et les parser localement
+Le système utilise des fichiers DVF locaux au lieu de l'API (qui était instable).
+
+### Fichiers actuels
+Le parser charge automatiquement tous les fichiers DVF disponibles pour un historique complet :
+```
+generation-pages-villes/ValeursFoncieres-2020-S2.txt
+generation-pages-villes/ValeursFoncieres-2021.txt
+generation-pages-villes/ValeursFoncieres-2022.txt
+generation-pages-villes/ValeursFoncieres-2023.txt
+generation-pages-villes/ValeursFoncieres-2024.txt
+generation-pages-villes/ValeursFoncieres-2025-S1.txt
+```
+
+**Total indexé** : ~4,9 millions de transactions sur 5 ans
+
+### Mise à jour des fichiers DVF
+
+Les données DVF sont publiées **2 fois par an** par data.gouv.fr :
+- **Semestre 1** (janvier-juin) : publié en juillet-août
+- **Semestre 2** (juillet-décembre) : publié en janvier-février
+
+**Processus de mise à jour :**
+
+1. Télécharger le nouveau fichier depuis [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
+2. Placer le fichier `ValeursFoncieres-YYYY-SX.txt` dans `generation-pages-villes/`
+3. Ajouter le fichier à la liste dans `data/config.py` :
+   ```python
+   DVF_LOCAL_FILES = [
+       os.path.join(BASE_DIR, "ValeursFoncieres-2020-S2.txt"),
+       ...
+       os.path.join(BASE_DIR, "ValeursFoncieres-YYYY-SX.txt"),  # Nouveau fichier
+   ]
+   ```
+4. Rafraîchir les données des villes :
+   ```bash
+   python3 fetch_city_data.py --refresh-data
+   python3 regenerate_php_data.py
+   ```
+
+Le parser :
+- Détecte automatiquement les prix neuf (VEFA) et ancien
+- Groupe les mutations multi-lignes (terrain + bâti) par ID composite
+- Index : ~4,9M transactions, 33k communes, temps d'indexation ~70s
 
 ## Textes introductifs
 
-Les textes introductifs pour les pages ville sont gérés manuellement.
+Les textes introductifs sont **générés automatiquement** selon les caractéristiques de chaque ville.
 
-**Processus complet documenté dans : [PROCESS-INTRO-TEXTS.md](PROCESS-INTRO-TEXTS.md)**
+### Génération automatique
 
-Résumé :
-1. Générer les nouvelles villes avec `fetch_city_data.py`
-2. Rédiger les textes dans un script type `add_missing_intro_texts.py`
-3. Exécuter le script pour ajouter les textes au JSON
-4. Regénérer le fichier PHP avec `regenerate_php_data.py`
+Le script `generate_all_intro_texts.py` génère des textes personnalisés basés sur :
+- **Population** : Détermine le ton (métropole, ville moyenne, petite ville)
+- **Zone ABC** : Adapte le discours sur l'attractivité du marché
+- **Templates variés** : Évite la répétition en utilisant plusieurs modèles
+
+**Processus :**
+```bash
+# 1. Après avoir ajouté des villes
+python3 fetch_city_data.py --num-cities 200 --skip-existing
+
+# 2. Générer automatiquement les textes pour les villes sans intro
+python3 generate_all_intro_texts.py
+# → Identifie les villes sans texte
+# → Génère des textes personnalisés selon population et zone
+# → Sauvegarde dans villes_data.json
+
+# 3. Régénérer le fichier PHP
+python3 regenerate_php_data.py
+```
+
+**Types de templates :**
+- **Grandes villes** (>100k hab) : Ton "métropole dynamique"
+- **Villes moyennes** (50-100k hab) : Ton "marché en développement"
+- **Petites villes** (<50k hab) : Ton "marché accessible"
+
+Chaque ville reçoit un template sélectionné de façon déterministe (basé sur un hash du nom) pour éviter que deux villes similaires aient exactement le même texte.
+
+**Documentation complète :** [PROCESS-INTRO-TEXTS.md](PROCESS-INTRO-TEXTS.md)
 
 ## Dépannage
 
@@ -282,5 +350,5 @@ Le système utilise des fallbacks automatiques basés sur la zone et le départe
 
 ---
 
-**Dernière mise à jour** : 2026-02-04
-**Version** : 3.0 (processus manuel pour textes intro, sans API)
+**Dernière mise à jour** : 2026-02-05
+**Version** : 3.1 (génération automatique des textes intro, DVF multi-fichiers, métadonnées sur pages)

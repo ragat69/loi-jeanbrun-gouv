@@ -1,8 +1,8 @@
 # Processus de génération des textes introductifs
 
-## Processus actuel (manuel)
+## Processus actuel (automatique)
 
-Les textes introductifs pour les pages ville sont rédigés manuellement et ajoutés via un script Python.
+Les textes introductifs sont **générés automatiquement** par le script `generate_all_intro_texts.py` selon les caractéristiques de chaque ville (population, zone ABC).
 
 **Ne plus utiliser l'API Anthropic.** Le fichier `generate_intro_texts.py.deprecated` est obsolète.
 
@@ -11,8 +11,8 @@ Les textes introductifs pour les pages ville sont rédigés manuellement et ajou
 ### 1. Générer les données des nouvelles villes
 
 ```bash
-# Ajouter 30 villes par exemple
-python3 fetch_city_data.py --num-cities 30 --skip-existing
+# Ajouter 250 villes par exemple
+python3 fetch_city_data.py --num-cities 250 --skip-existing
 ```
 
 Ceci génère automatiquement :
@@ -20,71 +20,59 @@ Ceci génère automatiquement :
 - Le fichier PHP `ville/_data/villes_data.php`
 - Les pages stubs
 
-### 2. Identifier les villes sans texte introductif
+### 2. Générer automatiquement les textes introductifs
 
 ```bash
-python3 -c "
-import json
-with open('villes_data.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-villes_sans_intro = [v for v, d in data.items() if 'intro_text' not in d or not d['intro_text']]
-print(f'Villes sans intro_text: {len(villes_sans_intro)}')
-for v in sorted(villes_sans_intro):
-    zone = data[v].get('zone', 'N/A')
-    pop = data[v].get('population', 'N/A')
-    print(f'  - {v} (Zone {zone}, {pop:,} hab.)')
-"
+python3 generate_all_intro_texts.py
 ```
 
-### 3. Rédiger les textes introductifs
+Ce script :
+- ✅ Identifie automatiquement les villes sans `intro_text`
+- ✅ Génère un texte personnalisé pour chaque ville selon :
+  - **Population** : Adapte le ton (grande ville, ville moyenne, petite ville)
+  - **Zone ABC** : Adapte le discours sur le marché locatif
+  - **Templates variés** : Évite la répétition en utilisant plusieurs modèles
+- ✅ Sauvegarde dans `villes_data.json`
 
-Créer un nouveau script ou modifier `add_missing_intro_texts.py` :
+**Exemple de sortie :**
+```
+🚀 Génération automatique des textes introductifs
 
-```python
-#!/usr/bin/env python3
-"""
-Ajoute les textes introductifs pour les nouvelles villes
-"""
+📊 250 villes à traiter sur 499 total
 
-import json
+✍️  20/250 textes générés...
+✍️  40/250 textes générés...
+...
+✅ 250 textes ajoutés avec succès !
+📝 Fichier mis à jour : villes_data.json
 
-VILLES_DATA_FILE = "villes_data.json"
-
-# Textes introductifs personnalisés pour chaque ville
-intro_texts = {
-    "VilleExemple": "Ville de {{population}} habitants, VilleExemple...<br><br>La loi Jeanbrun y...",
-    # Ajouter les autres villes...
-}
-
-def main():
-    with open(VILLES_DATA_FILE, 'r', encoding='utf-8') as f:
-        villes_data = json.load(f)
-
-    count = 0
-    for ville, text in intro_texts.items():
-        if ville in villes_data:
-            villes_data[ville]['intro_text'] = text
-            print(f"✅ {ville}")
-            count += 1
-
-    with open(VILLES_DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(villes_data, f, ensure_ascii=False, indent=2)
-
-    print(f"\n✅ {count} textes ajoutés!")
-
-if __name__ == "__main__":
-    main()
+⚠️  N'oubliez pas de regénérer le fichier PHP :
+   python3 regenerate_php_data.py
 ```
 
-### 4. Exécuter le script et regénérer le PHP
+### 3. Regénérer le fichier PHP
 
 ```bash
-# Ajouter les textes introductifs
-python3 add_missing_intro_texts.py
-
-# Regénérer le fichier PHP de données
 python3 regenerate_php_data.py
 ```
+
+## Algorithme de génération
+
+Le script `generate_all_intro_texts.py` utilise un système de templates intelligents :
+
+### Catégorisation par taille de ville
+
+| Catégorie | Population | Ton du texte |
+|-----------|-----------|--------------|
+| **Grande ville** | > 100 000 hab | "Métropole dynamique", "Pôle urbain majeur" |
+| **Ville moyenne** | 50 000 - 100 000 hab | "Marché en développement", "Équilibre qualité de vie" |
+| **Petite ville** | < 50 000 hab | "Marché accessible", "Investissement attractif" |
+
+### Sélection des templates
+
+Pour chaque catégorie, plusieurs templates sont disponibles. La sélection est **déterministe** basée sur un hash du nom de la ville pour :
+- Éviter que deux villes similaires aient exactement le même texte
+- Garantir la cohérence (même ville = même template à chaque génération)
 
 ## Format des textes introductifs
 
@@ -114,19 +102,63 @@ Ville de {{population}} habitants, [Nom] s'impose en zone {{zone}}.<br><br>La lo
 | `{{projets_construction}}` | Nombre de projets construction |
 | `{{loyer_marche_m2}}` | Loyer marché formaté |
 
+## Exemples de textes générés
+
+### Grande ville (exemple: Toulouse, 514k hab, Zone A)
+```
+Avec 514 819 habitants, Toulouse se positionne comme un pôle urbain majeur en zone A.
+
+La loi Jeanbrun y offre des perspectives d'investissement remarquables avec un prix d'accès à 4 545€ au m² dans le neuf.
+
+Le dynamisme local et le marché de l'emploi soutiennent une demande locative pérenne.
+
+Les plafonds de loyer intermédiaire à 14,49€/m² assurent des revenus réguliers tout en optimisant la rentabilité fiscale.
+```
+
+### Ville moyenne (exemple: Nevers, 33k hab, Zone C)
+```
+Ville de 33 469 habitants, Nevers s'inscrit en zone C comme un marché d'investissement accessible.
+
+La loi Jeanbrun y offre des perspectives attractives avec un prix moyen de 2 145€ au m² dans le neuf.
+
+Le marché locatif bénéficie d'une demande régulière adaptée au bassin d'emploi local.
+
+Les plafonds de loyer intermédiaire à 8,82€/m² permettent d'optimiser la rentabilité tout en profitant de l'amortissement fiscal.
+```
+
 ## Scripts disponibles
 
 | Script | Description |
 |--------|-------------|
-| `add_intro_texts_manual.py` | Textes pour les 20 premières villes |
-| `add_missing_intro_texts.py` | Textes pour les 31 villes suivantes |
+| `generate_all_intro_texts.py` | **Génération automatique** des textes pour toutes les villes sans intro |
 | `regenerate_php_data.py` | Regénère le fichier PHP depuis le JSON |
+
+## Personnalisation manuelle (optionnel)
+
+Si vous souhaitez personnaliser un texte après génération automatique :
+
+```python
+import json
+
+with open('villes_data.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+# Modifier le texte d'une ville spécifique
+data['NomVille']['intro_text'] = "Votre texte personnalisé..."
+
+with open('villes_data.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+```
+
+Puis regénérer le PHP : `python3 regenerate_php_data.py`
 
 ## Fichiers obsolètes
 
 - ❌ `generate_intro_texts.py.deprecated` - Ancien processus avec API Anthropic (ne plus utiliser)
+- ❌ `add_intro_texts_manual.py` - Remplacé par génération automatique
+- ❌ `add_missing_intro_texts.py` - Remplacé par génération automatique
 
 ---
 
-**Dernière mise à jour** : 2026-02-04
-**Version** : 3.0 (processus manuel, sans API)
+**Dernière mise à jour** : 2026-02-05
+**Version** : 4.0 (génération automatique intelligente, templates par catégorie)

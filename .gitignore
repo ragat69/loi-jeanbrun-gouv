@@ -34,6 +34,9 @@ Desktop.ini
 .vscode/
 .idea/
 
+# Documentation Claude
+CLAUDE.md
+
 # Anciens backups (gros fichiers)
 AA_OLDSITE*/
 *_OLDSITE*/

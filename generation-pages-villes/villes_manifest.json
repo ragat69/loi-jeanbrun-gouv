@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-02-04T20:38:52.823306",
+  "total_cities": 20,
+  "last_population_rank": 20,
+  "cities": {
+    "75056": {
+      "nom": "Paris",
+      "population": 2103778,
+      "population_rank": 1,
+      "code_postal": "75000",
+      "processed_at": "2026-02-04T20:15:00.580226",
+      "filename": "loi-jeanbrun-paris-75000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:37:44.542351"
+    },
+    "13055": {
+      "nom": "Marseille",
+      "population": 886040,
+      "population_rank": 2,
+      "code_postal": "13000",
+      "processed_at": "2026-02-04T20:15:04.146831",
+      "filename": "loi-jeanbrun-marseille-13000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:37:48.046746"
+    },
+    "69123": {
+      "nom": "Lyon",
+      "population": 519127,
+      "population_rank": 3,
+      "code_postal": "69000",
+      "processed_at": "2026-02-04T20:15:07.812721",
+      "filename": "loi-jeanbrun-lyon-69000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:37:51.626256"
+    },
+    "31555": {
+      "nom": "Toulouse",
+      "population": 514819,
+      "population_rank": 4,
+      "code_postal": "31000",
+      "processed_at": "2026-02-04T19:57:02.755779",
+      "filename": "loi-jeanbrun-toulouse-31000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:37:55.224526"
+    },
+    "06088": {
+      "nom": "Nice",
+      "population": 357737,
+      "population_rank": 5,
+      "code_postal": "06000",
+      "processed_at": "2026-02-04T19:57:06.401906",
+      "filename": "loi-jeanbrun-nice-06000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:37:58.821299"
+    },
+    "44109": {
+      "nom": "Nantes",
+      "population": 327734,
+      "population_rank": 6,
+      "code_postal": "44000",
+      "processed_at": "2026-02-04T19:57:10.056879",
+      "filename": "loi-jeanbrun-nantes-44000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:02.422585"
+    },
+    "34172": {
+      "nom": "Montpellier",
+      "population": 310240,
+      "population_rank": 7,
+      "code_postal": "34000",
+      "processed_at": "2026-02-04T19:57:13.714385",
+      "filename": "loi-jeanbrun-montpellier-34000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:06.028056"
+    },
+    "67482": {
+      "nom": "Strasbourg",
+      "population": 293771,
+      "population_rank": 8,
+      "code_postal": "67000",
+      "processed_at": "2026-02-04T19:57:17.373190",
+      "filename": "loi-jeanbrun-strasbourg-67000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:09.617158"
+    },
+    "33063": {
+      "nom": "Bordeaux",
+      "population": 267991,
+      "population_rank": 9,
+      "code_postal": "33000",
+      "processed_at": "2026-02-04T19:57:21.046114",
+      "filename": "loi-jeanbrun-bordeaux-33000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:13.217268"
+    },
+    "59350": {
+      "nom": "Lille",
+      "population": 238246,
+      "population_rank": 10,
+      "code_postal": "59000",
+      "processed_at": "2026-02-04T19:57:24.718975",
+      "filename": "loi-jeanbrun-lille-59000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:16.818531"
+    },
+    "35238": {
+      "nom": "Rennes",
+      "population": 230890,
+      "population_rank": 11,
+      "code_postal": "35000",
+      "processed_at": "2026-02-04T20:12:55.204944",
+      "filename": "loi-jeanbrun-rennes-35000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:20.410781"
+    },
+    "83137": {
+      "nom": "Toulon",
+      "population": 179116,
+      "population_rank": 12,
+      "code_postal": "83000",
+      "processed_at": "2026-02-04T20:12:58.783966",
+      "filename": "loi-jeanbrun-toulon-83000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:24.016835"
+    },
+    "51454": {
+      "nom": "Reims",
+      "population": 177674,
+      "population_rank": 13,
+      "code_postal": "51000",
+      "processed_at": "2026-02-04T20:13:29.082057",
+      "filename": "loi-jeanbrun-reims-51000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:27.596917"
+    },
+    "42218": {
+      "nom": "Saint-Étienne",
+      "population": 173136,
+      "population_rank": 14,
+      "code_postal": "42000",
+      "processed_at": "2026-02-04T20:13:32.657127",
+      "filename": "loi-jeanbrun-saint-etienne-42000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:31.192615"
+    },
+    "76351": {
+      "nom": "Le Havre",
+      "population": 166687,
+      "population_rank": 15,
+      "code_postal": "76000",
+      "processed_at": "2026-02-04T20:13:36.312809",
+      "filename": "loi-jeanbrun-le-havre-76000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:34.802249"
+    },
+    "69266": {
+      "nom": "Villeurbanne",
+      "population": 163684,
+      "population_rank": 16,
+      "code_postal": "69000",
+      "processed_at": "2026-02-04T20:16:40.046735",
+      "filename": "loi-jeanbrun-villeurbanne-69000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:38.398003"
+    },
+    "21231": {
+      "nom": "Dijon",
+      "population": 161830,
+      "population_rank": 17,
+      "code_postal": "21000",
+      "processed_at": "2026-02-04T20:16:43.612871",
+      "filename": "loi-jeanbrun-dijon-21000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:41.996364"
+    },
+    "49007": {
+      "nom": "Angers",
+      "population": 159022,
+      "population_rank": 18,
+      "code_postal": "49000",
+      "processed_at": "2026-02-04T20:16:47.278154",
+      "filename": "loi-jeanbrun-angers-49000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:45.603019"
+    },
+    "38185": {
+      "nom": "Grenoble",
+      "population": 156140,
+      "population_rank": 19,
+      "code_postal": "38000",
+      "processed_at": "2026-02-04T20:16:50.934989",
+      "filename": "loi-jeanbrun-grenoble-38000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:49.195416"
+    },
+    "97411": {
+      "nom": "Saint-Denis",
+      "population": 155634,
+      "population_rank": 20,
+      "code_postal": "97000",
+      "processed_at": "2026-02-04T20:16:54.602572",
+      "filename": "loi-jeanbrun-saint-denis-97000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      },
+      "refreshed_at": "2026-02-04T20:38:52.816433"
+    }
+  }
+}

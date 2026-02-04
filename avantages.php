@@ -331,7 +331,7 @@ include 'includes/header.php';
                 </h2>
                 <p>
                     Contrairement au dispositif Pinel qui était limité aux zones tendues (A, A bis, B1),
-                    le dispositif Jeanbrun s'applique <strong>sur tout le territoire français</strong>.
+                    le dispositif Jeanbrun s'applique <strong><a href="/ville/" style="color: var(--bleu-france);">dans toutes les villes du territoire français</a></strong>.
                 </p>
                 <p>
                     Cette liberté vous permet d'investir là où les opportunités sont les meilleures,

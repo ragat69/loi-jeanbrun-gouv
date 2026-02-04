@@ -331,6 +331,144 @@ faq_schema: |
 
 ⚠️ **Important:** Dans l'interface admin, coller UNIQUEMENT le JSON dans le champ "Schema FAQ", **SANS** les balises `<script>`. Les balises seront ajoutées automatiquement lors de la publication.
 
+**⚠️ CRITIQUE : Formatage des FAQs et fins de ligne**
+
+Le système utilise un parser Markdown qui convertit automatiquement les FAQs en accordéons Bootstrap. Pour que cela fonctionne correctement, **il est IMPÉRATIF** de respecter ces règles :
+
+**1. Format Markdown strict :**
+```markdown
+## Questions fréquentes
+
+**Première question ici ?**
+
+Réponse à la première question.
+
+**Deuxième question ici ?**
+
+Réponse à la deuxième question.
+```
+
+**Règles critiques :**
+- Une ligne vide AVANT chaque question
+- Une ligne vide APRÈS chaque question (entre question et réponse)
+- Une ligne vide APRÈS chaque réponse (avant la question suivante)
+- Les questions doivent être en gras avec `**Question**`
+- Les réponses sont en texte normal (pas de gras)
+
+**2. Fins de ligne UNIX obligatoires (LF) :**
+
+Le parser Markdown recherche les doubles sauts de ligne `\n\n` pour créer les balises `<p>` autour de chaque paragraphe. Si le fichier utilise des fins de ligne Windows (CRLF : `\r\n`), le parser ne fonctionnera PAS correctement.
+
+**❌ PROBLÈME - Fins de ligne Windows (CRLF) :**
+- Les FAQs ne seront PAS transformées en accordéons
+- Les questions et réponses apparaîtront en texte brut sans balises `<p>`
+- Le script JavaScript ne pourra pas les détecter
+
+**✅ SOLUTION - Fins de ligne Unix (LF) :**
+- Toujours utiliser des fins de ligne Unix (LF seulement)
+- Si vous créez des fichiers sur Windows, convertir en LF
+- Dans VS Code : cliquer sur "CRLF" en bas à droite et changer en "LF"
+- Via ligne de commande : `sed -i 's/\r$//' fichier.md`
+
+**Vérifier les fins de ligne :**
+```bash
+# Vérifier si le fichier a des fins de ligne Windows (^M)
+cat -A fichier.md | tail -20
+
+# Si vous voyez ^M$ → fins de ligne Windows (MAUVAIS)
+# Si vous voyez $ seulement → fins de ligne Unix (BON)
+
+# Convertir en Unix si nécessaire
+sed -i 's/\r$//' fichier.md
+```
+
+**3. Conversion HTML attendue :**
+
+Avec le bon formatage, le parser Markdown doit générer :
+```html
+<h2>Questions fréquentes</h2>
+
+<p><strong>Première question ici ?</strong></p>
+
+<p>Réponse à la première question.</p>
+
+<p><strong>Deuxième question ici ?</strong></p>
+
+<p>Réponse à la deuxième question.</p>
+```
+
+Le script JavaScript (dans `article.php`) détecte ensuite :
+- Le `<h2>` contenant "Questions fréquentes"
+- Les `<p>` contenant un `<strong>` en premier enfant (questions)
+- Les `<p>` suivants (réponses)
+- Transforme le tout en accordéon Bootstrap
+
+**4. Génération via Claude (depuis JSON Schema) :**
+
+Quand vous demandez à Claude de créer des FAQs à partir du JSON Schema `faq_schema`, utilisez cette instruction :
+
+```
+À partir du JSON Schema faq_schema, génère la section FAQ en Markdown.
+
+IMPORTANT :
+- Utilise EXACTEMENT ce format avec lignes vides :
+  ## Questions fréquentes
+
+  **Question 1 ?**
+
+  Réponse 1.
+
+  **Question 2 ?**
+
+  Réponse 2.
+
+- Une ligne vide avant ET après chaque question
+- Une ligne vide après chaque réponse
+- Questions en gras avec **
+- Réponses en texte normal
+- Le fichier DOIT avoir des fins de ligne UNIX (LF), pas Windows (CRLF)
+```
+
+**Exemple complet avec front matter :**
+```markdown
+---
+title: Mon article
+date: 2026-02-04
+description: Description de l'article
+status: published
+faq_schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qui sont les principaux bénéficiaires ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les classes moyennes sont les principaux bénéficiaires."
+        }
+      }
+    ]
+  }
+---
+
+## Questions fréquentes
+
+**Qui sont les principaux bénéficiaires ?**
+
+Les classes moyennes sont les principaux bénéficiaires.
+```
+
+**Diagnostic rapide :**
+
+Si les FAQs ne s'affichent pas en accordéon :
+1. Vérifier les fins de ligne : `cat -A fichier.md | tail -20`
+2. Si `^M$` apparaît → convertir : `sed -i 's/\r$//' fichier.md`
+3. Vérifier qu'il y a bien des lignes vides entre questions et réponses
+4. Vérifier que les questions sont en gras avec `**`
+5. Rafraîchir la page
+
 #### 6. Titres originaux et évocateurs
 
 **INTERDIT :** Utiliser des titres génériques qui sentent l'IA générée.
@@ -357,6 +495,8 @@ faq_schema: |
 - [ ] 3-8 mots/expressions en gras
 - [ ] 1-3 liens internes pertinents
 - [ ] FAQ avec 3-5 questions en fin d'article
+- [ ] FAQ formatée correctement (lignes vides, questions en gras)
+- [ ] Fins de ligne UNIX (LF) - CRITIQUE pour les FAQs
 - [ ] Schema.org JSON-LD pour la FAQ
 - [ ] Aucun titre générique type "Conclusion" ou "Introduction"
 
@@ -603,6 +743,8 @@ Avant de publier un article, vérifier:
 - [ ] Description SEO entre 150-160 caractères
 - [ ] Au moins 2-3 sections (H2 ou H3)
 - [ ] 1-2 liens internes pertinents
+- [ ] FAQ formatée correctement avec lignes vides
+- [ ] Fins de ligne UNIX (LF) vérifiées avec `cat -A`
 - [ ] Pas de fautes d'orthographe
 
 ### Image
@@ -669,6 +811,48 @@ Avant de publier un article, vérifier:
 - Vérifier la syntaxe Markdown
 - Pas d'espaces avant les `---` du front matter
 - Un saut de ligne après le front matter
+
+### Les FAQs ne s'affichent pas en accordéon
+**Symptôme :** Les questions/réponses apparaissent en texte brut au lieu d'être dans un accordéon.
+
+**Causes fréquentes :**
+
+1. **Fins de ligne Windows (CRLF) - CAUSE #1**
+   ```bash
+   # Vérifier
+   cat -A actualites/posts/votre-article.md | tail -20
+
+   # Si vous voyez ^M$ → PROBLÈME
+   # Corriger avec :
+   sed -i 's/\r$//' actualites/posts/votre-article.md
+   ```
+
+2. **Manque de lignes vides entre questions/réponses**
+   ```markdown
+   # ❌ MAUVAIS
+   **Question ?**
+   Réponse.
+
+   # ✅ BON
+   **Question ?**
+
+   Réponse.
+   ```
+
+3. **Questions pas en gras**
+   ```markdown
+   # ❌ MAUVAIS
+   Question ?
+
+   # ✅ BON
+   **Question ?**
+   ```
+
+**Solution rapide :**
+1. Ouvrir le fichier dans VS Code
+2. Cliquer sur "CRLF" en bas à droite → changer en "LF"
+3. Vérifier qu'il y a des lignes vides entre Q/R
+4. Sauvegarder et rafraîchir la page
 
 ---
 

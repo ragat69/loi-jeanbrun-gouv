@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-04T20:38:52.823306",
-  "total_cities": 20,
-  "last_population_rank": 20,
+  "generated_at": "2026-02-04T23:19:02.723558",
+  "total_cities": 91,
+  "last_population_rank": 91,
   "cities": {
     "75056": {
       "nom": "Paris",
@@ -302,6 +302,1000 @@
         "loyers": true
       },
       "refreshed_at": "2026-02-04T20:38:52.816433"
+    },
+    "30189": {
+      "nom": "Nîmes",
+      "population": 151839,
+      "population_rank": 21,
+      "code_postal": "30000",
+      "processed_at": "2026-02-04T23:05:29.023228",
+      "filename": "loi-jeanbrun-nimes-30000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "13001": {
+      "nom": "Aix-en-Provence",
+      "population": 149695,
+      "population_rank": 22,
+      "code_postal": "13000",
+      "processed_at": "2026-02-04T23:05:32.530101",
+      "filename": "loi-jeanbrun-aix-en-provence-13000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "93066": {
+      "nom": "Saint-Denis",
+      "population": 149077,
+      "population_rank": 23,
+      "code_postal": "93000",
+      "processed_at": "2026-02-04T23:05:36.146880",
+      "filename": "loi-jeanbrun-saint-denis-93000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "63113": {
+      "nom": "Clermont-Ferrand",
+      "population": 146351,
+      "population_rank": 24,
+      "code_postal": "63000",
+      "processed_at": "2026-02-04T23:05:39.756518",
+      "filename": "loi-jeanbrun-clermont-ferrand-63000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "72181": {
+      "nom": "Le Mans",
+      "population": 146249,
+      "population_rank": 25,
+      "code_postal": "72000",
+      "processed_at": "2026-02-04T23:05:43.368531",
+      "filename": "loi-jeanbrun-le-mans-72000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "29019": {
+      "nom": "Brest",
+      "population": 142346,
+      "population_rank": 26,
+      "code_postal": "29000",
+      "processed_at": "2026-02-04T23:05:46.971458",
+      "filename": "loi-jeanbrun-brest-29000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "37261": {
+      "nom": "Tours",
+      "population": 139259,
+      "population_rank": 27,
+      "code_postal": "37000",
+      "processed_at": "2026-02-04T23:05:50.585787",
+      "filename": "loi-jeanbrun-tours-37000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "80021": {
+      "nom": "Amiens",
+      "population": 136449,
+      "population_rank": 28,
+      "code_postal": "80000",
+      "processed_at": "2026-02-04T23:05:54.198525",
+      "filename": "loi-jeanbrun-amiens-80000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "74010": {
+      "nom": "Annecy",
+      "population": 132117,
+      "population_rank": 29,
+      "code_postal": "74000",
+      "processed_at": "2026-02-04T23:05:57.810156",
+      "filename": "loi-jeanbrun-annecy-74000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "87085": {
+      "nom": "Limoges",
+      "population": 129937,
+      "population_rank": 30,
+      "code_postal": "87000",
+      "processed_at": "2026-02-04T23:06:01.412212",
+      "filename": "loi-jeanbrun-limoges-87000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "57463": {
+      "nom": "Metz",
+      "population": 122572,
+      "population_rank": 31,
+      "code_postal": "57000",
+      "processed_at": "2026-02-04T23:06:05.005884",
+      "filename": "loi-jeanbrun-metz-57000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "66136": {
+      "nom": "Perpignan",
+      "population": 121616,
+      "population_rank": 32,
+      "code_postal": "66000",
+      "processed_at": "2026-02-04T23:06:08.596424",
+      "filename": "loi-jeanbrun-perpignan-66000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92012": {
+      "nom": "Boulogne-Billancourt",
+      "population": 119019,
+      "population_rank": 33,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:06:12.194848",
+      "filename": "loi-jeanbrun-boulogne-billancourt-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "25056": {
+      "nom": "Besançon",
+      "population": 118489,
+      "population_rank": 34,
+      "code_postal": "25000",
+      "processed_at": "2026-02-04T23:06:15.787392",
+      "filename": "loi-jeanbrun-besancon-25000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "76540": {
+      "nom": "Rouen",
+      "population": 117662,
+      "population_rank": 35,
+      "code_postal": "76000",
+      "processed_at": "2026-02-04T23:06:19.393110",
+      "filename": "loi-jeanbrun-rouen-76000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "45234": {
+      "nom": "Orléans",
+      "population": 116357,
+      "population_rank": 36,
+      "code_postal": "45000",
+      "processed_at": "2026-02-04T23:06:22.989427",
+      "filename": "loi-jeanbrun-orleans-45000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "93048": {
+      "nom": "Montreuil",
+      "population": 111934,
+      "population_rank": 37,
+      "code_postal": "93000",
+      "processed_at": "2026-02-04T23:06:26.607521",
+      "filename": "loi-jeanbrun-montreuil-93000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "14118": {
+      "nom": "Caen",
+      "population": 109400,
+      "population_rank": 38,
+      "code_postal": "14000",
+      "processed_at": "2026-02-04T23:06:30.215323",
+      "filename": "loi-jeanbrun-caen-14000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "97415": {
+      "nom": "Saint-Paul",
+      "population": 108088,
+      "population_rank": 39,
+      "code_postal": "97000",
+      "processed_at": "2026-02-04T23:06:33.832568",
+      "filename": "loi-jeanbrun-saint-paul-97000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "95018": {
+      "nom": "Argenteuil",
+      "population": 106130,
+      "population_rank": 40,
+      "code_postal": "95000",
+      "processed_at": "2026-02-04T23:06:37.432164",
+      "filename": "loi-jeanbrun-argenteuil-95000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "68224": {
+      "nom": "Mulhouse",
+      "population": 104978,
+      "population_rank": 41,
+      "code_postal": "68000",
+      "processed_at": "2026-02-04T23:06:41.041540",
+      "filename": "loi-jeanbrun-mulhouse-68000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "54395": {
+      "nom": "Nancy",
+      "population": 103671,
+      "population_rank": 42,
+      "code_postal": "54000",
+      "processed_at": "2026-02-04T23:06:44.646019",
+      "filename": "loi-jeanbrun-nancy-54000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "59599": {
+      "nom": "Tourcoing",
+      "population": 98772,
+      "population_rank": 43,
+      "code_postal": "59000",
+      "processed_at": "2026-02-04T23:06:48.260978",
+      "filename": "loi-jeanbrun-tourcoing-59000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "59512": {
+      "nom": "Roubaix",
+      "population": 98286,
+      "population_rank": 44,
+      "code_postal": "59000",
+      "processed_at": "2026-02-04T23:06:51.875446",
+      "filename": "loi-jeanbrun-roubaix-59000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92050": {
+      "nom": "Nanterre",
+      "population": 97783,
+      "population_rank": 45,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:06:55.483408",
+      "filename": "loi-jeanbrun-nanterre-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "94081": {
+      "nom": "Vitry-sur-Seine",
+      "population": 93963,
+      "population_rank": 46,
+      "code_postal": "94000",
+      "processed_at": "2026-02-04T23:06:59.103898",
+      "filename": "loi-jeanbrun-vitry-sur-seine-94000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92004": {
+      "nom": "Asnières-sur-Seine",
+      "population": 93941,
+      "population_rank": 47,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:07:02.723454",
+      "filename": "loi-jeanbrun-asnieres-sur-seine-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "94028": {
+      "nom": "Créteil",
+      "population": 93397,
+      "population_rank": 48,
+      "code_postal": "94000",
+      "processed_at": "2026-02-04T23:07:06.329673",
+      "filename": "loi-jeanbrun-creteil-94000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "84007": {
+      "nom": "Avignon",
+      "population": 92188,
+      "population_rank": 49,
+      "code_postal": "84000",
+      "processed_at": "2026-02-04T23:07:09.927495",
+      "filename": "loi-jeanbrun-avignon-84000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92025": {
+      "nom": "Colombes",
+      "population": 91053,
+      "population_rank": 50,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:07:13.548232",
+      "filename": "loi-jeanbrun-colombes-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "86194": {
+      "nom": "Poitiers",
+      "population": 89916,
+      "population_rank": 51,
+      "code_postal": "86000",
+      "processed_at": "2026-02-04T23:09:44.502903",
+      "filename": "loi-jeanbrun-poitiers-86000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "93001": {
+      "nom": "Aubervilliers",
+      "population": 88365,
+      "population_rank": 52,
+      "code_postal": "93000",
+      "processed_at": "2026-02-04T23:16:42.113539",
+      "filename": "loi-jeanbrun-aubervilliers-93000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "93005": {
+      "nom": "Aulnay-sous-Bois",
+      "population": 87599,
+      "population_rank": 53,
+      "code_postal": "93000",
+      "processed_at": "2026-02-04T23:16:45.583916",
+      "filename": "loi-jeanbrun-aulnay-sous-bois-93000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "59183": {
+      "nom": "Dunkerque",
+      "population": 86263,
+      "population_rank": 54,
+      "code_postal": "59000",
+      "processed_at": "2026-02-04T23:16:49.198226",
+      "filename": "loi-jeanbrun-dunkerque-59000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "98818": {
+      "nom": "Nouméa",
+      "population": 85976,
+      "population_rank": 55,
+      "code_postal": "98000",
+      "processed_at": "2026-02-04T23:16:52.803342",
+      "filename": "loi-jeanbrun-noumea-98000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": false
+      }
+    },
+    "97416": {
+      "nom": "Saint-Pierre",
+      "population": 85038,
+      "population_rank": 56,
+      "code_postal": "97000",
+      "processed_at": "2026-02-04T23:16:56.427367",
+      "filename": "loi-jeanbrun-saint-pierre-97000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "78646": {
+      "nom": "Versailles",
+      "population": 84095,
+      "population_rank": 57,
+      "code_postal": "78000",
+      "processed_at": "2026-02-04T23:17:00.025911",
+      "filename": "loi-jeanbrun-versailles-78000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92026": {
+      "nom": "Courbevoie",
+      "population": 82902,
+      "population_rank": 58,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:17:03.649075",
+      "filename": "loi-jeanbrun-courbevoie-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92063": {
+      "nom": "Rueil-Malmaison",
+      "population": 82874,
+      "population_rank": 59,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:17:07.267742",
+      "filename": "loi-jeanbrun-rueil-malmaison-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "97422": {
+      "nom": "Le Tampon",
+      "population": 82579,
+      "population_rank": 60,
+      "code_postal": "97000",
+      "processed_at": "2026-02-04T23:17:10.871628",
+      "filename": "loi-jeanbrun-le-tampon-97000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "34032": {
+      "nom": "Béziers",
+      "population": 81545,
+      "population_rank": 61,
+      "code_postal": "34000",
+      "processed_at": "2026-02-04T23:17:14.486280",
+      "filename": "loi-jeanbrun-beziers-34000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "64445": {
+      "nom": "Pau",
+      "population": 80441,
+      "population_rank": 62,
+      "code_postal": "64000",
+      "processed_at": "2026-02-04T23:17:18.081322",
+      "filename": "loi-jeanbrun-pau-64000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "17300": {
+      "nom": "La Rochelle",
+      "population": 79851,
+      "population_rank": 63,
+      "code_postal": "17000",
+      "processed_at": "2026-02-04T23:17:21.706789",
+      "filename": "loi-jeanbrun-la-rochelle-17000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "50129": {
+      "nom": "Cherbourg-en-Cotentin",
+      "population": 78258,
+      "population_rank": 64,
+      "code_postal": "50000",
+      "processed_at": "2026-02-04T23:17:25.323250",
+      "filename": "loi-jeanbrun-cherbourg-en-cotentin-50000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "33281": {
+      "nom": "Mérignac",
+      "population": 78090,
+      "population_rank": 65,
+      "code_postal": "33000",
+      "processed_at": "2026-02-04T23:17:28.925704",
+      "filename": "loi-jeanbrun-merignac-33000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "94017": {
+      "nom": "Champigny-sur-Marne",
+      "population": 78072,
+      "population_rank": 66,
+      "code_postal": "94000",
+      "processed_at": "2026-02-04T23:17:32.546871",
+      "filename": "loi-jeanbrun-champigny-sur-marne-94000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "06004": {
+      "nom": "Antibes",
+      "population": 77637,
+      "population_rank": 67,
+      "code_postal": "06000",
+      "processed_at": "2026-02-04T23:17:36.157506",
+      "filename": "loi-jeanbrun-antibes-06000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "94068": {
+      "nom": "Saint-Maur-des-Fossés",
+      "population": 76572,
+      "population_rank": 68,
+      "code_postal": "94000",
+      "processed_at": "2026-02-04T23:17:39.762106",
+      "filename": "loi-jeanbrun-saint-maur-des-fosses-94000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "2A004": {
+      "nom": "Ajaccio",
+      "population": 76320,
+      "population_rank": 69,
+      "code_postal": "20000",
+      "processed_at": "2026-02-04T23:17:43.367312",
+      "filename": "loi-jeanbrun-ajaccio-20000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "97209": {
+      "nom": "Fort-de-France",
+      "population": 75506,
+      "population_rank": 70,
+      "code_postal": "97000",
+      "processed_at": "2026-02-04T23:17:46.966317",
+      "filename": "loi-jeanbrun-fort-de-france-97000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "44184": {
+      "nom": "Saint-Nazaire",
+      "population": 74568,
+      "population_rank": 71,
+      "code_postal": "44000",
+      "processed_at": "2026-02-04T23:17:50.567085",
+      "filename": "loi-jeanbrun-saint-nazaire-44000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "06029": {
+      "nom": "Cannes",
+      "population": 74350,
+      "population_rank": 72,
+      "code_postal": "06000",
+      "processed_at": "2026-02-04T23:17:54.171070",
+      "filename": "loi-jeanbrun-cannes-06000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "93051": {
+      "nom": "Noisy-le-Grand",
+      "population": 72978,
+      "population_rank": 73,
+      "code_postal": "93000",
+      "processed_at": "2026-02-04T23:17:57.774337",
+      "filename": "loi-jeanbrun-noisy-le-grand-93000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "93029": {
+      "nom": "Drancy",
+      "population": 72390,
+      "population_rank": 74,
+      "code_postal": "93000",
+      "processed_at": "2026-02-04T23:18:01.385245",
+      "filename": "loi-jeanbrun-drancy-93000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "97611": {
+      "nom": "Mamoudzou",
+      "population": 71437,
+      "population_rank": 75,
+      "code_postal": "97000",
+      "processed_at": "2026-02-04T23:18:04.987823",
+      "filename": "loi-jeanbrun-mamoudzou-97000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": false
+      }
+    },
+    "95127": {
+      "nom": "Cergy",
+      "population": 70906,
+      "population_rank": 76,
+      "code_postal": "95000",
+      "processed_at": "2026-02-04T23:18:08.587286",
+      "filename": "loi-jeanbrun-cergy-95000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92044": {
+      "nom": "Levallois-Perret",
+      "population": 68092,
+      "population_rank": 77,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:18:12.198299",
+      "filename": "loi-jeanbrun-levallois-perret-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92040": {
+      "nom": "Issy-les-Moulineaux",
+      "population": 67669,
+      "population_rank": 78,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:18:15.805849",
+      "filename": "loi-jeanbrun-issy-les-moulineaux-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "62193": {
+      "nom": "Calais",
+      "population": 67571,
+      "population_rank": 79,
+      "code_postal": "62000",
+      "processed_at": "2026-02-04T23:18:19.410491",
+      "filename": "loi-jeanbrun-calais-62000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "33318": {
+      "nom": "Pessac",
+      "population": 67339,
+      "population_rank": 80,
+      "code_postal": "33000",
+      "processed_at": "2026-02-04T23:18:23.013691",
+      "filename": "loi-jeanbrun-pessac-33000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "68066": {
+      "nom": "Colmar",
+      "population": 66970,
+      "population_rank": 81,
+      "code_postal": "68000",
+      "processed_at": "2026-02-04T23:18:26.625586",
+      "filename": "loi-jeanbrun-colmar-68000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "91228": {
+      "nom": "Évry-Courcouronnes",
+      "population": 66919,
+      "population_rank": 82,
+      "code_postal": "91000",
+      "processed_at": "2026-02-04T23:18:30.220391",
+      "filename": "loi-jeanbrun-evry-courcouronnes-91000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "69259": {
+      "nom": "Vénissieux",
+      "population": 65502,
+      "population_rank": 83,
+      "code_postal": "69000",
+      "processed_at": "2026-02-04T23:18:33.819860",
+      "filename": "loi-jeanbrun-venissieux-69000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "94041": {
+      "nom": "Ivry-sur-Seine",
+      "population": 65064,
+      "population_rank": 84,
+      "code_postal": "94000",
+      "processed_at": "2026-02-04T23:18:37.431116",
+      "filename": "loi-jeanbrun-ivry-sur-seine-94000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "26362": {
+      "nom": "Valence",
+      "population": 64458,
+      "population_rank": 85,
+      "code_postal": "26000",
+      "processed_at": "2026-02-04T23:18:41.044102",
+      "filename": "loi-jeanbrun-valence-26000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92024": {
+      "nom": "Clichy",
+      "population": 64410,
+      "population_rank": 86,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:18:44.657711",
+      "filename": "loi-jeanbrun-clichy-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "29232": {
+      "nom": "Quimper",
+      "population": 64385,
+      "population_rank": 87,
+      "code_postal": "29000",
+      "processed_at": "2026-02-04T23:18:48.268181",
+      "filename": "loi-jeanbrun-quimper-29000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "92002": {
+      "nom": "Antony",
+      "population": 64263,
+      "population_rank": 88,
+      "code_postal": "92000",
+      "processed_at": "2026-02-04T23:18:51.888333",
+      "filename": "loi-jeanbrun-antony-92000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "18033": {
+      "nom": "Bourges",
+      "population": 64186,
+      "population_rank": 89,
+      "code_postal": "18000",
+      "processed_at": "2026-02-04T23:18:55.486087",
+      "filename": "loi-jeanbrun-bourges-18000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "83126": {
+      "nom": "La Seyne-sur-Mer",
+      "population": 63732,
+      "population_rank": 90,
+      "code_postal": "83000",
+      "processed_at": "2026-02-04T23:18:59.097553",
+      "filename": "loi-jeanbrun-la-seyne-sur-mer-83000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
+    },
+    "82121": {
+      "nom": "Montauban",
+      "population": 62945,
+      "population_rank": 91,
+      "code_postal": "82000",
+      "processed_at": "2026-02-04T23:19:02.711353",
+      "filename": "loi-jeanbrun-montauban-82000.php",
+      "data_sources": {
+        "geo_api": true,
+        "dvf": false,
+        "zonage": true,
+        "loyers": true
+      }
     }
   }
 }

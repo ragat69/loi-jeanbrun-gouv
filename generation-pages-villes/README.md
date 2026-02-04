@@ -60,6 +60,8 @@ python3 fetch_city_data.py --refresh-data
 # → Le fichier PHP est mis à jour automatiquement
 ```
 
+**Note :** Les nouvelles villes n'ont pas de textes introductifs par défaut. Voir [PROCESS-INTRO-TEXTS.md](PROCESS-INTRO-TEXTS.md) pour le processus manuel d'ajout des textes.
+
 ### Mode statique (optionnel)
 
 Si vous préférez des pages autonomes avec données en dur :
@@ -255,6 +257,18 @@ L'API DVF de cquest.org est un projet communautaire et peut être instable. Alte
 1. Utiliser les fallbacks par zone (automatique)
 2. Télécharger les données DVF en CSV depuis data.gouv.fr et les parser localement
 
+## Textes introductifs
+
+Les textes introductifs pour les pages ville sont gérés manuellement.
+
+**Processus complet documenté dans : [PROCESS-INTRO-TEXTS.md](PROCESS-INTRO-TEXTS.md)**
+
+Résumé :
+1. Générer les nouvelles villes avec `fetch_city_data.py`
+2. Rédiger les textes dans un script type `add_missing_intro_texts.py`
+3. Exécuter le script pour ajouter les textes au JSON
+4. Regénérer le fichier PHP avec `regenerate_php_data.py`
+
 ## Dépannage
 
 ### Erreur "Fichier villes_data.json non trouvé"
@@ -269,4 +283,4 @@ Le système utilise des fallbacks automatiques basés sur la zone et le départe
 ---
 
 **Dernière mise à jour** : 2026-02-04
-**Version** : 2.0 (avec extraction API automatique)
+**Version** : 3.0 (processus manuel pour textes intro, sans API)

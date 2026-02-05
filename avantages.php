@@ -219,6 +219,9 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Guide Download Card -->
+<?php include 'includes/guide-download-card.php'; ?>
+
 <!-- Avantage 3 : Déductions -->
 <section class="section section-alt">
     <div class="container">

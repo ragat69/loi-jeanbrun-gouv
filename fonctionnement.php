@@ -200,6 +200,9 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Guide Download Card -->
+<?php include 'includes/guide-download-card.php'; ?>
+
 <!-- Déficit foncier -->
 <section class="section section-alt">
     <div class="container">

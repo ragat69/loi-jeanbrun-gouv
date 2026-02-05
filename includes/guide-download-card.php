@@ -32,11 +32,10 @@
                          loading="lazy">
                     <a href="/docs/guide-loi-jeanbrun-2026.pdf"
                        class="btn-download"
-                       download="Guide-Loi-Jeanbrun-2026.pdf"
                        onclick="trackGuideDownload()"
                        target="_blank">
-                        <i class="fas fa-download me-2"></i>
-                        Télécharger le guide
+                        <i class="fas fa-file-pdf me-2"></i>
+                        Consulter le guide
                     </a>
                     <p class="guide-note">
                         <i class="fas fa-lock me-1"></i>

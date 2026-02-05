@@ -419,6 +419,9 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Guide Download Card -->
+<?php include 'includes/guide-download-card.php'; ?>
+
 <!-- Info box -->
 <section class="section">
     <div class="container">

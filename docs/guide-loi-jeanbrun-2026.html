@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Guide Complet - Loi Jeanbrun 2026</title>
+    <style>
+        @page {
+            margin: 2cm;
+            @bottom-right {
+                content: "Page " counter(page) " sur " counter(pages);
+                font-size: 10pt;
+                color: #666;
+            }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            font-size: 11pt;
+        }
+
+        .cover {
+            page-break-after: always;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        .cover h1 {
+            color: #000091;
+            font-size: 42pt;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .cover h2 {
+            color: #666;
+            font-size: 24pt;
+            font-weight: normal;
+            margin-bottom: 40px;
+        }
+
+        .cover .logo {
+            width: 150px;
+            margin-bottom: 40px;
+        }
+
+        .cover .year {
+            font-size: 48pt;
+            color: #000091;
+            font-weight: bold;
+            margin-top: 60px;
+        }
+
+        h1 {
+            color: #000091;
+            font-size: 24pt;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h2 {
+            color: #000091;
+            font-size: 18pt;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #1212FF;
+            font-size: 14pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .intro-box {
+            background: #f0f0ff;
+            border-left: 4px solid #000091;
+            padding: 15px;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        .info-box {
+            background: #e8f4f8;
+            border-left: 4px solid #0078d4;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        table th {
+            background: #000091;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .highlight {
+            background: #ffff99;
+            padding: 2px 4px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-bold {
+            font-weight: bold;
+        }
+
+        .toc {
+            page-break-after: always;
+        }
+
+        .toc h2 {
+            margin-bottom: 20px;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .toc li {
+            margin: 12px 0;
+            font-size: 12pt;
+        }
+
+        .toc .chapter {
+            font-weight: bold;
+            color: #000091;
+            margin-top: 20px;
+        }
+
+        .footer-note {
+            font-size: 9pt;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+        }
+
+        .section {
+            page-break-before: always;
+        }
+
+        .badge {
+            background: #000091;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page de couverture -->
+<div class="cover">
+    <h1>DISPOSITIF JEANBRUN</h1>
+    <h2>Guide Complet du Dispositif Relance Logement</h2>
+    <div class="year">2026</div>
+    <p style="margin-top: 100px; font-size: 12pt; color: #666;">
+        Tout savoir sur le nouveau statut fiscal du bailleur privé<br>
+        Amortissement • Déficit foncier • Déduction des charges
+    </p>
+</div>
+
+<!-- Table des matières -->
+<div class="toc">
+    <h2>SOMMAIRE</h2>
+    <ul>
+        <li class="chapter">1. COMPRENDRE LE DISPOSITIF JEANBRUN</li>
+        <li style="padding-left: 20px;">Le contexte de la crise du logement</li>
+        <li style="padding-left: 20px;">Qu'est-ce que la loi Jeanbrun ?</li>
+        <li style="padding-left: 20px;">Pinel vs Jeanbrun : les différences clés</li>
+
+        <li class="chapter">2. FONCTIONNEMENT DU MÉCANISME</li>
+        <li style="padding-left: 20px;">Le principe de l'amortissement fiscal</li>
+        <li style="padding-left: 20px;">Les taux d'amortissement</li>
+        <li style="padding-left: 20px;">Les plafonds et limitations</li>
+
+        <li class="chapter">3. AVANTAGES FISCAUX</li>
+        <li style="padding-left: 20px;">L'amortissement du bien</li>
+        <li style="padding-left: 20px;">Le déficit foncier</li>
+        <li style="padding-left: 20px;">La déduction des charges</li>
+        <li style="padding-left: 20px;">Les intérêts d'emprunt</li>
+
+        <li class="chapter">4. CONDITIONS D'ÉLIGIBILITÉ</li>
+        <li style="padding-left: 20px;">Conditions sur le bien immobilier</li>
+        <li style="padding-left: 20px;">Conditions sur le locataire</li>
+        <li style="padding-left: 20px;">Plafonds de loyers et ressources</li>
+
+        <li class="chapter">5. MISE EN PRATIQUE</li>
+        <li style="padding-left: 20px;">Les étapes pour bénéficier du dispositif</li>
+        <li style="padding-left: 20px;">Exemples de calculs</li>
+        <li style="padding-left: 20px;">Erreurs à éviter</li>
+
+        <li class="chapter">6. FAQ - QUESTIONS FRÉQUENTES</li>
+    </ul>
+</div>
+
+<!-- CHAPITRE 1 -->
+<div class="section">
+    <h1>1. COMPRENDRE LE DISPOSITIF JEANBRUN</h1>
+
+    <h2>Le contexte : une crise du logement sans précédent</h2>
+
+    <p>La France traverse une crise du logement d'une ampleur inédite depuis plusieurs décennies. Les chiffres sont éloquents et illustrent l'urgence de la situation :</p>
+
+    <div class="info-box">
+        <h3>Chiffres clés de la crise</h3>
+        <ul>
+            <li><strong>28% des revenus</strong> : Part moyenne du budget des ménages français consacrée au logement</li>
+            <li><strong>-15% en 5 ans</strong> : Chute de l'offre locative privée</li>
+            <li><strong>-22%</strong> : Baisse des mises en chantier entre décembre 2024 et novembre 2025</li>
+            <li><strong>2,9 millions</strong> : Nombre de dossiers en attente de logement social</li>
+            <li><strong>-63%</strong> : Effondrement de la part des investisseurs dans le logement neuf entre 2021 et 2024</li>
+        </ul>
+    </div>
+
+    <p>Face à cette situation critique, le gouvernement a mobilisé des moyens inédits depuis 10 ans, avec notamment le lancement du plan "Relance Logement" dont le dispositif Jeanbrun constitue le pilier central.</p>
+
+    <h2>Qu'est-ce que la loi Jeanbrun ?</h2>
+
+    <p>Le <strong>dispositif Jeanbrun</strong>, inscrit dans la loi de finances pour 2026, est le nouveau cadre fiscal pour investir dans l'immobilier locatif en France. Porté par Vincent Jeanbrun, ministre délégué au Logement, ce dispositif marque un tournant dans la politique de soutien à l'investissement locatif privé.</p>
+
+    <div class="intro-box">
+        <p><strong>Définition :</strong> Le dispositif Jeanbrun permet aux bailleurs privés de bénéficier d'un amortissement fiscal sur leurs investissements locatifs, complété par la déduction des charges et un régime de déficit foncier avantageux.</p>
+    </div>
+
+    <h3>Les objectifs du dispositif</h3>
+
+    <ol>
+        <li><strong>Relancer la construction</strong> : Stimuler l'investissement locatif privé pour redynamiser le secteur de la construction</li>
+        <li><strong>Augmenter l'offre locative</strong> : Créer davantage de logements disponibles à la location</li>
+        <li><strong>Favoriser les loyers accessibles</strong> : Encourager les bailleurs à pratiquer des loyers modérés grâce à un système de taux incitatifs</li>
+        <li><strong>Reconnaître le bailleur privé</strong> : Valoriser le rôle économique et social du propriétaire-bailleur</li>
+    </ol>
+
+    <h2>Pinel vs Jeanbrun : les différences clés</h2>
+
+    <p>Le dispositif Jeanbrun se distingue nettement de son prédécesseur, le Pinel, qui a expiré en 2025 :</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Critère</th>
+                <th>Dispositif Pinel (expiré)</th>
+                <th>Dispositif Jeanbrun (2026)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Type d'avantage</strong></td>
+                <td>Réduction d'impôt directe</td>
+                <td>Amortissement fiscal + déficit foncier</td>
+            </tr>
+            <tr>
+                <td><strong>Zonage</strong></td>
+                <td>Zones A, A bis, B1 uniquement</td>
+                <td>Tout le territoire français</td>
+            </tr>
+            <tr>
+                <td><strong>Type de bien</strong></td>
+                <td>Uniquement logement neuf</td>
+                <td>Neuf ET ancien rénové (travaux ≥ 30%)</td>
+            </tr>
+            <tr>
+                <td><strong>Type d'habitat</strong></td>
+                <td>Collectif et individuel</td>
+                <td>Collectif uniquement</td>
+            </tr>
+            <tr>
+                <td><strong>Plafond annuel</strong></td>
+                <td>Limité par la réduction</td>
+                <td>12 000€ d'amortissement par bien</td>
+            </tr>
+            <tr>
+                <td><strong>Déficit foncier</strong></td>
+                <td>10 700€ maximum</td>
+                <td>21 400€ maximum</td>
+            </tr>
+            <tr>
+                <td><strong>Flexibilité</strong></td>
+                <td>Engagement rigide</td>
+                <td>Plus de souplesse géographique et typologie</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="success-box">
+        <h3>Le changement de paradigme</h3>
+        <p>Contrairement au Pinel qui offrait une réduction d'impôt "clé en main", le dispositif Jeanbrun favorise une approche patrimoniale de long terme. Il s'adresse davantage à des investisseurs avertis, capables d'optimiser leur fiscalité foncière globale.</p>
+    </div>
+</div>
+
+<!-- CHAPITRE 2 -->
+<div class="section">
+    <h1>2. FONCTIONNEMENT DU MÉCANISME</h1>
+
+    <h2>Le principe de l'amortissement fiscal</h2>
+
+    <p>Le cœur du dispositif Jeanbrun repose sur un mécanisme d'<strong>amortissement fiscal</strong> qui permet aux bailleurs de déduire annuellement une fraction de la valeur du bien de leurs revenus fonciers.</p>
+
+    <div class="intro-box">
+        <h3>Comment ça marche ?</h3>
+        <p>L'amortissement agit sur votre <strong>base imposable</strong>. Vous ne payez pas moins d'impôts directement, mais vous réduisez le montant des revenus sur lesquels vous êtes imposé.</p>
+    </div>
+
+    <h3>Exemple pratique</h3>
+
+    <div class="info-box">
+        <p><strong>Situation :</strong> Vous achetez un logement neuf à 200 000€ et vous vous engagez à pratiquer un loyer intermédiaire.</p>
+
+        <p><strong>Calcul :</strong></p>
+        <ul>
+            <li>Taux d'amortissement applicable : 3,5%</li>
+            <li>Amortissement annuel : 200 000€ × 3,5% = <strong>7 000€</strong></li>
+            <li>Sur 9 ans : 7 000€ × 9 = <strong>63 000€</strong> de revenus fonciers non imposés</li>
+        </ul>
+
+        <p><strong>Résultat :</strong> Si vous êtes dans la tranche marginale d'imposition à 30%, cela représente une économie fiscale de 63 000€ × 30% = <strong>18 900€ sur 9 ans</strong> (hors prélèvements sociaux).</p>
+    </div>
+
+    <h2>Les taux d'amortissement</h2>
+
+    <p>Le taux d'amortissement varie selon <strong>deux critères</strong> :</p>
+    <ol>
+        <li>Le type de bien (neuf ou ancien rénové)</li>
+        <li>Le niveau de loyer pratiqué</li>
+    </ol>
+
+    <p>Plus vous vous engagez à pratiquer des loyers accessibles, plus le taux d'amortissement est avantageux.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Type de loyer</th>
+                <th>Logement neuf</th>
+                <th>Ancien rénové</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Loyer intermédiaire</strong></td>
+                <td class="text-center"><span class="badge">3,5%</span></td>
+                <td class="text-center"><span class="badge">3,0%</span></td>
+                <td>Loyer légèrement inférieur au marché (environ -15%)</td>
+            </tr>
+            <tr>
+                <td><strong>Loyer social</strong></td>
+                <td class="text-center"><span class="badge">4,5%</span></td>
+                <td class="text-center"><span class="badge">3,5%</span></td>
+                <td>Loyer aligné sur les plafonds du logement social</td>
+            </tr>
+            <tr>
+                <td><strong>Loyer très social</strong></td>
+                <td class="text-center"><span class="badge">5,5%</span></td>
+                <td class="text-center"><span class="badge">4,0%</span></td>
+                <td>Loyer très accessible pour les ménages modestes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Les plafonds et limitations</h2>
+
+    <h3>Plafond annuel d'amortissement</h3>
+
+    <div class="warning-box">
+        <p><strong>⚠️ Important :</strong> L'amortissement est plafonné à <strong>12 000€ par an et par logement</strong>.</p>
+
+        <p><strong>Exemple :</strong> Pour un bien de 400 000€ avec un taux de 3,5% :</p>
+        <ul>
+            <li>Calcul théorique : 400 000€ × 3,5% = 14 000€</li>
+            <li>Amortissement effectif : <strong>12 000€</strong> (plafonné)</li>
+        </ul>
+    </div>
+
+    <h3>Autres limitations</h3>
+
+    <ul>
+        <li><strong>Durée d'engagement :</strong> Minimum 9 ans de location</li>
+        <li><strong>Type d'habitat :</strong> Uniquement immeubles collectifs (pas de maisons individuelles)</li>
+        <li><strong>Report possible :</strong> Les amortissements non utilisés peuvent être reportés sur les années suivantes</li>
+    </ul>
+</div>
+
+<!-- CHAPITRE 3 -->
+<div class="section">
+    <h1>3. AVANTAGES FISCAUX</h1>
+
+    <p>Le dispositif Jeanbrun offre un ensemble complet d'avantages fiscaux qui peuvent se cumuler pour optimiser significativement la rentabilité de votre investissement locatif.</p>
+
+    <h2>1. L'amortissement du bien</h2>
+
+    <p>Comme détaillé précédemment, l'amortissement constitue l'avantage central du dispositif.</p>
+
+    <div class="success-box">
+        <h3>💰 Économies potentielles sur 9 ans</h3>
+
+        <table style="margin-top: 10px;">
+            <thead>
+                <tr>
+                    <th>Prix du bien</th>
+                    <th>Taux (loyer social)</th>
+                    <th>Amortissement total</th>
+                    <th>Économie fiscale (TMI 30%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>200 000€</td>
+                    <td>4,5%</td>
+                    <td>81 000€</td>
+                    <td>24 300€</td>
+                </tr>
+                <tr>
+                    <td>250 000€</td>
+                    <td>4,5%</td>
+                    <td>101 250€</td>
+                    <td>30 375€</td>
+                </tr>
+                <tr>
+                    <td>300 000€</td>
+                    <td>4,5%</td>
+                    <td>108 000€ (plafonné)</td>
+                    <td>32 400€</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="margin-top: 10px; font-size: 9pt;">TMI = Tranche Marginale d'Imposition. Calculs hors prélèvements sociaux (17,2% supplémentaires).</p>
+    </div>
+
+    <h2>2. Le déficit foncier amplifié</h2>
+
+    <p>Le dispositif Jeanbrun <strong>double le plafond du déficit foncier</strong> par rapport au régime de droit commun :</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Régime</th>
+                <th>Plafond annuel</th>
+                <th>Durée de report</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Régime classique (hors Jeanbrun)</td>
+                <td>10 700€</td>
+                <td>10 ans</td>
+            </tr>
+            <tr>
+                <td><strong>Dispositif Jeanbrun</strong></td>
+                <td><strong class="highlight">21 400€</strong></td>
+                <td>10 ans</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="info-box">
+        <h3>Qu'est-ce que le déficit foncier ?</h3>
+        <p>Le déficit foncier se crée lorsque vos charges déductibles (travaux, intérêts d'emprunt, charges de copropriété, etc.) dépassent vos revenus locatifs. Ce déficit peut être déduit de votre revenu global dans la limite de 21 400€ par an avec le dispositif Jeanbrun.</p>
+
+        <p><strong>Exemple :</strong></p>
+        <ul>
+            <li>Revenus locatifs annuels : 12 000€</li>
+            <li>Charges déductibles : 25 000€</li>
+            <li>Déficit foncier : 25 000€ - 12 000€ = 13 000€</li>
+            <li>Déduction sur le revenu global : 13 000€ (< 21 400€, donc entièrement déductible)</li>
+        </ul>
+    </div>
+
+    <h2>3. La déduction des charges</h2>
+
+    <p>Le dispositif Jeanbrun permet de déduire <strong>100% des charges</strong> liées à l'investissement locatif :</p>
+
+    <h3>Charges déductibles</h3>
+
+    <ul>
+        <li><strong>Intérêts d'emprunt :</strong> 100% déductibles (voir section suivante)</li>
+        <li><strong>Assurance emprunteur</strong></li>
+        <li><strong>Frais de gestion locative</strong> (agence, syndic)</li>
+        <li><strong>Charges de copropriété</strong> (hors quote-part du locataire)</li>
+        <li><strong>Taxe foncière</strong></li>
+        <li><strong>Frais de garantie</strong> (GLI, garantie locative)</li>
+        <li><strong>Primes d'assurance</strong> (PNO, loyers impayés)</li>
+        <li><strong>Frais de réparation et d'entretien</strong></li>
+        <li><strong>Honoraires</strong> (notaire, comptable)</li>
+    </ul>
+
+    <h2>4. Les intérêts d'emprunt</h2>
+
+    <p>Point crucial du dispositif : les <strong>intérêts d'emprunt sont déductibles à 100%</strong>, sans limitation.</p>
+
+    <div class="success-box">
+        <h3>Exemple de déduction des intérêts</h3>
+
+        <p><strong>Investissement :</strong> 250 000€ à 3,5% sur 20 ans</p>
+
+        <table style="margin-top: 10px;">
+            <thead>
+                <tr>
+                    <th>Année</th>
+                    <th>Intérêts payés</th>
+                    <th>Déduction fiscale</th>
+                    <th>Économie (TMI 30%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Année 1</td>
+                    <td>8 625€</td>
+                    <td>8 625€</td>
+                    <td>2 588€</td>
+                </tr>
+                <tr>
+                    <td>Année 5</td>
+                    <td>7 150€</td>
+                    <td>7 150€</td>
+                    <td>2 145€</td>
+                </tr>
+                <tr>
+                    <td>Année 9</td>
+                    <td>5 420€</td>
+                    <td>5 420€</td>
+                    <td>1 626€</td>
+                </tr>
+                <tr>
+                    <td><strong>Total 9 ans</strong></td>
+                    <td><strong>62 800€</strong></td>
+                    <td><strong>62 800€</strong></td>
+                    <td><strong>18 840€</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Cumul des avantages</h2>
+
+    <p>Le grand atout du dispositif Jeanbrun est que tous ces avantages se <strong>cumulent</strong> :</p>
+
+    <div class="intro-box">
+        <h3>Optimisation fiscale globale</h3>
+        <p>En combinant amortissement, déduction des charges, intérêts d'emprunt et déficit foncier, un investisseur peut significativement réduire son imposition foncière, voire créer un déficit déductible de son revenu global.</p>
+    </div>
+</div>
+
+<!-- CHAPITRE 4 -->
+<div class="section">
+    <h1>4. CONDITIONS D'ÉLIGIBILITÉ</h1>
+
+    <p>Pour bénéficier du dispositif Jeanbrun, plusieurs conditions doivent être respectées concernant le bien, le locataire et les plafonds applicables.</p>
+
+    <h2>Conditions sur le bien immobilier</h2>
+
+    <h3>1. Type de bien éligible</h3>
+
+    <div class="info-box">
+        <p><strong>✅ Biens éligibles :</strong></p>
+        <ul>
+            <li>Logement neuf (ou en état futur d'achèvement - VEFA)</li>
+            <li>Logement ancien avec <strong>travaux importants</strong> (≥ 30% de la valeur du bien)</li>
+            <li>Logement réhabilité aux normes énergétiques actuelles</li>
+        </ul>
+
+        <p style="margin-top: 15px;"><strong>❌ Biens exclus :</strong></p>
+        <ul>
+            <li>Maisons individuelles</li>
+            <li>Logements ne respectant pas les normes énergétiques (DPE minimum requis)</li>
+            <li>Résidences de tourisme classées</li>
+        </ul>
+    </div>
+
+    <h3>2. Localisation</h3>
+
+    <p><strong>Avantage majeur :</strong> Contrairement au Pinel, le dispositif Jeanbrun s'applique sur <strong>tout le territoire français</strong>, sans restriction de zonage géographique.</p>
+
+    <ul>
+        <li>Métropole</li>
+        <li>DOM-TOM</li>
+        <li>Zones rurales comme urbaines</li>
+    </ul>
+
+    <h3>3. Type d'habitat</h3>
+
+    <div class="warning-box">
+        <p><strong>⚠️ Restriction importante :</strong> Seuls les <strong>logements en immeuble collectif</strong> sont éligibles.</p>
+        <p>Les maisons individuelles sont exclues du dispositif, même neuves ou après rénovation lourde.</p>
+    </div>
+
+    <h3>4. Performance énergétique</h3>
+
+    <p>Le logement doit respecter les normes énergétiques en vigueur :</p>
+    <ul>
+        <li><strong>Neuf :</strong> Conformité RE2020</li>
+        <li><strong>Ancien rénové :</strong> DPE minimal requis (classe énergétique à définir selon décret d'application)</li>
+    </ul>
+
+    <h2>Conditions sur le locataire</h2>
+
+    <h3>1. Plafonds de ressources</h3>
+
+    <p>Le locataire doit respecter des <strong>plafonds de ressources</strong> qui varient selon la composition du foyer et le type de loyer pratiqué.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Composition du foyer</th>
+                <th>Loyer intermédiaire</th>
+                <th>Loyer social</th>
+                <th>Loyer très social</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Personne seule</td>
+                <td>45 000€</td>
+                <td>32 000€</td>
+                <td>24 000€</td>
+            </tr>
+            <tr>
+                <td>Couple</td>
+                <td>67 000€</td>
+                <td>48 000€</td>
+                <td>36 000€</td>
+            </tr>
+            <tr>
+                <td>Famille (3 personnes)</td>
+                <td>80 000€</td>
+                <td>58 000€</td>
+                <td>44 000€</td>
+            </tr>
+            <tr>
+                <td>Famille (4 personnes)</td>
+                <td>95 000€</td>
+                <td>68 000€</td>
+                <td>52 000€</td>
+            </tr>
+            <tr>
+                <td>Famille (5 personnes+)</td>
+                <td>110 000€</td>
+                <td>79 000€</td>
+                <td>60 000€</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="font-size: 9pt; margin-top: 10px;">Ressources = revenu fiscal de référence N-2. Plafonds indicatifs susceptibles d'ajustements selon décrets d'application.</p>
+
+    <h3>2. Restrictions familiales</h3>
+
+    <div class="warning-box">
+        <p><strong>⚠️ Interdiction de louer à :</strong></p>
+        <ul>
+            <li>Membre de votre foyer fiscal</li>
+            <li>Ascendants (parents, grands-parents)</li>
+            <li>Descendants (enfants, petits-enfants)</li>
+        </ul>
+    </div>
+
+    <h2>Plafonds de loyers</h2>
+
+    <p>Le loyer mensuel charges non comprises ne peut pas dépasser certains plafonds, calculés au mètre carré de surface habitable.</p>
+
+    <h3>Exemple de plafonds par zone (au m²)</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Type de loyer</th>
+                <th>Paris & petite couronne</th>
+                <th>Grandes métropoles</th>
+                <th>Villes moyennes</th>
+                <th>Zones rurales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Intermédiaire</td>
+                <td>22,50€/m²</td>
+                <td>16,80€/m²</td>
+                <td>12,40€/m²</td>
+                <td>9,90€/m²</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>18,00€/m²</td>
+                <td>13,40€/m²</td>
+                <td>9,90€/m²</td>
+                <td>7,90€/m²</td>
+            </tr>
+            <tr>
+                <td>Très social</td>
+                <td>14,40€/m²</td>
+                <td>10,70€/m²</td>
+                <td>7,90€/m²</td>
+                <td>6,30€/m²</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="font-size: 9pt; margin-top: 10px;">Plafonds indicatifs susceptibles de variations selon la localisation précise et les décrets d'application.</p>
+
+    <h2>Engagement de location</h2>
+
+    <div class="info-box">
+        <p><strong>Durée d'engagement minimum : 9 ans</strong></p>
+
+        <p>Vous devez vous engager à :</p>
+        <ul>
+            <li>Louer le logement comme résidence principale du locataire</li>
+            <li>Respecter les plafonds de loyers pendant toute la durée</li>
+            <li>Vérifier l'éligibilité des locataires successifs</li>
+            <li>Déclarer annuellement le respect des conditions</li>
+        </ul>
+
+        <p style="margin-top: 15px;"><strong>En cas de non-respect :</strong> Remise en cause des avantages fiscaux avec pénalités et intérêts de retard.</p>
+    </div>
+</div>
+
+<!-- CHAPITRE 5 -->
+<div class="section">
+    <h1>5. MISE EN PRATIQUE</h1>
+
+    <h2>Les étapes pour bénéficier du dispositif</h2>
+
+    <h3>Étape 1 : Achat du bien</h3>
+
+    <p>Acquérir un logement éligible :</p>
+    <ul>
+        <li>Logement neuf ou ancien avec 30% minimum de travaux</li>
+        <li>Situé dans un immeuble collectif en France</li>
+        <li>Respectant les normes énergétiques</li>
+    </ul>
+
+    <h3>Étape 2 : Choix du type de loyer</h3>
+
+    <p>Déterminer le niveau de loyer que vous pratiquerez :</p>
+    <ul>
+        <li>Intermédiaire (taux 3,5%)</li>
+        <li>Social (taux 4,5%)</li>
+        <li>Très social (taux 5,5%)</li>
+    </ul>
+
+    <h3>Étape 3 : Mise en location</h3>
+
+    <p>Louer le bien dans les 12 mois suivant l'acquisition ou l'achèvement des travaux :</p>
+    <ul>
+        <li>Vérifier l'éligibilité du locataire (ressources)</li>
+        <li>Bail de résidence principale</li>
+        <li>Respect du plafond de loyer</li>
+    </ul>
+
+    <h3>Étape 4 : Déclaration fiscale</h3>
+
+    <p>Compléter votre déclaration de revenus annuelle :</p>
+    <ul>
+        <li>Formulaire 2044 (revenus fonciers)</li>
+        <li>Annexe spécifique Dispositif Jeanbrun</li>
+        <li>Justificatifs d'éligibilité du locataire</li>
+    </ul>
+
+    <h2>Exemples de calculs détaillés</h2>
+
+    <h3>Cas n°1 : Investisseur primo-accédant</h3>
+
+    <div class="info-box">
+        <p><strong>Profil :</strong> Cadre, TMI 30%, célibataire, revenus : 60 000€/an</p>
+
+        <p><strong>Investissement :</strong></p>
+        <ul>
+            <li>Appartement T2 neuf à Lyon : 220 000€</li>
+            <li>Apport : 20 000€</li>
+            <li>Emprunt : 200 000€ à 3,5% sur 20 ans</li>
+            <li>Mensualité : 1 158€</li>
+            <li>Type de loyer : Intermédiaire (3,5%)</li>
+            <li>Loyer mensuel : 950€</li>
+        </ul>
+
+        <p><strong>Avantages fiscaux (année 1) :</strong></p>
+        <ul>
+            <li>Amortissement : 220 000€ × 3,5% = 7 700€</li>
+            <li>Intérêts d'emprunt déductibles : 6 900€</li>
+            <li>Charges déductibles (taxe foncière, assurances, gestion) : 2 400€</li>
+            <li><strong>Total déductions : 17 000€</strong></li>
+        </ul>
+
+        <p><strong>Revenus fonciers :</strong></p>
+        <ul>
+            <li>Loyers perçus : 950€ × 12 = 11 400€</li>
+            <li>Déductions : -17 000€</li>
+            <li><strong>Déficit foncier : -5 600€</strong></li>
+        </ul>
+
+        <p><strong>Impact fiscal :</strong></p>
+        <ul>
+            <li>Économie IR (30%) : 5 600€ × 30% = <strong>1 680€</strong></li>
+            <li>Économie PS (17,2%) : 5 600€ × 17,2% = <strong>963€</strong></li>
+            <li><strong>Total économie année 1 : 2 643€</strong></li>
+        </ul>
+
+        <p><strong>Bilan cash-flow mensuel :</strong></p>
+        <ul>
+            <li>Mensualité emprunt : -1 158€</li>
+            <li>Loyer perçu : +950€</li>
+            <li>Charges non récupérables : -200€</li>
+            <li>Économie fiscale mensuelle : +220€</li>
+            <li><strong>Effort mensuel : -188€</strong></li>
+        </ul>
+    </div>
+
+    <h3>Cas n°2 : Investisseur expérimenté avec travaux</h3>
+
+    <div class="info-box">
+        <p><strong>Profil :</strong> Chef d'entreprise, TMI 41%, couple, revenus : 140 000€/an</p>
+
+        <p><strong>Investissement :</strong></p>
+        <ul>
+            <li>Appartement T3 ancien à Bordeaux : 180 000€</li>
+            <li>Travaux de rénovation : 80 000€ (44% du prix)</li>
+            <li>Coût total : 260 000€</li>
+            <li>Apport : 60 000€</li>
+            <li>Emprunt : 200 000€ à 3,8% sur 15 ans</li>
+            <li>Mensualité : 1 465€</li>
+            <li>Type de loyer : Social (3,5% pour l'ancien)</li>
+            <li>Loyer mensuel : 1 150€</li>
+        </ul>
+
+        <p><strong>Avantages fiscaux (année 1) :</strong></p>
+        <ul>
+            <li>Amortissement : 260 000€ × 3,5% = 9 100€</li>
+            <li>Intérêts d'emprunt déductibles : 7 500€</li>
+            <li>Charges déductibles : 3 200€</li>
+            <li>Fraction travaux déductibles : 10 000€ (étalement possible)</li>
+            <li><strong>Total déductions : 29 800€</strong></li>
+        </ul>
+
+        <p><strong>Revenus fonciers :</strong></p>
+        <ul>
+            <li>Loyers perçus : 1 150€ × 12 = 13 800€</li>
+            <li>Déductions : -29 800€</li>
+            <li><strong>Déficit foncier : -16 000€</strong></li>
+        </ul>
+
+        <p><strong>Impact fiscal :</strong></p>
+        <ul>
+            <li>Économie IR (41%) : 16 000€ × 41% = <strong>6 560€</strong></li>
+            <li>Économie PS (17,2%) : 16 000€ × 17,2% = <strong>2 752€</strong></li>
+            <li><strong>Total économie année 1 : 9 312€</strong></li>
+        </ul>
+
+        <p><strong>Bilan cash-flow mensuel :</strong></p>
+        <ul>
+            <li>Mensualité emprunt : -1 465€</li>
+            <li>Loyer perçu : +1 150€</li>
+            <li>Charges non récupérables : -250€</li>
+            <li>Économie fiscale mensuelle : +776€</li>
+            <li><strong>Cash-flow positif : +211€</strong></li>
+        </ul>
+    </div>
+
+    <h2>Erreurs à éviter</h2>
+
+    <div class="warning-box">
+        <h3>❌ Les erreurs fréquentes</h3>
+
+        <ol>
+            <li><strong>Investir dans une maison individuelle</strong>
+                <p>Seuls les logements collectifs sont éligibles. Vérifiez bien ce critère avant tout achat.</p>
+            </li>
+
+            <li><strong>Ne pas vérifier l'éligibilité du locataire</strong>
+                <p>Vous devez impérativement demander et conserver les justificatifs de ressources (avis d'imposition N-2).</p>
+            </li>
+
+            <li><strong>Dépasser les plafonds de loyer</strong>
+                <p>Un dépassement, même minime, entraîne la perte des avantages fiscaux. Prenez une marge de sécurité.</p>
+            </li>
+
+            <li><strong>Négliger les déclarations annuelles</strong>
+                <p>Chaque année, vous devez déclarer le respect des conditions. Un oubli peut remettre en cause le dispositif.</p>
+            </li>
+
+            <li><strong>Sous-estimer les charges</strong>
+                <p>Taxe foncière, charges de copropriété, assurances, gestion locative... Intégrez tous ces coûts dans votre simulation.</p>
+            </li>
+
+            <li><strong>Louer à un membre de la famille</strong>
+                <p>Interdit, même si le membre est éligible en termes de ressources.</p>
+            </li>
+
+            <li><strong>Travaux insuffisants pour l'ancien</strong>
+                <p>Les travaux doivent représenter au minimum 30% de la valeur du bien. Conservez tous les justificatifs.</p>
+            </li>
+
+            <li><strong>Revendre avant 9 ans</strong>
+                <p>La revente prématurée entraîne la reprise des avantages fiscaux perçus, avec intérêts et pénalités.</p>
+            </li>
+        </ol>
+    </div>
+
+    <h2>Conseils d'optimisation</h2>
+
+    <div class="success-box">
+        <h3>✅ Bonnes pratiques</h3>
+
+        <ul>
+            <li><strong>Faites-vous accompagner</strong> par un expert-comptable spécialisé en fiscalité immobilière pour optimiser vos déclarations</li>
+
+            <li><strong>Conservez tous les justificatifs</strong> pendant au moins 10 ans : factures de travaux, contrats de location, avis d'imposition des locataires, etc.</li>
+
+            <li><strong>Simulez plusieurs scénarios</strong> avant d'investir : type de loyer, localisation, neuf vs ancien, pour trouver le meilleur équilibre rentabilité/effort d'épargne</li>
+
+            <li><strong>Privilégiez les zones dynamiques</strong> où la demande locative est forte pour limiter les risques de vacance</li>
+
+            <li><strong>Anticipez la vacance locative</strong> dans vos calculs (1 à 2 mois par an en moyenne)</li>
+
+            <li><strong>Souscrivez une garantie loyers impayés</strong> (GLI) pour sécuriser vos revenus</li>
+
+            <li><strong>Optez pour le loyer social</strong> si le marché le permet : meilleur taux d'amortissement avec un loyer souvent proche du marché dans certaines villes</li>
+        </ul>
+    </div>
+</div>
+
+<!-- CHAPITRE 6 -->
+<div class="section">
+    <h1>6. FAQ - QUESTIONS FRÉQUENTES</h1>
+
+    <h3>Puis-je cumuler plusieurs investissements Jeanbrun ?</h3>
+    <p><strong>Oui.</strong> Il n'y a pas de limite au nombre de biens que vous pouvez acquérir sous le dispositif Jeanbrun. Chaque bien bénéficie d'un plafond d'amortissement de 12 000€/an.</p>
+
+    <h3>Le dispositif est-il compatible avec un investissement en SCPI ?</h3>
+    <p><strong>Non.</strong> Le dispositif Jeanbrun s'applique uniquement aux investissements en direct. Les SCPI et autres véhicules d'investissement collectif ne sont pas éligibles.</p>
+
+    <h3>Que se passe-t-il si je vends mon bien avant 9 ans ?</h3>
+    <p><strong>Remise en cause.</strong> Les avantages fiscaux perçus devront être restitués, avec application d'intérêts de retard et de pénalités. Sauf cas de force majeure (décès, invalidité, licenciement).</p>
+
+    <h3>Puis-je changer le type de loyer en cours d'engagement ?</h3>
+    <p><strong>Oui, à la baisse uniquement.</strong> Vous pouvez passer d'un loyer intermédiaire à un loyer social, mais pas l'inverse. Le taux d'amortissement sera ajusté en conséquence.</p>
+
+    <h3>Les parkings et caves sont-ils pris en compte ?</h3>
+    <p><strong>Oui.</strong> Les annexes (parking, cave) vendues avec le logement sont intégrées dans le calcul de l'amortissement, dans la limite d'un emplacement de stationnement par logement.</p>
+
+    <h3>Comment déclarer mes revenus fonciers Jeanbrun ?</h3>
+    <p><strong>Formulaire 2044.</strong> Vous devez déclarer vos revenus fonciers via le formulaire 2044 avec l'annexe spécifique au dispositif Jeanbrun, disponible sur impots.gouv.fr.</p>
+
+    <h3>Le dispositif concerne-t-il la location meublée ?</h3>
+    <p><strong>Non.</strong> Le dispositif Jeanbrun s'applique uniquement à la location nue (non meublée). Pour la location meublée, d'autres régimes fiscaux existent (LMNP, LMP).</p>
+
+    <h3>Puis-je bénéficier du dispositif si je suis non-résident fiscal français ?</h3>
+    <p><strong>Sous conditions.</strong> Les non-résidents peuvent bénéficier du dispositif sous réserve de percevoir des revenus fonciers de source française imposables en France. Consultez un fiscaliste.</p>
+
+    <h3>Les frais de notaire sont-ils amortissables ?</h3>
+    <p><strong>Oui.</strong> Les frais de notaire et droits d'enregistrement peuvent être intégrés au prix d'acquisition pour le calcul de l'amortissement.</p>
+
+    <h3>Que se passe-t-il si mon locataire dépasse les plafonds de ressources ?</h3>
+    <p><strong>Maintien possible.</strong> Si votre locataire dépasse les plafonds en cours de bail, vous pouvez maintenir la location jusqu'à la fin du bail en cours, mais vous devrez trouver un locataire éligible au prochain renouvellement.</p>
+
+    <h3>Le dispositif Jeanbrun est-il cumulable avec d'autres avantages fiscaux ?</h3>
+    <p><strong>Non.</strong> Le dispositif Jeanbrun n'est pas cumulable avec d'autres dispositifs d'aide à l'investissement locatif (Pinel, Denormandie, Malraux, etc.) pour un même bien.</p>
+
+    <h3>Comment est calculée la surface pour les plafonds de loyer ?</h3>
+    <p><strong>Surface habitable.</strong> La surface prise en compte est la surface habitable au sens de la loi Boutin, hors annexes (balcons, terrasses, caves).</p>
+
+    <h3>Puis-je acheter un bien en indivision ou en SCI ?</h3>
+    <p><strong>Oui.</strong> L'achat en indivision ou via une SCI familiale à l'IS est possible. Chaque associé bénéficie de l'amortissement proportionnellement à ses parts, dans la limite du plafond de 12 000€.</p>
+
+    <h3>Y a-t-il un délai pour commencer les travaux dans l'ancien ?</h3>
+    <p><strong>Oui.</strong> Les travaux doivent débuter dans les 12 mois suivant l'acquisition et être achevés dans un délai maximum de 30 mois.</p>
+
+    <h3>Le dispositif est-il garanti dans le temps ?</h3>
+    <p><strong>Engagement 9 ans.</strong> Si vous remplissez les conditions à l'acquisition, le dispositif est garanti pendant 9 ans, même en cas de modification législative ultérieure.</p>
+</div>
+
+<!-- Page de conclusion -->
+<div class="section">
+    <h1>CONCLUSION</h1>
+
+    <p>Le <strong>dispositif Jeanbrun</strong> marque un tournant dans la politique de soutien à l'investissement locatif en France. Plus souple que son prédécesseur le Pinel, il offre une approche patrimoniale de long terme qui s'adresse particulièrement aux investisseurs avertis.</p>
+
+    <div class="intro-box">
+        <h3>Points clés à retenir</h3>
+
+        <ul>
+            <li><strong>Amortissement fiscal</strong> jusqu'à 12 000€ par an et par logement</li>
+            <li><strong>Déficit foncier</strong> doublé à 21 400€/an</li>
+            <li><strong>Déduction à 100%</strong> des charges et intérêts d'emprunt</li>
+            <li><strong>Tout le territoire</strong> éligible, sans zonage restrictif</li>
+            <li><strong>Neuf et ancien rénové</strong> éligibles</li>
+            <li><strong>Engagement 9 ans</strong> avec loyers plafonnés</li>
+        </ul>
+    </div>
+
+    <h2>Pour qui est fait ce dispositif ?</h2>
+
+    <p>Le dispositif Jeanbrun est particulièrement adapté si vous êtes :</p>
+
+    <ul>
+        <li>Contribuable avec <strong>revenus fonciers</strong> ou <strong>hauts revenus</strong></li>
+        <li>Investisseur cherchant une <strong>stratégie patrimoniale</strong> de long terme</li>
+        <li>Propriétaire souhaitant <strong>diversifier</strong> son portefeuille immobilier</li>
+        <li>Bailleur acceptant de <strong>pratiquer des loyers modérés</strong></li>
+        <li>Investisseur capable d'<strong>immobiliser son capital</strong> sur 9 ans minimum</li>
+    </ul>
+
+    <h2>Prochaines étapes</h2>
+
+    <div class="success-box">
+        <h3>Comment démarrer votre projet ?</h3>
+
+        <ol>
+            <li><strong>Simulez votre investissement</strong>
+                <p>Utilisez notre simulateur en ligne sur <strong>loi-jeanbrun-gouv.com</strong> pour estimer vos avantages fiscaux et votre effort d'épargne mensuel.</p>
+            </li>
+
+            <li><strong>Consultez un expert</strong>
+                <p>Faites-vous accompagner par un conseiller en gestion de patrimoine ou un expert-comptable spécialisé en fiscalité immobilière.</p>
+            </li>
+
+            <li><strong>Sélectionnez votre bien</strong>
+                <p>Choisissez un logement éligible en privilégiant les zones à forte demande locative pour limiter les risques de vacance.</p>
+            </li>
+
+            <li><strong>Vérifiez l'éligibilité</strong>
+                <p>Assurez-vous que votre projet respecte toutes les conditions : type de bien, performance énergétique, plafonds de loyer.</p>
+            </li>
+
+            <li><strong>Lancez votre investissement</strong>
+                <p>Finalisez votre acquisition et mettez en location dans les 12 mois.</p>
+            </li>
+        </ol>
+    </div>
+
+    <h2>Ressources utiles</h2>
+
+    <ul>
+        <li><strong>Site officiel :</strong> loi-jeanbrun-gouv.com</li>
+        <li><strong>Simulateur en ligne :</strong> loi-jeanbrun-gouv.com/simulation</li>
+        <li><strong>Textes officiels :</strong> Loi de finances 2026 (Journal Officiel)</li>
+        <li><strong>Administration fiscale :</strong> impots.gouv.fr</li>
+    </ul>
+
+    <div class="footer-note">
+        <p><strong>Avertissement :</strong> Ce guide a un caractère purement informatif et ne constitue pas un conseil en investissement. Les informations contenues dans ce document sont susceptibles d'évoluer selon les décrets d'application et les mises à jour législatives. Consultez toujours un professionnel (conseiller en gestion de patrimoine, expert-comptable, avocat fiscaliste) avant tout investissement.</p>
+
+        <p style="margin-top: 15px;"><strong>Version :</strong> Février 2026</p>
+        <p><strong>Source :</strong> loi-jeanbrun-gouv.com</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Noirémont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Noirémont';
+$ville_key = "Noirémont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

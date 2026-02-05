@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Éparres
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Éparres';
+$ville_key = "Les Éparres";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

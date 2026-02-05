@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Venansault
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Venansault';
+$ville_key = "Venansault";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

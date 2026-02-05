@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Affieux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Affieux';
+$ville_key = "Affieux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cintegabelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cintegabelle';
+$ville_key = "Cintegabelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

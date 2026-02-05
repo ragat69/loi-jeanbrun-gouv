@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montécheroux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montécheroux';
+$ville_key = "Montécheroux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

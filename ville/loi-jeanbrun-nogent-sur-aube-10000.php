@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nogent-sur-Aube
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nogent-sur-Aube';
+$ville_key = "Nogent-sur-Aube";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

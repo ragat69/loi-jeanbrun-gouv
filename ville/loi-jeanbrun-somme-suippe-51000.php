@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Somme-Suippe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Somme-Suippe';
+$ville_key = "Somme-Suippe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

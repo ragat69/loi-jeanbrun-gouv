@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Julos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Julos';
+$ville_key = "Julos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

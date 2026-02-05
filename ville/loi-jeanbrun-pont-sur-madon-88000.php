@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pont-sur-Madon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pont-sur-Madon';
+$ville_key = "Pont-sur-Madon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

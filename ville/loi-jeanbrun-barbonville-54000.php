@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Barbonville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Barbonville';
+$ville_key = "Barbonville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

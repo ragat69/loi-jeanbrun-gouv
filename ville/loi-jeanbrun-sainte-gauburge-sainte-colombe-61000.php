@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Gauburge-Sainte-Colombe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Gauburge-Sainte-Colombe';
+$ville_key = "Sainte-Gauburge-Sainte-Colombe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Briançon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Briançon';
+$ville_key = "Briançon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

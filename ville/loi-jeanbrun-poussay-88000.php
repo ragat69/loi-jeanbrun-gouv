@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Poussay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Poussay';
+$ville_key = "Poussay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

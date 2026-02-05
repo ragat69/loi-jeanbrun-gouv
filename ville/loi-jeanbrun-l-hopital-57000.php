@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - L'Hôpital
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'L'Hôpital';
+$ville_key = "L'Hôpital";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

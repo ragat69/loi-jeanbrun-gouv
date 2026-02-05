@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villoncourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villoncourt';
+$ville_key = "Villoncourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

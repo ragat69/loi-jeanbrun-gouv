@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ardes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ardes';
+$ville_key = "Ardes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

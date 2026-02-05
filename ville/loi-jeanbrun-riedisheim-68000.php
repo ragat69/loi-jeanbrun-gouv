@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Riedisheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Riedisheim';
+$ville_key = "Riedisheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

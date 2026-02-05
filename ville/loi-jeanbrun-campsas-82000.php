@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Campsas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Campsas';
+$ville_key = "Campsas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

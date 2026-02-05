@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wiwersheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wiwersheim';
+$ville_key = "Wiwersheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Confort
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Confort';
+$ville_key = "Confort";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

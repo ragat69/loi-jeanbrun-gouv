@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hermanville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hermanville';
+$ville_key = "Hermanville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

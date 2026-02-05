@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montmort
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montmort';
+$ville_key = "Montmort";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

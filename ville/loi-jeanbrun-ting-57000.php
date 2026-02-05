@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Œting
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Œting';
+$ville_key = "Œting";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

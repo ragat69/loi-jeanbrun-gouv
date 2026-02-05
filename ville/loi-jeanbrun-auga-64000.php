@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auga
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auga';
+$ville_key = "Auga";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

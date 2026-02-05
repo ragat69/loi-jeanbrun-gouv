@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Doubs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Doubs';
+$ville_key = "Doubs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

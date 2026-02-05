@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mazères-Lezons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mazères-Lezons';
+$ville_key = "Mazères-Lezons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

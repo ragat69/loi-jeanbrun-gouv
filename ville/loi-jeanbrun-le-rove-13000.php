@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Rove
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Rove';
+$ville_key = "Le Rove";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nachamps
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nachamps';
+$ville_key = "Nachamps";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

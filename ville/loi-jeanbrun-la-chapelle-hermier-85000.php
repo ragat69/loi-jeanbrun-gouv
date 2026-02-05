@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-Hermier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-Hermier';
+$ville_key = "La Chapelle-Hermier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

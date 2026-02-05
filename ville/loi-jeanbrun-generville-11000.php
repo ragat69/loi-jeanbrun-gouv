@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Generville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Generville';
+$ville_key = "Generville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

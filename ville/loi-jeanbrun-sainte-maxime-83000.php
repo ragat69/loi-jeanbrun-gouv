@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Maxime
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Maxime';
+$ville_key = "Sainte-Maxime";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Esterre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Esterre';
+$ville_key = "Esterre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Biermont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Biermont';
+$ville_key = "Biermont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

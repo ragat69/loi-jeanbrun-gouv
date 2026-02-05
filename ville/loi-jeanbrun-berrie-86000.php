@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Berrie
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Berrie';
+$ville_key = "Berrie";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

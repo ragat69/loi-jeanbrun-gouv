@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monneren
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monneren';
+$ville_key = "Monneren";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

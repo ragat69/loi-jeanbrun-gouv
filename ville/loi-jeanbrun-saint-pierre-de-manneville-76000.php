@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-de-Manneville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-de-Manneville';
+$ville_key = "Saint-Pierre-de-Manneville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

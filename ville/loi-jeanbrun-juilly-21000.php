@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Juilly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Juilly';
+$ville_key = "Juilly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Polincove
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Polincove';
+$ville_key = "Polincove";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

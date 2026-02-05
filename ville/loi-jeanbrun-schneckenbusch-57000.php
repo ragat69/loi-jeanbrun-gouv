@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Schneckenbusch
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Schneckenbusch';
+$ville_key = "Schneckenbusch";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

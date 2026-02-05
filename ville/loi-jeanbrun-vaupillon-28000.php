@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaupillon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaupillon';
+$ville_key = "Vaupillon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

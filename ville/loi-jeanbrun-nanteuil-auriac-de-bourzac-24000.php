@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nanteuil-Auriac-de-Bourzac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nanteuil-Auriac-de-Bourzac';
+$ville_key = "Nanteuil-Auriac-de-Bourzac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

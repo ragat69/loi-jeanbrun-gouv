@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Serocourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Serocourt';
+$ville_key = "Serocourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

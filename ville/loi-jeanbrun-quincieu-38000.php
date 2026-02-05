@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Quincieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Quincieu';
+$ville_key = "Quincieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

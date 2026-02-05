@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tallone
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tallone';
+$ville_key = "Tallone";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

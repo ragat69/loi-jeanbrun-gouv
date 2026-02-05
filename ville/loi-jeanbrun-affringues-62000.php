@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Affringues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Affringues';
+$ville_key = "Affringues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

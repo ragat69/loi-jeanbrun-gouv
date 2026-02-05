@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maintenay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maintenay';
+$ville_key = "Maintenay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

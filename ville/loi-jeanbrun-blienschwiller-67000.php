@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Blienschwiller
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Blienschwiller';
+$ville_key = "Blienschwiller";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

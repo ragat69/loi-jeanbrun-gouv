@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ville-le-Marclet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ville-le-Marclet';
+$ville_key = "Ville-le-Marclet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

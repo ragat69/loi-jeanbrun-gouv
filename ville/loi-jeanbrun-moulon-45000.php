@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moulon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moulon';
+$ville_key = "Moulon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

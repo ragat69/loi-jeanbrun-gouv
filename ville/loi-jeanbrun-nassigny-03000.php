@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nassigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nassigny';
+$ville_key = "Nassigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

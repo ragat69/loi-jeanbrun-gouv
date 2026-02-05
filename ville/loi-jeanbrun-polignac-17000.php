@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Polignac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Polignac';
+$ville_key = "Polignac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

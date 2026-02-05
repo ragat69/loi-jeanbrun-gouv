@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Christophe-en-Bazelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Christophe-en-Bazelle';
+$ville_key = "Saint-Christophe-en-Bazelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

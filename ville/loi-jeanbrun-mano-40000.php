@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mano
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mano';
+$ville_key = "Mano";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

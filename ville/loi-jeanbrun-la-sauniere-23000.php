@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Saunière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Saunière';
+$ville_key = "La Saunière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

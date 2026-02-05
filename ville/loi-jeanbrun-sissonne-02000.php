@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sissonne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sissonne';
+$ville_key = "Sissonne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

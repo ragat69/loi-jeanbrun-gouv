@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Savigny-sur-Aisne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Savigny-sur-Aisne';
+$ville_key = "Savigny-sur-Aisne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

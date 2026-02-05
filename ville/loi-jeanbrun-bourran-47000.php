@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bourran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bourran';
+$ville_key = "Bourran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

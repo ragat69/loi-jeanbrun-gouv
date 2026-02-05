@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Bastide-du-Salat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Bastide-du-Salat';
+$ville_key = "La Bastide-du-Salat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

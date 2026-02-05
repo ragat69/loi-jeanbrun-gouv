@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oisilly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oisilly';
+$ville_key = "Oisilly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

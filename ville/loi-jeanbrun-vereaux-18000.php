@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vereaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vereaux';
+$ville_key = "Vereaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

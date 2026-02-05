@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Amettes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Amettes';
+$ville_key = "Amettes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

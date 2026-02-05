@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montferrier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montferrier';
+$ville_key = "Montferrier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

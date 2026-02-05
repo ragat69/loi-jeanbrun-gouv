@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mairé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mairé';
+$ville_key = "Mairé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

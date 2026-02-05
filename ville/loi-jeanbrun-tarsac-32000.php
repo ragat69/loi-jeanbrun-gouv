@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tarsac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tarsac';
+$ville_key = "Tarsac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

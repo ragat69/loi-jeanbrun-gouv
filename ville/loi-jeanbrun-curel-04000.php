@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Curel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Curel';
+$ville_key = "Curel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Araux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Araux';
+$ville_key = "Araux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

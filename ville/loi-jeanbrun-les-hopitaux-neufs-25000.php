@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Hôpitaux-Neufs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Hôpitaux-Neufs';
+$ville_key = "Les Hôpitaux-Neufs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

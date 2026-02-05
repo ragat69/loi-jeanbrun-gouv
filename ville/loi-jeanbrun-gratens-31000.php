@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gratens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gratens';
+$ville_key = "Gratens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

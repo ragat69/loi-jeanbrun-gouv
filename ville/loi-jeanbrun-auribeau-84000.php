@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auribeau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auribeau';
+$ville_key = "Auribeau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

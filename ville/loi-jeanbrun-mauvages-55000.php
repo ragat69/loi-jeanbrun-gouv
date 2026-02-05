@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mauvages
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mauvages';
+$ville_key = "Mauvages";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

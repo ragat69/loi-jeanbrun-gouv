@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Victor-sur-Avre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Victor-sur-Avre';
+$ville_key = "Saint-Victor-sur-Avre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

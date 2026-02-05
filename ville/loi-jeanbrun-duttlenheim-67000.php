@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Duttlenheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Duttlenheim';
+$ville_key = "Duttlenheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

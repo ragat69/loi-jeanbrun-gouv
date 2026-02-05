@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Vendue-Mignot
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Vendue-Mignot';
+$ville_key = "La Vendue-Mignot";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

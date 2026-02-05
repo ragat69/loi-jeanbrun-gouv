@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lorentzen
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lorentzen';
+$ville_key = "Lorentzen";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Mary
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Mary';
+$ville_key = "Saint-Mary";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

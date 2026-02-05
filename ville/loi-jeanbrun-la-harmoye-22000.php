@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Harmoye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Harmoye';
+$ville_key = "La Harmoye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

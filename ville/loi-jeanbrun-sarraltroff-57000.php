@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sarraltroff
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sarraltroff';
+$ville_key = "Sarraltroff";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

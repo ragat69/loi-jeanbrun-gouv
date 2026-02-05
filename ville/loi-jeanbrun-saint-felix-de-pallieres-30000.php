@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Félix-de-Pallières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Félix-de-Pallières';
+$ville_key = "Saint-Félix-de-Pallières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

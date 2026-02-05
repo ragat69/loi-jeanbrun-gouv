@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ronchois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ronchois';
+$ville_key = "Ronchois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

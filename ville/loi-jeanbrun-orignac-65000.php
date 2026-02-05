@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Orignac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Orignac';
+$ville_key = "Orignac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

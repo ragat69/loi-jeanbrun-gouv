@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-de-Vassols
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-de-Vassols';
+$ville_key = "Saint-Pierre-de-Vassols";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

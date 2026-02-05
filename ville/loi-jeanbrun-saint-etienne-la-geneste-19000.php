@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Étienne-la-Geneste
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Étienne-la-Geneste';
+$ville_key = "Saint-Étienne-la-Geneste";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

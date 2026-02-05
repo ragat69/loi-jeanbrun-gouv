@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaumetz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaumetz';
+$ville_key = "Beaumetz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

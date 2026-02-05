@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cizely
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cizely';
+$ville_key = "Cizely";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

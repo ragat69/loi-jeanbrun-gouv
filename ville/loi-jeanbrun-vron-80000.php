@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vron';
+$ville_key = "Vron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

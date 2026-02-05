@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Azeville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Azeville';
+$ville_key = "Azeville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

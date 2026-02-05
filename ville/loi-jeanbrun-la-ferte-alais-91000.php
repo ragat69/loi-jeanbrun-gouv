@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Ferté-Alais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Ferté-Alais';
+$ville_key = "La Ferté-Alais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

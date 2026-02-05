@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ville-sur-Lumes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ville-sur-Lumes';
+$ville_key = "Ville-sur-Lumes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

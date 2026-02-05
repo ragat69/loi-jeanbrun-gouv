@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beblenheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beblenheim';
+$ville_key = "Beblenheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

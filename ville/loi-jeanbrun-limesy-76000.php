@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Limésy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Limésy';
+$ville_key = "Limésy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

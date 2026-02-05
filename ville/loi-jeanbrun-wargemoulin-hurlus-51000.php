@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wargemoulin-Hurlus
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wargemoulin-Hurlus';
+$ville_key = "Wargemoulin-Hurlus";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

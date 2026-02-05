@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pouan-les-Vallées
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pouan-les-Vallées';
+$ville_key = "Pouan-les-Vallées";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Salaunes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Salaunes';
+$ville_key = "Salaunes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

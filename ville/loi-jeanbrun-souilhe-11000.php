@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Souilhe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Souilhe';
+$ville_key = "Souilhe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

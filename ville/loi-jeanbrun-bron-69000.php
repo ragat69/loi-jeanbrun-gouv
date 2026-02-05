@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bron';
+$ville_key = "Bron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

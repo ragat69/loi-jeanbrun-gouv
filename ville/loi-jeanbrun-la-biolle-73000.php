@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Biolle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Biolle';
+$ville_key = "La Biolle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

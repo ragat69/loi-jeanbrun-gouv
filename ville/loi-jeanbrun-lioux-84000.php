@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lioux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lioux';
+$ville_key = "Lioux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

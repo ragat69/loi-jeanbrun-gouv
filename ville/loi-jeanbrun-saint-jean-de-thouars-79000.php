@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Jean-de-Thouars
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Jean-de-Thouars';
+$ville_key = "Saint-Jean-de-Thouars";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

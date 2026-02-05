@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mornant
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mornant';
+$ville_key = "Mornant";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

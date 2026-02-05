@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Connac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Connac';
+$ville_key = "Connac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

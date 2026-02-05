@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vitry-lès-Nogent
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vitry-lès-Nogent';
+$ville_key = "Vitry-lès-Nogent";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Paulx
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Paulx';
+$ville_key = "Paulx";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

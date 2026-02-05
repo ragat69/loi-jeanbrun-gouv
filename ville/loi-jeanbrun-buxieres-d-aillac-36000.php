@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Buxières-d'Aillac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Buxières-d'Aillac';
+$ville_key = "Buxières-d'Aillac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

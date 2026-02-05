@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Issenheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Issenheim';
+$ville_key = "Issenheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

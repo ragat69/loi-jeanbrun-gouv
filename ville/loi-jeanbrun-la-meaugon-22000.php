@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Méaugon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Méaugon';
+$ville_key = "La Méaugon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

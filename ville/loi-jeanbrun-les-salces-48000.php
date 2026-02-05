@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Salces
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Salces';
+$ville_key = "Les Salces";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

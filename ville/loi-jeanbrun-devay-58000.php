@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Devay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Devay';
+$ville_key = "Devay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

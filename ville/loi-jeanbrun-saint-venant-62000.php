@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Venant
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Venant';
+$ville_key = "Saint-Venant";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

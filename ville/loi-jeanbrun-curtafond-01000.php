@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Curtafond
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Curtafond';
+$ville_key = "Curtafond";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

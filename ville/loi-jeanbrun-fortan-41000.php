@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fortan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fortan';
+$ville_key = "Fortan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

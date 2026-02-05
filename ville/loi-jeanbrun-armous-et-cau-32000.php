@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Armous-et-Cau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Armous-et-Cau';
+$ville_key = "Armous-et-Cau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

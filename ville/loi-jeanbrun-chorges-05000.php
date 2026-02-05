@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chorges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chorges';
+$ville_key = "Chorges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villez-sur-le-Neubourg
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villez-sur-le-Neubourg';
+$ville_key = "Villez-sur-le-Neubourg";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

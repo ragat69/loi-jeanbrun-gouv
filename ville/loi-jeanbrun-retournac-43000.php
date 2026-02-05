@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Retournac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Retournac';
+$ville_key = "Retournac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ferran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ferran';
+$ville_key = "Ferran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Avaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Avaux';
+$ville_key = "Avaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

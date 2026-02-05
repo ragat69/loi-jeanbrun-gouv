@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Omécourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Omécourt';
+$ville_key = "Omécourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

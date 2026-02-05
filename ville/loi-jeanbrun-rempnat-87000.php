@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rempnat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rempnat';
+$ville_key = "Rempnat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

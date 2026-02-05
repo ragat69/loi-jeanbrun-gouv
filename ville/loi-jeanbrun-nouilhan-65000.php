@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nouilhan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nouilhan';
+$ville_key = "Nouilhan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

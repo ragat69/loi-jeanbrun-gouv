@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Compainville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Compainville';
+$ville_key = "Compainville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

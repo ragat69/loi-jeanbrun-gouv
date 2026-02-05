@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mun
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mun';
+$ville_key = "Mun";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

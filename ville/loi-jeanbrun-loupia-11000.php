@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Loupia
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Loupia';
+$ville_key = "Loupia";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

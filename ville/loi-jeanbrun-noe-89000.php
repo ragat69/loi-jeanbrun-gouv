@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Noé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Noé';
+$ville_key = "Noé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

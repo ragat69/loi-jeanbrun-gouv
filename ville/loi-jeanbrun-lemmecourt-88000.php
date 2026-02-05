@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lemmecourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lemmecourt';
+$ville_key = "Lemmecourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

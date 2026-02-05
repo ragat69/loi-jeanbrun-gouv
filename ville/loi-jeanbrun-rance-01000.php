@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rancé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rancé';
+$ville_key = "Rancé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

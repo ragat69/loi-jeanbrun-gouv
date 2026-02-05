@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ruelisheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ruelisheim';
+$ville_key = "Ruelisheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

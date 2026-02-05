@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Warluis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Warluis';
+$ville_key = "Warluis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

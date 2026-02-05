@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Briquemesnil-Floxicourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Briquemesnil-Floxicourt';
+$ville_key = "Briquemesnil-Floxicourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

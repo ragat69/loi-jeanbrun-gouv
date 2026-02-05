@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Haisnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Haisnes';
+$ville_key = "Haisnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

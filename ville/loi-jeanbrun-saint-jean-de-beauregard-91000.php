@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Jean-de-Beauregard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Jean-de-Beauregard';
+$ville_key = "Saint-Jean-de-Beauregard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

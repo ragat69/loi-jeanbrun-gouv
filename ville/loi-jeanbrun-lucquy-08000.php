@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lucquy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lucquy';
+$ville_key = "Lucquy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

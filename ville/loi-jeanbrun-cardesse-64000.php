@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cardesse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cardesse';
+$ville_key = "Cardesse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

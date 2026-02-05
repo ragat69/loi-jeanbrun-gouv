@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maure
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maure';
+$ville_key = "Maure";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

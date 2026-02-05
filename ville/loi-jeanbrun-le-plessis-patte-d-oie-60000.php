@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Plessis-Patte-d'Oie
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Plessis-Patte-d'Oie';
+$ville_key = "Le Plessis-Patte-d'Oie";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

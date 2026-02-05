@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Chaffaut-Saint-Jurson
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Chaffaut-Saint-Jurson';
+$ville_key = "Le Chaffaut-Saint-Jurson";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

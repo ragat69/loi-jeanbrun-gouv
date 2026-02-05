@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neuf-Marché
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neuf-Marché';
+$ville_key = "Neuf-Marché";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

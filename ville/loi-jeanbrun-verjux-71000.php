@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Verjux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Verjux';
+$ville_key = "Verjux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

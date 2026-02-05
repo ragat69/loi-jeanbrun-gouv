@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Semuy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Semuy';
+$ville_key = "Semuy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

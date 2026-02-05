@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Anduze
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Anduze';
+$ville_key = "Anduze";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

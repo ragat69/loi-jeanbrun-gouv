@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pouzilhac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pouzilhac';
+$ville_key = "Pouzilhac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

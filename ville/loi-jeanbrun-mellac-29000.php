@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mellac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mellac';
+$ville_key = "Mellac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ambérieu-en-Bugey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ambérieu-en-Bugey';
+$ville_key = "Ambérieu-en-Bugey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

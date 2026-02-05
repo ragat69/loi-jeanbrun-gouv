@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montrouveau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montrouveau';
+$ville_key = "Montrouveau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

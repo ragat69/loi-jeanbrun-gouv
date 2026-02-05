@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montreuil-le-Chétif
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montreuil-le-Chétif';
+$ville_key = "Montreuil-le-Chétif";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fromelennes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fromelennes';
+$ville_key = "Fromelennes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

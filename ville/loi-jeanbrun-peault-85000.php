@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Péault
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Péault';
+$ville_key = "Péault";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

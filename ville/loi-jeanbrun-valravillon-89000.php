@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Valravillon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Valravillon';
+$ville_key = "Valravillon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

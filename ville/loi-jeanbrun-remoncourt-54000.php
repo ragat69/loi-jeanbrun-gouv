@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Remoncourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Remoncourt';
+$ville_key = "Remoncourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

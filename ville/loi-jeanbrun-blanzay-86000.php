@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Blanzay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Blanzay';
+$ville_key = "Blanzay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

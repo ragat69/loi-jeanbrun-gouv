@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Étienne-de-Brillouet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Étienne-de-Brillouet';
+$ville_key = "Saint-Étienne-de-Brillouet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

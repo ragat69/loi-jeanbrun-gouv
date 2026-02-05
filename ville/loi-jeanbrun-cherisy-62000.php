@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chérisy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chérisy';
+$ville_key = "Chérisy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

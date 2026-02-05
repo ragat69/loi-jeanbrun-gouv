@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nancras
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nancras';
+$ville_key = "Nancras";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

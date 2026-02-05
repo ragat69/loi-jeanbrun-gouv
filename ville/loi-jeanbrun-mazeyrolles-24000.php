@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mazeyrolles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mazeyrolles';
+$ville_key = "Mazeyrolles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

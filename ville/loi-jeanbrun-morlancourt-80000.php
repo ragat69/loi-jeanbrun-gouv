@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Morlancourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Morlancourt';
+$ville_key = "Morlancourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

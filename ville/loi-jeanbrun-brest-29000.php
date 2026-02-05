@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brest
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brest';
+$ville_key = "Brest";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

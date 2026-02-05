@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brû
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brû';
+$ville_key = "Brû";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

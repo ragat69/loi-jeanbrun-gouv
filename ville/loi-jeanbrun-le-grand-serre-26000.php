@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Grand-Serre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Grand-Serre';
+$ville_key = "Le Grand-Serre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

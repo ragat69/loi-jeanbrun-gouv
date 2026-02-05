@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Anglet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Anglet';
+$ville_key = "Anglet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

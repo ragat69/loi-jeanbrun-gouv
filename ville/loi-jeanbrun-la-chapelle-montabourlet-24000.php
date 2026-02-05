@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-Montabourlet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-Montabourlet';
+$ville_key = "La Chapelle-Montabourlet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

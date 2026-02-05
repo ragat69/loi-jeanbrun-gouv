@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Charlieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Charlieu';
+$ville_key = "Charlieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

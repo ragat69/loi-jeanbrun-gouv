@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bapaume
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bapaume';
+$ville_key = "Bapaume";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

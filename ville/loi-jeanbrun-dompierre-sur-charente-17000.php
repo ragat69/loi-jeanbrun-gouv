@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dompierre-sur-Charente
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dompierre-sur-Charente';
+$ville_key = "Dompierre-sur-Charente";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

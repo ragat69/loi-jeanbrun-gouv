@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sanzey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sanzey';
+$ville_key = "Sanzey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

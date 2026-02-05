@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Blaziert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Blaziert';
+$ville_key = "Blaziert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

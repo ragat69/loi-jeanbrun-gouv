@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Luché-Thouarsais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Luché-Thouarsais';
+$ville_key = "Luché-Thouarsais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

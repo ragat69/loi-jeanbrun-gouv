@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Anla
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Anla';
+$ville_key = "Anla";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

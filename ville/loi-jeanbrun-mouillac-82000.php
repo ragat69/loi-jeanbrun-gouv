@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mouillac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mouillac';
+$ville_key = "Mouillac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

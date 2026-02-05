@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Val-Suzon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Val-Suzon';
+$ville_key = "Val-Suzon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

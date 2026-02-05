@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Prés
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Prés';
+$ville_key = "Les Prés";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Germain-des-Angles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Germain-des-Angles';
+$ville_key = "Saint-Germain-des-Angles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

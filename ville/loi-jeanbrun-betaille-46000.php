@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bétaille
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bétaille';
+$ville_key = "Bétaille";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

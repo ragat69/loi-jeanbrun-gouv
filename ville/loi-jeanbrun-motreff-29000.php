@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Motreff
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Motreff';
+$ville_key = "Motreff";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Faverolles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Faverolles';
+$ville_key = "Faverolles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

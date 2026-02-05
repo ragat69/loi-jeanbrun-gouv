@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vignale
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vignale';
+$ville_key = "Vignale";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

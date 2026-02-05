@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Freycenet-la-Cuche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Freycenet-la-Cuche';
+$ville_key = "Freycenet-la-Cuche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

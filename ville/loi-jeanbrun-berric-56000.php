@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Berric
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Berric';
+$ville_key = "Berric";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

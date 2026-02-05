@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Septvallons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Septvallons';
+$ville_key = "Les Septvallons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

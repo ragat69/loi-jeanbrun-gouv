@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pannecé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pannecé';
+$ville_key = "Pannecé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

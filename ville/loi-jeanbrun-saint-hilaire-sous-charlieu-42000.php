@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Hilaire-sous-Charlieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Hilaire-sous-Charlieu';
+$ville_key = "Saint-Hilaire-sous-Charlieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Rivière-de-Corps
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Rivière-de-Corps';
+$ville_key = "La Rivière-de-Corps";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

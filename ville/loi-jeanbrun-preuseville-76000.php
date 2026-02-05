@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Preuseville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Preuseville';
+$ville_key = "Preuseville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

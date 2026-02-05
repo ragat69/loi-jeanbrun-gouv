@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fréchède
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fréchède';
+$ville_key = "Fréchède";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

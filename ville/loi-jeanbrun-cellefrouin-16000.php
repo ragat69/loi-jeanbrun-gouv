@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cellefrouin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cellefrouin';
+$ville_key = "Cellefrouin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

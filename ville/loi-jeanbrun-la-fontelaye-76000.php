@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Fontelaye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Fontelaye';
+$ville_key = "La Fontelaye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

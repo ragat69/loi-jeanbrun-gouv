@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fontains
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fontains';
+$ville_key = "Fontains";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

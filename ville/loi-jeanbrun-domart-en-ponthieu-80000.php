@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Domart-en-Ponthieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Domart-en-Ponthieu';
+$ville_key = "Domart-en-Ponthieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

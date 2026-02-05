@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lumeau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lumeau';
+$ville_key = "Lumeau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

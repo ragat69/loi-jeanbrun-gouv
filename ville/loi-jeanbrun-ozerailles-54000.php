@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ozerailles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ozerailles';
+$ville_key = "Ozerailles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

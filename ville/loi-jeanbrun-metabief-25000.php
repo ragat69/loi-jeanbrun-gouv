@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Métabief
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Métabief';
+$ville_key = "Métabief";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

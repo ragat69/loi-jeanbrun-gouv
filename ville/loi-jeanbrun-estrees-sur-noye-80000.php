@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Estrées-sur-Noye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Estrées-sur-Noye';
+$ville_key = "Estrées-sur-Noye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

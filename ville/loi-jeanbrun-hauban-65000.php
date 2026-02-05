@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hauban
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hauban';
+$ville_key = "Hauban";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

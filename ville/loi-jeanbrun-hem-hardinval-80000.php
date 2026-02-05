@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hem-Hardinval
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hem-Hardinval';
+$ville_key = "Hem-Hardinval";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

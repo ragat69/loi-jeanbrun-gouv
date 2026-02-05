@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Verge
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Verge';
+$ville_key = "Sainte-Verge";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

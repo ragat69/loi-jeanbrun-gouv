@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Trambly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Trambly';
+$ville_key = "Trambly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

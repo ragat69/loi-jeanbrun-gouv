@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guarbecque
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guarbecque';
+$ville_key = "Guarbecque";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

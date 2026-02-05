@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Murbach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Murbach';
+$ville_key = "Murbach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

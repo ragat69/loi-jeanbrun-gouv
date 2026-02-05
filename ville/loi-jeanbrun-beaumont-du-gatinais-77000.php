@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaumont-du-Gâtinais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaumont-du-Gâtinais';
+$ville_key = "Beaumont-du-Gâtinais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

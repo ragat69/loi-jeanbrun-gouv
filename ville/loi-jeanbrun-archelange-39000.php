@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Archelange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Archelange';
+$ville_key = "Archelange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

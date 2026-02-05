@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Stiring-Wendel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Stiring-Wendel';
+$ville_key = "Stiring-Wendel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

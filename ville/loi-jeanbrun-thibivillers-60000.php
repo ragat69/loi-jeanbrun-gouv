@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thibivillers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thibivillers';
+$ville_key = "Thibivillers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

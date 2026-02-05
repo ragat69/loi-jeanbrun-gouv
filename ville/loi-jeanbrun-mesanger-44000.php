@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mésanger
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mésanger';
+$ville_key = "Mésanger";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

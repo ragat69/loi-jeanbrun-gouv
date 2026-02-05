@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pichanges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pichanges';
+$ville_key = "Pichanges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

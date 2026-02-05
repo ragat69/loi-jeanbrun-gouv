@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mathay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mathay';
+$ville_key = "Mathay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

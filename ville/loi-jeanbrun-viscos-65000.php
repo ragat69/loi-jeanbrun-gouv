@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Viscos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Viscos';
+$ville_key = "Viscos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

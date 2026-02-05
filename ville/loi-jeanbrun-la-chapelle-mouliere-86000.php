@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-Moulière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-Moulière';
+$ville_key = "La Chapelle-Moulière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Hippolyte-du-Fort
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Hippolyte-du-Fort';
+$ville_key = "Saint-Hippolyte-du-Fort";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

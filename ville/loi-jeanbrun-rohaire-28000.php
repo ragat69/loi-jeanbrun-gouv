@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rohaire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rohaire';
+$ville_key = "Rohaire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

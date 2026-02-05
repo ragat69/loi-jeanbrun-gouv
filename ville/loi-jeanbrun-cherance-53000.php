@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chérancé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chérancé';
+$ville_key = "Chérancé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

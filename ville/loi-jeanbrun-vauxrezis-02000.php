@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vauxrezis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vauxrezis';
+$ville_key = "Vauxrezis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

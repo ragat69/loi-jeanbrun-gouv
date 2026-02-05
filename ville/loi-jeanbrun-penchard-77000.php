@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Penchard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Penchard';
+$ville_key = "Penchard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

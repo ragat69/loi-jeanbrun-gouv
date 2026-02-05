@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Velluire-sur-Vendée
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Velluire-sur-Vendée';
+$ville_key = "Les Velluire-sur-Vendée";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

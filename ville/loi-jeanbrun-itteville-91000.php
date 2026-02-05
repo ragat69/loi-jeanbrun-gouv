@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Itteville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Itteville';
+$ville_key = "Itteville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cauna
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cauna';
+$ville_key = "Cauna";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

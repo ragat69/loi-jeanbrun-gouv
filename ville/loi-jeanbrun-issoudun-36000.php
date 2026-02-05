@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Issoudun
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Issoudun';
+$ville_key = "Issoudun";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

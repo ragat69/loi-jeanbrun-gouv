@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lémeré
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lémeré';
+$ville_key = "Lémeré";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Buléon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Buléon';
+$ville_key = "Buléon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

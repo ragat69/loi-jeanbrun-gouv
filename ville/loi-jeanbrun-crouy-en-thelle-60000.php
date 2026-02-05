@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Crouy-en-Thelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Crouy-en-Thelle';
+$ville_key = "Crouy-en-Thelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

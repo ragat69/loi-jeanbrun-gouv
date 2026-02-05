@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Bressou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Bressou';
+$ville_key = "Saint-Bressou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

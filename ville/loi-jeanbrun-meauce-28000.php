@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Meaucé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Meaucé';
+$ville_key = "Meaucé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

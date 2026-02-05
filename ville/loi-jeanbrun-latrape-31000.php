@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Latrape
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Latrape';
+$ville_key = "Latrape";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

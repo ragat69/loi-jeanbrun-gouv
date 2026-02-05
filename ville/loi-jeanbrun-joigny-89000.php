@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Joigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Joigny';
+$ville_key = "Joigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

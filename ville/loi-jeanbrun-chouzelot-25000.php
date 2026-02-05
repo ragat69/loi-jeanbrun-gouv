@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chouzelot
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chouzelot';
+$ville_key = "Chouzelot";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

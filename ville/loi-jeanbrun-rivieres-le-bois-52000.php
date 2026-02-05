@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rivières-le-Bois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rivières-le-Bois';
+$ville_key = "Rivières-le-Bois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

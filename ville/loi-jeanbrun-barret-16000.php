@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Barret
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Barret';
+$ville_key = "Barret";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

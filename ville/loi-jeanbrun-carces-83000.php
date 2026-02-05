@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Carcès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Carcès';
+$ville_key = "Carcès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lacabarède
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lacabarède';
+$ville_key = "Lacabarède";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

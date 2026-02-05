@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mangonville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mangonville';
+$ville_key = "Mangonville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

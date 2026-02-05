@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Aigleville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Aigleville';
+$ville_key = "Aigleville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

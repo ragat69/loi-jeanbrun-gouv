@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ceyzériat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ceyzériat';
+$ville_key = "Ceyzériat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

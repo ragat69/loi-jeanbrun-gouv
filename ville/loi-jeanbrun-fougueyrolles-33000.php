@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fougueyrolles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fougueyrolles';
+$ville_key = "Fougueyrolles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

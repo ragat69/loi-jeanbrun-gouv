@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fourcigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fourcigny';
+$ville_key = "Fourcigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

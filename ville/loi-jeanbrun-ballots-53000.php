@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ballots
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ballots';
+$ville_key = "Ballots";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

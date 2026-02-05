@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fontenay-près-Chablis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fontenay-près-Chablis';
+$ville_key = "Fontenay-près-Chablis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

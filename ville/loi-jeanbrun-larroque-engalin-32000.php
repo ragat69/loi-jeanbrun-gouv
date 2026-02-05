@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Larroque-Engalin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Larroque-Engalin';
+$ville_key = "Larroque-Engalin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

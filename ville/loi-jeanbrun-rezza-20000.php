@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rezza
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rezza';
+$ville_key = "Rezza";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

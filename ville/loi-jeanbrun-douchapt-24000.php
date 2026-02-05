@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Douchapt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Douchapt';
+$ville_key = "Douchapt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

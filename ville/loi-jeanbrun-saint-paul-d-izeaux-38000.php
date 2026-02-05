@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Paul-d'Izeaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Paul-d'Izeaux';
+$ville_key = "Saint-Paul-d'Izeaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

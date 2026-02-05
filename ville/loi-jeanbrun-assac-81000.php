@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Assac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Assac';
+$ville_key = "Assac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

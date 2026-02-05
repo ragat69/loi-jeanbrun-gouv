@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vineuil-Saint-Firmin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vineuil-Saint-Firmin';
+$ville_key = "Vineuil-Saint-Firmin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

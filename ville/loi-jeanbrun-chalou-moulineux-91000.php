@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chalou-Moulineux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chalou-Moulineux';
+$ville_key = "Chalou-Moulineux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

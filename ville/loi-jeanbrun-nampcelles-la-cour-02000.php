@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nampcelles-la-Cour
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nampcelles-la-Cour';
+$ville_key = "Nampcelles-la-Cour";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

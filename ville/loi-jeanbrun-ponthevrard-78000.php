@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ponthévrard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ponthévrard';
+$ville_key = "Ponthévrard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

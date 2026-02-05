@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Born
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Born';
+$ville_key = "Le Born";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

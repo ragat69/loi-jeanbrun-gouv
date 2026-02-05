@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Broladre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Broladre';
+$ville_key = "Saint-Broladre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

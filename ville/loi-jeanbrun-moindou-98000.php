@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moindou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moindou';
+$ville_key = "Moindou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

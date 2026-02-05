@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Caure
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Caure';
+$ville_key = "La Caure";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

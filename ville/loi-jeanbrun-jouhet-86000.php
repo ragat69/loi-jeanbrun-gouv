@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jouhet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jouhet';
+$ville_key = "Jouhet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

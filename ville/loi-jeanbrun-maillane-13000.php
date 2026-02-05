@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maillane
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maillane';
+$ville_key = "Maillane";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

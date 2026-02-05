@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Visan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Visan';
+$ville_key = "Visan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

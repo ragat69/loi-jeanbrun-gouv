@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Plouédern
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Plouédern';
+$ville_key = "Plouédern";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

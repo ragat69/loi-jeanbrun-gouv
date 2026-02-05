@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Troubat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Troubat';
+$ville_key = "Troubat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

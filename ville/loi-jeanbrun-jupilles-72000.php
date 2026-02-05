@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jupilles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jupilles';
+$ville_key = "Jupilles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

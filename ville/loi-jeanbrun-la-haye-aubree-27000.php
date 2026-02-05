@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Haye-Aubrée
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Haye-Aubrée';
+$ville_key = "La Haye-Aubrée";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

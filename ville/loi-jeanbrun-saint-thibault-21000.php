@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Thibault
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Thibault';
+$ville_key = "Saint-Thibault";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

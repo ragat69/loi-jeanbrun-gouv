@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bellicourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bellicourt';
+$ville_key = "Bellicourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

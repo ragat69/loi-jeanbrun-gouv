@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Prévocourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Prévocourt';
+$ville_key = "Prévocourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

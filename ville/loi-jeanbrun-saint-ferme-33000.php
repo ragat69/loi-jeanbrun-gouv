@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Ferme
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Ferme';
+$ville_key = "Saint-Ferme";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Courdemanges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Courdemanges';
+$ville_key = "Courdemanges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

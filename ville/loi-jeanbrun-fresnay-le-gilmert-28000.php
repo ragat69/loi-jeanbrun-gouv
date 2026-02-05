@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fresnay-le-Gilmert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fresnay-le-Gilmert';
+$ville_key = "Fresnay-le-Gilmert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

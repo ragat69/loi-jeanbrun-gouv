@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Émanville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Émanville';
+$ville_key = "Émanville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Mesme
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Mesme';
+$ville_key = "Sainte-Mesme";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

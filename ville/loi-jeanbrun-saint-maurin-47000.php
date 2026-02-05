@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Maurin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Maurin';
+$ville_key = "Saint-Maurin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chauray
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chauray';
+$ville_key = "Chauray";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

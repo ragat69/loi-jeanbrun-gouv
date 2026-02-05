@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neuchâtel-Urtière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neuchâtel-Urtière';
+$ville_key = "Neuchâtel-Urtière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

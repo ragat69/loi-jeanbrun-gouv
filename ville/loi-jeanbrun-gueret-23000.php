@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guéret
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guéret';
+$ville_key = "Guéret";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

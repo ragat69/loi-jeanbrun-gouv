@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Breuilpont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Breuilpont';
+$ville_key = "Breuilpont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

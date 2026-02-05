@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maringes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maringes';
+$ville_key = "Maringes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

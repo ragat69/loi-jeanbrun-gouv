@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Leury
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Leury';
+$ville_key = "Leury";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

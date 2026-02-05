@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boissy-le-Châtel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boissy-le-Châtel';
+$ville_key = "Boissy-le-Châtel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

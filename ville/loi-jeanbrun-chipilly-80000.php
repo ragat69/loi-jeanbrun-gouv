@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chipilly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chipilly';
+$ville_key = "Chipilly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

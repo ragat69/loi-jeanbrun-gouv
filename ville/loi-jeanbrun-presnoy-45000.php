@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Presnoy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Presnoy';
+$ville_key = "Presnoy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

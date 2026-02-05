@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mézin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mézin';
+$ville_key = "Mézin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

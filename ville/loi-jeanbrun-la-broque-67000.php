@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Broque
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Broque';
+$ville_key = "La Broque";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

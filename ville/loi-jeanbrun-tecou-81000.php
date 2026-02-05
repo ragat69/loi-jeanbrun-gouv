@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Técou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Técou';
+$ville_key = "Técou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

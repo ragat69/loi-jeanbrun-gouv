@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hébécourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hébécourt';
+$ville_key = "Hébécourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

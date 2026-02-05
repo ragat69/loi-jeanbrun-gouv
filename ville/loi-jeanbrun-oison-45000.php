@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oison
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oison';
+$ville_key = "Oison";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

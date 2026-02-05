@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lucmau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lucmau';
+$ville_key = "Lucmau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

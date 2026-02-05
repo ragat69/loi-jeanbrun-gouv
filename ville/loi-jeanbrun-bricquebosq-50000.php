@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bricquebosq
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bricquebosq';
+$ville_key = "Bricquebosq";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

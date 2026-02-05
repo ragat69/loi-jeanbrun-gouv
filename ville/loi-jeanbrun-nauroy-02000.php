@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nauroy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nauroy';
+$ville_key = "Nauroy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

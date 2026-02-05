@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Saulcy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Saulcy';
+$ville_key = "Le Saulcy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

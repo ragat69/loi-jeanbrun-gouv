@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Nicolas-de-la-Balerme
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Nicolas-de-la-Balerme';
+$ville_key = "Saint-Nicolas-de-la-Balerme";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

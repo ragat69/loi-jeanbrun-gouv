@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Kalhausen
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Kalhausen';
+$ville_key = "Kalhausen";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

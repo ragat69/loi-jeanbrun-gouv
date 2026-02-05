@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Attichy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Attichy';
+$ville_key = "Attichy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

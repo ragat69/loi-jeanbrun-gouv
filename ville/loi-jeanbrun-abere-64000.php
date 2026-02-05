@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Abère
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Abère';
+$ville_key = "Abère";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

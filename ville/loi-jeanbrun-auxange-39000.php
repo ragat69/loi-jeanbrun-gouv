@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auxange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auxange';
+$ville_key = "Auxange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Domeyrat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Domeyrat';
+$ville_key = "Domeyrat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nomécourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nomécourt';
+$ville_key = "Nomécourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

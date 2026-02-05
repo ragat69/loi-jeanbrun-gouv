@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marquixanes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marquixanes';
+$ville_key = "Marquixanes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

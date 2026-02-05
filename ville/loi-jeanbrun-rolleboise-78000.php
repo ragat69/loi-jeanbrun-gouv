@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rolleboise
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rolleboise';
+$ville_key = "Rolleboise";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

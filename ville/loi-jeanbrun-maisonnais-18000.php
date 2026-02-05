@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maisonnais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maisonnais';
+$ville_key = "Maisonnais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

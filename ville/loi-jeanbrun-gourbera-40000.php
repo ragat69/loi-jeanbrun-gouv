@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gourbera
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gourbera';
+$ville_key = "Gourbera";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Valliquerville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Valliquerville';
+$ville_key = "Valliquerville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

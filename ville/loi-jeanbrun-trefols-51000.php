@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tréfols
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tréfols';
+$ville_key = "Tréfols";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Loriol-sur-Drôme
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Loriol-sur-Drôme';
+$ville_key = "Loriol-sur-Drôme";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

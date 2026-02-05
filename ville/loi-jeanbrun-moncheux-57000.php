@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moncheux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moncheux';
+$ville_key = "Moncheux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

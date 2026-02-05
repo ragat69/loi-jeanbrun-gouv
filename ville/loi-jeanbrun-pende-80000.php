@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pendé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pendé';
+$ville_key = "Pendé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

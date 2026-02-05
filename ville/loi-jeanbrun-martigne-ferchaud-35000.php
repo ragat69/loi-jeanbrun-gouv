@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Martigné-Ferchaud
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Martigné-Ferchaud';
+$ville_key = "Martigné-Ferchaud";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

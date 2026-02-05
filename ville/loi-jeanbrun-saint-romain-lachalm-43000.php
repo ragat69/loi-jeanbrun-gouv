@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Romain-Lachalm
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Romain-Lachalm';
+$ville_key = "Saint-Romain-Lachalm";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

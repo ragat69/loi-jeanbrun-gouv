@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Diénay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Diénay';
+$ville_key = "Diénay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

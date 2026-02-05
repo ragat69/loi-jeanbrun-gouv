@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Anglure-sous-Dun
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Anglure-sous-Dun';
+$ville_key = "Anglure-sous-Dun";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

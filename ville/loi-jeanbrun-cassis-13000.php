@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cassis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cassis';
+$ville_key = "Cassis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

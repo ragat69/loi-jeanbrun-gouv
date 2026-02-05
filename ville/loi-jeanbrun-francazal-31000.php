@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Francazal
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Francazal';
+$ville_key = "Francazal";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

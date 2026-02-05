@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Noyers-Pont-Maugis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Noyers-Pont-Maugis';
+$ville_key = "Noyers-Pont-Maugis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Flavigny-sur-Ozerain
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Flavigny-sur-Ozerain';
+$ville_key = "Flavigny-sur-Ozerain";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

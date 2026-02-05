@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sorède
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sorède';
+$ville_key = "Sorède";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

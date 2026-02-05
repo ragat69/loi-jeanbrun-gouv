@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vitrac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vitrac';
+$ville_key = "Vitrac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Trémargat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Trémargat';
+$ville_key = "Trémargat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

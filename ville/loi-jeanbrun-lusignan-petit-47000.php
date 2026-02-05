@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lusignan-Petit
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lusignan-Petit';
+$ville_key = "Lusignan-Petit";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

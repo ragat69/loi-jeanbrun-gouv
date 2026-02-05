@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Méharin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Méharin';
+$ville_key = "Méharin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

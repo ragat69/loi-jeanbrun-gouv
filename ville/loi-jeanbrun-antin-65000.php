@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Antin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Antin';
+$ville_key = "Antin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Senoncourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Senoncourt';
+$ville_key = "Senoncourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

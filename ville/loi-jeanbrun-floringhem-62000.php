@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Floringhem
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Floringhem';
+$ville_key = "Floringhem";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

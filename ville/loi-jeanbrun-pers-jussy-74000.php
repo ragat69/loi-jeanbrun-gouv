@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pers-Jussy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pers-Jussy';
+$ville_key = "Pers-Jussy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

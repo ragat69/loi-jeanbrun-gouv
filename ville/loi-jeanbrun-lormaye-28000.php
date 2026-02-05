@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lormaye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lormaye';
+$ville_key = "Lormaye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

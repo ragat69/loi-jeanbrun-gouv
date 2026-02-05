@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Haravesnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Haravesnes';
+$ville_key = "Haravesnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

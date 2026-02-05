@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Faverges-de-la-Tour
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Faverges-de-la-Tour';
+$ville_key = "Faverges-de-la-Tour";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

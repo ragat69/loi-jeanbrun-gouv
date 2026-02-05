@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Montat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Montat';
+$ville_key = "Le Montat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

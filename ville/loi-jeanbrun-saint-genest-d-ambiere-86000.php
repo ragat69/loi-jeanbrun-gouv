@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Genest-d'Ambière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Genest-d'Ambière';
+$ville_key = "Saint-Genest-d'Ambière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

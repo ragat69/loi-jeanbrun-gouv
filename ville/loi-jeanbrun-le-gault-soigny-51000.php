@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Gault-Soigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Gault-Soigny';
+$ville_key = "Le Gault-Soigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

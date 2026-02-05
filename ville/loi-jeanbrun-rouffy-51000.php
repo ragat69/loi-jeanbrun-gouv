@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rouffy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rouffy';
+$ville_key = "Rouffy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tignes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tignes';
+$ville_key = "Tignes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

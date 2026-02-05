@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gévezé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gévezé';
+$ville_key = "Gévezé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

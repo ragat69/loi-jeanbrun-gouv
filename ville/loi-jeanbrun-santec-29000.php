@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Santec
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Santec';
+$ville_key = "Santec";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Besse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Besse';
+$ville_key = "Besse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

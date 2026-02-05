@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaux-en-Dieulet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaux-en-Dieulet';
+$ville_key = "Vaux-en-Dieulet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

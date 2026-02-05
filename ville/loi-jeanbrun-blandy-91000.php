@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Blandy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Blandy';
+$ville_key = "Blandy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

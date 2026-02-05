@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fléac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fléac';
+$ville_key = "Fléac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

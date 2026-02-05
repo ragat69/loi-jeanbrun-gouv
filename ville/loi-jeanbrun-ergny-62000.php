@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ergny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ergny';
+$ville_key = "Ergny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

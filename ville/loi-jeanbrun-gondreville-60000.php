@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gondreville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gondreville';
+$ville_key = "Gondreville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

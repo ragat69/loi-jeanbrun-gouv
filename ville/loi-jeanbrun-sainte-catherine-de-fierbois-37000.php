@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Catherine-de-Fierbois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Catherine-de-Fierbois';
+$ville_key = "Sainte-Catherine-de-Fierbois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

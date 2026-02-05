@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Suzanne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Suzanne';
+$ville_key = "Sainte-Suzanne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

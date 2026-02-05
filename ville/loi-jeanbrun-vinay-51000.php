@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vinay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vinay';
+$ville_key = "Vinay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Plougonver
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Plougonver';
+$ville_key = "Plougonver";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

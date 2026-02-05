@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montmagny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montmagny';
+$ville_key = "Montmagny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

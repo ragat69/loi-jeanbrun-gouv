@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-de-la-Tour
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-de-la-Tour';
+$ville_key = "La Chapelle-de-la-Tour";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

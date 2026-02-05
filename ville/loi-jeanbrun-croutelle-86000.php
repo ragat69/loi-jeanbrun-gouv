@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Croutelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Croutelle';
+$ville_key = "Croutelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

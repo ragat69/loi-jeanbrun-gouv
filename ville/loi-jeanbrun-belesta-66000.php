@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bélesta
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bélesta';
+$ville_key = "Bélesta";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

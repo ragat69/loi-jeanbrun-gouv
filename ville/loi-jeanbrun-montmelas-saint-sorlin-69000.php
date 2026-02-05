@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montmelas-Saint-Sorlin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montmelas-Saint-Sorlin';
+$ville_key = "Montmelas-Saint-Sorlin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

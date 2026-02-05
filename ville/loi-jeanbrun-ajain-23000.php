@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ajain
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ajain';
+$ville_key = "Ajain";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

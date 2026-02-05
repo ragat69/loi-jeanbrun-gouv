@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pont-de-Metz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pont-de-Metz';
+$ville_key = "Pont-de-Metz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

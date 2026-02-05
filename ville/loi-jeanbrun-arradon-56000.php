@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Arradon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Arradon';
+$ville_key = "Arradon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

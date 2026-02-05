@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bujaleuf
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bujaleuf';
+$ville_key = "Bujaleuf";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

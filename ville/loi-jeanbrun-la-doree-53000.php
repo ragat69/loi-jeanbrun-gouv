@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Dorée
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Dorée';
+$ville_key = "La Dorée";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

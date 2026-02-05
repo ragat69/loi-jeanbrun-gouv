@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lamaguère
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lamaguère';
+$ville_key = "Lamaguère";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

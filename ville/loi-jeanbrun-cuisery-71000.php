@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cuisery
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cuisery';
+$ville_key = "Cuisery";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

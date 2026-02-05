@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Arphy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Arphy';
+$ville_key = "Arphy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

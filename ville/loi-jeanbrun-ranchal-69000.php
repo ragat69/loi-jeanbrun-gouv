@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ranchal
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ranchal';
+$ville_key = "Ranchal";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

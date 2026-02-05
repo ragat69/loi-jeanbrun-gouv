@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sigale
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sigale';
+$ville_key = "Sigale";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

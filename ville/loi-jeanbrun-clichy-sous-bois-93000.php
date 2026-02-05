@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Clichy-sous-Bois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Clichy-sous-Bois';
+$ville_key = "Clichy-sous-Bois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

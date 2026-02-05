@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Langoiran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Langoiran';
+$ville_key = "Langoiran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

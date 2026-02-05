@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sandarville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sandarville';
+$ville_key = "Sandarville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

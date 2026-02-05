@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Miglos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Miglos';
+$ville_key = "Miglos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thumeries
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thumeries';
+$ville_key = "Thumeries";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

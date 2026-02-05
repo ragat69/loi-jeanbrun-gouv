@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hères
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hères';
+$ville_key = "Hères";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

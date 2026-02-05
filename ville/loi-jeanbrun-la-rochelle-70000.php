@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Rochelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Rochelle';
+$ville_key = "La Rochelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

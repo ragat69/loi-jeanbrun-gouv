@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montépilloy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montépilloy';
+$ville_key = "Montépilloy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

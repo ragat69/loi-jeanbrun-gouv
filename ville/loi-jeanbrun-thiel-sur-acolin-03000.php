@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thiel-sur-Acolin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thiel-sur-Acolin';
+$ville_key = "Thiel-sur-Acolin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sarrey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sarrey';
+$ville_key = "Sarrey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

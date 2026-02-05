@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bougival
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bougival';
+$ville_key = "Bougival";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

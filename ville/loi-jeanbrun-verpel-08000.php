@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Verpel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Verpel';
+$ville_key = "Verpel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

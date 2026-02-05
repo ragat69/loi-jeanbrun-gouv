@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Verneuil-Petit
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Verneuil-Petit';
+$ville_key = "Verneuil-Petit";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

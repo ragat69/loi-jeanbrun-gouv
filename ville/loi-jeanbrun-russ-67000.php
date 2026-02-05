@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Russ
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Russ';
+$ville_key = "Russ";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

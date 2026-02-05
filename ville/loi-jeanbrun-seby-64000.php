@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Séby
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Séby';
+$ville_key = "Séby";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montigny-Montfort
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montigny-Montfort';
+$ville_key = "Montigny-Montfort";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

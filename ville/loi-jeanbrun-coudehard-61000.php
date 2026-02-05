@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Coudehard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Coudehard';
+$ville_key = "Coudehard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

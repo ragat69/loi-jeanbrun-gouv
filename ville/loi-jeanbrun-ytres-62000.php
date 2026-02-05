@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ytres
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ytres';
+$ville_key = "Ytres";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

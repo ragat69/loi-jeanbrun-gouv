@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaudricourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaudricourt';
+$ville_key = "Beaudricourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

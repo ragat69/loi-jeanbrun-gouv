@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Crésantignes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Crésantignes';
+$ville_key = "Crésantignes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

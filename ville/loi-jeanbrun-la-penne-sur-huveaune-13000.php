@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Penne-sur-Huveaune
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Penne-sur-Huveaune';
+$ville_key = "La Penne-sur-Huveaune";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Meilleraie-Tillay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Meilleraie-Tillay';
+$ville_key = "La Meilleraie-Tillay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

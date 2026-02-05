@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Puley
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Puley';
+$ville_key = "Le Puley";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

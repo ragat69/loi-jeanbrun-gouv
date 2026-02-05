@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vierzy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vierzy';
+$ville_key = "Vierzy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bramevaque
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bramevaque';
+$ville_key = "Bramevaque";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-de-Belleville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-de-Belleville';
+$ville_key = "Saint-Pierre-de-Belleville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

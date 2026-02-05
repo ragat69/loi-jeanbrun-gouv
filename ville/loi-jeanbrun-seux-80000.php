@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Seux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Seux';
+$ville_key = "Seux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

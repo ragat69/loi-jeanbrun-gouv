@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jessains
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jessains';
+$ville_key = "Jessains";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

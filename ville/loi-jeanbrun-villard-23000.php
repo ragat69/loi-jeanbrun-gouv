@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villard';
+$ville_key = "Villard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

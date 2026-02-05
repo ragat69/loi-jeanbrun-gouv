@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Ribay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Ribay';
+$ville_key = "Le Ribay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

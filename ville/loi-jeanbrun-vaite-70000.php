@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaite
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaite';
+$ville_key = "Vaite";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

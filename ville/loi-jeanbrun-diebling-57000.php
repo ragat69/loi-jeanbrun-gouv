@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Diebling
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Diebling';
+$ville_key = "Diebling";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Larrivière-Saint-Savin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Larrivière-Saint-Savin';
+$ville_key = "Larrivière-Saint-Savin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

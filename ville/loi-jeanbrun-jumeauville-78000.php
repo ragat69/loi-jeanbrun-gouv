@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jumeauville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jumeauville';
+$ville_key = "Jumeauville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

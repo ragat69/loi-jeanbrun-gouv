@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Serpent
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Serpent';
+$ville_key = "La Serpent";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

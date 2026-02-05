@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Wast
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Wast';
+$ville_key = "Le Wast";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

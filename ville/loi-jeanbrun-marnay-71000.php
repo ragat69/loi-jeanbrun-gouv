@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marnay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marnay';
+$ville_key = "Marnay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

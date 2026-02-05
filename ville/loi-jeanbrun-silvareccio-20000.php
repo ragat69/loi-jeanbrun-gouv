@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Silvareccio
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Silvareccio';
+$ville_key = "Silvareccio";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

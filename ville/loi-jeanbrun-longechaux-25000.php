@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Longechaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Longechaux';
+$ville_key = "Longechaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

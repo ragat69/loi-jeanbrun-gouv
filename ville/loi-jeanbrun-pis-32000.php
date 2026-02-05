@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pis';
+$ville_key = "Pis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

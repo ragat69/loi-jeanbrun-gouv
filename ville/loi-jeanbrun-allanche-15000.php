@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Allanche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Allanche';
+$ville_key = "Allanche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

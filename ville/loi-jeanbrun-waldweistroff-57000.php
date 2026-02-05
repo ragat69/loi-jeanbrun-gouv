@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Waldweistroff
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Waldweistroff';
+$ville_key = "Waldweistroff";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

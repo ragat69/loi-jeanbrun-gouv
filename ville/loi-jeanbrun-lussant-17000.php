@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lussant
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lussant';
+$ville_key = "Lussant";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

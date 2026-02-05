@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Quartier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Quartier';
+$ville_key = "Le Quartier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

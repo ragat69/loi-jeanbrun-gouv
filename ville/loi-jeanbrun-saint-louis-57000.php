@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Louis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Louis';
+$ville_key = "Saint-Louis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

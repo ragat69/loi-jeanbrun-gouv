@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auterrive
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auterrive';
+$ville_key = "Auterrive";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

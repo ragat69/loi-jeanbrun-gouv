@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pretin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pretin';
+$ville_key = "Pretin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

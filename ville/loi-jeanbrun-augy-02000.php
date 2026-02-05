@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Augy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Augy';
+$ville_key = "Augy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sevran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sevran';
+$ville_key = "Sevran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

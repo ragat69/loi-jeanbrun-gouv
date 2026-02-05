@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montoison
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montoison';
+$ville_key = "Montoison";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

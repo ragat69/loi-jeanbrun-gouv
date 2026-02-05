@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Haie-Fouassière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Haie-Fouassière';
+$ville_key = "La Haie-Fouassière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

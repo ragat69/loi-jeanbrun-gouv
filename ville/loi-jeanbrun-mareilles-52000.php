@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mareilles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mareilles';
+$ville_key = "Mareilles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

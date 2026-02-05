@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Izeron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Izeron';
+$ville_key = "Izeron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

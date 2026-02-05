@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lironcourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lironcourt';
+$ville_key = "Lironcourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jougne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jougne';
+$ville_key = "Jougne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

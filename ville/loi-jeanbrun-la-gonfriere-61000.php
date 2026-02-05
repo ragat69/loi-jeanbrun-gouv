@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Gonfrière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Gonfrière';
+$ville_key = "La Gonfrière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chennebrun
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chennebrun';
+$ville_key = "Chennebrun";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

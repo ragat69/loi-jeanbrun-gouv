@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montagnieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montagnieu';
+$ville_key = "Montagnieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

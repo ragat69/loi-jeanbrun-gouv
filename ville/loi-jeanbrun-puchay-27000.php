@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Puchay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Puchay';
+$ville_key = "Puchay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

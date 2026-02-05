@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Épargnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Épargnes';
+$ville_key = "Épargnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

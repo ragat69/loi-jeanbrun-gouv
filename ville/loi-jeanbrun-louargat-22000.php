@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Louargat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Louargat';
+$ville_key = "Louargat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Aubazines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Aubazines';
+$ville_key = "Aubazines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

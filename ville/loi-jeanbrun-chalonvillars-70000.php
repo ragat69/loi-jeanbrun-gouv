@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Châlonvillars
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Châlonvillars';
+$ville_key = "Châlonvillars";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

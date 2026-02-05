@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neuvizy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neuvizy';
+$ville_key = "Neuvizy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

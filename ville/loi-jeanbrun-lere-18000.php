@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Léré
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Léré';
+$ville_key = "Léré";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

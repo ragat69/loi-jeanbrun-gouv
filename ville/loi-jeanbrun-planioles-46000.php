@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Planioles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Planioles';
+$ville_key = "Planioles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

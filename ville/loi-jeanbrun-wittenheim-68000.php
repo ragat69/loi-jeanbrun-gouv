@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wittenheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wittenheim';
+$ville_key = "Wittenheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

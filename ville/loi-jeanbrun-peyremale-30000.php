@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Peyremale
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Peyremale';
+$ville_key = "Peyremale";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

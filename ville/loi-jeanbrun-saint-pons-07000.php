@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pons';
+$ville_key = "Saint-Pons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

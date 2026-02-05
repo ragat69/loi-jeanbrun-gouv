@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Souterraine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Souterraine';
+$ville_key = "La Souterraine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

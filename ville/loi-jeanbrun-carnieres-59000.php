@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Carnières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Carnières';
+$ville_key = "Carnières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

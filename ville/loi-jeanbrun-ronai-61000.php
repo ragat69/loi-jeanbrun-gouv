@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rônai
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rônai';
+$ville_key = "Rônai";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

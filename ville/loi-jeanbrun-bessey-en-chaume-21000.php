@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bessey-en-Chaume
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bessey-en-Chaume';
+$ville_key = "Bessey-en-Chaume";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

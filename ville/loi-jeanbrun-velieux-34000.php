@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vélieux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vélieux';
+$ville_key = "Vélieux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

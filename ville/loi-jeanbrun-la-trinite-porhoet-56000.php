@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Trinité-Porhoët
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Trinité-Porhoët';
+$ville_key = "La Trinité-Porhoët";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

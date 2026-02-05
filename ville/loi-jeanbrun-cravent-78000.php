@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cravent
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cravent';
+$ville_key = "Cravent";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

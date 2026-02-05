@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Astier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Astier';
+$ville_key = "Saint-Astier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

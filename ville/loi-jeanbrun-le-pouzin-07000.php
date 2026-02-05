@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Pouzin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Pouzin';
+$ville_key = "Le Pouzin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

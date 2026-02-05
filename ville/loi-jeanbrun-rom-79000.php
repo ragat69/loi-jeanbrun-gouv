@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rom
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rom';
+$ville_key = "Rom";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

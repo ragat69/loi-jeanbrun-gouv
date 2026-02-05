@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Vicel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Vicel';
+$ville_key = "Le Vicel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

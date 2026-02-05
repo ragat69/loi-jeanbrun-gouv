@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Biras
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Biras';
+$ville_key = "Biras";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

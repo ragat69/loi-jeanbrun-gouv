@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Forclaz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Forclaz';
+$ville_key = "La Forclaz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

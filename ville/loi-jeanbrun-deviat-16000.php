@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Deviat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Deviat';
+$ville_key = "Deviat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

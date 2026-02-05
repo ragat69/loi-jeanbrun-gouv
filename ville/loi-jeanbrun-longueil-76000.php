@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Longueil
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Longueil';
+$ville_key = "Longueil";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

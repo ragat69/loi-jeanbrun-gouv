@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ducos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ducos';
+$ville_key = "Ducos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

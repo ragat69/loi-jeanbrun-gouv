@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Créchets
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Créchets';
+$ville_key = "Créchets";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

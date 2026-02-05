@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Treux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Treux';
+$ville_key = "Treux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

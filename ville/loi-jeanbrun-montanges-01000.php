@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montanges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montanges';
+$ville_key = "Montanges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

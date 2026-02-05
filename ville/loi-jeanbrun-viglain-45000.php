@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Viglain
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Viglain';
+$ville_key = "Viglain";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

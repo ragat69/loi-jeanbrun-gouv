@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Amiens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Amiens';
+$ville_key = "Amiens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

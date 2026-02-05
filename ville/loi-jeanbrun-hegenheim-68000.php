@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hégenheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hégenheim';
+$ville_key = "Hégenheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

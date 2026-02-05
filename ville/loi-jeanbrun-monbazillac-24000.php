@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monbazillac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monbazillac';
+$ville_key = "Monbazillac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

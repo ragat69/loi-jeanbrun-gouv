@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ly-Fontaine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ly-Fontaine';
+$ville_key = "Ly-Fontaine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

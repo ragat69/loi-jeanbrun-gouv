@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Massanes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Massanes';
+$ville_key = "Massanes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

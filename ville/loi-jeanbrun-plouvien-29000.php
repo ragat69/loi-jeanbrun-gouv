@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Plouvien
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Plouvien';
+$ville_key = "Plouvien";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

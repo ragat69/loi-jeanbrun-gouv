@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Clermont-de-Beauregard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Clermont-de-Beauregard';
+$ville_key = "Clermont-de-Beauregard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

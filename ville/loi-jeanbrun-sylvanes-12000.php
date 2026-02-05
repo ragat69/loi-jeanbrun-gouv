@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sylvanès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sylvanès';
+$ville_key = "Sylvanès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

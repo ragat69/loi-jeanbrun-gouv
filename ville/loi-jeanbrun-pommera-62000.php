@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pommera
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pommera';
+$ville_key = "Pommera";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

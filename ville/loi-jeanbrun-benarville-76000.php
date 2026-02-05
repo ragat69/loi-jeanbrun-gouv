@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bénarville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bénarville';
+$ville_key = "Bénarville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

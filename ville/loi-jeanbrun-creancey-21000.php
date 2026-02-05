@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Créancey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Créancey';
+$ville_key = "Créancey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

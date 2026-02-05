@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-de-Colombier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-de-Colombier';
+$ville_key = "Saint-Pierre-de-Colombier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

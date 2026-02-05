@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cantoin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cantoin';
+$ville_key = "Cantoin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

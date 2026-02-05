@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ally
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ally';
+$ville_key = "Ally";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

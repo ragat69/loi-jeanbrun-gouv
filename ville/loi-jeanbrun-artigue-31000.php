@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Artigue
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Artigue';
+$ville_key = "Artigue";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

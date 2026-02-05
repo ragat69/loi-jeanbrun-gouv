@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montpinchon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montpinchon';
+$ville_key = "Montpinchon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

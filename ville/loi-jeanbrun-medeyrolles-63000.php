@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Medeyrolles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Medeyrolles';
+$ville_key = "Medeyrolles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

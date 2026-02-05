@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Scionzier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Scionzier';
+$ville_key = "Scionzier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

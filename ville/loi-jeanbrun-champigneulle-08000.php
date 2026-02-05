@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Champigneulle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Champigneulle';
+$ville_key = "Champigneulle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

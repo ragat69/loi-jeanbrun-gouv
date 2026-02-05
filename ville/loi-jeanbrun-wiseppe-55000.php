@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wiseppe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wiseppe';
+$ville_key = "Wiseppe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

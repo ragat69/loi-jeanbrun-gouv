@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Onnion
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Onnion';
+$ville_key = "Onnion";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Heidwiller
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Heidwiller';
+$ville_key = "Heidwiller";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

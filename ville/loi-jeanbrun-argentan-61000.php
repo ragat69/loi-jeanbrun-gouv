@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Argentan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Argentan';
+$ville_key = "Argentan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

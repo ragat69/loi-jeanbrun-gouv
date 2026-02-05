@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Friaucourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Friaucourt';
+$ville_key = "Friaucourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

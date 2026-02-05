@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Canale-di-Verde
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Canale-di-Verde';
+$ville_key = "Canale-di-Verde";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

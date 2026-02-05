@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gabaston
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gabaston';
+$ville_key = "Gabaston";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

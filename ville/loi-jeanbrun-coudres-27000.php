@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Coudres
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Coudres';
+$ville_key = "Coudres";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

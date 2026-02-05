@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Laurent-de-Lin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Laurent-de-Lin';
+$ville_key = "Saint-Laurent-de-Lin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

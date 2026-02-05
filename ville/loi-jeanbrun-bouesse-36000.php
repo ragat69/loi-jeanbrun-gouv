@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bouesse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bouesse';
+$ville_key = "Bouesse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

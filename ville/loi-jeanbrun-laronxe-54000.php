@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Laronxe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Laronxe';
+$ville_key = "Laronxe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

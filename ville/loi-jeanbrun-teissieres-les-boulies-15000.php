@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Teissières-lès-Bouliès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Teissières-lès-Bouliès';
+$ville_key = "Teissières-lès-Bouliès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

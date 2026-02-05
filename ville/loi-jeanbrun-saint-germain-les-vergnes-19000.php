@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Germain-les-Vergnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Germain-les-Vergnes';
+$ville_key = "Saint-Germain-les-Vergnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

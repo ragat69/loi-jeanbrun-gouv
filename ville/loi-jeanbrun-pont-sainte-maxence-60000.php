@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pont-Sainte-Maxence
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pont-Sainte-Maxence';
+$ville_key = "Pont-Sainte-Maxence";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

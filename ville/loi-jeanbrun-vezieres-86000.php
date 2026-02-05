@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vézières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vézières';
+$ville_key = "Vézières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

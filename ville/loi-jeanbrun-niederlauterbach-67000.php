@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Niederlauterbach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Niederlauterbach';
+$ville_key = "Niederlauterbach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

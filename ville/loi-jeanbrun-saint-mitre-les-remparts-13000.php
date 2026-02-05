@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Mitre-les-Remparts
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Mitre-les-Remparts';
+$ville_key = "Saint-Mitre-les-Remparts";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

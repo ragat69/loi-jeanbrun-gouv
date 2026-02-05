@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Paillencourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Paillencourt';
+$ville_key = "Paillencourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Soler
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Soler';
+$ville_key = "Le Soler";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

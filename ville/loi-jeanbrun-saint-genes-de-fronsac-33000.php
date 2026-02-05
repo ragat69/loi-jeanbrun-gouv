@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Genès-de-Fronsac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Genès-de-Fronsac';
+$ville_key = "Saint-Genès-de-Fronsac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

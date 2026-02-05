@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boé';
+$ville_key = "Boé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

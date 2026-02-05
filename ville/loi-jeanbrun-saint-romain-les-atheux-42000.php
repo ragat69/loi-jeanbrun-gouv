@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Romain-les-Atheux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Romain-les-Atheux';
+$ville_key = "Saint-Romain-les-Atheux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

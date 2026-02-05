@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Firminy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Firminy';
+$ville_key = "Firminy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaucouleurs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaucouleurs';
+$ville_key = "Vaucouleurs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

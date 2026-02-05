@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Irreville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Irreville';
+$ville_key = "Irreville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

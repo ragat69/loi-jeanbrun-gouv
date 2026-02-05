@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Banos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Banos';
+$ville_key = "Banos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

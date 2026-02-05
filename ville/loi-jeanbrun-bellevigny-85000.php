@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bellevigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bellevigny';
+$ville_key = "Bellevigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

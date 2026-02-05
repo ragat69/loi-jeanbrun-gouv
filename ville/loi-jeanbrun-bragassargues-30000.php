@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bragassargues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bragassargues';
+$ville_key = "Bragassargues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

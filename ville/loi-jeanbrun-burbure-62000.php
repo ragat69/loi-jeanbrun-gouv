@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Burbure
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Burbure';
+$ville_key = "Burbure";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

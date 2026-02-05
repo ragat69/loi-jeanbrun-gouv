@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lesmont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lesmont';
+$ville_key = "Lesmont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

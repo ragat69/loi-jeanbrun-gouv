@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lucy-sur-Yonne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lucy-sur-Yonne';
+$ville_key = "Lucy-sur-Yonne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

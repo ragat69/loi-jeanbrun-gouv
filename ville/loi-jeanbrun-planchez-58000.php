@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Planchez
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Planchez';
+$ville_key = "Planchez";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

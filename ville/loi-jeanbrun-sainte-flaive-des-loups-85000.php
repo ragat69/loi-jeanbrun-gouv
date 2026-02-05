@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Flaive-des-Loups
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Flaive-des-Loups';
+$ville_key = "Sainte-Flaive-des-Loups";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

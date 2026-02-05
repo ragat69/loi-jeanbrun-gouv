@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Barthélemy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Barthélemy';
+$ville_key = "Saint-Barthélemy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

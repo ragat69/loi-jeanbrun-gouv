@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Centrès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Centrès';
+$ville_key = "Centrès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

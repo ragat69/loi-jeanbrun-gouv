@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ayen
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ayen';
+$ville_key = "Ayen";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Priest-la-Feuille
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Priest-la-Feuille';
+$ville_key = "Saint-Priest-la-Feuille";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

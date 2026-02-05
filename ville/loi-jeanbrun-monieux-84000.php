@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monieux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monieux';
+$ville_key = "Monieux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

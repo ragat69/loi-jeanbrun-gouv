@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Norville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Norville';
+$ville_key = "Norville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

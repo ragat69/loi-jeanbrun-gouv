@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Essertaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Essertaux';
+$ville_key = "Essertaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

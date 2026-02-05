@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lagor
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lagor';
+$ville_key = "Lagor";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

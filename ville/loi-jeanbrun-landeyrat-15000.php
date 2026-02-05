@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Landeyrat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Landeyrat';
+$ville_key = "Landeyrat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

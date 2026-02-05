@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fatines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fatines';
+$ville_key = "Fatines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

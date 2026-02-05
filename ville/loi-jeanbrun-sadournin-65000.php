@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sadournin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sadournin';
+$ville_key = "Sadournin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

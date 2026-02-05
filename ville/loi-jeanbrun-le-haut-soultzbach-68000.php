@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Haut Soultzbach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Haut Soultzbach';
+$ville_key = "Le Haut Soultzbach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

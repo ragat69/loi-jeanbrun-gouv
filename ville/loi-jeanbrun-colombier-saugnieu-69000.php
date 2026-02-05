@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Colombier-Saugnieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Colombier-Saugnieu';
+$ville_key = "Colombier-Saugnieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

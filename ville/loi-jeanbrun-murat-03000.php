@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Murat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Murat';
+$ville_key = "Murat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

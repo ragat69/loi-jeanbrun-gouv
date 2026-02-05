@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Éguilly-sous-Bois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Éguilly-sous-Bois';
+$ville_key = "Éguilly-sous-Bois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

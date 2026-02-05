@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marly-le-Roi
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marly-le-Roi';
+$ville_key = "Marly-le-Roi";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

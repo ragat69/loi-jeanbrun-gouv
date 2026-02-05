@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bayon-sur-Gironde
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bayon-sur-Gironde';
+$ville_key = "Bayon-sur-Gironde";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lérigneux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lérigneux';
+$ville_key = "Lérigneux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

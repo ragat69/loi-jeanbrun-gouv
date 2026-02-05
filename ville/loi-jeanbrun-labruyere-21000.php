@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Labruyère
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Labruyère';
+$ville_key = "Labruyère";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

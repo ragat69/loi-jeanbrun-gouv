@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pouilly-sur-Loire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pouilly-sur-Loire';
+$ville_key = "Pouilly-sur-Loire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Corbas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Corbas';
+$ville_key = "Corbas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bellesserre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bellesserre';
+$ville_key = "Bellesserre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bermering
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bermering';
+$ville_key = "Bermering";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

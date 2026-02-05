@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ménerval
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ménerval';
+$ville_key = "Ménerval";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

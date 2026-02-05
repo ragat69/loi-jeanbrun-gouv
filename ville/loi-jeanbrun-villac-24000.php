@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villac';
+$ville_key = "Villac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

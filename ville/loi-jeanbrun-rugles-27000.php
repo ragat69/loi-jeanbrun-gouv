@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rugles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rugles';
+$ville_key = "Rugles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

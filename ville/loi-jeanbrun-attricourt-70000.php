@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Attricourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Attricourt';
+$ville_key = "Attricourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

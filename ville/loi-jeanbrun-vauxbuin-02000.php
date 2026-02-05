@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vauxbuin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vauxbuin';
+$ville_key = "Vauxbuin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

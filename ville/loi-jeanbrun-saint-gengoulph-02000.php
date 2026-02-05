@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Gengoulph
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Gengoulph';
+$ville_key = "Saint-Gengoulph";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

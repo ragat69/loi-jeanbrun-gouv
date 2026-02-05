@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Palladuc
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Palladuc';
+$ville_key = "Palladuc";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

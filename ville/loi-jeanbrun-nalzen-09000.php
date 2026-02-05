@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nalzen
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nalzen';
+$ville_key = "Nalzen";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

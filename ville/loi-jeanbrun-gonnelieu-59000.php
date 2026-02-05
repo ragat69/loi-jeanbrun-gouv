@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gonnelieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gonnelieu';
+$ville_key = "Gonnelieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

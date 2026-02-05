@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-Gauthier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-Gauthier';
+$ville_key = "La Chapelle-Gauthier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

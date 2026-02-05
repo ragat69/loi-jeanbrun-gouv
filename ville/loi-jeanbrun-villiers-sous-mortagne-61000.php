@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villiers-sous-Mortagne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villiers-sous-Mortagne';
+$ville_key = "Villiers-sous-Mortagne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

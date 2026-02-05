@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Durtal
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Durtal';
+$ville_key = "Durtal";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

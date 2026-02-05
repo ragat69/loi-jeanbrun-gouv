@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Apinac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Apinac';
+$ville_key = "Apinac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Joachim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Joachim';
+$ville_key = "Saint-Joachim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

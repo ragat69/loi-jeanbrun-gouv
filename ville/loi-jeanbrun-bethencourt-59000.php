@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Béthencourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Béthencourt';
+$ville_key = "Béthencourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

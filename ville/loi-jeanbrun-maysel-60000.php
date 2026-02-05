@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maysel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maysel';
+$ville_key = "Maysel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

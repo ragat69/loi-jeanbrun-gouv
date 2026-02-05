@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chavenon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chavenon';
+$ville_key = "Chavenon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

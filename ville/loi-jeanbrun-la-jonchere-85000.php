@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Jonchère
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Jonchère';
+$ville_key = "La Jonchère";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

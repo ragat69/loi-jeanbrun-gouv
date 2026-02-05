@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Laneuville-au-Pont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Laneuville-au-Pont';
+$ville_key = "Laneuville-au-Pont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

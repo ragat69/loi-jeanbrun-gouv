@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Vans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Vans';
+$ville_key = "Les Vans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

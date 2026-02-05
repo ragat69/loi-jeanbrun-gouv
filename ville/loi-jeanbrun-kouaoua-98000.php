@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Kouaoua
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Kouaoua';
+$ville_key = "Kouaoua";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

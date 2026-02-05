@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Héand
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Héand';
+$ville_key = "Saint-Héand";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fleigneux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fleigneux';
+$ville_key = "Fleigneux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

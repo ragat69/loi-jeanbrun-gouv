@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Courtomer
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Courtomer';
+$ville_key = "Courtomer";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

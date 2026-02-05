@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Orchamps
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Orchamps';
+$ville_key = "Orchamps";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

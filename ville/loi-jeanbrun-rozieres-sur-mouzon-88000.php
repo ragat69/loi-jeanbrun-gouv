@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rozières-sur-Mouzon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rozières-sur-Mouzon';
+$ville_key = "Rozières-sur-Mouzon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

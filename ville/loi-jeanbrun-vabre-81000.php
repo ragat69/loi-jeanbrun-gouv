@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vabre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vabre';
+$ville_key = "Vabre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

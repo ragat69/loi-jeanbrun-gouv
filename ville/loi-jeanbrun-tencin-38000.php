@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tencin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tencin';
+$ville_key = "Tencin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sauvimont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sauvimont';
+$ville_key = "Sauvimont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

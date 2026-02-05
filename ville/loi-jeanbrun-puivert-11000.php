@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Puivert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Puivert';
+$ville_key = "Puivert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

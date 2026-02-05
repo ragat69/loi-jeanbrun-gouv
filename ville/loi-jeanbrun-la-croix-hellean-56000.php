@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Croix-Helléan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Croix-Helléan';
+$ville_key = "La Croix-Helléan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

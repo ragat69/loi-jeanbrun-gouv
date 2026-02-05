@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Baume-les-Messieurs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Baume-les-Messieurs';
+$ville_key = "Baume-les-Messieurs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

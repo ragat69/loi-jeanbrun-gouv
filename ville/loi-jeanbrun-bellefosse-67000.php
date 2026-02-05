@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bellefosse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bellefosse';
+$ville_key = "Bellefosse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

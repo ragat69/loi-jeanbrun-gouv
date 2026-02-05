@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pradines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pradines';
+$ville_key = "Pradines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wignicourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wignicourt';
+$ville_key = "Wignicourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

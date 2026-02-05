@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villeneuve-lès-Maguelone
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villeneuve-lès-Maguelone';
+$ville_key = "Villeneuve-lès-Maguelone";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

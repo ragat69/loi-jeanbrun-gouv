@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Preuilly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Preuilly';
+$ville_key = "Preuilly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

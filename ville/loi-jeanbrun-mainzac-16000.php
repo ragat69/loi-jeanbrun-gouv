@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mainzac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mainzac';
+$ville_key = "Mainzac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

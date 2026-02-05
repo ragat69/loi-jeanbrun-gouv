@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pamandzi
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pamandzi';
+$ville_key = "Pamandzi";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

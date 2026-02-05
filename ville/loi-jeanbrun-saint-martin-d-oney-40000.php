@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Martin-d'Oney
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Martin-d'Oney';
+$ville_key = "Saint-Martin-d'Oney";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brieulles-sur-Bar
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brieulles-sur-Bar';
+$ville_key = "Brieulles-sur-Bar";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

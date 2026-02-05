@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grandparigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grandparigny';
+$ville_key = "Grandparigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Baroches
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Baroches';
+$ville_key = "Les Baroches";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

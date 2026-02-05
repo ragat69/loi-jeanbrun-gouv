@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Astaffort
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Astaffort';
+$ville_key = "Astaffort";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

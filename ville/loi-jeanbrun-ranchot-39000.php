@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ranchot
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ranchot';
+$ville_key = "Ranchot";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

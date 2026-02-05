@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Buironfosse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Buironfosse';
+$ville_key = "Buironfosse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

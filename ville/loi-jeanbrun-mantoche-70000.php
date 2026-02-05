@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mantoche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mantoche';
+$ville_key = "Mantoche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

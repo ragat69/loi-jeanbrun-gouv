@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Deville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Deville';
+$ville_key = "Deville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

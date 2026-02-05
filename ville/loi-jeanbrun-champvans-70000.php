@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Champvans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Champvans';
+$ville_key = "Champvans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

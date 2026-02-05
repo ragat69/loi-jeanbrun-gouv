@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auzances
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auzances';
+$ville_key = "Auzances";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villespy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villespy';
+$ville_key = "Villespy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

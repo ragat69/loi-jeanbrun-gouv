@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lagesse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lagesse';
+$ville_key = "Lagesse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

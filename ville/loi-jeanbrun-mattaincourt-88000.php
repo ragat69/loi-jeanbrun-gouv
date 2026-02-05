@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mattaincourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mattaincourt';
+$ville_key = "Mattaincourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

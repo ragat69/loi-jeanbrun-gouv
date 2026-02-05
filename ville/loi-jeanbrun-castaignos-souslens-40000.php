@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Castaignos-Souslens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Castaignos-Souslens';
+$ville_key = "Castaignos-Souslens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

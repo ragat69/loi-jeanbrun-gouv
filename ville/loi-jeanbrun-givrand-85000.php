@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Givrand
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Givrand';
+$ville_key = "Givrand";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

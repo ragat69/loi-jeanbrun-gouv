@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Morgemoulin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Morgemoulin';
+$ville_key = "Morgemoulin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

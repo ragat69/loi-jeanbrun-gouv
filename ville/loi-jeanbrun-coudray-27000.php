@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Coudray
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Coudray';
+$ville_key = "Coudray";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

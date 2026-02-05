@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Champlay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Champlay';
+$ville_key = "Champlay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

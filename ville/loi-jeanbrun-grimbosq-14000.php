@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grimbosq
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grimbosq';
+$ville_key = "Grimbosq";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

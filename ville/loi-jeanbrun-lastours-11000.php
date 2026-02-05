@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lastours
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lastours';
+$ville_key = "Lastours";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

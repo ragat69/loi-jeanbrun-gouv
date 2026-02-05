@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Courchelettes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Courchelettes';
+$ville_key = "Courchelettes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

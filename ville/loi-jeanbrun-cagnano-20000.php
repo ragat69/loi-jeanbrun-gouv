@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cagnano
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cagnano';
+$ville_key = "Cagnano";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

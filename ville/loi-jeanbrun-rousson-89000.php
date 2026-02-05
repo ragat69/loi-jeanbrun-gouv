@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rousson
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rousson';
+$ville_key = "Rousson";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

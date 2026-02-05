@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Champagnac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Champagnac';
+$ville_key = "Champagnac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

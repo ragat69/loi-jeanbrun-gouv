@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Orçay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Orçay';
+$ville_key = "Orçay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sassangy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sassangy';
+$ville_key = "Sassangy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

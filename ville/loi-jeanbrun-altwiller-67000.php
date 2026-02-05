@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Altwiller
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Altwiller';
+$ville_key = "Altwiller";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

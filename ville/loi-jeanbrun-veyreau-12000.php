@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Veyreau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Veyreau';
+$ville_key = "Veyreau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Deux-Chaises
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Deux-Chaises';
+$ville_key = "Deux-Chaises";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

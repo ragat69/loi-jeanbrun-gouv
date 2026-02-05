@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Frazé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Frazé';
+$ville_key = "Frazé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

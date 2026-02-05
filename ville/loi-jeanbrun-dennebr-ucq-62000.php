@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dennebrœucq
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dennebrœucq';
+$ville_key = "Dennebrœucq";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

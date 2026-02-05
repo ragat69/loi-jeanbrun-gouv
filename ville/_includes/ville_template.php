@@ -212,66 +212,6 @@ $page_title_full = "Loi Jeanbrun à " . htmlspecialchars($ville) . " (" . htmlsp
                             <div class="info-box mt-3">
                                 <strong>Loyer de marché moyen :</strong> <?= $data['loyer_marche_m2'] ?> €/m²
                             </div>
-
-                            <?php if (!empty($data['dvf_transactions_count'])): ?>
-                            <div class="alert alert-info mt-3" style="font-size: 0.9em; background-color: #f5f5fe; border-left: 4px solid #6a6af4;">
-                                <p class="mb-2"><strong>📊 Source des données de prix</strong></p>
-                                <p class="mb-1">
-                                    Les prix au m² sont calculés à partir de <strong><?= fmt($data['dvf_transactions_count']) ?> transactions immobilières réelles</strong>
-                                    effectuées entre <strong><?= $data['dvf_period'] ?></strong>.
-                                </p>
-                                <?php if (!empty($data['dvf_arrondissements'])): ?>
-                                <details class="mt-2">
-                                    <summary style="cursor: pointer; color: #6a6af4; font-weight: 500;">
-                                        Voir le détail par arrondissement (<?= count($data['dvf_arrondissements']) ?> arrondissements)
-                                    </summary>
-                                    <div class="mt-2" style="font-size: 0.85em;">
-                                        <table class="table table-sm">
-                                            <thead>
-                                                <tr>
-                                                    <th>Arrondissement</th>
-                                                    <th>Transactions</th>
-                                                    <th>Prix ancien</th>
-                                                    <th>Prix neuf</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <?php foreach ($data['dvf_arrondissements'] as $arr):
-                                                    // Extraire le numéro d'arrondissement selon la ville
-                                                    // Lyon: 69381-69389 → 1er-9e (dernier chiffre uniquement)
-                                                    // Paris: 75101-75120 → 1er-20e (2 derniers chiffres)
-                                                    // Marseille: 13201-13216 → 1er-16e (2 derniers chiffres)
-                                                    $code = $arr['code_insee'];
-                                                    if (substr($code, 0, 3) === '693') {
-                                                        // Lyon: prendre le dernier chiffre seulement
-                                                        $arr_num = substr($code, -1);
-                                                    } else {
-                                                        // Paris et Marseille: prendre les 2 derniers chiffres
-                                                        $arr_num = substr($code, -2);
-                                                    }
-                                                    // Supprimer le zéro initial si présent
-                                                    $arr_num = ltrim($arr_num, '0') ?: '0';
-                                                ?>
-                                                <tr>
-                                                    <td><?= $arr_num ?>e</td>
-                                                    <td><?= fmt($arr['count']) ?></td>
-                                                    <td><?= $arr['prix_m2_ancien'] ? fmt($arr['prix_m2_ancien']) . ' €/m²' : '-' ?></td>
-                                                    <td><?= $arr['prix_m2_neuf'] ? fmt($arr['prix_m2_neuf']) . ' €/m²' : '-' ?></td>
-                                                </tr>
-                                                <?php endforeach; ?>
-                                            </tbody>
-                                        </table>
-                                        <p class="text-muted mb-0" style="font-size: 0.9em;">
-                                            <em>Les prix affichés en haut de page sont la moyenne pondérée de tous les arrondissements.</em>
-                                        </p>
-                                    </div>
-                                </details>
-                                <?php endif; ?>
-                                <p class="text-muted mb-0 mt-2" style="font-size: 0.85em;">
-                                    <em>Données : Demandes de Valeurs Foncières (DVF) - data.gouv.fr</em>
-                                </p>
-                            </div>
-                            <?php endif; ?>
                         </div>
                     </div>
                 </div>

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ayguatébia-Talau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ayguatébia-Talau';
+$ville_key = "Ayguatébia-Talau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

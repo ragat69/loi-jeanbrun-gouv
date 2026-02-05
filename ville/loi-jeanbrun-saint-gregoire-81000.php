@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Grégoire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Grégoire';
+$ville_key = "Saint-Grégoire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

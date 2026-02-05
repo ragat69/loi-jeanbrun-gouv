@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Padoux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Padoux';
+$ville_key = "Padoux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

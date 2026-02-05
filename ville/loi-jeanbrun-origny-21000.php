@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Origny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Origny';
+$ville_key = "Origny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

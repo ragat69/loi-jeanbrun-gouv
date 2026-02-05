@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thémines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thémines';
+$ville_key = "Thémines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

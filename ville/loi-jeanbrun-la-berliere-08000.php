@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Berlière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Berlière';
+$ville_key = "La Berlière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

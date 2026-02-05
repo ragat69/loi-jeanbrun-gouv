@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dommartin-sur-Vraine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dommartin-sur-Vraine';
+$ville_key = "Dommartin-sur-Vraine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Angeac-Charente
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Angeac-Charente';
+$ville_key = "Angeac-Charente";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

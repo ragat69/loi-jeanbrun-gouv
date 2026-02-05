@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Manspach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Manspach';
+$ville_key = "Manspach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

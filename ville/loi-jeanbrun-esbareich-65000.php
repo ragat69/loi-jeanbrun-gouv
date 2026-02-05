@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Esbareich
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Esbareich';
+$ville_key = "Esbareich";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

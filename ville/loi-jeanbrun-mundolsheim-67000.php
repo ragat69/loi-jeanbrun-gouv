@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mundolsheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mundolsheim';
+$ville_key = "Mundolsheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

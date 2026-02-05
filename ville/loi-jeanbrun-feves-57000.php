@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fèves
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fèves';
+$ville_key = "Fèves";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Salives
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Salives';
+$ville_key = "Salives";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

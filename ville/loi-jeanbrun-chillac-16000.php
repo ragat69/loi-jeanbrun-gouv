@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chillac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chillac';
+$ville_key = "Chillac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

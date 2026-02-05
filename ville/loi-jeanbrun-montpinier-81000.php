@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montpinier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montpinier';
+$ville_key = "Montpinier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

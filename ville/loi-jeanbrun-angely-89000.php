@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Angely
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Angely';
+$ville_key = "Angely";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

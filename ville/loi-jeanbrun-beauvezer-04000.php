@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beauvezer
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beauvezer';
+$ville_key = "Beauvezer";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

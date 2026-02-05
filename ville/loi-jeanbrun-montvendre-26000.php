@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montvendre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montvendre';
+$ville_key = "Montvendre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

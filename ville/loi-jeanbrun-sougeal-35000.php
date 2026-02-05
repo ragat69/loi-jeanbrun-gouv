@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sougeal
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sougeal';
+$ville_key = "Sougeal";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

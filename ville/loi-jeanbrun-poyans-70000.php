@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Poyans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Poyans';
+$ville_key = "Poyans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

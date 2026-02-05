@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Laval-le-Prieuré
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Laval-le-Prieuré';
+$ville_key = "Laval-le-Prieuré";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

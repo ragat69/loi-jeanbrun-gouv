@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pezuls
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pezuls';
+$ville_key = "Pezuls";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

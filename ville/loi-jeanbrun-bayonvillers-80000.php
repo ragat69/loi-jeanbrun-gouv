@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bayonvillers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bayonvillers';
+$ville_key = "Bayonvillers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

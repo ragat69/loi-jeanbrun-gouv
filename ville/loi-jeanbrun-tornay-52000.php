@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tornay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tornay';
+$ville_key = "Tornay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

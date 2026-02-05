@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Toufflers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Toufflers';
+$ville_key = "Toufflers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

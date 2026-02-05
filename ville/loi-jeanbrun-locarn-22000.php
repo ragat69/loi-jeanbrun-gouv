@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Locarn
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Locarn';
+$ville_key = "Locarn";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

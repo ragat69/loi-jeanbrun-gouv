@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Québriac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Québriac';
+$ville_key = "Québriac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

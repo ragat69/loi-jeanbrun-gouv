@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lantosque
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lantosque';
+$ville_key = "Lantosque";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

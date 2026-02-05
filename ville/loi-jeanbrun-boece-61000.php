@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boëcé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boëcé';
+$ville_key = "Boëcé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

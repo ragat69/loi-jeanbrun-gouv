@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Martin-Lys
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Martin-Lys';
+$ville_key = "Saint-Martin-Lys";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

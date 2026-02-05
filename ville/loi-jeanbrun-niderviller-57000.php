@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Niderviller
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Niderviller';
+$ville_key = "Niderviller";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

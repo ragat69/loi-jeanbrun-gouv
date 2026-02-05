@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Volonne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Volonne';
+$ville_key = "Volonne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

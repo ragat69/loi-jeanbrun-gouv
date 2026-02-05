@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dohem
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dohem';
+$ville_key = "Dohem";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

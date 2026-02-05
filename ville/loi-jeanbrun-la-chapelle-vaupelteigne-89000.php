@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-Vaupelteigne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-Vaupelteigne';
+$ville_key = "La Chapelle-Vaupelteigne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

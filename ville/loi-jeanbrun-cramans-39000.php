@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cramans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cramans';
+$ville_key = "Cramans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-André-de-Double
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-André-de-Double';
+$ville_key = "Saint-André-de-Double";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

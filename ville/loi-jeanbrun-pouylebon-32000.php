@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pouylebon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pouylebon';
+$ville_key = "Pouylebon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

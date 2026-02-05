@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Soncourt-sur-Marne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Soncourt-sur-Marne';
+$ville_key = "Soncourt-sur-Marne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

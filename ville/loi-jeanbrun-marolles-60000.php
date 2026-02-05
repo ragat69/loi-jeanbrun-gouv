@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marolles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marolles';
+$ville_key = "Marolles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

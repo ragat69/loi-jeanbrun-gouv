@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Travecy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Travecy';
+$ville_key = "Travecy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

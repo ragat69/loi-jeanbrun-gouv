@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sorrus
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sorrus';
+$ville_key = "Sorrus";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

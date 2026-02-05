@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Courbiac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Courbiac';
+$ville_key = "Courbiac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

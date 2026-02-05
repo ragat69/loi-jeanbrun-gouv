@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Landeleau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Landeleau';
+$ville_key = "Landeleau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

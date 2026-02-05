@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Semide
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Semide';
+$ville_key = "Semide";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

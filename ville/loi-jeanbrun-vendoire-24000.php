@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vendoire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vendoire';
+$ville_key = "Vendoire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

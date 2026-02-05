@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Treffléan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Treffléan';
+$ville_key = "Treffléan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

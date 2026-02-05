@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thervay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thervay';
+$ville_key = "Thervay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

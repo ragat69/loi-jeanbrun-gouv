@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Médonville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Médonville';
+$ville_key = "Médonville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

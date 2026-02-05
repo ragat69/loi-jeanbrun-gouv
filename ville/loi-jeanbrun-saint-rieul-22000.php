@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Rieul
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Rieul';
+$ville_key = "Saint-Rieul";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Potigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Potigny';
+$ville_key = "Potigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

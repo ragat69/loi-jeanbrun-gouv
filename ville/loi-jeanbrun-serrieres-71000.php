@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Serrières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Serrières';
+$ville_key = "Serrières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

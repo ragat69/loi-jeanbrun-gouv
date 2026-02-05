@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Niederentzen
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Niederentzen';
+$ville_key = "Niederentzen";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

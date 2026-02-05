@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Thieuloye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Thieuloye';
+$ville_key = "La Thieuloye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Butteaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Butteaux';
+$ville_key = "Butteaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

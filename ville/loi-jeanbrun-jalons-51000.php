@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jâlons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jâlons';
+$ville_key = "Jâlons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Planches
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Planches';
+$ville_key = "Planches";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

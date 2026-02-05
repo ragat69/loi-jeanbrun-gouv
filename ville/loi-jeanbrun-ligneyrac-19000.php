@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ligneyrac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ligneyrac';
+$ville_key = "Ligneyrac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

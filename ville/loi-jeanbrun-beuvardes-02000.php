@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beuvardes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beuvardes';
+$ville_key = "Beuvardes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

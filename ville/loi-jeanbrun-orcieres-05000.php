@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Orcières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Orcières';
+$ville_key = "Orcières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

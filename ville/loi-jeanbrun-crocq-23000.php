@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Crocq
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Crocq';
+$ville_key = "Crocq";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Amné
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Amné';
+$ville_key = "Amné";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

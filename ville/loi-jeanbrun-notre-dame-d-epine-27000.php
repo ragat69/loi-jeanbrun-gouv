@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Notre-Dame-d'Épine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Notre-Dame-d'Épine';
+$ville_key = "Notre-Dame-d'Épine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

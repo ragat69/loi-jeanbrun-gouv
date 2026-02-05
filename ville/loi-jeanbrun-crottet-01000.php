@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Crottet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Crottet';
+$ville_key = "Crottet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

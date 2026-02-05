@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Châteauneuf-sur-Loire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Châteauneuf-sur-Loire';
+$ville_key = "Châteauneuf-sur-Loire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

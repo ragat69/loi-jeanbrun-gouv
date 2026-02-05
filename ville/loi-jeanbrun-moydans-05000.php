@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moydans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moydans';
+$ville_key = "Moydans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

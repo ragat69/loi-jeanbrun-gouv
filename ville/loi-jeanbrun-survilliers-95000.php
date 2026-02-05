@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Survilliers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Survilliers';
+$ville_key = "Survilliers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

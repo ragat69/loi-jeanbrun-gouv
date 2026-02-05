@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wicquinghem
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wicquinghem';
+$ville_key = "Wicquinghem";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

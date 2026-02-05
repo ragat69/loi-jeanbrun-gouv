@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Julienne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Julienne';
+$ville_key = "Julienne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bentayou-Sérée
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bentayou-Sérée';
+$ville_key = "Bentayou-Sérée";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

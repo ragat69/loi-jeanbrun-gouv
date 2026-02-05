@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villers-sur-Saulnot
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villers-sur-Saulnot';
+$ville_key = "Villers-sur-Saulnot";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

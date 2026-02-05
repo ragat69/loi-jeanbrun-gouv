@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Zittersheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Zittersheim';
+$ville_key = "Zittersheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

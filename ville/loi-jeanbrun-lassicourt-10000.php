@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lassicourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lassicourt';
+$ville_key = "Lassicourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

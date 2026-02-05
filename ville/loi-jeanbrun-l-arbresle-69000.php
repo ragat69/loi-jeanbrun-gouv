@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - L'Arbresle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'L'Arbresle';
+$ville_key = "L'Arbresle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beurville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beurville';
+$ville_key = "Beurville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

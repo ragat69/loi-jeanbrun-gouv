@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Renescure
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Renescure';
+$ville_key = "Renescure";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

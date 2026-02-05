@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Frouard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Frouard';
+$ville_key = "Frouard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

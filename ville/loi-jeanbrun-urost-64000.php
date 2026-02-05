@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Urost
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Urost';
+$ville_key = "Urost";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

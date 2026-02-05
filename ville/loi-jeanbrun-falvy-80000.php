@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Falvy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Falvy';
+$ville_key = "Falvy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

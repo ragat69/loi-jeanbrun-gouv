@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Géron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Géron';
+$ville_key = "Saint-Géron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

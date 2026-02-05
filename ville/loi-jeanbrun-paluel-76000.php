@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Paluel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Paluel';
+$ville_key = "Paluel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

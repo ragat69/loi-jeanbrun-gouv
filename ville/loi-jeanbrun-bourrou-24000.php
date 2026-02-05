@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bourrou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bourrou';
+$ville_key = "Bourrou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

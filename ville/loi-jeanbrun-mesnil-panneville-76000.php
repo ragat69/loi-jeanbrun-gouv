@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mesnil-Panneville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mesnil-Panneville';
+$ville_key = "Mesnil-Panneville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

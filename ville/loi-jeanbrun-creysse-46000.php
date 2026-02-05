@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Creysse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Creysse';
+$ville_key = "Creysse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

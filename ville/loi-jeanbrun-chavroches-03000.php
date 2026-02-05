@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chavroches
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chavroches';
+$ville_key = "Chavroches";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

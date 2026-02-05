@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Galinagues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Galinagues';
+$ville_key = "Galinagues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

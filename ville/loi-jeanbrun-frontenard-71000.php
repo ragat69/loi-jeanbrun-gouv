@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Frontenard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Frontenard';
+$ville_key = "Frontenard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

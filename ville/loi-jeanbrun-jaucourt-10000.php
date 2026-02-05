@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jaucourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jaucourt';
+$ville_key = "Jaucourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

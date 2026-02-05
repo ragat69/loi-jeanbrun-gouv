@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ergnies
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ergnies';
+$ville_key = "Ergnies";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

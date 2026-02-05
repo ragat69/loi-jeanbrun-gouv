@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Loconville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Loconville';
+$ville_key = "Loconville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Landin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Landin';
+$ville_key = "Le Landin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thorey-Lyautey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thorey-Lyautey';
+$ville_key = "Thorey-Lyautey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

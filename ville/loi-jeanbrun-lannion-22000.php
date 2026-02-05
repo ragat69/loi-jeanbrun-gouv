@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lannion
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lannion';
+$ville_key = "Lannion";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

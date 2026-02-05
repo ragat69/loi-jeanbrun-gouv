@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ségos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ségos';
+$ville_key = "Ségos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

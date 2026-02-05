@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-Avez
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-Avez';
+$ville_key = "Saint-Pierre-Avez";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

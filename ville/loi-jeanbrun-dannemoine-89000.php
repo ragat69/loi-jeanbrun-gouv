@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dannemoine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dannemoine';
+$ville_key = "Dannemoine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

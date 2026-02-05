@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Corbel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Corbel';
+$ville_key = "Corbel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wisembach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wisembach';
+$ville_key = "Wisembach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

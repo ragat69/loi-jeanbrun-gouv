@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Audelange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Audelange';
+$ville_key = "Audelange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bessoncourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bessoncourt';
+$ville_key = "Bessoncourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

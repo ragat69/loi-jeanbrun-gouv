@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brain
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brain';
+$ville_key = "Brain";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

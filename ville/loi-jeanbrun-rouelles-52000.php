@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rouelles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rouelles';
+$ville_key = "Rouelles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

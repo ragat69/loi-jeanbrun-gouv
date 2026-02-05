@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moiry
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moiry';
+$ville_key = "Moiry";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

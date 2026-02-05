@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Poyanne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Poyanne';
+$ville_key = "Poyanne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

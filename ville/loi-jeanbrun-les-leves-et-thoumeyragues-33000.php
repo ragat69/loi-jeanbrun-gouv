@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Lèves-et-Thoumeyragues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Lèves-et-Thoumeyragues';
+$ville_key = "Les Lèves-et-Thoumeyragues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bardou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bardou';
+$ville_key = "Bardou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

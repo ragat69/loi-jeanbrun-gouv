@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grives
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grives';
+$ville_key = "Grives";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

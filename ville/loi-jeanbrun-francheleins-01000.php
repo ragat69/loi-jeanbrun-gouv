@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Francheleins
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Francheleins';
+$ville_key = "Francheleins";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

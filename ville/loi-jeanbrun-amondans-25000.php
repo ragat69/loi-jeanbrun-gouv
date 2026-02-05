@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Amondans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Amondans';
+$ville_key = "Amondans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

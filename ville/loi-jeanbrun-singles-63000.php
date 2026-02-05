@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Singles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Singles';
+$ville_key = "Singles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

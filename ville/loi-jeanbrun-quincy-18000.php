@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Quincy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Quincy';
+$ville_key = "Quincy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

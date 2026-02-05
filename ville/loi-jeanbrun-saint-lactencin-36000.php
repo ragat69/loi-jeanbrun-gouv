@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Lactencin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Lactencin';
+$ville_key = "Saint-Lactencin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

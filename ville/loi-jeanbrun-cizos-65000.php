@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cizos
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cizos';
+$ville_key = "Cizos";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

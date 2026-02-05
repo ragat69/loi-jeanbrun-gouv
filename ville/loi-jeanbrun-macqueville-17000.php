@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Macqueville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Macqueville';
+$ville_key = "Macqueville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

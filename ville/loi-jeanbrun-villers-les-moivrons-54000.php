@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villers-lès-Moivrons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villers-lès-Moivrons';
+$ville_key = "Villers-lès-Moivrons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

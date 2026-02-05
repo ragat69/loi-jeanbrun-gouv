@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moslins
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moslins';
+$ville_key = "Moslins";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

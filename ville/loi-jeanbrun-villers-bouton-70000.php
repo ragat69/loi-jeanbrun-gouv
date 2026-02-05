@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villers-Bouton
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villers-Bouton';
+$ville_key = "Villers-Bouton";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

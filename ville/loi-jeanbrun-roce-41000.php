@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rocé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rocé';
+$ville_key = "Rocé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

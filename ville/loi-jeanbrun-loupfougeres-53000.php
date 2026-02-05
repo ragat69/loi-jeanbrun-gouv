@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Loupfougères
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Loupfougères';
+$ville_key = "Loupfougères";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nouart
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nouart';
+$ville_key = "Nouart";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

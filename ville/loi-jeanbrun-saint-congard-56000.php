@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Congard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Congard';
+$ville_key = "Saint-Congard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

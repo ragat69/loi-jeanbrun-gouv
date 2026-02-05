@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Uffheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Uffheim';
+$ville_key = "Uffheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

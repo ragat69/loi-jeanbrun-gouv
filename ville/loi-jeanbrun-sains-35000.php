@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sains
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sains';
+$ville_key = "Sains";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

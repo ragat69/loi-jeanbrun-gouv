@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Courthiézy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Courthiézy';
+$ville_key = "Courthiézy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

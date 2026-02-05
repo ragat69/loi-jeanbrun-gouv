@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montjean
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montjean';
+$ville_key = "Montjean";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

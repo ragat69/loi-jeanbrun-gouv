@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Plessis-Lastelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Plessis-Lastelle';
+$ville_key = "Le Plessis-Lastelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Romiguières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Romiguières';
+$ville_key = "Romiguières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

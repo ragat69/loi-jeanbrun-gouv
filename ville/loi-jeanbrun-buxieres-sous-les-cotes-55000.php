@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Buxières-sous-les-Côtes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Buxières-sous-les-Côtes';
+$ville_key = "Buxières-sous-les-Côtes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hangenbieten
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hangenbieten';
+$ville_key = "Hangenbieten";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

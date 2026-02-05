@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monthelie
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monthelie';
+$ville_key = "Monthelie";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

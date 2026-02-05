@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Alleins
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Alleins';
+$ville_key = "Alleins";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

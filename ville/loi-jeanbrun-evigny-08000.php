@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Évigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Évigny';
+$ville_key = "Évigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

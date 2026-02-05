@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neuvy-Saint-Sépulchre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neuvy-Saint-Sépulchre';
+$ville_key = "Neuvy-Saint-Sépulchre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Niafles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Niafles';
+$ville_key = "Niafles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

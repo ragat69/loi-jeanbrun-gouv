@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Landudec
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Landudec';
+$ville_key = "Landudec";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

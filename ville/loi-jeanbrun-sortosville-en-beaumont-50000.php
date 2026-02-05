@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sortosville-en-Beaumont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sortosville-en-Beaumont';
+$ville_key = "Sortosville-en-Beaumont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

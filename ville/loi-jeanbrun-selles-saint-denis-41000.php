@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Selles-Saint-Denis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Selles-Saint-Denis';
+$ville_key = "Selles-Saint-Denis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

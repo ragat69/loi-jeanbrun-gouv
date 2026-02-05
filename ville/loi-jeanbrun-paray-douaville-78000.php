@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Paray-Douaville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Paray-Douaville';
+$ville_key = "Paray-Douaville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Ilpize
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Ilpize';
+$ville_key = "Saint-Ilpize";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

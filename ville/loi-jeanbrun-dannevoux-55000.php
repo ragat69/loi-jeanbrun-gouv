@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dannevoux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dannevoux';
+$ville_key = "Dannevoux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

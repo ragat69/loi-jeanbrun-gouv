@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dissangis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dissangis';
+$ville_key = "Dissangis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

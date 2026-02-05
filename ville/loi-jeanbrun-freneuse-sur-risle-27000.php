@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Freneuse-sur-Risle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Freneuse-sur-Risle';
+$ville_key = "Freneuse-sur-Risle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

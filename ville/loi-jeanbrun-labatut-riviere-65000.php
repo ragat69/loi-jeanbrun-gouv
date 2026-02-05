@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Labatut-Rivière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Labatut-Rivière';
+$ville_key = "Labatut-Rivière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

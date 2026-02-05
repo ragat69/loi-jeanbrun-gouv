@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saubusse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saubusse';
+$ville_key = "Saubusse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

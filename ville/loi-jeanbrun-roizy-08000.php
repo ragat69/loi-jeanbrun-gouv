@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Roizy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Roizy';
+$ville_key = "Roizy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

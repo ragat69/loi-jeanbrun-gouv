@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ronno
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ronno';
+$ville_key = "Ronno";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

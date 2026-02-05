@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auros
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auros';
+$ville_key = "Auros";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

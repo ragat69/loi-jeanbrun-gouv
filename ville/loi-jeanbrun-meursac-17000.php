@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Meursac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Meursac';
+$ville_key = "Meursac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

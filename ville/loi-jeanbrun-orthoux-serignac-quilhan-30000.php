@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Orthoux-Sérignac-Quilhan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Orthoux-Sérignac-Quilhan';
+$ville_key = "Orthoux-Sérignac-Quilhan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

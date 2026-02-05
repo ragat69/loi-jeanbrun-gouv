@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sorbier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sorbier';
+$ville_key = "Sorbier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

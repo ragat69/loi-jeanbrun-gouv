@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tremblois-lès-Carignan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tremblois-lès-Carignan';
+$ville_key = "Tremblois-lès-Carignan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

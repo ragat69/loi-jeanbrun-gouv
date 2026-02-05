@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Waltembourg
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Waltembourg';
+$ville_key = "Waltembourg";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

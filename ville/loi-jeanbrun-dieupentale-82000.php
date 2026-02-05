@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dieupentale
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dieupentale';
+$ville_key = "Dieupentale";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

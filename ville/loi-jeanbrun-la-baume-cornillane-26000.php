@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Baume-Cornillane
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Baume-Cornillane';
+$ville_key = "La Baume-Cornillane";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Kremlin-Bicêtre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Kremlin-Bicêtre';
+$ville_key = "Le Kremlin-Bicêtre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

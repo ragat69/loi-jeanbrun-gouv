@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ploudalmézeau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ploudalmézeau';
+$ville_key = "Ploudalmézeau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

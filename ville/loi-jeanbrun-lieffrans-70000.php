@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lieffrans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lieffrans';
+$ville_key = "Lieffrans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

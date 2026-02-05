@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Charcier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Charcier';
+$ville_key = "Charcier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

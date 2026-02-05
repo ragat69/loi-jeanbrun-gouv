@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Exupéry
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Exupéry';
+$ville_key = "Saint-Exupéry";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

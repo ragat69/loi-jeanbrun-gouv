@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Yerres
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Yerres';
+$ville_key = "Yerres";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

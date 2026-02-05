@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Razines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Razines';
+$ville_key = "Razines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

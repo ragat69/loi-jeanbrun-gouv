@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pignans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pignans';
+$ville_key = "Pignans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

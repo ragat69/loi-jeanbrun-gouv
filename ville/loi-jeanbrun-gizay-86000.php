@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gizay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gizay';
+$ville_key = "Gizay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

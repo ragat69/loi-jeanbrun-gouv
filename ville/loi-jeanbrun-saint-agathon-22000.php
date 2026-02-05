@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Agathon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Agathon';
+$ville_key = "Saint-Agathon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

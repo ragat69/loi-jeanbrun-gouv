@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Jarne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Jarne';
+$ville_key = "La Jarne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

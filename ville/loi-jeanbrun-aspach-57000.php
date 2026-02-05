@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Aspach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Aspach';
+$ville_key = "Aspach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

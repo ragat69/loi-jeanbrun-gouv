@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bevons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bevons';
+$ville_key = "Bevons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

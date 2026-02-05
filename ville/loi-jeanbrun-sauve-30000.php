@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sauve
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sauve';
+$ville_key = "Sauve";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

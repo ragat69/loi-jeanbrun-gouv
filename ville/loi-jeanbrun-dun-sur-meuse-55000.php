@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dun-sur-Meuse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dun-sur-Meuse';
+$ville_key = "Dun-sur-Meuse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Laran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Laran';
+$ville_key = "Laran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

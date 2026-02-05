@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Castries
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Castries';
+$ville_key = "Castries";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

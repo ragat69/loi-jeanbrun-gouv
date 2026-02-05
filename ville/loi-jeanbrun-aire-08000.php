@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Aire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Aire';
+$ville_key = "Aire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fresnoy-Andainville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fresnoy-Andainville';
+$ville_key = "Fresnoy-Andainville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

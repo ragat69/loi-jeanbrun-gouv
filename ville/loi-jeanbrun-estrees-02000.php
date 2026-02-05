@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Estrées
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Estrées';
+$ville_key = "Estrées";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

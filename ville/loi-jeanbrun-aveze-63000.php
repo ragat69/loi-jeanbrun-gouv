@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Avèze
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Avèze';
+$ville_key = "Avèze";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

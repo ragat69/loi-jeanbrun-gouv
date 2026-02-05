@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dieulivol
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dieulivol';
+$ville_key = "Dieulivol";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

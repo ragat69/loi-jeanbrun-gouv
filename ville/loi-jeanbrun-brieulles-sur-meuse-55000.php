@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brieulles-sur-Meuse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brieulles-sur-Meuse';
+$ville_key = "Brieulles-sur-Meuse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saigneville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saigneville';
+$ville_key = "Saigneville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

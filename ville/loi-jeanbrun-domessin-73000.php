@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Domessin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Domessin';
+$ville_key = "Domessin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Roque-Alric
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Roque-Alric';
+$ville_key = "La Roque-Alric";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

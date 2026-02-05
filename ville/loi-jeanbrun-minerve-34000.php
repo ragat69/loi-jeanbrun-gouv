@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Minerve
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Minerve';
+$ville_key = "Minerve";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

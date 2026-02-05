@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Aires
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Aires';
+$ville_key = "Les Aires";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pommereuil
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pommereuil';
+$ville_key = "Pommereuil";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

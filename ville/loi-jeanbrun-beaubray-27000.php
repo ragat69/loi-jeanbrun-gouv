@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaubray
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaubray';
+$ville_key = "Beaubray";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

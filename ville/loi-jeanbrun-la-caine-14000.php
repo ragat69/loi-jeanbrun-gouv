@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Caine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Caine';
+$ville_key = "La Caine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

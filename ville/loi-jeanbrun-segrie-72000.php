@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ségrie
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ségrie';
+$ville_key = "Ségrie";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

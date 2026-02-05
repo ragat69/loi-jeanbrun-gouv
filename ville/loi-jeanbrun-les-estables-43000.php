@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Estables
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Estables';
+$ville_key = "Les Estables";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

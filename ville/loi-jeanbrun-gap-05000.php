@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gap
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gap';
+$ville_key = "Gap";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

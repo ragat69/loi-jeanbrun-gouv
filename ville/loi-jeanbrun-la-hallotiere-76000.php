@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Hallotière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Hallotière';
+$ville_key = "La Hallotière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

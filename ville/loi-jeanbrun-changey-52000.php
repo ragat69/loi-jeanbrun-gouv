@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Changey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Changey';
+$ville_key = "Changey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

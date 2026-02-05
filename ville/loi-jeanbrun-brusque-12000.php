@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brusque
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brusque';
+$ville_key = "Brusque";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montmeyran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montmeyran';
+$ville_key = "Montmeyran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

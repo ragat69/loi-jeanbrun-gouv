@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rochefort-en-Terre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rochefort-en-Terre';
+$ville_key = "Rochefort-en-Terre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Lary-Boujean
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Lary-Boujean';
+$ville_key = "Saint-Lary-Boujean";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

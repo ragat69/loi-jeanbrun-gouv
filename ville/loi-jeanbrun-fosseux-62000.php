@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fosseux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fosseux';
+$ville_key = "Fosseux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

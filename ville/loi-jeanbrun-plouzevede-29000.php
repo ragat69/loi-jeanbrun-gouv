@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Plouzévédé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Plouzévédé';
+$ville_key = "Plouzévédé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

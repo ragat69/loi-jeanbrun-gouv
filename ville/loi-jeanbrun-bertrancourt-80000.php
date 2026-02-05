@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bertrancourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bertrancourt';
+$ville_key = "Bertrancourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

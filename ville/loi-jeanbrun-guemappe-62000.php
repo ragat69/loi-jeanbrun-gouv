@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guémappe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guémappe';
+$ville_key = "Guémappe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

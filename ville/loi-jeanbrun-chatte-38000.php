@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chatte
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chatte';
+$ville_key = "Chatte";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

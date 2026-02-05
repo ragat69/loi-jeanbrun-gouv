@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Laroquevieille
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Laroquevieille';
+$ville_key = "Laroquevieille";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

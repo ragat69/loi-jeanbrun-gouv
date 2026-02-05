@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Eurre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Eurre';
+$ville_key = "Eurre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

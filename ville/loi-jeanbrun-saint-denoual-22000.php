@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Denoual
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Denoual';
+$ville_key = "Saint-Denoual";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

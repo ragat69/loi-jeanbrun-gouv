@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marieulles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marieulles';
+$ville_key = "Marieulles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Krautwiller
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Krautwiller';
+$ville_key = "Krautwiller";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lhéry
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lhéry';
+$ville_key = "Lhéry";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rouvrel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rouvrel';
+$ville_key = "Rouvrel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

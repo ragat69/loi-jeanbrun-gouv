@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Amange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Amange';
+$ville_key = "Amange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

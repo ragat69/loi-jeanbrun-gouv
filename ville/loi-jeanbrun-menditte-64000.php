@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Menditte
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Menditte';
+$ville_key = "Menditte";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

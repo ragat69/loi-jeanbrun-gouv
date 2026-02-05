@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Eyzerac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Eyzerac';
+$ville_key = "Eyzerac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

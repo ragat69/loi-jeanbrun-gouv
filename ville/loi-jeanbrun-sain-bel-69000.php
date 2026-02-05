@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sain-Bel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sain-Bel';
+$ville_key = "Sain-Bel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

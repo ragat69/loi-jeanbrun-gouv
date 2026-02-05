@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marais-Vernier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marais-Vernier';
+$ville_key = "Marais-Vernier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

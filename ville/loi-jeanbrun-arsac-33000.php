@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Arsac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Arsac';
+$ville_key = "Arsac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

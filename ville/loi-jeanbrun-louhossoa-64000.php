@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Louhossoa
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Louhossoa';
+$ville_key = "Louhossoa";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

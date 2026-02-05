@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Péronnas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Péronnas';
+$ville_key = "Péronnas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

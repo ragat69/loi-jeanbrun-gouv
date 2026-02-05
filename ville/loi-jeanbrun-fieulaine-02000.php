@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fieulaine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fieulaine';
+$ville_key = "Fieulaine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

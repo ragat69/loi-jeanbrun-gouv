@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Joudreville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Joudreville';
+$ville_key = "Joudreville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

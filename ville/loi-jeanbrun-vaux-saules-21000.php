@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaux-Saules
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaux-Saules';
+$ville_key = "Vaux-Saules";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Neuville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Neuville';
+$ville_key = "La Neuville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

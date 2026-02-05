@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bavelincourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bavelincourt';
+$ville_key = "Bavelincourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

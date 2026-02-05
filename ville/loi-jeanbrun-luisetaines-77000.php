@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Luisetaines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Luisetaines';
+$ville_key = "Luisetaines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

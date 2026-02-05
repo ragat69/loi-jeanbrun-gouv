@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Benney
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Benney';
+$ville_key = "Benney";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

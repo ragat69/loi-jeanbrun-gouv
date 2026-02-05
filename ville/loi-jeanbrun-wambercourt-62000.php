@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Wambercourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Wambercourt';
+$ville_key = "Wambercourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

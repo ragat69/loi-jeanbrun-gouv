@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Arrancy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Arrancy';
+$ville_key = "Arrancy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

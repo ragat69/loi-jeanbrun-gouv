@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Nazaire-sur-Charente
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Nazaire-sur-Charente';
+$ville_key = "Saint-Nazaire-sur-Charente";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

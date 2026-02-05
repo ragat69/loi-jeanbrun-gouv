@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Trois Lacs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Trois Lacs';
+$ville_key = "Les Trois Lacs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

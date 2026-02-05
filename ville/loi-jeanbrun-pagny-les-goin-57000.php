@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pagny-lès-Goin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pagny-lès-Goin';
+$ville_key = "Pagny-lès-Goin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

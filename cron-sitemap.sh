@@ -5,7 +5,7 @@
 #
 
 # Chemin absolu vers le répertoire du site
-SITE_DIR="/home/VOTRE_USER/loi-jeanbrun-gouv.com"
+SITE_DIR="/home2/sc2raoulo2/loi-jeanbrun-gouv.com"
 
 # Se placer dans le répertoire
 cd "$SITE_DIR" || exit 1

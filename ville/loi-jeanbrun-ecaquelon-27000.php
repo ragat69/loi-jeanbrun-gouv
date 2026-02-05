@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Écaquelon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Écaquelon';
+$ville_key = "Écaquelon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

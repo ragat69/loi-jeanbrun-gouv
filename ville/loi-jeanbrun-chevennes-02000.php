@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chevennes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chevennes';
+$ville_key = "Chevennes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Combe-de-Lancey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Combe-de-Lancey';
+$ville_key = "La Combe-de-Lancey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

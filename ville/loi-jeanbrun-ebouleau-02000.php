@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ébouleau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ébouleau';
+$ville_key = "Ébouleau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

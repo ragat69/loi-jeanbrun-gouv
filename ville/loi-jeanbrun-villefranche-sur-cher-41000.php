@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villefranche-sur-Cher
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villefranche-sur-Cher';
+$ville_key = "Villefranche-sur-Cher";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

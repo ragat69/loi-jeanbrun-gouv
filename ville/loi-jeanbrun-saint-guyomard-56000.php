@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Guyomard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Guyomard';
+$ville_key = "Saint-Guyomard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

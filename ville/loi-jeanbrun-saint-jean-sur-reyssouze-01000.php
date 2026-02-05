@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Jean-sur-Reyssouze
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Jean-sur-Reyssouze';
+$ville_key = "Saint-Jean-sur-Reyssouze";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

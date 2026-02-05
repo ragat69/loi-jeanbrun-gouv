@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nukutavake
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nukutavake';
+$ville_key = "Nukutavake";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

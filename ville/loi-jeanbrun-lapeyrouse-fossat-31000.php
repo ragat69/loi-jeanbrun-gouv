@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lapeyrouse-Fossat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lapeyrouse-Fossat';
+$ville_key = "Lapeyrouse-Fossat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

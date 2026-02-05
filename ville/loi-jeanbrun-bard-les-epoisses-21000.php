@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bard-lès-Époisses
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bard-lès-Époisses';
+$ville_key = "Bard-lès-Époisses";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

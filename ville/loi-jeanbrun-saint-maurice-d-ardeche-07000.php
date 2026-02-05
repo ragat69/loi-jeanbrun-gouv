@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Maurice-d'Ardèche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Maurice-d'Ardèche';
+$ville_key = "Saint-Maurice-d'Ardèche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

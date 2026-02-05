@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pulnoy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pulnoy';
+$ville_key = "Pulnoy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

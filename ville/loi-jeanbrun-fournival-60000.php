@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fournival
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fournival';
+$ville_key = "Fournival";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

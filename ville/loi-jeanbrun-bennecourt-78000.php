@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bennecourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bennecourt';
+$ville_key = "Bennecourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

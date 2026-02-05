@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Occagnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Occagnes';
+$ville_key = "Occagnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

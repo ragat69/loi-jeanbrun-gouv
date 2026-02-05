@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Manicamp
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Manicamp';
+$ville_key = "Manicamp";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Uglas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Uglas';
+$ville_key = "Uglas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

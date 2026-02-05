@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Puzeaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Puzeaux';
+$ville_key = "Puzeaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

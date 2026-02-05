@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lalonquette
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lalonquette';
+$ville_key = "Lalonquette";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

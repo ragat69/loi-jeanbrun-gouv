@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pech
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pech';
+$ville_key = "Pech";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

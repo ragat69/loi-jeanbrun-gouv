@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vion
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vion';
+$ville_key = "Vion";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

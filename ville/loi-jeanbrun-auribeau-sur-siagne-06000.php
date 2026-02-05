@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auribeau-sur-Siagne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auribeau-sur-Siagne';
+$ville_key = "Auribeau-sur-Siagne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

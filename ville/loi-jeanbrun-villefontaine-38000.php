@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villefontaine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villefontaine';
+$ville_key = "Villefontaine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

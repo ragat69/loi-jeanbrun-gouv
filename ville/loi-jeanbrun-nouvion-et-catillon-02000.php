@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nouvion-et-Catillon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nouvion-et-Catillon';
+$ville_key = "Nouvion-et-Catillon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

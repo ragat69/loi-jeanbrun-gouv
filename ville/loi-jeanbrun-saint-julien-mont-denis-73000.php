@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Julien-Mont-Denis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Julien-Mont-Denis';
+$ville_key = "Saint-Julien-Mont-Denis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

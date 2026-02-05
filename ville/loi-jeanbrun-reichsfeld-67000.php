@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Reichsfeld
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Reichsfeld';
+$ville_key = "Reichsfeld";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

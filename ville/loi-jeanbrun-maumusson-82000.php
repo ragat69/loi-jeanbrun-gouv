@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maumusson
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maumusson';
+$ville_key = "Maumusson";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

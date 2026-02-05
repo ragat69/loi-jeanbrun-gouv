@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bonsecours
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bonsecours';
+$ville_key = "Bonsecours";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

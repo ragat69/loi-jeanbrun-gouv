@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lavoux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lavoux';
+$ville_key = "Lavoux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

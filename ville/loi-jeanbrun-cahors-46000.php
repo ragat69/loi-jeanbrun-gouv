@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cahors
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cahors';
+$ville_key = "Cahors";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

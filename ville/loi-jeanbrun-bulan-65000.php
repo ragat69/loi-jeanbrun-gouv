@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bulan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bulan';
+$ville_key = "Bulan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moulle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moulle';
+$ville_key = "Moulle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

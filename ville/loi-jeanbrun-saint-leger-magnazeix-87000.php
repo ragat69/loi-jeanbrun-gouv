@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Léger-Magnazeix
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Léger-Magnazeix';
+$ville_key = "Saint-Léger-Magnazeix";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

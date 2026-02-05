@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Menneville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Menneville';
+$ville_key = "Menneville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

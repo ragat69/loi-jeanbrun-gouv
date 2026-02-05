@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Solignac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Solignac';
+$ville_key = "Solignac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Viennay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Viennay';
+$ville_key = "Viennay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

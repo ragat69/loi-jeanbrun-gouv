@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bonboillon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bonboillon';
+$ville_key = "Bonboillon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

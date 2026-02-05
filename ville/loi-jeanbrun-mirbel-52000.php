@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mirbel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mirbel';
+$ville_key = "Mirbel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

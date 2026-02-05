@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oiry
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oiry';
+$ville_key = "Oiry";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

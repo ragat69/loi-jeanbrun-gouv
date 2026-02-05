@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Houldizy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Houldizy';
+$ville_key = "Houldizy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Roquefort-sur-Garonne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Roquefort-sur-Garonne';
+$ville_key = "Roquefort-sur-Garonne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

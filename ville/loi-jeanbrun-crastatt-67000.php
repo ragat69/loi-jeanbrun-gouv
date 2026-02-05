@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Crastatt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Crastatt';
+$ville_key = "Crastatt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

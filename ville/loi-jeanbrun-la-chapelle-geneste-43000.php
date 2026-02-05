@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-Geneste
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-Geneste';
+$ville_key = "La Chapelle-Geneste";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

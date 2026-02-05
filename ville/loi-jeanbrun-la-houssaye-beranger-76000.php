@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Houssaye-Béranger
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Houssaye-Béranger';
+$ville_key = "La Houssaye-Béranger";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

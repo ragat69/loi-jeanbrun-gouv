@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Surzur
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Surzur';
+$ville_key = "Surzur";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

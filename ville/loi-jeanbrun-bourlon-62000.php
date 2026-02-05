@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bourlon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bourlon';
+$ville_key = "Bourlon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

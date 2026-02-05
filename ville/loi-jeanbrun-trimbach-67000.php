@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Trimbach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Trimbach';
+$ville_key = "Trimbach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

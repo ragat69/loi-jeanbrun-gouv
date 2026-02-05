@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saussens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saussens';
+$ville_key = "Saussens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

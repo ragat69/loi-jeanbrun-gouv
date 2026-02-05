@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Priay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Priay';
+$ville_key = "Priay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

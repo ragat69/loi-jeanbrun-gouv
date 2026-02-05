@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villelongue-dels-Monts
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villelongue-dels-Monts';
+$ville_key = "Villelongue-dels-Monts";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

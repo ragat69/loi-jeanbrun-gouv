@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Mazière-aux-Bons-Hommes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Mazière-aux-Bons-Hommes';
+$ville_key = "La Mazière-aux-Bons-Hommes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

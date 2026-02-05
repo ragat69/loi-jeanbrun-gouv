@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brouillet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brouillet';
+$ville_key = "Brouillet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

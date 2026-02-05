@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marizy-Sainte-Geneviève
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marizy-Sainte-Geneviève';
+$ville_key = "Marizy-Sainte-Geneviève";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

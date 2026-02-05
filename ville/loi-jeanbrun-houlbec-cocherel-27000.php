@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Houlbec-Cocherel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Houlbec-Cocherel';
+$ville_key = "Houlbec-Cocherel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

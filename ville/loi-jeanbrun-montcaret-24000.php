@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montcaret
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montcaret';
+$ville_key = "Montcaret";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gambsheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gambsheim';
+$ville_key = "Gambsheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

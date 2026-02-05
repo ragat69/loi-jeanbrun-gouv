@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mazerolles-du-Razès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mazerolles-du-Razès';
+$ville_key = "Mazerolles-du-Razès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

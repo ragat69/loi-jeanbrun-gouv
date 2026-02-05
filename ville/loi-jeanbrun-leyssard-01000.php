@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Leyssard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Leyssard';
+$ville_key = "Leyssard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

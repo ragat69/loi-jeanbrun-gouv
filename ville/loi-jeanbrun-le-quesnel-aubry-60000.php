@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Quesnel-Aubry
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Quesnel-Aubry';
+$ville_key = "Le Quesnel-Aubry";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

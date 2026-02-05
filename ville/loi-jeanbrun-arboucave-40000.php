@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Arboucave
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Arboucave';
+$ville_key = "Arboucave";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Clémery
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Clémery';
+$ville_key = "Clémery";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

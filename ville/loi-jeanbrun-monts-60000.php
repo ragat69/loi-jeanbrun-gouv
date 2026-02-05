@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monts
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monts';
+$ville_key = "Monts";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tourtrès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tourtrès';
+$ville_key = "Tourtrès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

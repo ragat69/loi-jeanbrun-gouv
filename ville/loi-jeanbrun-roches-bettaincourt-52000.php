@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Roches-Bettaincourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Roches-Bettaincourt';
+$ville_key = "Roches-Bettaincourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

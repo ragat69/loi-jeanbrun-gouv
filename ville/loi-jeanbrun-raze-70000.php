@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Raze
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Raze';
+$ville_key = "Raze";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

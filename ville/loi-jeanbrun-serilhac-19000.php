@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sérilhac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sérilhac';
+$ville_key = "Sérilhac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

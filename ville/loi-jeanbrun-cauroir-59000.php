@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cauroir
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cauroir';
+$ville_key = "Cauroir";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

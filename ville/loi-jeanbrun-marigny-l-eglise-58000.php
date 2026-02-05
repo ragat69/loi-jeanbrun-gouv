@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marigny-l'Église
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marigny-l'Église';
+$ville_key = "Marigny-l'Église";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Citerne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Citerne';
+$ville_key = "Citerne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

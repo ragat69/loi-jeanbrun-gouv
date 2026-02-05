@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guerpont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guerpont';
+$ville_key = "Guerpont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

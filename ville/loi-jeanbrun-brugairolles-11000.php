@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brugairolles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brugairolles';
+$ville_key = "Brugairolles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

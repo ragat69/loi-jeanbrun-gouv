@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Clisson
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Clisson';
+$ville_key = "Clisson";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

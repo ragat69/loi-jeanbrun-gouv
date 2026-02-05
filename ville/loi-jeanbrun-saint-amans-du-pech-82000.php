@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Amans-du-Pech
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Amans-du-Pech';
+$ville_key = "Saint-Amans-du-Pech";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

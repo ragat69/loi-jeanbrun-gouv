@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Talmas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Talmas';
+$ville_key = "Talmas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

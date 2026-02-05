@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Aybert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Aybert';
+$ville_key = "Saint-Aybert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

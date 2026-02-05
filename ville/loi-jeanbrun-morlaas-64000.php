@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Morlaàs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Morlaàs';
+$ville_key = "Morlaàs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

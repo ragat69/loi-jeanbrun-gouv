@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaulieu-les-Fontaines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaulieu-les-Fontaines';
+$ville_key = "Beaulieu-les-Fontaines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

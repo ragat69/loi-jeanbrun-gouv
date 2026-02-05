@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vernantois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vernantois';
+$ville_key = "Vernantois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

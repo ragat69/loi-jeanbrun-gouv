@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thézac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thézac';
+$ville_key = "Thézac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

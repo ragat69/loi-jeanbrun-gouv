@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Aboën
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Aboën';
+$ville_key = "Aboën";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

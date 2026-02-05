@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bourg-lès-Valence
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bourg-lès-Valence';
+$ville_key = "Bourg-lès-Valence";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

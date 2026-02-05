@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Appeville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Appeville';
+$ville_key = "Appeville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

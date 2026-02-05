@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Foy-de-Peyrolières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Foy-de-Peyrolières';
+$ville_key = "Sainte-Foy-de-Peyrolières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vœlfling-lès-Bouzonville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vœlfling-lès-Bouzonville';
+$ville_key = "Vœlfling-lès-Bouzonville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

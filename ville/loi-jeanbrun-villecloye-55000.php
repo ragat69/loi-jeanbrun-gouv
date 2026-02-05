@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villécloye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villécloye';
+$ville_key = "Villécloye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

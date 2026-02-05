@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Baulay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Baulay';
+$ville_key = "Baulay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

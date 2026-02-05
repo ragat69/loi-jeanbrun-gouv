@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Argeliers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Argeliers';
+$ville_key = "Argeliers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

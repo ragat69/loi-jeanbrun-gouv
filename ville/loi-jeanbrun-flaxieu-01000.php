@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Flaxieu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Flaxieu';
+$ville_key = "Flaxieu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

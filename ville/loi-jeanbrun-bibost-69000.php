@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bibost
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bibost';
+$ville_key = "Bibost";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

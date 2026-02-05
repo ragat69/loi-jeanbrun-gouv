@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bargny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bargny';
+$ville_key = "Bargny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

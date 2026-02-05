@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Massingy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Massingy';
+$ville_key = "Massingy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

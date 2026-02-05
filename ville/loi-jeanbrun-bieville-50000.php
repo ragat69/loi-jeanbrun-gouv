@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Biéville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Biéville';
+$ville_key = "Biéville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

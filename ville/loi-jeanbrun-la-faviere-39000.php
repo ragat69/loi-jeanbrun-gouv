@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Favière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Favière';
+$ville_key = "La Favière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

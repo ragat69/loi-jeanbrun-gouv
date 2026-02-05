@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mirvaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mirvaux';
+$ville_key = "Mirvaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

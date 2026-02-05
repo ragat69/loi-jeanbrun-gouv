@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Paul-des-Landes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Paul-des-Landes';
+$ville_key = "Saint-Paul-des-Landes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

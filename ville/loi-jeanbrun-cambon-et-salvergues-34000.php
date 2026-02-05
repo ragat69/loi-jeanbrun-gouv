@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cambon-et-Salvergues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cambon-et-Salvergues';
+$ville_key = "Cambon-et-Salvergues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

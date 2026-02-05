@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Flavignerot
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Flavignerot';
+$ville_key = "Flavignerot";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Moreilles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Moreilles';
+$ville_key = "Moreilles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

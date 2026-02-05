@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lisors
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lisors';
+$ville_key = "Lisors";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

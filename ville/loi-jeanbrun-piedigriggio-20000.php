@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Piedigriggio
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Piedigriggio';
+$ville_key = "Piedigriggio";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

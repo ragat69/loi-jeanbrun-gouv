@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Martin-d'Hères
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Martin-d'Hères';
+$ville_key = "Saint-Martin-d'Hères";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

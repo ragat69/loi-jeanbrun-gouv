@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montaner
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montaner';
+$ville_key = "Montaner";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

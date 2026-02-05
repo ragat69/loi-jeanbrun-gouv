@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Affracourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Affracourt';
+$ville_key = "Affracourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

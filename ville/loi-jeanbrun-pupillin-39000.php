@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pupillin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pupillin';
+$ville_key = "Pupillin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

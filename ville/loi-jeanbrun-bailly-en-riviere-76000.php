@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bailly-en-Rivière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bailly-en-Rivière';
+$ville_key = "Bailly-en-Rivière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

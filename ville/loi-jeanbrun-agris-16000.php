@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Agris
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Agris';
+$ville_key = "Agris";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

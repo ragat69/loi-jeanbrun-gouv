@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nouméa
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nouméa';
+$ville_key = "Nouméa";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

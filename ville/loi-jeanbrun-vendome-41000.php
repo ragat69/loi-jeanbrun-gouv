@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vendôme
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vendôme';
+$ville_key = "Vendôme";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

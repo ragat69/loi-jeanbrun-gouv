@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ingouville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ingouville';
+$ville_key = "Ingouville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

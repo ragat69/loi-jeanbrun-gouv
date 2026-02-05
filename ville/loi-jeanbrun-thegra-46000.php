@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thégra
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thégra';
+$ville_key = "Thégra";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

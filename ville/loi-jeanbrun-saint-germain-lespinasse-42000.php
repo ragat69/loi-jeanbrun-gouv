@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Germain-Lespinasse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Germain-Lespinasse';
+$ville_key = "Saint-Germain-Lespinasse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

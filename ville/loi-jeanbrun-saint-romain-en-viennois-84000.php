@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Romain-en-Viennois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Romain-en-Viennois';
+$ville_key = "Saint-Romain-en-Viennois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

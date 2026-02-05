@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Roquille
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Roquille';
+$ville_key = "La Roquille";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

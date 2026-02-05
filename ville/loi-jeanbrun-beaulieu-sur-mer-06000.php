@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaulieu-sur-Mer
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaulieu-sur-Mer';
+$ville_key = "Beaulieu-sur-Mer";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

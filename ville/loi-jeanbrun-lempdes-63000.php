@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lempdes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lempdes';
+$ville_key = "Lempdes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

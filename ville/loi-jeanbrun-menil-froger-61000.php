@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ménil-Froger
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ménil-Froger';
+$ville_key = "Ménil-Froger";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fresnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fresnes';
+$ville_key = "Fresnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

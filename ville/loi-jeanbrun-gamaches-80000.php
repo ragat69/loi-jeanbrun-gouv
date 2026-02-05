@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gamaches
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gamaches';
+$ville_key = "Gamaches";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

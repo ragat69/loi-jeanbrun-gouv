@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Feneu
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Feneu';
+$ville_key = "Feneu";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

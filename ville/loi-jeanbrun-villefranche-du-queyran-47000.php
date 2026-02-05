@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villefranche-du-Queyran
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villefranche-du-Queyran';
+$ville_key = "Villefranche-du-Queyran";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

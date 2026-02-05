@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sécheras
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sécheras';
+$ville_key = "Sécheras";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

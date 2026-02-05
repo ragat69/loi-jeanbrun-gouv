@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Véron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Véron';
+$ville_key = "Véron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

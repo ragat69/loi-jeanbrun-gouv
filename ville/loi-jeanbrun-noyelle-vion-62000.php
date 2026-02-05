@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Noyelle-Vion
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Noyelle-Vion';
+$ville_key = "Noyelle-Vion";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

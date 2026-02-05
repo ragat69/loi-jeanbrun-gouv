@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Bourgonce
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Bourgonce';
+$ville_key = "La Bourgonce";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

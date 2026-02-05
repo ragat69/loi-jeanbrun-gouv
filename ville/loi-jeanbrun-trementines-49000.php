@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Trémentines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Trémentines';
+$ville_key = "Trémentines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

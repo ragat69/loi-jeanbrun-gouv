@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Larré
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Larré';
+$ville_key = "Larré";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

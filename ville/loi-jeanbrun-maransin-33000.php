@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maransin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maransin';
+$ville_key = "Maransin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

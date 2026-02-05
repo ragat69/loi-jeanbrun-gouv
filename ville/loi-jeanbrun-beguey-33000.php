@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Béguey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Béguey';
+$ville_key = "Béguey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

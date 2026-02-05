@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dampierre-sous-Brou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dampierre-sous-Brou';
+$ville_key = "Dampierre-sous-Brou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

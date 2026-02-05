@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thiolières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thiolières';
+$ville_key = "Thiolières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

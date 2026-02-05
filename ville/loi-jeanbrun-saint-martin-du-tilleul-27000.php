@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Martin-du-Tilleul
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Martin-du-Tilleul';
+$ville_key = "Saint-Martin-du-Tilleul";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

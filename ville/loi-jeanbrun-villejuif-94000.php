@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villejuif
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villejuif';
+$ville_key = "Villejuif";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

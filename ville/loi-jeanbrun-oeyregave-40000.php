@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oeyregave
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oeyregave';
+$ville_key = "Oeyregave";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

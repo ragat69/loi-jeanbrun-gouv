@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Huahine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Huahine';
+$ville_key = "Huahine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

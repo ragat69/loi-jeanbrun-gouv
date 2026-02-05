@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rioz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rioz';
+$ville_key = "Rioz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

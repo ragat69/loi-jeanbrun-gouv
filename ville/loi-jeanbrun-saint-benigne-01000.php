@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Bénigne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Bénigne';
+$ville_key = "Saint-Bénigne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rigny-la-Salle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rigny-la-Salle';
+$ville_key = "Rigny-la-Salle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

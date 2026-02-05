@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaxoncourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaxoncourt';
+$ville_key = "Vaxoncourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

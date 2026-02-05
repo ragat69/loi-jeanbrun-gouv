@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villers-Stoncourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villers-Stoncourt';
+$ville_key = "Villers-Stoncourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

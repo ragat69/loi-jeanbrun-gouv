@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Quiers-sur-Bezonde
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Quiers-sur-Bezonde';
+$ville_key = "Quiers-sur-Bezonde";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

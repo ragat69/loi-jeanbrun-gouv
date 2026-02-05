@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Celle-sous-Gouzon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Celle-sous-Gouzon';
+$ville_key = "La Celle-sous-Gouzon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

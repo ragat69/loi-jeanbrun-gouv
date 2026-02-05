@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fosse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fosse';
+$ville_key = "Fosse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

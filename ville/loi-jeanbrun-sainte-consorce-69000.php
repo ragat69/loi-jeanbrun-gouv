@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Consorce
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Consorce';
+$ville_key = "Sainte-Consorce";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

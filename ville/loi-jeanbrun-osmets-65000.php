@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Osmets
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Osmets';
+$ville_key = "Osmets";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

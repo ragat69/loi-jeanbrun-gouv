@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fallerans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fallerans';
+$ville_key = "Fallerans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

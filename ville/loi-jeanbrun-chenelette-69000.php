@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chénelette
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chénelette';
+$ville_key = "Chénelette";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

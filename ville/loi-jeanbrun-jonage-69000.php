@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Jonage
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Jonage';
+$ville_key = "Jonage";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boulages
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boulages';
+$ville_key = "Boulages";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Plessis-Sainte-Opportune
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Plessis-Sainte-Opportune';
+$ville_key = "Le Plessis-Sainte-Opportune";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

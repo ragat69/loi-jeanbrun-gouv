@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Fontenelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Fontenelle';
+$ville_key = "La Fontenelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

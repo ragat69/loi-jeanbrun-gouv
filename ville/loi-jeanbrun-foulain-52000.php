@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Foulain
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Foulain';
+$ville_key = "Foulain";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

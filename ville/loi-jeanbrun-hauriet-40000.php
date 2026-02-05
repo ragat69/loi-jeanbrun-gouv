@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hauriet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hauriet';
+$ville_key = "Hauriet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

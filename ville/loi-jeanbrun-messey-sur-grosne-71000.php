@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Messey-sur-Grosne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Messey-sur-Grosne';
+$ville_key = "Messey-sur-Grosne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

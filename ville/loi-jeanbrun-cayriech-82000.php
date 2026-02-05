@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cayriech
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cayriech';
+$ville_key = "Cayriech";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

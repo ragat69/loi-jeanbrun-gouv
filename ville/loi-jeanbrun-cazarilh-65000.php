@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cazarilh
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cazarilh';
+$ville_key = "Cazarilh";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

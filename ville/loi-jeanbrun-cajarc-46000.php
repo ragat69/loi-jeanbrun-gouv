@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cajarc
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cajarc';
+$ville_key = "Cajarc";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

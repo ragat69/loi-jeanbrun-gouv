@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monceaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monceaux';
+$ville_key = "Monceaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

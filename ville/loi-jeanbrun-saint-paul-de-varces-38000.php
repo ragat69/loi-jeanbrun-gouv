@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Paul-de-Varces
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Paul-de-Varces';
+$ville_key = "Saint-Paul-de-Varces";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

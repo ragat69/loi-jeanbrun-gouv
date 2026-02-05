@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Baissey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Baissey';
+$ville_key = "Baissey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

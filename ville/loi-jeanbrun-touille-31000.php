@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Touille
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Touille';
+$ville_key = "Touille";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

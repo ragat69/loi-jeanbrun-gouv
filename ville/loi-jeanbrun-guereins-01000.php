@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guéreins
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guéreins';
+$ville_key = "Guéreins";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

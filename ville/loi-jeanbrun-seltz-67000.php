@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Seltz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Seltz';
+$ville_key = "Seltz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

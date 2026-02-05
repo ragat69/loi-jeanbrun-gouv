@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Chamassy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Chamassy';
+$ville_key = "Saint-Chamassy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

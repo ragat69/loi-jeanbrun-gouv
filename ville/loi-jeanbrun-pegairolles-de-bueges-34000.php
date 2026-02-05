@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pégairolles-de-Buèges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pégairolles-de-Buèges';
+$ville_key = "Pégairolles-de-Buèges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

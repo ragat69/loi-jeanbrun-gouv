@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Dompierre-sur-Nièvre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Dompierre-sur-Nièvre';
+$ville_key = "Dompierre-sur-Nièvre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

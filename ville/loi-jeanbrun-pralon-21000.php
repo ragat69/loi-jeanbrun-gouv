@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Prâlon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Prâlon';
+$ville_key = "Prâlon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

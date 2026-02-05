@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Muids
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Muids';
+$ville_key = "Muids";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-des-Corps
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-des-Corps';
+$ville_key = "Saint-Pierre-des-Corps";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

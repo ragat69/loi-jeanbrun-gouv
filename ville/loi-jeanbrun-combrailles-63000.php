@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Combrailles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Combrailles';
+$ville_key = "Combrailles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

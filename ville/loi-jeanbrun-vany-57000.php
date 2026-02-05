@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vany
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vany';
+$ville_key = "Vany";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

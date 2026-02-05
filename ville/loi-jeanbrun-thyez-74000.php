@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thyez
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thyez';
+$ville_key = "Thyez";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

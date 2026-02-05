@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Melleray
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Melleray';
+$ville_key = "Melleray";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

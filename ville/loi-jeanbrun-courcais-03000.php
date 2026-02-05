@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Courçais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Courçais';
+$ville_key = "Courçais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

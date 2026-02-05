@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Champsanglard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Champsanglard';
+$ville_key = "Champsanglard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cambounès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cambounès';
+$ville_key = "Cambounès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

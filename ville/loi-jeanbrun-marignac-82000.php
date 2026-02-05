@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marignac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marignac';
+$ville_key = "Marignac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

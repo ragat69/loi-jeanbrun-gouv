@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guillerval
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guillerval';
+$ville_key = "Guillerval";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

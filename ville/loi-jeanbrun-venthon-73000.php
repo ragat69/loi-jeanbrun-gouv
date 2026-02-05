@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Venthon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Venthon';
+$ville_key = "Venthon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

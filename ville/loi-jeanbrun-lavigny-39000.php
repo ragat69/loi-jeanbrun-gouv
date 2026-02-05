@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lavigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lavigny';
+$ville_key = "Lavigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

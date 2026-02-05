@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maizilly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maizilly';
+$ville_key = "Maizilly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

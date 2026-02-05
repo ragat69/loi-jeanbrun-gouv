@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ratte
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ratte';
+$ville_key = "Ratte";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

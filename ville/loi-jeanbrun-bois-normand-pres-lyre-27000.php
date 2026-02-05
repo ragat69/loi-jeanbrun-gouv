@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bois-Normand-près-Lyre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bois-Normand-près-Lyre';
+$ville_key = "Bois-Normand-près-Lyre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

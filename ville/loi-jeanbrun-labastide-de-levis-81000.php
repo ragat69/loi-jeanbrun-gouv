@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Labastide-de-Lévis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Labastide-de-Lévis';
+$ville_key = "Labastide-de-Lévis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Issepts
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Issepts';
+$ville_key = "Issepts";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

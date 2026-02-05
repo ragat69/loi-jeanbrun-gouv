@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Lilas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Lilas';
+$ville_key = "Les Lilas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Langensoultzbach
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Langensoultzbach';
+$ville_key = "Langensoultzbach";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

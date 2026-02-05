@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Linguizzetta
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Linguizzetta';
+$ville_key = "Linguizzetta";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

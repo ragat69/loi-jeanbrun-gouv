@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Noyelles-sous-Bellonne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Noyelles-sous-Bellonne';
+$ville_key = "Noyelles-sous-Bellonne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

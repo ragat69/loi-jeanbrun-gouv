@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cruzy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cruzy';
+$ville_key = "Cruzy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

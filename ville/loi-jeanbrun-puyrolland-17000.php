@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Puyrolland
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Puyrolland';
+$ville_key = "Puyrolland";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

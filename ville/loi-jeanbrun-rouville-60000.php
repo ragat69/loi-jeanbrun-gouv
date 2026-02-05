@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rouville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rouville';
+$ville_key = "Rouville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

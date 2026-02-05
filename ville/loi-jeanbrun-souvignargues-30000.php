@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Souvignargues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Souvignargues';
+$ville_key = "Souvignargues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

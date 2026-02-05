@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cabrières-d'Aigues
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cabrières-d'Aigues';
+$ville_key = "Cabrières-d'Aigues";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oraàs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oraàs';
+$ville_key = "Oraàs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

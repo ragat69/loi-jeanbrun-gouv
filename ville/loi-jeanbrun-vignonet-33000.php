@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vignonet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vignonet';
+$ville_key = "Vignonet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

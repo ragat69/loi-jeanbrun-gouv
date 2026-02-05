@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montricoux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montricoux';
+$ville_key = "Montricoux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

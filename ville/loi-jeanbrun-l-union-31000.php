@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - L'Union
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'L'Union';
+$ville_key = "L'Union";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

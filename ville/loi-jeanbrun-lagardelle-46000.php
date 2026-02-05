@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lagardelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lagardelle';
+$ville_key = "Lagardelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montseron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montseron';
+$ville_key = "Montseron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

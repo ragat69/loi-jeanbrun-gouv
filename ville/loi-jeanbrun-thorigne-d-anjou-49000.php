@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thorigné-d'Anjou
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thorigné-d'Anjou';
+$ville_key = "Thorigné-d'Anjou";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

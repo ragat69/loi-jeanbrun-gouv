@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Roux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Roux';
+$ville_key = "Le Roux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

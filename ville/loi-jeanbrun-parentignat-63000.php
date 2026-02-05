@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Parentignat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Parentignat';
+$ville_key = "Parentignat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

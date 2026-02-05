@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Laure
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Laure';
+$ville_key = "Saint-Laure";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

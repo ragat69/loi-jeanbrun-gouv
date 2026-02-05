@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cébazat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cébazat';
+$ville_key = "Cébazat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

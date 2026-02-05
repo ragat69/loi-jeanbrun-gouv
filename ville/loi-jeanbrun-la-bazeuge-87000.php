@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Bazeuge
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Bazeuge';
+$ville_key = "La Bazeuge";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

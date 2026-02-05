@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Avold
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Avold';
+$ville_key = "Saint-Avold";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

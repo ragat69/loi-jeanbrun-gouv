@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Castelfranc
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Castelfranc';
+$ville_key = "Castelfranc";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

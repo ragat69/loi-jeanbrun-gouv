@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pressy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pressy';
+$ville_key = "Pressy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

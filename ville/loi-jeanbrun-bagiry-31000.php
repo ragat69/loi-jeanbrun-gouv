@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bagiry
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bagiry';
+$ville_key = "Bagiry";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

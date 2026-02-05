@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Seysses
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Seysses';
+$ville_key = "Seysses";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

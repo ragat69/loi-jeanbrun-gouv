@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Val-d'Isère
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Val-d'Isère';
+$ville_key = "Val-d'Isère";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

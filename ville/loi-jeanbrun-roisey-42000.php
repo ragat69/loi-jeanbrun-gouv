@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Roisey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Roisey';
+$ville_key = "Roisey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

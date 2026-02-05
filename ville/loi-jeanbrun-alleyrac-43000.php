@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Alleyrac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Alleyrac';
+$ville_key = "Alleyrac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montélimar
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montélimar';
+$ville_key = "Montélimar";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

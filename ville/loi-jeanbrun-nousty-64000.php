@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nousty
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nousty';
+$ville_key = "Nousty";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

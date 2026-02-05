@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brix
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brix';
+$ville_key = "Brix";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

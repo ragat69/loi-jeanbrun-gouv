@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bonnac-la-Côte
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bonnac-la-Côte';
+$ville_key = "Bonnac-la-Côte";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

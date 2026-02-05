@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Méard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Méard';
+$ville_key = "Saint-Méard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

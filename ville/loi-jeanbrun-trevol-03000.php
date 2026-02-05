@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Trévol
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Trévol';
+$ville_key = "Trévol";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

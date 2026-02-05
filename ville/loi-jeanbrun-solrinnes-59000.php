@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Solrinnes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Solrinnes';
+$ville_key = "Solrinnes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Collégien
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Collégien';
+$ville_key = "Collégien";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

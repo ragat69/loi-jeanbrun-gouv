@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nampont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nampont';
+$ville_key = "Nampont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

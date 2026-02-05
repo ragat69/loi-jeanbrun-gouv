@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Reterre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Reterre';
+$ville_key = "Reterre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

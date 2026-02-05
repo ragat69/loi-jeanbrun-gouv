@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rosbruck
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rosbruck';
+$ville_key = "Rosbruck";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mercey-le-Grand
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mercey-le-Grand';
+$ville_key = "Mercey-le-Grand";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Puiseux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Puiseux';
+$ville_key = "Puiseux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

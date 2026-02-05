@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ouillon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ouillon';
+$ville_key = "Ouillon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

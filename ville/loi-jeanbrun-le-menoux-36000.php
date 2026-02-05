@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Menoux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Menoux';
+$ville_key = "Le Menoux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

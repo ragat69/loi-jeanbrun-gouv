@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bourg-Achard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bourg-Achard';
+$ville_key = "Bourg-Achard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

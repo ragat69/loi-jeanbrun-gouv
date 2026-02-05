@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sigave
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sigave';
+$ville_key = "Sigave";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

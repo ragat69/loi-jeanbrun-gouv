@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Mesnil-Eudes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Mesnil-Eudes';
+$ville_key = "Le Mesnil-Eudes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bonnetan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bonnetan';
+$ville_key = "Bonnetan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Blan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Blan';
+$ville_key = "Blan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

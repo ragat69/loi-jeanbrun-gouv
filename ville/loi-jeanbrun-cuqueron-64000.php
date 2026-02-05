@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cuqueron
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cuqueron';
+$ville_key = "Cuqueron";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

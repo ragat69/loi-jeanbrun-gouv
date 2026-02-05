@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sansac-Veinazès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sansac-Veinazès';
+$ville_key = "Sansac-Veinazès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

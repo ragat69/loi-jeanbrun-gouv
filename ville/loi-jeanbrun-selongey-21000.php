@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Selongey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Selongey';
+$ville_key = "Selongey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

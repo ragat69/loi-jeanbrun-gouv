@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Flaviac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Flaviac';
+$ville_key = "Flaviac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

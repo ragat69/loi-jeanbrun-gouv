@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pointel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pointel';
+$ville_key = "Pointel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

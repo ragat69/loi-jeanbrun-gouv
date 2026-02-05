@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sigloy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sigloy';
+$ville_key = "Sigloy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

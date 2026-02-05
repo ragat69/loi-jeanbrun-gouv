@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Méré
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Méré';
+$ville_key = "Méré";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

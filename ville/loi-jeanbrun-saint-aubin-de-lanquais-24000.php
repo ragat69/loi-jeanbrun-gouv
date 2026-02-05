@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Aubin-de-Lanquais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Aubin-de-Lanquais';
+$ville_key = "Saint-Aubin-de-Lanquais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

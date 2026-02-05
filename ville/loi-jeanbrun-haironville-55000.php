@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Haironville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Haironville';
+$ville_key = "Haironville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

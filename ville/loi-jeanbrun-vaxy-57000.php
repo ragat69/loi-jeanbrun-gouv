@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaxy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaxy';
+$ville_key = "Vaxy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

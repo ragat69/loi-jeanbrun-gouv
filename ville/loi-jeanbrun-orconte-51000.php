@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Orconte
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Orconte';
+$ville_key = "Orconte";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

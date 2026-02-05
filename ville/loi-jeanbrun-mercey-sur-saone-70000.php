@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mercey-sur-Saône
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mercey-sur-Saône';
+$ville_key = "Mercey-sur-Saône";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

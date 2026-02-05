@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bassan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bassan';
+$ville_key = "Bassan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

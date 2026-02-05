@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Revest-des-Brousses
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Revest-des-Brousses';
+$ville_key = "Revest-des-Brousses";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

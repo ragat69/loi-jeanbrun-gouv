@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gambais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gambais';
+$ville_key = "Gambais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

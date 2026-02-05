@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Teil
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Teil';
+$ville_key = "Le Teil";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

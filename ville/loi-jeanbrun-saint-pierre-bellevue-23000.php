@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-Bellevue
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-Bellevue';
+$ville_key = "Saint-Pierre-Bellevue";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rapale
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rapale';
+$ville_key = "Rapale";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

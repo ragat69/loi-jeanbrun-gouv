@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tresnay
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tresnay';
+$ville_key = "Tresnay";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

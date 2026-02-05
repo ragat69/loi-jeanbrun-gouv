@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tiranges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tiranges';
+$ville_key = "Tiranges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

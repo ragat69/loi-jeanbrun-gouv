@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Uchon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Uchon';
+$ville_key = "Uchon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

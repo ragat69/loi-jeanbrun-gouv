@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Le Bois-Robert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Le Bois-Robert';
+$ville_key = "Le Bois-Robert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

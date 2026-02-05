@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Les Plans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Les Plans';
+$ville_key = "Les Plans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

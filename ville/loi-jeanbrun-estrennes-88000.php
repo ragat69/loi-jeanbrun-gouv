@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Estrennes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Estrennes';
+$ville_key = "Estrennes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

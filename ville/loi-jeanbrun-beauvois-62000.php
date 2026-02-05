@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beauvois
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beauvois';
+$ville_key = "Beauvois";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

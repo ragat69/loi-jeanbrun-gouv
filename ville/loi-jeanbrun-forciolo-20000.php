@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Forciolo
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Forciolo';
+$ville_key = "Forciolo";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

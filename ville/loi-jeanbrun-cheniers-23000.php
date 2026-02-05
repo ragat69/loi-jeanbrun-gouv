@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chéniers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chéniers';
+$ville_key = "Chéniers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

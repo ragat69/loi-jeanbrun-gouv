@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villers-Vaudey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villers-Vaudey';
+$ville_key = "Villers-Vaudey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

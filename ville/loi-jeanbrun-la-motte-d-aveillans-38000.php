@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Motte-d'Aveillans
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Motte-d'Aveillans';
+$ville_key = "La Motte-d'Aveillans";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

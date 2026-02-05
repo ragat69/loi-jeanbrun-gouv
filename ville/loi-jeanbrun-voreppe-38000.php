@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Voreppe
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Voreppe';
+$ville_key = "Voreppe";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

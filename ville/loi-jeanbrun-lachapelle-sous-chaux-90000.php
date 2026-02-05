@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lachapelle-sous-Chaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lachapelle-sous-Chaux';
+$ville_key = "Lachapelle-sous-Chaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

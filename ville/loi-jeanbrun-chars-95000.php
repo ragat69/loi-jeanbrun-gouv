@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chars
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chars';
+$ville_key = "Chars";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

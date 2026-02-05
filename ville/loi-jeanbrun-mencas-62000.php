@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mencas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mencas';
+$ville_key = "Mencas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

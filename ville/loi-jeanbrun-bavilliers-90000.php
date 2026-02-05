@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bavilliers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bavilliers';
+$ville_key = "Bavilliers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

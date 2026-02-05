@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Uckange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Uckange';
+$ville_key = "Uckange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Georges-Buttavent
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Georges-Buttavent';
+$ville_key = "Saint-Georges-Buttavent";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

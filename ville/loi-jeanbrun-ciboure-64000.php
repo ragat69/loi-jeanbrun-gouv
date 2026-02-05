@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ciboure
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ciboure';
+$ville_key = "Ciboure";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

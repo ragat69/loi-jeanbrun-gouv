@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neydens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neydens';
+$ville_key = "Neydens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

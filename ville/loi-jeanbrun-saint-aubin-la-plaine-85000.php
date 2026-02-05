@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Aubin-la-Plaine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Aubin-la-Plaine';
+$ville_key = "Saint-Aubin-la-Plaine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

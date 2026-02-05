@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neufmoulin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neufmoulin';
+$ville_key = "Neufmoulin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Verneuil-sur-Indre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Verneuil-sur-Indre';
+$ville_key = "Verneuil-sur-Indre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

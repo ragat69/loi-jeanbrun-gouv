@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Diant
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Diant';
+$ville_key = "Diant";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

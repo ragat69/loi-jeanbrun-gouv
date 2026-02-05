@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chénérailles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chénérailles';
+$ville_key = "Chénérailles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

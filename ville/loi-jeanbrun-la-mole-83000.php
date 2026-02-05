@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Môle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Môle';
+$ville_key = "La Môle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

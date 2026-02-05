@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Condé-lès-Herpy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Condé-lès-Herpy';
+$ville_key = "Condé-lès-Herpy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

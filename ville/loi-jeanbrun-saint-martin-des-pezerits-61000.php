@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Martin-des-Pézerits
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Martin-des-Pézerits';
+$ville_key = "Saint-Martin-des-Pézerits";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

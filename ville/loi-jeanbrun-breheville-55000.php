@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bréhéville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bréhéville';
+$ville_key = "Bréhéville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

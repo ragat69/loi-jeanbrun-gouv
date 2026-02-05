@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vergons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vergons';
+$ville_key = "Vergons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

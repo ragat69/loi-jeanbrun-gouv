@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Auberville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Auberville';
+$ville_key = "Auberville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

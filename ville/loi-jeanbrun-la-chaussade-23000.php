@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chaussade
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chaussade';
+$ville_key = "La Chaussade";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

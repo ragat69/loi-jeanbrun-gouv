@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marfaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marfaux';
+$ville_key = "Marfaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

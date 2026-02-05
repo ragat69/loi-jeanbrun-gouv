@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pinterville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pinterville';
+$ville_key = "Pinterville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

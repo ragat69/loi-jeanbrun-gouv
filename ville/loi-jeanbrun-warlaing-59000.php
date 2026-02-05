@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Warlaing
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Warlaing';
+$ville_key = "Warlaing";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

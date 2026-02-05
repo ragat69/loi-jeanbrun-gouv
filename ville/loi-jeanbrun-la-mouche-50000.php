@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Mouche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Mouche';
+$ville_key = "La Mouche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

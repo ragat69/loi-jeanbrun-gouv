@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boissy-l'Aillerie
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boissy-l'Aillerie';
+$ville_key = "Boissy-l'Aillerie";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

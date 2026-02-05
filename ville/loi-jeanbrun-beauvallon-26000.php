@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beauvallon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beauvallon';
+$ville_key = "Beauvallon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

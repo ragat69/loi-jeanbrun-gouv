@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Puget
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Puget';
+$ville_key = "Puget";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

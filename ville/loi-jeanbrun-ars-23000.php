@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ars
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ars';
+$ville_key = "Ars";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

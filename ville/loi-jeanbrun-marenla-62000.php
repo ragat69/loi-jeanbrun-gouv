@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marenla
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marenla';
+$ville_key = "Marenla";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

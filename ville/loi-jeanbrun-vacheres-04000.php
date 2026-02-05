@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vachères
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vachères';
+$ville_key = "Vachères";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

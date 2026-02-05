@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boncé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boncé';
+$ville_key = "Boncé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

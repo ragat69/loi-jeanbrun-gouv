@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bitche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bitche';
+$ville_key = "Bitche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

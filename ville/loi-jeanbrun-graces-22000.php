@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grâces
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grâces';
+$ville_key = "Grâces";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

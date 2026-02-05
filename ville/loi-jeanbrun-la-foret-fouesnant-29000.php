@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Forêt-Fouesnant
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Forêt-Fouesnant';
+$ville_key = "La Forêt-Fouesnant";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

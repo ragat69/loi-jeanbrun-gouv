@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Pégomas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Pégomas';
+$ville_key = "Pégomas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

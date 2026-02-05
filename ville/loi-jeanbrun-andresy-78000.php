@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Andrésy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Andrésy';
+$ville_key = "Andrésy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montlaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montlaux';
+$ville_key = "Montlaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

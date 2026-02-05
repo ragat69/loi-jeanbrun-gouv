@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Valframbert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Valframbert';
+$ville_key = "Valframbert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

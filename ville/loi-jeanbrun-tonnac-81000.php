@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tonnac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tonnac';
+$ville_key = "Tonnac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

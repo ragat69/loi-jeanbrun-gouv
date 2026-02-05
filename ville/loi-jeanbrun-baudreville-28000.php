@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Baudreville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Baudreville';
+$ville_key = "Baudreville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

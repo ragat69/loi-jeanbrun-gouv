@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fluquières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fluquières';
+$ville_key = "Fluquières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

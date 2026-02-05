@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Richebourg
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Richebourg';
+$ville_key = "Richebourg";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

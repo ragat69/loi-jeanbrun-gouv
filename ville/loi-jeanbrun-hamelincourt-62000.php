@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hamelincourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hamelincourt';
+$ville_key = "Hamelincourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

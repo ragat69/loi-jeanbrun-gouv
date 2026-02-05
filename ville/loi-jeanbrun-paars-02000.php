@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Paars
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Paars';
+$ville_key = "Paars";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

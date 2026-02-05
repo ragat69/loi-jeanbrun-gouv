@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grigny
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grigny';
+$ville_key = "Grigny";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

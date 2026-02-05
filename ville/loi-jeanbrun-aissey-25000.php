@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Aïssey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Aïssey';
+$ville_key = "Aïssey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montiers
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montiers';
+$ville_key = "Montiers";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

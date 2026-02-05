@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Curtil-Vergy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Curtil-Vergy';
+$ville_key = "Curtil-Vergy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

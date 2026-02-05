@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Meucon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Meucon';
+$ville_key = "Meucon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mariac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mariac';
+$ville_key = "Mariac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

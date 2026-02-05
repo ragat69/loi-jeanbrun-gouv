@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rebeuville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rebeuville';
+$ville_key = "Rebeuville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

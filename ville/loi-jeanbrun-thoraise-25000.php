@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Thoraise
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Thoraise';
+$ville_key = "Thoraise";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

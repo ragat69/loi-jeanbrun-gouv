@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hauteville-la-Guichard
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hauteville-la-Guichard';
+$ville_key = "Hauteville-la-Guichard";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

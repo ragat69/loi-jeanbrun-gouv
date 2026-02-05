@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chablis
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chablis';
+$ville_key = "Chablis";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

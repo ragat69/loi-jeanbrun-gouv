@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Mars-la-Brière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Mars-la-Brière';
+$ville_key = "Saint-Mars-la-Brière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Loisieux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Loisieux';
+$ville_key = "Loisieux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

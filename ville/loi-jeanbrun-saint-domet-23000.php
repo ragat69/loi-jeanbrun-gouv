@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Domet
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Domet';
+$ville_key = "Saint-Domet";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

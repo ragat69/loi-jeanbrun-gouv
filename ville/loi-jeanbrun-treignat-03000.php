@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Treignat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Treignat';
+$ville_key = "Treignat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Étienne-au-Mont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Étienne-au-Mont';
+$ville_key = "Saint-Étienne-au-Mont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brullioles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brullioles';
+$ville_key = "Brullioles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

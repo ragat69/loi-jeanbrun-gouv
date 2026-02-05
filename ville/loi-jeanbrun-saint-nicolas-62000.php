@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Nicolas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Nicolas';
+$ville_key = "Saint-Nicolas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

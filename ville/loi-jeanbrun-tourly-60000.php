@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tourly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tourly';
+$ville_key = "Tourly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

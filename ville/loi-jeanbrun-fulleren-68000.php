@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fulleren
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fulleren';
+$ville_key = "Fulleren";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montoussé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montoussé';
+$ville_key = "Montoussé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

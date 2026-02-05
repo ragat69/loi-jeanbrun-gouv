@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Villevaudé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Villevaudé';
+$ville_key = "Villevaudé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

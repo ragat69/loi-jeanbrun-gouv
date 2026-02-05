@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Charquemont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Charquemont';
+$ville_key = "Charquemont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

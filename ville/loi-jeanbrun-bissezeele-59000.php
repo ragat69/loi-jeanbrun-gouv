@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bissezeele
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bissezeele';
+$ville_key = "Bissezeele";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

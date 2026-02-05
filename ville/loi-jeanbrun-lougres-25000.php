@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lougres
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lougres';
+$ville_key = "Lougres";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

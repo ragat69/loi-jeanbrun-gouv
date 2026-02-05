@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guénange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guénange';
+$ville_key = "Guénange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

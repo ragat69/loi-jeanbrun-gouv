@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Béchy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Béchy';
+$ville_key = "Béchy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

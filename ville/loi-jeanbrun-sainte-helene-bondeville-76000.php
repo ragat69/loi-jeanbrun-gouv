@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sainte-Hélène-Bondeville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sainte-Hélène-Bondeville';
+$ville_key = "Sainte-Hélène-Bondeville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

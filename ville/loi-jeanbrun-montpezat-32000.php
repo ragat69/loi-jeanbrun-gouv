@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montpezat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montpezat';
+$ville_key = "Montpezat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

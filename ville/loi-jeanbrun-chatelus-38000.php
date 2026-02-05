@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Châtelus
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Châtelus';
+$ville_key = "Châtelus";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Clairmarais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Clairmarais';
+$ville_key = "Clairmarais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

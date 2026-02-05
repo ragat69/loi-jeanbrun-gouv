@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Prémeyzel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Prémeyzel';
+$ville_key = "Prémeyzel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

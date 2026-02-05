@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sauville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sauville';
+$ville_key = "Sauville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

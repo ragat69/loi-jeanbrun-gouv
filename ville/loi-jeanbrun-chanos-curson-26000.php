@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chanos-Curson
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chanos-Curson';
+$ville_key = "Chanos-Curson";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

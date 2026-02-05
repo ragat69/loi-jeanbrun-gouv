@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mutigney
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mutigney';
+$ville_key = "Mutigney";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

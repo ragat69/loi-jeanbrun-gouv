@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bosville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bosville';
+$ville_key = "Bosville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

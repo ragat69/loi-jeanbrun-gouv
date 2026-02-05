@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Hoguette
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Hoguette';
+$ville_key = "La Hoguette";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

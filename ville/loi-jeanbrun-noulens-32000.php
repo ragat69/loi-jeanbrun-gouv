@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Noulens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Noulens';
+$ville_key = "Noulens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

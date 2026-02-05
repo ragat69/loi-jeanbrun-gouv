@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Forêt-Sainte-Croix
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Forêt-Sainte-Croix';
+$ville_key = "La Forêt-Sainte-Croix";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

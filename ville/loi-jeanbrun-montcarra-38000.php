@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montcarra
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montcarra';
+$ville_key = "Montcarra";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

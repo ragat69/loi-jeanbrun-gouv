@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cheissoux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cheissoux';
+$ville_key = "Cheissoux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

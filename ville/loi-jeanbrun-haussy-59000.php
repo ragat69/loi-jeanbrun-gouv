@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Haussy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Haussy';
+$ville_key = "Haussy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

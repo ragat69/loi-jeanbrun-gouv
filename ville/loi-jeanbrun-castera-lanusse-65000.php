@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Castéra-Lanusse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Castéra-Lanusse';
+$ville_key = "Castéra-Lanusse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

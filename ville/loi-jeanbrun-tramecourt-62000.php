@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Tramecourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Tramecourt';
+$ville_key = "Tramecourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

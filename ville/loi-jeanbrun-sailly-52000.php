@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sailly
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sailly';
+$ville_key = "Sailly";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

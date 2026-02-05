@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vianges
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vianges';
+$ville_key = "Vianges";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

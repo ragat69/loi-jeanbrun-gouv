@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vauciennes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vauciennes';
+$ville_key = "Vauciennes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

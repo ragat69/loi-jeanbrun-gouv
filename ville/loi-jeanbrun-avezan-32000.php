@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Avezan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Avezan';
+$ville_key = "Avezan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

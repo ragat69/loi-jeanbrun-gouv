@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Coupetz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Coupetz';
+$ville_key = "Coupetz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

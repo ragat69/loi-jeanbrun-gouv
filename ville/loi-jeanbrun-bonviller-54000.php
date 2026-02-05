@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bonviller
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bonviller';
+$ville_key = "Bonviller";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

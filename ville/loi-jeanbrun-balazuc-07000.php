@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Balazuc
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Balazuc';
+$ville_key = "Balazuc";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

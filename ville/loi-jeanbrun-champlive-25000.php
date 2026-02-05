@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Champlive
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Champlive';
+$ville_key = "Champlive";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Randan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Randan';
+$ville_key = "Randan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

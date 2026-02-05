@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Denguin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Denguin';
+$ville_key = "Denguin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

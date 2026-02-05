@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sion-les-Mines
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sion-les-Mines';
+$ville_key = "Sion-les-Mines";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

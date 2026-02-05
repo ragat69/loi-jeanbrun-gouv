@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ménéac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ménéac';
+$ville_key = "Ménéac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

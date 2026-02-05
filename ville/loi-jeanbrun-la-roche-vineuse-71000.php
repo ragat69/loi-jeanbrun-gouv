@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Roche-Vineuse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Roche-Vineuse';
+$ville_key = "La Roche-Vineuse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grésy-sur-Isère
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grésy-sur-Isère';
+$ville_key = "Grésy-sur-Isère";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

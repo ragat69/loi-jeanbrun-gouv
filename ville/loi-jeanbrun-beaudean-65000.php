@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beaudéan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beaudéan';
+$ville_key = "Beaudéan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

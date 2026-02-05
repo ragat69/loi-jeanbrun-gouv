@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Beire-le-Châtel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Beire-le-Châtel';
+$ville_key = "Beire-le-Châtel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

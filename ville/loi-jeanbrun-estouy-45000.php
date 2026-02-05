@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Estouy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Estouy';
+$ville_key = "Estouy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

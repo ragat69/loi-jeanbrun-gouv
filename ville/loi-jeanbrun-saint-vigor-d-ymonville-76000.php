@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Vigor-d'Ymonville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Vigor-d'Ymonville';
+$ville_key = "Saint-Vigor-d'Ymonville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

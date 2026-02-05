@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gouvets
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gouvets';
+$ville_key = "Gouvets";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

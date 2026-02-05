@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - L'Hosmes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'L'Hosmes';
+$ville_key = "L'Hosmes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

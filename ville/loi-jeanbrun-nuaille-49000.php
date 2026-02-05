@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nuaillé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nuaillé';
+$ville_key = "Nuaillé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

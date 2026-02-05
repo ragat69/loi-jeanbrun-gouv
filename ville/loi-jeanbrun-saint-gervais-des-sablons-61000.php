@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Gervais-des-Sablons
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Gervais-des-Sablons';
+$ville_key = "Saint-Gervais-des-Sablons";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

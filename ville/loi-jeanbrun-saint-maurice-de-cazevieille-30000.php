@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Maurice-de-Cazevieille
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Maurice-de-Cazevieille';
+$ville_key = "Saint-Maurice-de-Cazevieille";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

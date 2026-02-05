@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marsais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marsais';
+$ville_key = "Marsais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

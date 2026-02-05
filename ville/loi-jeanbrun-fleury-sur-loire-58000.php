@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fleury-sur-Loire
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fleury-sur-Loire';
+$ville_key = "Fleury-sur-Loire";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

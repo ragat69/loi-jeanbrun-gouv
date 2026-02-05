@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oinville-sur-Montcient
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oinville-sur-Montcient';
+$ville_key = "Oinville-sur-Montcient";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

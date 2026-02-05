@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lagraulière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lagraulière';
+$ville_key = "Lagraulière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

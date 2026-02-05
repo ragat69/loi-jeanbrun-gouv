@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Prêtreville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Prêtreville';
+$ville_key = "Prêtreville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

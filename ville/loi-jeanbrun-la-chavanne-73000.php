@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chavanne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chavanne';
+$ville_key = "La Chavanne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

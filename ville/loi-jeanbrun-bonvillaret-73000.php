@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bonvillaret
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bonvillaret';
+$ville_key = "Bonvillaret";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

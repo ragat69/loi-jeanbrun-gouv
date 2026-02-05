@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lacelle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lacelle';
+$ville_key = "Lacelle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

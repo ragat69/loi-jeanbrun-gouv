@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Kerlouan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Kerlouan';
+$ville_key = "Kerlouan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Laurent-Nouan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Laurent-Nouan';
+$ville_key = "Saint-Laurent-Nouan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-Colamine
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-Colamine';
+$ville_key = "Saint-Pierre-Colamine";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

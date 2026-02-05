@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Naves
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Naves';
+$ville_key = "Naves";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

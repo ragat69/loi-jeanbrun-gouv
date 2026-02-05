@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rochesson
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rochesson';
+$ville_key = "Rochesson";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

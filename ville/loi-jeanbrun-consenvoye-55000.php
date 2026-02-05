@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Consenvoye
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Consenvoye';
+$ville_key = "Consenvoye";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

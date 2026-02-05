@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Pierre-la-Garenne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Pierre-la-Garenne';
+$ville_key = "Saint-Pierre-la-Garenne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

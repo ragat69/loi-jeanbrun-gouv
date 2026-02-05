@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Landrais
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Landrais';
+$ville_key = "Landrais";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

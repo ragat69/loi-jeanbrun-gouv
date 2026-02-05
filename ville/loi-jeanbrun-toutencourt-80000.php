@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Toutencourt
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Toutencourt';
+$ville_key = "Toutencourt";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

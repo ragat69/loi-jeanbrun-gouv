@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Levie
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Levie';
+$ville_key = "Levie";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

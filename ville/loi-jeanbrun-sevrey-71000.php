@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sevrey
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sevrey';
+$ville_key = "Sevrey";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

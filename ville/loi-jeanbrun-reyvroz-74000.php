@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Reyvroz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Reyvroz';
+$ville_key = "Reyvroz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

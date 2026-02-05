@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Landébia
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Landébia';
+$ville_key = "Landébia";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

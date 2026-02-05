@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vico
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vico';
+$ville_key = "Vico";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

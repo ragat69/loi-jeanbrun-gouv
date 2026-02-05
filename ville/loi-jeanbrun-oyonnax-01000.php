@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Oyonnax
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Oyonnax';
+$ville_key = "Oyonnax";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

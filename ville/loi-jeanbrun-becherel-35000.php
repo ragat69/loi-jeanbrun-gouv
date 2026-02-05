@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bécherel
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bécherel';
+$ville_key = "Bécherel";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

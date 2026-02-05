@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rovon
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rovon';
+$ville_key = "Rovon";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

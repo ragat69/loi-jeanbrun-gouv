@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marigny-sur-Yonne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marigny-sur-Yonne';
+$ville_key = "Marigny-sur-Yonne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

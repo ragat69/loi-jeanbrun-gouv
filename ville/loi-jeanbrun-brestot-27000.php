@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Brestot
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Brestot';
+$ville_key = "Brestot";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

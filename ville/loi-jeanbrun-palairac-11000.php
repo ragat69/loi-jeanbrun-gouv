@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Palairac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Palairac';
+$ville_key = "Palairac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

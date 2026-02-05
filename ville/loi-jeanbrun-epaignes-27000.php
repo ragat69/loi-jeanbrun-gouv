@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Épaignes
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Épaignes';
+$ville_key = "Épaignes";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

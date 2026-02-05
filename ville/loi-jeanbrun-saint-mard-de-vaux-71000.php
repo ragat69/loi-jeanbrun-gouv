@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Mard-de-Vaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Mard-de-Vaux';
+$ville_key = "Saint-Mard-de-Vaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

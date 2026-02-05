@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Javernant
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Javernant';
+$ville_key = "Javernant";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

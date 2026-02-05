@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Benoît-la-Chipotte
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Benoît-la-Chipotte';
+$ville_key = "Saint-Benoît-la-Chipotte";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

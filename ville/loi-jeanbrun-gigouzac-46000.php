@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gigouzac
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gigouzac';
+$ville_key = "Gigouzac";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Bastide-de-Besplas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Bastide-de-Besplas';
+$ville_key = "La Bastide-de-Besplas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ourches-sur-Meuse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ourches-sur-Meuse';
+$ville_key = "Ourches-sur-Meuse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

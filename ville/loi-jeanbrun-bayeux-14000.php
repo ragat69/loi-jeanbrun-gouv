@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bayeux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bayeux';
+$ville_key = "Bayeux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

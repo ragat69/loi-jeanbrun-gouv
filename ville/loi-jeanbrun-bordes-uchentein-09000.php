@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bordes-Uchentein
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bordes-Uchentein';
+$ville_key = "Bordes-Uchentein";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Rivèrenert
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Rivèrenert';
+$ville_key = "Rivèrenert";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

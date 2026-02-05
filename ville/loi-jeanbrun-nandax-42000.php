@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Nandax
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Nandax';
+$ville_key = "Nandax";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

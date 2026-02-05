@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Croix-Comtesse
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Croix-Comtesse';
+$ville_key = "La Croix-Comtesse";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

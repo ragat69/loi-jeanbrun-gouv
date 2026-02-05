@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ô-de-Selle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ô-de-Selle';
+$ville_key = "Ô-de-Selle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

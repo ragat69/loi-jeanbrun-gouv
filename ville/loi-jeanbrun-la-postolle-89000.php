@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Postolle
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Postolle';
+$ville_key = "La Postolle";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

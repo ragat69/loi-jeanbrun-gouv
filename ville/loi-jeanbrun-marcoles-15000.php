@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Marcolès
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Marcolès';
+$ville_key = "Marcolès";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

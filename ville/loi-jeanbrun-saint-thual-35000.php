@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Thual
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Thual';
+$ville_key = "Saint-Thual";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Placé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Placé';
+$ville_key = "Placé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

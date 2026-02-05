@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Chevreaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Chevreaux';
+$ville_key = "Chevreaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

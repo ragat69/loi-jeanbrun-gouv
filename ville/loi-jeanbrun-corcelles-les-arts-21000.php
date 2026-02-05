@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Corcelles-les-Arts
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Corcelles-les-Arts';
+$ville_key = "Corcelles-les-Arts";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

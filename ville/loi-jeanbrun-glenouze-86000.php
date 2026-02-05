@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Glénouze
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Glénouze';
+$ville_key = "Glénouze";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

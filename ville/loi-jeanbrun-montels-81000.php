@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montels
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montels';
+$ville_key = "Montels";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

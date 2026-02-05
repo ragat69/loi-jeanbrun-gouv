@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montirat
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montirat';
+$ville_key = "Montirat";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

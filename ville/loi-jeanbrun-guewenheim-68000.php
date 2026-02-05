@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Guewenheim
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Guewenheim';
+$ville_key = "Guewenheim";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

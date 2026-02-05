@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Piré-Chancé
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Piré-Chancé';
+$ville_key = "Piré-Chancé";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

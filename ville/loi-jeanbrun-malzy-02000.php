@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Malzy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Malzy';
+$ville_key = "Malzy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

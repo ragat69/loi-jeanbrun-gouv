@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Corneilla-de-Conflent
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Corneilla-de-Conflent';
+$ville_key = "Corneilla-de-Conflent";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

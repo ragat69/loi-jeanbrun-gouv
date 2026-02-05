@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gigors
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gigors';
+$ville_key = "Gigors";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

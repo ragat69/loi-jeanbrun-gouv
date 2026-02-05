@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sombrin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sombrin';
+$ville_key = "Sombrin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

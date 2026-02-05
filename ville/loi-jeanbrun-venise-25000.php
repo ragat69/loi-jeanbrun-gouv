@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Venise
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Venise';
+$ville_key = "Venise";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

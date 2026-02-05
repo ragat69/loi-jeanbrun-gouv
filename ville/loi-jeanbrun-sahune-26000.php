@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Sahune
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Sahune';
+$ville_key = "Sahune";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

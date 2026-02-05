@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Vaux-Lavalette
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Vaux-Lavalette';
+$ville_key = "Vaux-Lavalette";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

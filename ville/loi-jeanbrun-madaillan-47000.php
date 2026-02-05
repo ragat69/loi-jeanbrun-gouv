@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Madaillan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Madaillan';
+$ville_key = "Madaillan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

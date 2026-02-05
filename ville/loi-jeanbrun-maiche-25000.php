@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Maîche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Maîche';
+$ville_key = "Maîche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

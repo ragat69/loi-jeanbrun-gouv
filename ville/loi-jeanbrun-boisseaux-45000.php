@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boisseaux
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boisseaux';
+$ville_key = "Boisseaux";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Cherbonnières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Cherbonnières';
+$ville_key = "Cherbonnières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Coutens
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Coutens';
+$ville_key = "Coutens";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Harol
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Harol';
+$ville_key = "Harol";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

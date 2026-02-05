@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Domazan
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Domazan';
+$ville_key = "Domazan";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

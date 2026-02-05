@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Blâmont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Blâmont';
+$ville_key = "Blâmont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

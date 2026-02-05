@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bettborn
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bettborn';
+$ville_key = "Bettborn";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

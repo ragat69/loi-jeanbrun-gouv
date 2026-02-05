@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Ouainville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Ouainville';
+$ville_key = "Ouainville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

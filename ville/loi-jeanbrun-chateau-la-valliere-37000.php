@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Château-la-Vallière
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Château-la-Vallière';
+$ville_key = "Château-la-Vallière";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

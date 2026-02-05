@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gondrin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gondrin';
+$ville_key = "Gondrin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

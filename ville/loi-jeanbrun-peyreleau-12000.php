@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Peyreleau
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Peyreleau';
+$ville_key = "Peyreleau";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

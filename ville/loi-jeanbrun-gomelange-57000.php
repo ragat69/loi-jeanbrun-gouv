@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Gomelange
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Gomelange';
+$ville_key = "Gomelange";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

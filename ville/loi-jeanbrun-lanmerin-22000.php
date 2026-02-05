@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Lanmérin
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Lanmérin';
+$ville_key = "Lanmérin";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

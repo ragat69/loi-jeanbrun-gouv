@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Manre
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Manre';
+$ville_key = "Manre";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

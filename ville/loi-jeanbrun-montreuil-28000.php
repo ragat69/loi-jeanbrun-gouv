@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Montreuil
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Montreuil';
+$ville_key = "Montreuil";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

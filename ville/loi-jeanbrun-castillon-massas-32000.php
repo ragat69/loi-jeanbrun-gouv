@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Castillon-Massas
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Castillon-Massas';
+$ville_key = "Castillon-Massas";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

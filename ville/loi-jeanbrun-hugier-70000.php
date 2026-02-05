@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Hugier
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Hugier';
+$ville_key = "Hugier";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

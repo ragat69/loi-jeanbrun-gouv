@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Bauzeil
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Bauzeil';
+$ville_key = "Saint-Bauzeil";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

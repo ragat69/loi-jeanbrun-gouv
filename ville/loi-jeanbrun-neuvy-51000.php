@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Neuvy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Neuvy';
+$ville_key = "Neuvy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

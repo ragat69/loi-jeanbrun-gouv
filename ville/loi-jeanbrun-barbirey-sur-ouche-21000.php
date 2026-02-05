@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Barbirey-sur-Ouche
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Barbirey-sur-Ouche';
+$ville_key = "Barbirey-sur-Ouche";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

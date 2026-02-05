@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Gorgon-Main
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Gorgon-Main';
+$ville_key = "Saint-Gorgon-Main";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

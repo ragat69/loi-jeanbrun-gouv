@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Volvic
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Volvic';
+$ville_key = "Volvic";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

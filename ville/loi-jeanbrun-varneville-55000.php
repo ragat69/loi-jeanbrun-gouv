@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Varnéville
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Varnéville';
+$ville_key = "Varnéville";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

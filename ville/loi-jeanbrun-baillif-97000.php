@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Baillif
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Baillif';
+$ville_key = "Baillif";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Balham
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Balham';
+$ville_key = "Balham";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

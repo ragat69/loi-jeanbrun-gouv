@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Grugies
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Grugies';
+$ville_key = "Grugies";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

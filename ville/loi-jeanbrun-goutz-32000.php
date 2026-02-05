@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Goutz
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Goutz';
+$ville_key = "Goutz";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

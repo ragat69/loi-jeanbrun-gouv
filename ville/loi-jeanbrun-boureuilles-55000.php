@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Boureuilles
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Boureuilles';
+$ville_key = "Boureuilles";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

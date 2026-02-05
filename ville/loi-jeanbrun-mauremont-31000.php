@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Mauremont
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Mauremont';
+$ville_key = "Mauremont";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

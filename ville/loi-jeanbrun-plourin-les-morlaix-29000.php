@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Plourin-lès-Morlaix
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Plourin-lès-Morlaix';
+$ville_key = "Plourin-lès-Morlaix";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

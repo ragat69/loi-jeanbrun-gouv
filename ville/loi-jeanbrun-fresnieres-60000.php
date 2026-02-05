@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Fresnières
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Fresnières';
+$ville_key = "Fresnières";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Penne
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Penne';
+$ville_key = "La Penne";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

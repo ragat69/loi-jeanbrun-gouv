@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Monbahus
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Monbahus';
+$ville_key = "Monbahus";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

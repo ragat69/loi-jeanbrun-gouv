@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - La Chapelle-aux-Brocs
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'La Chapelle-aux-Brocs';
+$ville_key = "La Chapelle-aux-Brocs";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

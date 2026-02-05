@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Saint-Germain-sur-Sèves
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Saint-Germain-sur-Sèves';
+$ville_key = "Saint-Germain-sur-Sèves";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Digna
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Digna';
+$ville_key = "Digna";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

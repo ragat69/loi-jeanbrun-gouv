@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Bruille-Saint-Amand
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Bruille-Saint-Amand';
+$ville_key = "Bruille-Saint-Amand";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

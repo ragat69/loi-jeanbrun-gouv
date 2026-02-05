@@ -3,5 +3,5 @@
  * Page Loi Jeanbrun - Senoncourt-les-Maujouy
  * Généré automatiquement - ne pas modifier
  */
-$ville_key = 'Senoncourt-les-Maujouy';
+$ville_key = "Senoncourt-les-Maujouy";
 include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

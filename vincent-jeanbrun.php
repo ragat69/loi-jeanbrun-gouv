@@ -1,6 +1,6 @@
 <?php
 $current_page = 'vincent-jeanbrun';
-$page_title_full = 'Vincent Jeanbrun - Ministre | Loi Jeanbrun : Dispositif Relance Logement';
+$page_title_full = 'Vincent Jeanbrun - Ministre du Logement';
 $page_description = 'Découvrez le parcours de Vincent Jeanbrun, Ministre de la Ville et du Logement, a l\'origine du dispositif Relance Logement.';
 include 'includes/header.php';
 ?>

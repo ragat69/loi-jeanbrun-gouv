@@ -277,7 +277,7 @@ class CityDataPipeline:
         # Récupérer plus de communes que nécessaire pour gérer skip_existing
         fetch_limit = num_cities + manifest['total_cities'] + 100
         all_communes = self.geo_fetcher.fetch_communes_by_population(
-            limit=min(fetch_limit, 2000),
+            limit=min(fetch_limit, 35000),  # Augmenté à 35000 pour permettre toutes les communes françaises (~34 969)
             force_refresh=force_refresh
         )
 

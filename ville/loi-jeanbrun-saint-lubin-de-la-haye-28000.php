@@ -1,0 +1,7 @@
+<?php
+/**
+ * Page Loi Jeanbrun - Saint-Lubin-de-la-Haye
+ * Généré automatiquement - ne pas modifier
+ */
+$ville_key = 'Saint-Lubin-de-la-Haye';
+include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

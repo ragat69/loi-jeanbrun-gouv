@@ -1,0 +1,7 @@
+<?php
+/**
+ * Page Loi Jeanbrun - Arrien-en-Bethmale
+ * Généré automatiquement - ne pas modifier
+ */
+$ville_key = 'Arrien-en-Bethmale';
+include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -10,7 +10,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
-                <h1>Dispositif Jeanbrun<br><small class="opacity-75">Relance Logement 2026</small></h1>
+                <h1>Dispositif Jeanbrun <br><small class="opacity-75">Relance Logement 2026</small></h1>
                 <p class="lead mb-4">
                     Le nouveau statut du <strong>bailleur privé</strong> pour investir dans l'immobilier locatif en France.
                     Amortissement, déduction des charges, déficit foncier : découvrez tous les avantages fiscaux

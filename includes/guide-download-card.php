@@ -1,7 +1,8 @@
 <!-- Encart Téléchargement Guide Loi Jeanbrun -->
-<div class="guide-download-card">
-    <div class="container">
-        <div class="row align-items-center">
+<div class="guide-download-wrapper">
+    <div class="guide-download-card">
+        <div class="container">
+            <div class="row align-items-center">
             <div class="col-lg-8">
                 <div class="guide-content">
                     <div class="guide-icon">
@@ -10,7 +11,7 @@
                     <div class="guide-text">
                         <h3>Guide Complet du Dispositif Jeanbrun 2026</h3>
                         <p class="guide-description">
-                            Téléchargez gratuitement notre guide PDF de 40 pages pour tout comprendre
+                            Téléchargez gratuitement notre <a href="/guide-dispositif-jeanbrun" class="guide-link">guide PDF</a> de 40 pages pour tout comprendre
                             sur le dispositif Relance Logement : fonctionnement, avantages fiscaux, conditions d'éligibilité,
                             exemples chiffrés et FAQ.
                         </p>
@@ -25,10 +26,10 @@
             </div>
             <div class="col-lg-4 text-center">
                 <div class="guide-cta">
-                    <div class="guide-badge">
-                        <span class="badge-text">GRATUIT</span>
-                        <span class="badge-subtext">PDF • 40 pages</span>
-                    </div>
+                    <img src="/images/guide-loi-jeanbrun-pdf.png"
+                         alt="Guide Loi Jeanbrun 2026 - PDF Gratuit"
+                         class="guide-image"
+                         loading="lazy">
                     <a href="/docs/guide-loi-jeanbrun-2026.pdf"
                        class="btn-download"
                        download="Guide-Loi-Jeanbrun-2026.pdf"
@@ -43,18 +44,26 @@
                     </p>
                 </div>
             </div>
+            </div>
         </div>
     </div>
 </div>
 
 <style>
+.guide-download-wrapper {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
 .guide-download-card {
     background: linear-gradient(135deg, #000091 0%, #1212FF 100%);
     color: white;
-    padding: 3rem 0;
-    margin: 4rem 0;
+    padding: 3rem 2rem;
     border-radius: 12px;
     box-shadow: 0 10px 40px rgba(0, 0, 145, 0.2);
+    max-width: 1200px;
+    width: 100%;
 }
 
 .guide-content {
@@ -81,6 +90,19 @@
     line-height: 1.6;
     opacity: 0.95;
     margin-bottom: 1.5rem;
+}
+
+.guide-link {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.guide-link:hover {
+    color: white;
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 .guide-features {
@@ -111,27 +133,13 @@
     backdrop-filter: blur(10px);
 }
 
-.guide-badge {
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-    color: white;
-    padding: 1rem;
-    border-radius: 8px;
+.guide-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     margin-bottom: 1.5rem;
-    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
-}
-
-.badge-text {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
-
-.badge-subtext {
-    display: block;
-    font-size: 0.9rem;
-    opacity: 0.9;
-    margin-top: 0.25rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .btn-download {
@@ -173,6 +181,10 @@
 
 /* Responsive */
 @media (max-width: 991px) {
+    .guide-download-wrapper {
+        margin: 2rem 1rem;
+    }
+
     .guide-download-card {
         padding: 2rem 1rem;
     }
@@ -197,6 +209,10 @@
 
     .guide-cta {
         margin-top: 2rem;
+    }
+
+    .guide-image {
+        max-width: 280px;
     }
 }
 </style>

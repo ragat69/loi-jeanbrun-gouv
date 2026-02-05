@@ -65,11 +65,16 @@ include 'includes/header.php';
                         </ul>
                         <hr>
                         <p><strong>Jeanbrun (2026) :</strong></p>
-                        <ul class="small mb-0">
+                        <ul class="small">
                             <li>Amortissement fiscal</li>
                             <li>Pas de zonage</li>
                             <li>Neuf et ancien rénové</li>
                         </ul>
+                        <div class="text-center mt-3 pt-3 border-top">
+                            <a href="/pinel-vs-jeanbrun" class="btn-gouv-outline btn-sm">
+                                <i class="fas fa-balance-scale me-1"></i>Voir le comparatif complet Pinel vs Jeanbrun
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

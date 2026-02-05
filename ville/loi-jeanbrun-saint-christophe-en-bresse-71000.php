@@ -1,0 +1,7 @@
+<?php
+/**
+ * Page Loi Jeanbrun - Saint-Christophe-en-Bresse
+ * Généré automatiquement - ne pas modifier
+ */
+$ville_key = 'Saint-Christophe-en-Bresse';
+include($_SERVER['DOCUMENT_ROOT'] . '/ville/_includes/ville_template.php');

@@ -1,0 +1,21 @@
+# robots.txt pour loi-jeanbrun-gouv.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://loi-jeanbrun-gouv.com/sitemap_index.xml
+
+# Dossiers à ne pas indexer
+Disallow: /admin/
+Disallow: /actualites/admin-local/
+Disallow: /generation-pages-villes/
+Disallow: /_includes/
+Disallow: /_data/
+Disallow: /ville/_data/
+Disallow: /ville/_includes/
+
+# Fichiers à ne pas indexer
+Disallow: /*.log$
+Disallow: /cron-sitemap.sh
+Disallow: /generate-sitemap.php

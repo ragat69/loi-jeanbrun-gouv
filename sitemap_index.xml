@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://loi-jeanbrun-gouv.com/sitemap_main.xml</loc>
+    <lastmod>2026-02-05T08:39:19+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://loi-jeanbrun-gouv.com/sitemap_blog.xml</loc>
+    <lastmod>2026-02-05T08:39:19+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://loi-jeanbrun-gouv.com/sitemap_cities_1.xml</loc>
+    <lastmod>2026-02-05T08:39:19+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://loi-jeanbrun-gouv.com/sitemap_cities_2.xml</loc>
+    <lastmod>2026-02-05T08:39:19+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://loi-jeanbrun-gouv.com/sitemap_cities_3.xml</loc>
+    <lastmod>2026-02-05T08:39:19+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://loi-jeanbrun-gouv.com/sitemap_cities_4.xml</loc>
+    <lastmod>2026-02-05T08:39:19+00:00</lastmod>
+  </sitemap>
+</sitemapindex>

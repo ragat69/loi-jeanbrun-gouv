@@ -106,6 +106,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $full_content = $front_matter . $content;
 
+            // CRITICAL: Convert Windows line endings (CRLF) to Unix (LF)
+            // This is essential for FAQ parsing to work correctly
+            // The Markdown parser requires LF line endings to properly detect
+            // empty lines between questions and answers
+            $full_content = str_replace("\r\n", "\n", $full_content);
+            $full_content = str_replace("\r", "\n", $full_content);
+
             // Save file
             if (file_put_contents($filepath, $full_content)) {
                 // Build article URL
@@ -571,7 +578,9 @@ This is a paragraph with **bold text** and *italic text*.
                                 <small class="text-muted">
                                     <i class="fas fa-info-circle me-1"></i>
                                     <strong>Important :</strong> Coller UNIQUEMENT le JSON, SANS les balises &lt;script&gt;.
-                                    Les balises seront ajoutées automatiquement lors de la publication.
+                                    Les balises seront ajoutées automatiquement lors de la publication.<br>
+                                    <i class="fas fa-check-circle text-success me-1"></i>
+                                    <strong>Conversion automatique :</strong> Les fins de ligne Windows (CRLF) sont automatiquement converties en Unix (LF) pour assurer le bon fonctionnement des FAQs en accordéon.
                                 </small>
                             </div>
 
@@ -673,6 +682,7 @@ This is a paragraph with **bold text** and *italic text*.
                             <li>Images are auto-optimized</li>
                             <li>Use Markdown for formatting</li>
                             <li>Git auto-commit available</li>
+                            <li><span class="text-success">✓</span> Line endings auto-fixed (CRLF → LF)</li>
                         </ul>
                     </div>
                 </div>
